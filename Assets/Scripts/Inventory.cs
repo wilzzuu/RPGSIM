@@ -7,29 +7,21 @@ public class InventoryScreen : MonoBehaviour
     public GameObject inventorySlotPrefab;
     public Transform inventoryGrid;
     public int itemsPerPage = 112;
-    public int currentPage = 0;
+    private int currentPage = 0;
 
-    private List<ItemData> inventoryItems;
+    private List<SerializableItemData> items;
 
     void Start()
     {
         if (InventoryManager.instance == null)
         {
-            Debug.LogError("InventoryManager instance is not set. Make sure InventoryManager is added to the scene.");
+            Debug.LogError("InventoryManager instance is not set.");
             return;
         }
-        
-        LoadInventory(); 
-        DisplayCurrentPage();
-        CalculateInventoryValue();
-    }
 
-    void LoadInventory()
-    {
-        foreach (ItemData item in inventoryItems)
-        {
-            Debug.Log(item);
-        }
+        // Load items from InventoryManager
+        items = InventoryManager.instance.GetInventoryItems();
+        DisplayCurrentPage();
     }
 
     void DisplayCurrentPage()
@@ -40,26 +32,27 @@ public class InventoryScreen : MonoBehaviour
         }
 
         int itemIndexOffset = currentPage * itemsPerPage;
-        for (int i = itemIndexOffset; i < Mathf.Min(itemIndexOffset + itemsPerPage, inventoryItems.Count); i++)
+        for (int i = itemIndexOffset; i < Mathf.Min(itemIndexOffset + itemsPerPage, items.Count); i++)
         {
             GameObject slot = Instantiate(inventorySlotPrefab, inventoryGrid);
-            ItemData item = inventoryItems[i];
+            SerializableItemData item = items[i];
 
+            // Find Image components in prefab
             Image itemImage = slot.transform.Find("ItemImage").GetComponent<Image>();
             Image rarityImage = slot.transform.Find("RarityImage").GetComponent<Image>();
 
+            // Load images based on paths
             string imagePath = "ItemImages/" + item.ID;
             string rarityPath = "RarityImages/" + item.Rarity;
 
             itemImage.sprite = Resources.Load<Sprite>(imagePath);
             rarityImage.sprite = Resources.Load<Sprite>(rarityPath);
-
         }
     }
 
     public void NextPage()
     {
-        if ((currentPage + 1) * itemsPerPage < inventoryItems.Count)
+        if ((currentPage + 1) * itemsPerPage < items.Count)
         {
             currentPage++;
             DisplayCurrentPage();
@@ -75,12 +68,9 @@ public class InventoryScreen : MonoBehaviour
         }
     }
 
-    void CalculateInventoryValue()
+    public void DisplayTotalValue()
     {
-        float totalValue = 0;
-        foreach (ItemData item in inventoryItems)
-        {
-            totalValue += item.Price;
-        }
+        float totalValue = InventoryManager.instance.CalculateInventoryValue();
+        Debug.Log("Total Inventory Value: " + totalValue);
     }
 }

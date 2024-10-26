@@ -5,7 +5,6 @@ public class CrateManager : MonoBehaviour
 {
     public List<CrateData> allCrates; 
 
-    
     public CrateData GetCrateByID(string crateID)
     {
         foreach (CrateData crateData in allCrates)
@@ -19,7 +18,6 @@ public class CrateManager : MonoBehaviour
         return null;
     }
 
-    
     public ItemData GetItemByID(string itemID)
     {
         foreach (CrateData crateData in allCrates)

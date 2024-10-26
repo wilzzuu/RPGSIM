@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Collections;
 
 [System.Serializable]
 public class Player
@@ -28,6 +29,7 @@ public class PlayerManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            StartCoroutine(InitializePlayerAndInventory());
         }
         else
         {
@@ -36,9 +38,15 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
-    void Start()
+    private IEnumerator InitializePlayerAndInventory()
     {
-        LoadPlayerData();
+        // Wait for InventoryManager to be ready
+        while (InventoryManager.instance == null)
+        {
+            yield return null; // Wait for the next frame
+        }
+
+        CheckPlayerSave();
     }
 
     public void AddCurrency(float amount)
@@ -67,17 +75,31 @@ public class PlayerManager : MonoBehaviour
         return player.balance;
     }
 
+    void CheckPlayerSave()
+    {
+        string path = Path.Combine(Application.persistentDataPath, SaveFileName);
+
+        if (!File.Exists(path))
+        {
+            Debug.LogWarning("Player save file missing or tampered with. Clearing inventory as a security measure.");
+            InventoryManager.instance.ClearInventory();
+
+            ResetProgress();
+        }
+        else 
+        {
+            LoadPlayerData();
+        }
+    }
+
     // Save player data using binary serialization
     public void SavePlayerData()
     {
-        PlayerData data = new PlayerData(this);
-
         BinaryFormatter bf = new BinaryFormatter();
         string path = Path.Combine(Application.persistentDataPath, SaveFileName);
-
         using (FileStream file = File.Create(path))
         {
-            bf.Serialize(file, data);
+            bf.Serialize(file, player);
         }
 
         Debug.Log("Player data saved to " + path);
@@ -93,8 +115,7 @@ public class PlayerManager : MonoBehaviour
             BinaryFormatter bf = new BinaryFormatter();
             using (FileStream file = File.Open(path, FileMode.Open))
             {
-                PlayerData data = (PlayerData)bf.Deserialize(file);
-                player = new Player(data.balance);
+                player = (Player)bf.Deserialize(file);
             }
             Debug.Log("Player data loaded from " + path);
         }

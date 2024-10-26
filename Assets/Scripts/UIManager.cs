@@ -6,7 +6,6 @@ public class UIManager : MonoBehaviour
 {
     public TextMeshProUGUI balance;
 
-
     void Start()
     {
         if (PlayerManager.Instance == null)
@@ -35,6 +34,8 @@ public class UIManager : MonoBehaviour
 
     void UpdateBalanceDisplay()
     {
-        balance.text = $"{PlayerManager.Instance.GetPlayerBalance()}€";
+        float balance_preformat = PlayerManager.Instance.GetPlayerBalance();
+        string formatted_balance = balance_preformat.ToString("F2");
+        balance.text = formatted_balance;
     }
 }
