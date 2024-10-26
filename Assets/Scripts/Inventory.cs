@@ -26,8 +26,6 @@ public class InventoryScreen : MonoBehaviour
 
     void LoadInventory()
     {
-        
-        inventoryItems = InventoryManager.instance.GetPlayerInventory() ?? new List<ItemData>();
         foreach (ItemData item in inventoryItems)
         {
             Debug.Log(item);
@@ -59,7 +57,6 @@ public class InventoryScreen : MonoBehaviour
         }
     }
 
-    
     public void NextPage()
     {
         if ((currentPage + 1) * itemsPerPage < inventoryItems.Count)
@@ -85,6 +82,5 @@ public class InventoryScreen : MonoBehaviour
         {
             totalValue += item.Price;
         }
-        Debug.Log("Total Inventory Value: " + totalValue);
     }
 }

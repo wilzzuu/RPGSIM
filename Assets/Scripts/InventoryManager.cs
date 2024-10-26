@@ -1,12 +1,14 @@
+using System;
 using System.Collections.Generic;
-using UnityEngine;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager instance; 
 
-    private List<ItemData> playerInventory = new List<ItemData>();
+    public InventoryData inventory = new InventoryData();
     private string savePath;
 
     void Awake()
@@ -14,7 +16,7 @@ public class InventoryManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            savePath = Application.persistentDataPath + "/inventory.json";
+            savePath = Application.persistentDataPath + "/playerInventory.dat";
             LoadInventory(); 
         }
         else
@@ -24,61 +26,56 @@ public class InventoryManager : MonoBehaviour
     }
 
     
-    public void AddItemToInventory(ItemData item)
+    // Save the inventory data to a binary file
+    public void SaveInventory()
     {
-        playerInventory.Add(item);
-        Debug.Log(item.Name + " added to inventory.");
-        SaveInventory(); 
-    }
-
-    
-    public void RemoveItemFromInventory(ItemData item)
-    {
-        if (playerInventory.Contains(item))
+        BinaryFormatter bf = new BinaryFormatter();
+        using (FileStream file = File.Create(savePath))
         {
-            playerInventory.Remove(item);
-            SaveInventory(); 
-            Debug.Log(item.Name + " removed from inventory.");
+            bf.Serialize(file, inventory);
         }
-        else
-        {
-            Debug.LogError("Item not found in inventory.");
-        }
+        Debug.Log("Inventory saved successfully.");
     }
 
-    
-    private void SaveInventory()
-    {
-        string json = JsonUtility.ToJson(new ItemListWrapper { items = playerInventory }, true);
-        File.WriteAllText(savePath, json);
-        Debug.Log("Inventory saved.");
-    }
-
-    
-    private void LoadInventory()
+    // Load the inventory data from the binary file
+    public void LoadInventory()
     {
         if (File.Exists(savePath))
         {
-            string json = File.ReadAllText(savePath);
-            ItemListWrapper loadedData = JsonUtility.FromJson<ItemListWrapper>(json);
-            playerInventory = loadedData.items ?? new List<ItemData>();
-            Debug.Log("Inventory loaded.");
+            BinaryFormatter bf = new BinaryFormatter();
+            using (FileStream file = File.Open(savePath, FileMode.Open))
+            {
+                inventory = (InventoryData)bf.Deserialize(file);
+            }
+            Debug.Log("Inventory loaded successfully.");
         }
         else
         {
-            Debug.Log("No inventory save file found.");
+            Debug.LogWarning("No inventory file found, creating a new inventory.");
+            inventory = new InventoryData();
         }
     }
 
-    public List<ItemData> GetPlayerInventory()
+    // Method to add an item to the inventory
+    public void AddItemToInventory(ItemData item)
     {
-        return playerInventory;
+        inventory.items.Add(item);
+        SaveInventory();  // Save after adding
     }
+
+    // Method to clear the inventory (useful for debugging)
+    public void ClearInventory()
+    {
+        inventory.items.Clear();
+        SaveInventory();
+        Debug.Log("Inventory cleared.");
+    }
+
 }
 
 
-[System.Serializable]
-public class ItemListWrapper
+[Serializable]
+public class InventoryData
 {
-    public List<ItemData> items;
+    public List<ItemData> items = new List<ItemData>();
 }

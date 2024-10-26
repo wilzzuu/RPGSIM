@@ -1,38 +1,36 @@
 using UnityEngine;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 [System.Serializable]
 public class Player
 {
-    public float balance; 
+    public float balance;
 
     public Player(float initialBalance)
     {
         balance = initialBalance;
     }
-
 }
 
 public class PlayerManager : MonoBehaviour
 {
     public static PlayerManager Instance { get; private set; }
     public Player player;
-    private const string SaveKey = "PlayerData";
+    private const string SaveFileName = "PlayerData.dat";
 
-    public delegate void balanceChangedHandler();
-    public event balanceChangedHandler onBalanceChanged;
+    public delegate void BalanceChangedHandler();
+    public event BalanceChangedHandler onBalanceChanged;
 
     void Awake()
     {
-        
         if (Instance == null)
         {
-            
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
         else
         {
-            
             Destroy(gameObject);
             return;
         }
@@ -40,11 +38,9 @@ public class PlayerManager : MonoBehaviour
 
     void Start()
     {
-        
         LoadPlayerData();
     }
 
-    
     public void AddCurrency(float amount)
     {
         player.balance += amount;
@@ -52,7 +48,6 @@ public class PlayerManager : MonoBehaviour
         SavePlayerData();
     }
 
-    
     public void DeductCurrency(float amount)
     {
         if (player.balance >= amount)
@@ -67,50 +62,58 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
-    
-    public void LoadBalance()
-    {
-        
-       player.balance = PlayerPrefs.GetFloat("PlayerBalance", 0); 
-    }
-
     public float GetPlayerBalance()
     {
         return player.balance;
     }
 
+    // Save player data using binary serialization
     public void SavePlayerData()
     {
         PlayerData data = new PlayerData(this);
-        string json = JsonUtility.ToJson(data);
-        PlayerPrefs.SetString(SaveKey, json);
-        PlayerPrefs.Save();
+
+        BinaryFormatter bf = new BinaryFormatter();
+        string path = Path.Combine(Application.persistentDataPath, SaveFileName);
+
+        using (FileStream file = File.Create(path))
+        {
+            bf.Serialize(file, data);
+        }
+
+        Debug.Log("Player data saved to " + path);
     }
 
+    // Load player data using binary serialization
     public void LoadPlayerData()
     {
-        if (PlayerPrefs.HasKey(SaveKey))
-        {
-            string json = PlayerPrefs.GetString(SaveKey);
-            PlayerData data = JsonUtility.FromJson<PlayerData>(json);
+        string path = Path.Combine(Application.persistentDataPath, SaveFileName);
 
-            player.balance = data.balance;
+        if (File.Exists(path))
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            using (FileStream file = File.Open(path, FileMode.Open))
+            {
+                PlayerData data = (PlayerData)bf.Deserialize(file);
+                player = new Player(data.balance);
+            }
+            Debug.Log("Player data loaded from " + path);
         }
         else
         {
-            player = new Player(100f);
+            // Initialize with a default balance if no save file exists
+            player = new Player(500f);
+            Debug.Log("No save file found. Initialized player with default balance.");
         }
     }
 
     public void ResetProgress()
     {
-        player.balance = 100f;
+        player.balance = 500f;
         SavePlayerData();
     }
 }
 
 [System.Serializable]
-
 public class PlayerData
 {
     public float balance;
