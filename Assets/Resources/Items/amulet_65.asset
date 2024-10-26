@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 41.69
   Weight: 50
+  Color: pink
+  Item: amulet
+  Style: ancient

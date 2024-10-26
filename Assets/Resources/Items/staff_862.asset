@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: staff_862
   Name: emerald green Holy Staff with Mystic runes
   Rarity: Uncommon
-  Price: 251.29
+  Price: 376.94
   Weight: 30
+  Color: emerald green
+  Item: staff
+  Style: holy

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: shield_272
   Name: pink Mystical Shield with Mystic runes
   Rarity: Uncommon
-  Price: 290.29
+  Price: 435.44
   Weight: 30
+  Color: pink
+  Item: shield
+  Style: mystical

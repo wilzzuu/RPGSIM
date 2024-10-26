@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: dagger_150
   Name: silver Ancient Dagger with Crystals
   Rarity: Uncommon
-  Price: 58.54
+  Price: 87.81
   Weight: 30
+  Color: silver
+  Item: dagger
+  Style: ancient

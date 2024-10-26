@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 71.15
   Weight: 50
+  Color: purple
+  Item: helmet
+  Style: mystical

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: staff_624
   Name: purple Holy Staff with Glowing aura
   Rarity: Uncommon
-  Price: 269.74
+  Price: 404.61
   Weight: 30
+  Color: purple
+  Item: staff
+  Style: holy

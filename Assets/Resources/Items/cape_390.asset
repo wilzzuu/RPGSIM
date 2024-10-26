@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_390
   Name: silver Cursed Cape with Crystals
   Rarity: Epic
-  Price: 666.57
+  Price: 3332.85
   Weight: 4
+  Color: silver
+  Item: cape
+  Style: cursed

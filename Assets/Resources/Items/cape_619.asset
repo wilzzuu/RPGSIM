@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_619
   Name: crimson red Ancient Cape with Mystic runes
   Rarity: Uncommon
-  Price: 76.24
+  Price: 114.36
   Weight: 30
+  Color: crimson red
+  Item: cape
+  Style: ancient

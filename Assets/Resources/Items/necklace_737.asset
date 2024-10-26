@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_737
   Name: purple Cursed Necklace with Skulls
   Rarity: Uncommon
-  Price: 173.08
+  Price: 259.62
   Weight: 30
+  Color: purple
+  Item: necklace
+  Style: cursed

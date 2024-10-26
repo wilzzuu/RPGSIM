@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: shield_30
   Name: emerald green Arcane Shield with Glowing aura
   Rarity: Rare
-  Price: 201.82
+  Price: 504.55
   Weight: 15
+  Color: emerald green
+  Item: shield
+  Style: arcane

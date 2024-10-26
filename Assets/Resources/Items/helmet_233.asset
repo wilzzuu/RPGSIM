@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 142.48
   Weight: 50
+  Color: pink
+  Item: helmet
+  Style: arcane

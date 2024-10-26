@@ -21,15 +21,15 @@ public class JsonToScriptableObject : MonoBehaviour
                 CrateJsonDataWrapper crateDataWrapper = JsonUtility.FromJson<CrateJsonDataWrapper>(jsonContent);
 
                 // Validate parsed data
-                if (crateDataWrapper == null || crateDataWrapper.crates == null)
+                if (crateDataWrapper == null || crateDataWrapper.Crates == null)
                 {
                     Debug.LogError("Failed to parse JSON: Crate data is null or empty.");
                     return;
                 }
 
-                foreach (var crateData in crateDataWrapper.crates)
+                foreach (var crateData in crateDataWrapper.Crates)
                 {
-                    Debug.Log($"Processing crate: {crateData.ID} | Name: {crateData.NAME} | Price: {crateData.PRICE}");
+                    Debug.Log($"Processing crate: {crateData.ID} | Name: {crateData.Name} | Price: {crateData.Price}");
                     CreateCrateDataAsset(crateData);
                 }
 
@@ -51,12 +51,12 @@ public class JsonToScriptableObject : MonoBehaviour
         // Create CrateData ScriptableObject
         CrateData crateAsset = ScriptableObject.CreateInstance<CrateData>();
         crateAsset.ID = jsonData.ID;
-        crateAsset.Name = jsonData.NAME;
-        crateAsset.Price = jsonData.PRICE;
+        crateAsset.Name = jsonData.Name;
+        crateAsset.Price = jsonData.Price;
         crateAsset.Items = new List<ItemData>();
 
         // Create ItemData assets and add them to the crate
-        foreach (var itemJson in jsonData.items)
+        foreach (var itemJson in jsonData.Items)
         {
             if (itemJson == null)
             {
@@ -65,18 +65,18 @@ public class JsonToScriptableObject : MonoBehaviour
             }
 
             // Log each item for debugging
-            Debug.Log($"Creating item: {itemJson.NAME} | Rarity: {itemJson.RARITY} | Price: {itemJson.PRICE}");
+            Debug.Log($"Creating item: {itemJson.Name} | Rarity: {itemJson.Rarity} | Price: {itemJson.Price}");
 
             // Create ItemData ScriptableObject
             ItemData itemAsset = ScriptableObject.CreateInstance<ItemData>();
             itemAsset.ID = itemJson.ID;
-            itemAsset.Name = itemJson.NAME;
-            itemAsset.Price = itemJson.PRICE;
-            itemAsset.Rarity = itemJson.RARITY;
-            itemAsset.Weight = itemJson.WEIGHT;
-            itemAsset.Color = itemJson.COLOR;
-            itemAsset.Item = itemJson.ITEM;
-            itemAsset.Style = itemJson.STYLE;
+            itemAsset.Name = itemJson.Name;
+            itemAsset.Price = itemJson.Price;
+            itemAsset.Rarity = itemJson.Rarity;
+            itemAsset.Weight = itemJson.Weight;
+            itemAsset.Color = itemJson.Color;
+            itemAsset.Item = itemJson.Item;
+            itemAsset.Style = itemJson.Style;
 
             // Save each ItemData asset and add it to the CrateData
             SaveAsset(itemAsset, $"Assets/ScriptableObjects/Items/{itemAsset.ID}.asset");
@@ -106,7 +106,7 @@ public class JsonToScriptableObject : MonoBehaviour
 [System.Serializable]
 public class CrateJsonDataWrapper
 {
-    public List<CrateJsonData> crates;
+    public List<CrateJsonData> Crates;
 }
 
 // Structure of Crate JSON data
@@ -114,9 +114,9 @@ public class CrateJsonDataWrapper
 public class CrateJsonData
 {
     public string ID;
-    public string NAME;
-    public float PRICE;
-    public List<ItemJsonData> items;
+    public string Name;
+    public float Price;
+    public List<ItemJsonData> Items;
 }
 
 // Structure of Item JSON data
@@ -124,11 +124,11 @@ public class CrateJsonData
 public class ItemJsonData
 {
     public string ID;
-    public string NAME;
-    public string RARITY;
-    public float PRICE;
-    public int WEIGHT;
-    public string COLOR;
-    public string ITEM;
-    public string STYLE;
+    public string Name;
+    public string Rarity;
+    public float Price;
+    public int Weight;
+    public string Color;
+    public string Item;
+    public string Style;
 }

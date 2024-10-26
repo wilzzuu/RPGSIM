@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 201.84
   Weight: 50
+  Color: gold
+  Item: dagger
+  Style: arcane

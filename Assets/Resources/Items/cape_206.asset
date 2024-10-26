@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 217.63
   Weight: 50
+  Color: purple
+  Item: cape
+  Style: ancient

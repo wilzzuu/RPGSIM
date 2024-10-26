@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: dagger_844
   Name: crimson red Holy Dagger with Glowing aura
   Rarity: Uncommon
-  Price: 98.93
+  Price: 148.4
   Weight: 30
+  Color: crimson red
+  Item: dagger
+  Style: holy

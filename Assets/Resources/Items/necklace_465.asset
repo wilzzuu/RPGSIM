@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_465
   Name: shadow black Cursed Necklace with Mystic runes
   Rarity: Rare
-  Price: 274.53
+  Price: 686.32
   Weight: 15
+  Color: shadow black
+  Item: necklace
+  Style: cursed

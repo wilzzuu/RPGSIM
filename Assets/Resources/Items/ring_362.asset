@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 14.98
   Weight: 50
+  Color: gold
+  Item: ring
+  Style: holy

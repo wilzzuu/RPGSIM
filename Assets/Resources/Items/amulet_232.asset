@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 275.69
   Weight: 50
+  Color: shadow black
+  Item: amulet
+  Style: cursed

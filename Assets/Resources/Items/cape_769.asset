@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 255.92
   Weight: 50
+  Color: silver
+  Item: cape
+  Style: enchanted

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 167.75
   Weight: 50
+  Color: purple
+  Item: ring
+  Style: ancient

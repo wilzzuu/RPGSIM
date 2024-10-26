@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: dagger_710
   Name: purple Cursed Dagger with Sparkling particles
   Rarity: Rare
-  Price: 264.72
+  Price: 661.8
   Weight: 15
+  Color: purple
+  Item: dagger
+  Style: cursed

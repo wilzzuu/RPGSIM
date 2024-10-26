@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: helmet_865
   Name: emerald green Cursed Helmet with Mystic runes
   Rarity: Uncommon
-  Price: 43.3
+  Price: 64.95
   Weight: 30
+  Color: emerald green
+  Item: helmet
+  Style: cursed

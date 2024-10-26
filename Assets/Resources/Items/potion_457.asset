@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_457
   Name: pink Arcane Potion with Ethereal mist
   Rarity: Uncommon
-  Price: 253.38
+  Price: 380.07
   Weight: 30
+  Color: pink
+  Item: potion
+  Style: arcane

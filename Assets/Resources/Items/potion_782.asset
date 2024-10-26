@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_782
   Name: emerald green Ancient Potion with Glowing aura
   Rarity: Rare
-  Price: 68.35
+  Price: 170.88
   Weight: 15
+  Color: emerald green
+  Item: potion
+  Style: ancient

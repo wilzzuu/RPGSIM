@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 293.9
   Weight: 50
+  Color: purple
+  Item: staff
+  Style: enchanted

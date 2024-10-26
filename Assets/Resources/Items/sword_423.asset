@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_423
   Name: midnight blue Arcane Sword with Mystic runes
   Rarity: Uncommon
-  Price: 226.34
+  Price: 339.51
   Weight: 30
+  Color: midnight blue
+  Item: sword
+  Style: arcane

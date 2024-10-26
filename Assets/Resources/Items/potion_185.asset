@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 195.16
   Weight: 50
+  Color: midnight blue
+  Item: potion
+  Style: arcane

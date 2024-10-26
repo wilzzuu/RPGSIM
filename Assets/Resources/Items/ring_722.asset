@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: ring_722
   Name: crimson red Arcane Ring with Sparkling particles
   Rarity: Uncommon
-  Price: 135.47
+  Price: 203.2
   Weight: 30
+  Color: crimson red
+  Item: ring
+  Style: arcane

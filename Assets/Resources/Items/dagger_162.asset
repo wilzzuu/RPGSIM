@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: dagger_162
   Name: purple Ancient Dagger with Sparkling particles
   Rarity: Uncommon
-  Price: 95.4
+  Price: 143.1
   Weight: 30
+  Color: purple
+  Item: dagger
+  Style: ancient

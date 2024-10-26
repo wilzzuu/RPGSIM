@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_370
   Name: gold Mystical Book with Crystals
   Rarity: Epic
-  Price: 631.05
+  Price: 3155.25
   Weight: 4
+  Color: gold
+  Item: book
+  Style: mystical

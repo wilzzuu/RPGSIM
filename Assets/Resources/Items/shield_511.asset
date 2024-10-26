@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: shield_511
   Name: pink Arcane Shield with Glowing aura
   Rarity: Uncommon
-  Price: 48.15
+  Price: 72.22
   Weight: 30
+  Color: pink
+  Item: shield
+  Style: arcane

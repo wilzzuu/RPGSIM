@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_18
   Name: purple Enchanted Book with Ethereal mist
   Rarity: Uncommon
-  Price: 154.29
+  Price: 231.44
   Weight: 30
+  Color: purple
+  Item: book
+  Style: enchanted

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: shield_787
   Name: crimson red Cursed Shield with Glowing aura
   Rarity: Uncommon
-  Price: 254.69
+  Price: 382.03
   Weight: 30
+  Color: crimson red
+  Item: shield
+  Style: cursed

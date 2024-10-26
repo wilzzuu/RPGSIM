@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 121.6
   Weight: 50
+  Color: gold
+  Item: shield
+  Style: arcane

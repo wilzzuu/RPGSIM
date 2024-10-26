@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 55.82
   Weight: 50
+  Color: silver
+  Item: book
+  Style: mystical

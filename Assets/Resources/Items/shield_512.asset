@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: shield_512
   Name: midnight blue Cursed Shield with Skulls
   Rarity: Epic
-  Price: 291.78
+  Price: 1458.9
   Weight: 4
+  Color: midnight blue
+  Item: shield
+  Style: cursed

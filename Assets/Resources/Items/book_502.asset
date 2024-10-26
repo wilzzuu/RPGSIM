@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_502
   Name: crimson red Mystical Book with Sparkling particles
   Rarity: Rare
-  Price: 232.51
+  Price: 581.27
   Weight: 15
+  Color: crimson red
+  Item: book
+  Style: mystical

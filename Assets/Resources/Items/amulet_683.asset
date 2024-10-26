@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_683
   Name: midnight blue Cursed Amulet with Sparkling particles
   Rarity: Legendary
-  Price: 12.27
+  Price: 122.7
   Weight: 1
+  Color: midnight blue
+  Item: amulet
+  Style: cursed

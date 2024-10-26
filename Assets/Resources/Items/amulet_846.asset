@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_846
   Name: purple Arcane Amulet with Skulls
   Rarity: Uncommon
-  Price: 129.99
+  Price: 194.99
   Weight: 30
+  Color: purple
+  Item: amulet
+  Style: arcane

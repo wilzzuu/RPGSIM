@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 245.47
   Weight: 50
+  Color: purple
+  Item: ring
+  Style: enchanted

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_736
   Name: crimson red Arcane Sword with Skulls
   Rarity: Uncommon
-  Price: 118.65
+  Price: 177.98
   Weight: 30
+  Color: crimson red
+  Item: sword
+  Style: arcane

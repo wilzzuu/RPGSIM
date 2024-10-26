@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_5
   Name: purple Cursed Sword with Mystic runes
   Rarity: Rare
-  Price: 215.62
+  Price: 539.05
   Weight: 15
+  Color: purple
+  Item: sword
+  Style: cursed

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_744
   Name: crimson red Arcane Potion with Mystic runes
   Rarity: Rare
-  Price: 7.53
+  Price: 18.82
   Weight: 15
+  Color: crimson red
+  Item: potion
+  Style: arcane

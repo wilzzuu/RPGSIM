@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 112.97
   Weight: 50
+  Color: gold
+  Item: book
+  Style: cursed

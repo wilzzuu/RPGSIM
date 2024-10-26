@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 241.33
   Weight: 50
+  Color: purple
+  Item: amulet
+  Style: arcane

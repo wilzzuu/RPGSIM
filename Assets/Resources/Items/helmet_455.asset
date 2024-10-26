@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 266.24
   Weight: 50
+  Color: purple
+  Item: helmet
+  Style: cursed

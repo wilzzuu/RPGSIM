@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 169.32
   Weight: 50
+  Color: pink
+  Item: sword
+  Style: holy

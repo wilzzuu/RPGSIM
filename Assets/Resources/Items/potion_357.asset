@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_357
   Name: silver Mystical Potion with Skulls
   Rarity: Uncommon
-  Price: 51.66
+  Price: 77.49
   Weight: 30
+  Color: silver
+  Item: potion
+  Style: mystical

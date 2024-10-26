@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_526
   Name: pink Holy Necklace with Crystals
   Rarity: Uncommon
-  Price: 44.53
+  Price: 66.8
   Weight: 30
+  Color: pink
+  Item: necklace
+  Style: holy

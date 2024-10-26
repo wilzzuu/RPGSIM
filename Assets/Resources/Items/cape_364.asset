@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 162.64
   Weight: 50
+  Color: shadow black
+  Item: cape
+  Style: mystical

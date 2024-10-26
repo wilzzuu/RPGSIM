@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 9.25
   Weight: 50
+  Color: silver
+  Item: necklace
+  Style: ancient

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_410
   Name: silver Ancient Sword with Skulls
   Rarity: Uncommon
-  Price: 131.75
+  Price: 197.62
   Weight: 30
+  Color: silver
+  Item: sword
+  Style: ancient

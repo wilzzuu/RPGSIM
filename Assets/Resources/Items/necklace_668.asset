@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_668
   Name: silver Holy Necklace with Sparkling particles
   Rarity: Rare
-  Price: 55.95
+  Price: 139.88
   Weight: 15
+  Color: silver
+  Item: necklace
+  Style: holy

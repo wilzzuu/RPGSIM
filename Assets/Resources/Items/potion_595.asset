@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_595
   Name: crimson red Mystical Potion with Sparkling particles
   Rarity: Rare
-  Price: 82.7
+  Price: 206.75
   Weight: 15
+  Color: crimson red
+  Item: potion
+  Style: mystical

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 22.59
   Weight: 50
+  Color: gold
+  Item: book
+  Style: ancient

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_160
   Name: midnight blue Arcane Amulet with Mystic runes
   Rarity: Legendary
-  Price: 551.33
+  Price: 5513.3
   Weight: 1
+  Color: midnight blue
+  Item: amulet
+  Style: arcane

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 147.76
   Weight: 50
+  Color: gold
+  Item: helmet
+  Style: ancient

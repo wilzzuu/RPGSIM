@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 137.68
   Weight: 50
+  Color: purple
+  Item: ring
+  Style: cursed

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_538
   Name: shadow black Cursed Amulet with Glowing aura
   Rarity: Uncommon
-  Price: 204.18
+  Price: 306.27
   Weight: 30
+  Color: shadow black
+  Item: amulet
+  Style: cursed

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 152.17
   Weight: 50
+  Color: silver
+  Item: staff
+  Style: cursed

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_477
   Name: silver Holy Potion with Skulls
   Rarity: Rare
-  Price: 182.45
+  Price: 456.12
   Weight: 15
+  Color: silver
+  Item: potion
+  Style: holy

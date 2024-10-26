@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 112.18
   Weight: 50
+  Color: shadow black
+  Item: book
+  Style: arcane

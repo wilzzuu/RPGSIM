@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_774
   Name: emerald green Cursed Potion with Glowing aura
   Rarity: Rare
-  Price: 37.75
+  Price: 94.38
   Weight: 15
+  Color: emerald green
+  Item: potion
+  Style: cursed

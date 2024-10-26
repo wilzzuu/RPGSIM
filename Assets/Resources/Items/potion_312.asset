@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_312
   Name: pink Ancient Potion with Mystic runes
   Rarity: Uncommon
-  Price: 202.78
+  Price: 304.17
   Weight: 30
+  Color: pink
+  Item: potion
+  Style: ancient

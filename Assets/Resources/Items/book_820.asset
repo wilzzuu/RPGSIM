@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_820
   Name: crimson red Arcane Book with Ethereal mist
   Rarity: Rare
-  Price: 151.06
+  Price: 377.65
   Weight: 15
+  Color: crimson red
+  Item: book
+  Style: arcane

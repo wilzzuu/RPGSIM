@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_223
   Name: shadow black Holy Book with Glowing aura
   Rarity: Uncommon
-  Price: 230.66
+  Price: 345.99
   Weight: 30
+  Color: shadow black
+  Item: book
+  Style: holy

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 120.05
   Weight: 50
+  Color: pink
+  Item: amulet
+  Style: cursed

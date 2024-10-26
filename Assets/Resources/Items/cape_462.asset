@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_462
   Name: shadow black Arcane Cape with Mystic runes
   Rarity: Uncommon
-  Price: 143.06
+  Price: 214.59
   Weight: 30
+  Color: shadow black
+  Item: cape
+  Style: arcane

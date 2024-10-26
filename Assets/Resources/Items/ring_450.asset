@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: ring_450
   Name: purple Holy Ring with Skulls
   Rarity: Uncommon
-  Price: 149.94
+  Price: 224.91
   Weight: 30
+  Color: purple
+  Item: ring
+  Style: holy

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 250.72
   Weight: 50
+  Color: purple
+  Item: potion
+  Style: arcane

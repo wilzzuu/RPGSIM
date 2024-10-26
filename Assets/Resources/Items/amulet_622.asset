@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 292.38
   Weight: 50
+  Color: gold
+  Item: amulet
+  Style: cursed

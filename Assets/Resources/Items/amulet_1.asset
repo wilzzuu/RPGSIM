@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_1
   Name: purple Enchanted Amulet with Crystals
   Rarity: Uncommon
-  Price: 164.01
+  Price: 246.01
   Weight: 30
+  Color: purple
+  Item: amulet
+  Style: enchanted

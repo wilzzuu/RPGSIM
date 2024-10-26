@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 175.69
   Weight: 50
+  Color: purple
+  Item: sword
+  Style: holy

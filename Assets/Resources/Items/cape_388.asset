@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_388
   Name: shadow black Cursed Cape with Sparkling particles
   Rarity: Uncommon
-  Price: 32.64
+  Price: 48.96
   Weight: 30
+  Color: shadow black
+  Item: cape
+  Style: cursed

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 20.27
   Weight: 50
+  Color: shadow black
+  Item: amulet
+  Style: ancient

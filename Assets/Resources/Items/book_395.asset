@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_395
   Name: midnight blue Cursed Book with Glowing aura
   Rarity: Uncommon
-  Price: 91.87
+  Price: 137.81
   Weight: 30
+  Color: midnight blue
+  Item: book
+  Style: cursed

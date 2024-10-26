@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 221.29
   Weight: 50
+  Color: silver
+  Item: dagger
+  Style: cursed

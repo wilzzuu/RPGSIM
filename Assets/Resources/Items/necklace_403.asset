@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_403
   Name: crimson red Enchanted Necklace with Glowing aura
   Rarity: Uncommon
-  Price: 288.02
+  Price: 432.03
   Weight: 30
+  Color: crimson red
+  Item: necklace
+  Style: enchanted

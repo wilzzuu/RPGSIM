@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 54.03
   Weight: 50
+  Color: gold
+  Item: sword
+  Style: holy

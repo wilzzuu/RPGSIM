@@ -13,36 +13,36 @@ MonoBehaviour:
   m_Name: crate_08
   m_EditorClassIdentifier: 
   ID: crate_08
-  Name: RPG Crate 8
-  Price: 40.83
+  Name: Rune of Blight Crate
+  Price: 497.91
   Items:
-  - {fileID: 11400000, guid: a16346d2206033047891ebddb1eab49b, type: 2}
-  - {fileID: 11400000, guid: 4b5dd1d0071cfbe438be95311891af63, type: 2}
-  - {fileID: 11400000, guid: f4961bdb4013291488fa4c1aa9bb1971, type: 2}
-  - {fileID: 11400000, guid: def6f36d4962c44429580cba7b452b95, type: 2}
-  - {fileID: 11400000, guid: bf7576a9213dc3b4db9a766ac94e2dd0, type: 2}
-  - {fileID: 11400000, guid: 4bd706c47f879aa49a292f70870db84e, type: 2}
-  - {fileID: 11400000, guid: 94278b5b389c92d4e9885713dd760deb, type: 2}
-  - {fileID: 11400000, guid: dd6e1f3dd2fea8d45bd6570f8ec96b74, type: 2}
-  - {fileID: 11400000, guid: d70627f2bb571354aaa15f0023a002e2, type: 2}
-  - {fileID: 11400000, guid: c7c253ac2478adf4f9d29a76144a15bc, type: 2}
-  - {fileID: 11400000, guid: 858e3ca34f596c9489227e39cb179b40, type: 2}
-  - {fileID: 11400000, guid: eab3173d5703a1f499fce7eef4a9966f, type: 2}
-  - {fileID: 11400000, guid: 5531e9eaa0cc91145ae45e6892a24658, type: 2}
-  - {fileID: 11400000, guid: d170e73e3a0f42e4da56cda3c3d5b956, type: 2}
-  - {fileID: 11400000, guid: b3258294ccc8388479ceb082716e8dd5, type: 2}
-  - {fileID: 11400000, guid: 240c8af72b2552846b888fcc7bba8f8c, type: 2}
-  - {fileID: 11400000, guid: 1b1d45eef055f10439dd8bd7988d8df1, type: 2}
-  - {fileID: 11400000, guid: 3c2ba3e9c613647418e89f521e92dd58, type: 2}
-  - {fileID: 11400000, guid: d50ae9530f45e9d44bcc8d9bcc49d33a, type: 2}
-  - {fileID: 11400000, guid: 8b02e94267cec944f9cf69babea28f36, type: 2}
-  - {fileID: 11400000, guid: ed42da18d66ee3c4a8ddaf51ec98aa8b, type: 2}
-  - {fileID: 11400000, guid: 179c82ed16cf6d643b7b1be71ef1c25e, type: 2}
-  - {fileID: 11400000, guid: 01cd36161ad28904797e7d89000c706e, type: 2}
-  - {fileID: 11400000, guid: 6df56af98e7d3f248933a5023c7ead44, type: 2}
-  - {fileID: 11400000, guid: a13ad7091c0ba334dae31db2e2ee9a90, type: 2}
-  - {fileID: 11400000, guid: e669a08d0cc4dc64dbde01540a125420, type: 2}
-  - {fileID: 11400000, guid: 70765e0a3178a1d4e8b43e8e4749e076, type: 2}
-  - {fileID: 11400000, guid: cab53484135764c4a9dd329430e5bba4, type: 2}
-  - {fileID: 11400000, guid: 25f7bc69c3a7c3741b7b6194d0194aa0, type: 2}
-  - {fileID: 11400000, guid: 57dea43f31723654db0f6e423f1ff1c9, type: 2}
+  - {fileID: 11400000, guid: 7fc7814bc2b1e1a4f8de533d56b8349d, type: 2}
+  - {fileID: 11400000, guid: b81a5c8e4782b4b40a097e816ef2e4e1, type: 2}
+  - {fileID: 11400000, guid: 87088149676d1af41bc7826a3b6ff957, type: 2}
+  - {fileID: 11400000, guid: ed7fff201ada2e44cbddd435e6f3d50d, type: 2}
+  - {fileID: 11400000, guid: 9bdf65cc69701e645b9b7dab47d8ea91, type: 2}
+  - {fileID: 11400000, guid: 5a1ca1ab81275354aa9a2fc7856ab64f, type: 2}
+  - {fileID: 11400000, guid: 0af5fd1fb7ac49f42bb957d0f0ccf2c4, type: 2}
+  - {fileID: 11400000, guid: 7cad0fbe99f1ccb41aed1cadda23985a, type: 2}
+  - {fileID: 11400000, guid: da2a8a2a37372c44080a36c9d638e9bd, type: 2}
+  - {fileID: 11400000, guid: cef945dedadfa284b81cf688ac9e258e, type: 2}
+  - {fileID: 11400000, guid: 7206741c820bc274384ee3289c969de8, type: 2}
+  - {fileID: 11400000, guid: e13d08d44070ef64bb0f1d3ffe73f052, type: 2}
+  - {fileID: 11400000, guid: 18b690ae10ec44e4c98b22ae94560797, type: 2}
+  - {fileID: 11400000, guid: 8f9dacd50f0479942b159b64e76e9a7d, type: 2}
+  - {fileID: 11400000, guid: 5206a4b35acc74342a8a9d598df644d3, type: 2}
+  - {fileID: 11400000, guid: ccafd133a95c45e43ae03c4c2285078f, type: 2}
+  - {fileID: 11400000, guid: 7842c621f01611244b5b8eebd6ab7cd6, type: 2}
+  - {fileID: 11400000, guid: 3eca72fb72308774e9227413558d17a7, type: 2}
+  - {fileID: 11400000, guid: 7b2060d043325744aa6386616a910664, type: 2}
+  - {fileID: 11400000, guid: 7a218e667576cbb4da65dc7f1858dcf3, type: 2}
+  - {fileID: 11400000, guid: 51db98d2de0a07e43a8cfe8ff9678879, type: 2}
+  - {fileID: 11400000, guid: 40950fde01edb3649a5b0e7c24678c12, type: 2}
+  - {fileID: 11400000, guid: 7697c52320525ce43a6b0ba0eeb55ff6, type: 2}
+  - {fileID: 11400000, guid: 22e01d405723e7444b062a66a95e31d8, type: 2}
+  - {fileID: 11400000, guid: 6cbf51c3819fca94ba2c29fa20081ebe, type: 2}
+  - {fileID: 11400000, guid: d1a1ad0470d81084cb1705ac65fddb54, type: 2}
+  - {fileID: 11400000, guid: 8bcb25fe6db864f47af7f466a890503c, type: 2}
+  - {fileID: 11400000, guid: 314cf75289f4f734181537daef36e49b, type: 2}
+  - {fileID: 11400000, guid: 867b449ff3b11814cbcbbef0c4352b25, type: 2}
+  - {fileID: 11400000, guid: 9c8ac059a4fcff848b16d44cae037294, type: 2}

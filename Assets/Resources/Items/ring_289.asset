@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: ring_289
   Name: purple Mystical Ring with Skulls
   Rarity: Uncommon
-  Price: 201.68
+  Price: 302.52
   Weight: 30
+  Color: purple
+  Item: ring
+  Style: mystical

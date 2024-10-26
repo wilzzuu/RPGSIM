@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_106
   Name: gold Mystical Sword with Sparkling particles
   Rarity: Uncommon
-  Price: 248.57
+  Price: 372.86
   Weight: 30
+  Color: gold
+  Item: sword
+  Style: mystical

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 45.7
   Weight: 50
+  Color: gold
+  Item: necklace
+  Style: arcane

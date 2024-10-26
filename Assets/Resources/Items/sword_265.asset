@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 117.53
   Weight: 50
+  Color: shadow black
+  Item: sword
+  Style: cursed

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 294.13
   Weight: 50
+  Color: purple
+  Item: shield
+  Style: ancient

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 89.38
   Weight: 50
+  Color: shadow black
+  Item: shield
+  Style: enchanted

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_522
   Name: crimson red Ancient Book with Glowing aura
   Rarity: Epic
-  Price: 728.92
+  Price: 3644.6
   Weight: 4
+  Color: crimson red
+  Item: book
+  Style: ancient

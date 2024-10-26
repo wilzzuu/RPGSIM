@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_633
   Name: pink Cursed Necklace with Ethereal mist
   Rarity: Uncommon
-  Price: 192.68
+  Price: 289.02
   Weight: 30
+  Color: pink
+  Item: necklace
+  Style: cursed

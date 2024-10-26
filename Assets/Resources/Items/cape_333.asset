@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 251.31
   Weight: 50
+  Color: pink
+  Item: cape
+  Style: holy

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_340
   Name: gold Arcane Book with Crystals
   Rarity: Uncommon
-  Price: 184.46
+  Price: 276.69
   Weight: 30
+  Color: gold
+  Item: book
+  Style: arcane

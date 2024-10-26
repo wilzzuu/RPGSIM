@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_307
   Name: pink Enchanted Necklace with Sparkling particles
   Rarity: Uncommon
-  Price: 16.41
+  Price: 24.62
   Weight: 30
+  Color: pink
+  Item: necklace
+  Style: enchanted

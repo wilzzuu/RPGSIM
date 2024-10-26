@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_704
   Name: midnight blue Enchanted Necklace with Glowing aura
   Rarity: Uncommon
-  Price: 220.5
+  Price: 330.75
   Weight: 30
+  Color: midnight blue
+  Item: necklace
+  Style: enchanted

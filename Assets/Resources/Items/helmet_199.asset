@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: helmet_199
   Name: gold Cursed Helmet with Crystals
   Rarity: Uncommon
-  Price: 148.4
+  Price: 222.6
   Weight: 30
+  Color: gold
+  Item: helmet
+  Style: cursed

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: ring_249
   Name: emerald green Enchanted Ring with Skulls
   Rarity: Rare
-  Price: 25.68
+  Price: 64.2
   Weight: 15
+  Color: emerald green
+  Item: ring
+  Style: enchanted

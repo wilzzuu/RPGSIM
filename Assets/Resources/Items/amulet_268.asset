@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_268
   Name: shadow black Ancient Amulet with Glowing aura
   Rarity: Uncommon
-  Price: 22.79
+  Price: 34.19
   Weight: 30
+  Color: shadow black
+  Item: amulet
+  Style: ancient

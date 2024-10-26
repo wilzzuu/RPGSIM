@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_167
   Name: shadow black Arcane Amulet with Crystals
   Rarity: Uncommon
-  Price: 55.79
+  Price: 83.69
   Weight: 30
+  Color: shadow black
+  Item: amulet
+  Style: arcane

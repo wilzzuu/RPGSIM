@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: dagger_255
   Name: silver Arcane Dagger with Ethereal mist
   Rarity: Rare
-  Price: 143.36
+  Price: 358.4
   Weight: 15
+  Color: silver
+  Item: dagger
+  Style: arcane

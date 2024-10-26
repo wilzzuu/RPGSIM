@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 285.16
   Weight: 50
+  Color: silver
+  Item: dagger
+  Style: mystical

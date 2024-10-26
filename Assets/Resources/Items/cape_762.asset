@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_762
   Name: silver Mystical Cape with Skulls
   Rarity: Rare
-  Price: 99.13
+  Price: 247.82
   Weight: 15
+  Color: silver
+  Item: cape
+  Style: mystical

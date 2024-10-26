@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_387
   Name: emerald green Ancient Cape with Mystic runes
   Rarity: Uncommon
-  Price: 1.68
+  Price: 2.52
   Weight: 30
+  Color: emerald green
+  Item: cape
+  Style: ancient

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: ring_553
   Name: gold Cursed Ring with Skulls
   Rarity: Uncommon
-  Price: 63.49
+  Price: 95.23
   Weight: 30
+  Color: gold
+  Item: ring
+  Style: cursed

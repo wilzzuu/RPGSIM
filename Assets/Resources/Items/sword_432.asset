@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_432
   Name: gold Arcane Sword with Ethereal mist
   Rarity: Rare
-  Price: 258.58
+  Price: 646.45
   Weight: 15
+  Color: gold
+  Item: sword
+  Style: arcane

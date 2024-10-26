@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_271
   Name: silver Cursed Sword with Crystals
   Rarity: Uncommon
-  Price: 113.18
+  Price: 169.77
   Weight: 30
+  Color: silver
+  Item: sword
+  Style: cursed

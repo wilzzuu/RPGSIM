@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_270
   Name: shadow black Arcane Potion with Crystals
   Rarity: Uncommon
-  Price: 28.33
+  Price: 42.49
   Weight: 30
+  Color: shadow black
+  Item: potion
+  Style: arcane

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: shield_380
   Name: silver Cursed Shield with Mystic runes
   Rarity: Rare
-  Price: 213.06
+  Price: 532.65
   Weight: 15
+  Color: silver
+  Item: shield
+  Style: cursed

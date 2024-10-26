@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 133.34
   Weight: 50
+  Color: pink
+  Item: book
+  Style: holy

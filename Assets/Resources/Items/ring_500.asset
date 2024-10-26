@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: ring_500
   Name: silver Arcane Ring with Skulls
   Rarity: Uncommon
-  Price: 216.53
+  Price: 324.8
   Weight: 30
+  Color: silver
+  Item: ring
+  Style: arcane

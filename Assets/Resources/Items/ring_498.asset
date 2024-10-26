@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 95.33
   Weight: 50
+  Color: gold
+  Item: ring
+  Style: cursed

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_824
   Name: purple Ancient Cape with Ethereal mist
   Rarity: Uncommon
-  Price: 285.75
+  Price: 428.62
   Weight: 30
+  Color: purple
+  Item: cape
+  Style: ancient

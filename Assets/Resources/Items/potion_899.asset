@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 286.53
   Weight: 50
+  Color: purple
+  Item: potion
+  Style: ancient

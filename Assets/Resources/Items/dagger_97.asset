@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 239.02
   Weight: 50
+  Color: purple
+  Item: dagger
+  Style: enchanted

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: ring_212
   Name: emerald green Ancient Ring with Sparkling particles
   Rarity: Uncommon
-  Price: 19.94
+  Price: 29.91
   Weight: 30
+  Color: emerald green
+  Item: ring
+  Style: ancient

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 2.46
   Weight: 50
+  Color: purple
+  Item: book
+  Style: enchanted

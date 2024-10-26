@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_207
   Name: purple Ancient Potion with Glowing aura
   Rarity: Uncommon
-  Price: 58.33
+  Price: 87.5
   Weight: 30
+  Color: purple
+  Item: potion
+  Style: ancient

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_651
   Name: midnight blue Enchanted Potion with Mystic runes
   Rarity: Uncommon
-  Price: 15.16
+  Price: 22.74
   Weight: 30
+  Color: midnight blue
+  Item: potion
+  Style: enchanted

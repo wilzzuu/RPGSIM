@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_50
   Name: silver Arcane Cape with Sparkling particles
   Rarity: Uncommon
-  Price: 48.73
+  Price: 73.09
   Weight: 30
+  Color: silver
+  Item: cape
+  Style: arcane

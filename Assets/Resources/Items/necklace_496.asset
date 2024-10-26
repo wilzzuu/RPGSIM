@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_496
   Name: pink Cursed Necklace with Glowing aura
   Rarity: Rare
-  Price: 20.64
+  Price: 51.6
   Weight: 15
+  Color: pink
+  Item: necklace
+  Style: cursed

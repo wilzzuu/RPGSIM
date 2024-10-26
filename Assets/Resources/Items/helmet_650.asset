@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: helmet_650
   Name: gold Enchanted Helmet with Sparkling particles
   Rarity: Uncommon
-  Price: 107.27
+  Price: 160.91
   Weight: 30
+  Color: gold
+  Item: helmet
+  Style: enchanted

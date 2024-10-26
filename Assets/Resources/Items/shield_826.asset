@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: shield_826
   Name: emerald green Enchanted Shield with Skulls
   Rarity: Uncommon
-  Price: 48.62
+  Price: 72.93
   Weight: 30
+  Color: emerald green
+  Item: shield
+  Style: enchanted

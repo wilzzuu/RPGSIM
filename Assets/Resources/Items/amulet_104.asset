@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_104
   Name: midnight blue Mystical Amulet with Skulls
   Rarity: Rare
-  Price: 275.59
+  Price: 688.97
   Weight: 15
+  Color: midnight blue
+  Item: amulet
+  Style: mystical

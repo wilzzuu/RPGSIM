@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_626
   Name: pink Arcane Sword with Ethereal mist
   Rarity: Rare
-  Price: 254.1
+  Price: 635.25
   Weight: 15
+  Color: pink
+  Item: sword
+  Style: arcane

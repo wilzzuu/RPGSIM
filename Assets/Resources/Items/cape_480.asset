@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 296.99
   Weight: 50
+  Color: shadow black
+  Item: cape
+  Style: enchanted

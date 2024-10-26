@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_874
   Name: crimson red Holy Cape with Ethereal mist
   Rarity: Uncommon
-  Price: 44.56
+  Price: 66.84
   Weight: 30
+  Color: crimson red
+  Item: cape
+  Style: holy

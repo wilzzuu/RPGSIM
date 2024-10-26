@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_48
   Name: emerald green Mystical Book with Crystals
   Rarity: Uncommon
-  Price: 167.72
+  Price: 251.58
   Weight: 30
+  Color: emerald green
+  Item: book
+  Style: mystical

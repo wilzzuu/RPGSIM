@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_196
   Name: purple Holy Sword with Crystals
   Rarity: Uncommon
-  Price: 65.69
+  Price: 98.53
   Weight: 30
+  Color: purple
+  Item: sword
+  Style: holy

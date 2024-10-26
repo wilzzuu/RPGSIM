@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_129
   Name: silver Mystical Cape with Sparkling particles
   Rarity: Rare
-  Price: 297.67
+  Price: 744.18
   Weight: 15
+  Color: silver
+  Item: cape
+  Style: mystical

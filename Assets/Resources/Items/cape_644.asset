@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_644
   Name: gold Ancient Cape with Crystals
   Rarity: Rare
-  Price: 53.53
+  Price: 133.82
   Weight: 15
+  Color: gold
+  Item: cape
+  Style: ancient

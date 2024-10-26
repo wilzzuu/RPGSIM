@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 56.38
   Weight: 50
+  Color: pink
+  Item: dagger
+  Style: cursed

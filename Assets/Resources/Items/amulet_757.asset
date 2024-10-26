@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_757
   Name: emerald green Arcane Amulet with Sparkling particles
   Rarity: Uncommon
-  Price: 112.9
+  Price: 169.35
   Weight: 30
+  Color: emerald green
+  Item: amulet
+  Style: arcane

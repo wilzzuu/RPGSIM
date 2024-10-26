@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_620
   Name: shadow black Arcane Book with Glowing aura
   Rarity: Uncommon
-  Price: 178.94
+  Price: 268.41
   Weight: 30
+  Color: shadow black
+  Item: book
+  Style: arcane

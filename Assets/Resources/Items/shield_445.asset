@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 142.29
   Weight: 50
+  Color: gold
+  Item: shield
+  Style: holy

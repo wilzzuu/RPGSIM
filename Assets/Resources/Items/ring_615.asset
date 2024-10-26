@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: ring_615
   Name: shadow black Holy Ring with Sparkling particles
   Rarity: Uncommon
-  Price: 7.25
+  Price: 10.88
   Weight: 30
+  Color: shadow black
+  Item: ring
+  Style: holy

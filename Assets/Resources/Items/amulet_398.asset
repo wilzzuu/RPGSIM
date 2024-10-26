@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_398
   Name: shadow black Holy Amulet with Ethereal mist
   Rarity: Uncommon
-  Price: 110.87
+  Price: 166.31
   Weight: 30
+  Color: shadow black
+  Item: amulet
+  Style: holy

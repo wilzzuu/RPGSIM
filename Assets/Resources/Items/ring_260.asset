@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: ring_260
   Name: silver Holy Ring with Crystals
   Rarity: Rare
-  Price: 286.88
+  Price: 717.2
   Weight: 15
+  Color: silver
+  Item: ring
+  Style: holy

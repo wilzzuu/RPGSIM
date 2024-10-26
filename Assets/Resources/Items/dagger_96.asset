@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: dagger_96
   Name: emerald green Enchanted Dagger with Sparkling particles
   Rarity: Rare
-  Price: 145.92
+  Price: 364.8
   Weight: 15
+  Color: emerald green
+  Item: dagger
+  Style: enchanted

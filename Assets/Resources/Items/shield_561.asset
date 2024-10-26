@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: shield_561
   Name: gold Arcane Shield with Crystals
   Rarity: Rare
-  Price: 138.42
+  Price: 346.05
   Weight: 15
+  Color: gold
+  Item: shield
+  Style: arcane

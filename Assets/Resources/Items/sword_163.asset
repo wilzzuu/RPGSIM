@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_163
   Name: midnight blue Ancient Sword with Mystic runes
   Rarity: Legendary
-  Price: 80.68
+  Price: 806.8
   Weight: 1
+  Color: midnight blue
+  Item: sword
+  Style: ancient

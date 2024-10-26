@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_796
   Name: gold Cursed Sword with Sparkling particles
   Rarity: Uncommon
-  Price: 276.95
+  Price: 415.42
   Weight: 30
+  Color: gold
+  Item: sword
+  Style: cursed

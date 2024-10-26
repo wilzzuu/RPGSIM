@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_664
   Name: gold Mystical Cape with Glowing aura
   Rarity: Uncommon
-  Price: 212.05
+  Price: 318.08
   Weight: 30
+  Color: gold
+  Item: cape
+  Style: mystical

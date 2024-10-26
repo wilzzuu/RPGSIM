@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: shield_483
   Name: purple Arcane Shield with Glowing aura
   Rarity: Uncommon
-  Price: 103.48
+  Price: 155.22
   Weight: 30
+  Color: purple
+  Item: shield
+  Style: arcane

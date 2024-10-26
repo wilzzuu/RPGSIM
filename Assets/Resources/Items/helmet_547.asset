@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: helmet_547
   Name: emerald green Holy Helmet with Mystic runes
   Rarity: Epic
-  Price: 286.71
+  Price: 1433.55
   Weight: 4
+  Color: emerald green
+  Item: helmet
+  Style: holy

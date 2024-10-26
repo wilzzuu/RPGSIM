@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 223.53
   Weight: 50
+  Color: pink
+  Item: amulet
+  Style: holy

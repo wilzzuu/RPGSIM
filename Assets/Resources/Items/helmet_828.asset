@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: helmet_828
   Name: silver Enchanted Helmet with Sparkling particles
   Rarity: Epic
-  Price: 617.44
+  Price: 3087.2
   Weight: 4
+  Color: silver
+  Item: helmet
+  Style: enchanted

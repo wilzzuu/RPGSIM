@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: dagger_533
   Name: emerald green Ancient Dagger with Sparkling particles
   Rarity: Uncommon
-  Price: 99.55
+  Price: 149.32
   Weight: 30
+  Color: emerald green
+  Item: dagger
+  Style: ancient

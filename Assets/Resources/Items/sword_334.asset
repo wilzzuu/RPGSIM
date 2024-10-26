@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 136.96
   Weight: 50
+  Color: pink
+  Item: sword
+  Style: cursed

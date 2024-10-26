@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_69
   Name: shadow black Holy Amulet with Mystic runes
   Rarity: Rare
-  Price: 25.82
+  Price: 64.55
   Weight: 15
+  Color: shadow black
+  Item: amulet
+  Style: holy

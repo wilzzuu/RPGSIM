@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_679
   Name: purple Mystical Necklace with Skulls
   Rarity: Uncommon
-  Price: 105.38
+  Price: 158.07
   Weight: 30
+  Color: purple
+  Item: necklace
+  Style: mystical

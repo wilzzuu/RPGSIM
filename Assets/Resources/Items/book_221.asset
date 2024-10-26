@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_221
   Name: shadow black Mystical Book with Ethereal mist
   Rarity: Uncommon
-  Price: 282.51
+  Price: 423.76
   Weight: 30
+  Color: shadow black
+  Item: book
+  Style: mystical

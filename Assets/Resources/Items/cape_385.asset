@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_385
   Name: pink Ancient Cape with Skulls
   Rarity: Uncommon
-  Price: 3.62
+  Price: 5.43
   Weight: 30
+  Color: pink
+  Item: cape
+  Style: ancient

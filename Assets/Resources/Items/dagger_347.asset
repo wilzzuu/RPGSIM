@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 155.49
   Weight: 50
+  Color: silver
+  Item: dagger
+  Style: enchanted

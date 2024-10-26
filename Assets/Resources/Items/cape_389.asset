@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_389
   Name: pink Arcane Cape with Ethereal mist
   Rarity: Uncommon
-  Price: 243.28
+  Price: 364.92
   Weight: 30
+  Color: pink
+  Item: cape
+  Style: arcane

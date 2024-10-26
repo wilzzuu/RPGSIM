@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: shield_275
   Name: emerald green Cursed Shield with Crystals
   Rarity: Epic
-  Price: 154.66
+  Price: 773.3
   Weight: 4
+  Color: emerald green
+  Item: shield
+  Style: cursed

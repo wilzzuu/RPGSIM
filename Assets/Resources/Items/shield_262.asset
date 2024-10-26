@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 251.09
   Weight: 50
+  Color: pink
+  Item: shield
+  Style: cursed

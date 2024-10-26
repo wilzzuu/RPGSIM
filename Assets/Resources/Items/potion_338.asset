@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_338
   Name: gold Ancient Potion with Ethereal mist
   Rarity: Rare
-  Price: 61.34
+  Price: 153.35
   Weight: 15
+  Color: gold
+  Item: potion
+  Style: ancient

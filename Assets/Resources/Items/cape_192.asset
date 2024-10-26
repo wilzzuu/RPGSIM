@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_192
   Name: pink Holy Cape with Sparkling particles
   Rarity: Uncommon
-  Price: 134.73
+  Price: 202.09
   Weight: 30
+  Color: pink
+  Item: cape
+  Style: holy

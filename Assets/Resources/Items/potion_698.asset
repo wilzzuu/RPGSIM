@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 172.17
   Weight: 50
+  Color: shadow black
+  Item: potion
+  Style: ancient

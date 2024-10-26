@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: helmet_57
   Name: emerald green Ancient Helmet with Glowing aura
   Rarity: Uncommon
-  Price: 279.37
+  Price: 419.06
   Weight: 30
+  Color: emerald green
+  Item: helmet
+  Style: ancient

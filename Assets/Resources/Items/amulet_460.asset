@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 79.22
   Weight: 50
+  Color: purple
+  Item: amulet
+  Style: ancient

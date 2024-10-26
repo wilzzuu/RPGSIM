@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_42
   Name: pink Mystical Amulet with Skulls
   Rarity: Uncommon
-  Price: 210.6
+  Price: 315.9
   Weight: 30
+  Color: pink
+  Item: amulet
+  Style: mystical

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 256.57
   Weight: 50
+  Color: purple
+  Item: cape
+  Style: enchanted

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: dagger_442
   Name: silver Holy Dagger with Crystals
   Rarity: Uncommon
-  Price: 30.68
+  Price: 46.02
   Weight: 30
+  Color: silver
+  Item: dagger
+  Style: holy

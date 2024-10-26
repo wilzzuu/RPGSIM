@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 37.55
   Weight: 50
+  Color: gold
+  Item: necklace
+  Style: enchanted

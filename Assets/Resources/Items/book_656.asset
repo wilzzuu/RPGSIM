@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_656
   Name: crimson red Holy Book with Crystals
   Rarity: Uncommon
-  Price: 71.43
+  Price: 107.15
   Weight: 30
+  Color: crimson red
+  Item: book
+  Style: holy

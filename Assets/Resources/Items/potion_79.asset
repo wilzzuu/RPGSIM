@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_79
   Name: shadow black Arcane Potion with Sparkling particles
   Rarity: Uncommon
-  Price: 250.2
+  Price: 375.3
   Weight: 30
+  Color: shadow black
+  Item: potion
+  Style: arcane

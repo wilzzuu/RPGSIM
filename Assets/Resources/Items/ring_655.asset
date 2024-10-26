@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 160.77
   Weight: 50
+  Color: shadow black
+  Item: ring
+  Style: cursed

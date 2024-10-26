@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 197.04
   Weight: 50
+  Color: purple
+  Item: amulet
+  Style: cursed

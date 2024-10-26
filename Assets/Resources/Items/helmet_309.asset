@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 97.49
   Weight: 50
+  Color: gold
+  Item: helmet
+  Style: holy

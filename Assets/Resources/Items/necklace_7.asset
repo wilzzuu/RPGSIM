@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_7
   Name: purple Enchanted Necklace with Mystic runes
   Rarity: Epic
-  Price: 254.14
+  Price: 1270.7
   Weight: 4
+  Color: purple
+  Item: necklace
+  Style: enchanted

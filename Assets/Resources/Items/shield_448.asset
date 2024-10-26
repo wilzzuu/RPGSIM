@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: shield_448
   Name: silver Ancient Shield with Sparkling particles
   Rarity: Uncommon
-  Price: 95.94
+  Price: 143.91
   Weight: 30
+  Color: silver
+  Item: shield
+  Style: ancient

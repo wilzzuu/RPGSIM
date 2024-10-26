@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_666
   Name: crimson red Mystical Necklace with Sparkling particles
   Rarity: Uncommon
-  Price: 240.42
+  Price: 360.63
   Weight: 30
+  Color: crimson red
+  Item: necklace
+  Style: mystical

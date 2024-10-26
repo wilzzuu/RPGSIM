@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 26.19
   Weight: 50
+  Color: gold
+  Item: staff
+  Style: arcane

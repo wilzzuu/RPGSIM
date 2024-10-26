@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_528
   Name: midnight blue Mystical Necklace with Mystic runes
   Rarity: Uncommon
-  Price: 297.55
+  Price: 446.33
   Weight: 30
+  Color: midnight blue
+  Item: necklace
+  Style: mystical

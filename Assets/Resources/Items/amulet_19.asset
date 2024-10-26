@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_19
   Name: purple Enchanted Amulet with Mystic runes
   Rarity: Epic
-  Price: 978.23
+  Price: 4891.15
   Weight: 4
+  Color: purple
+  Item: amulet
+  Style: enchanted

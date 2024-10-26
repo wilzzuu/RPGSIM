@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: staff_773
   Name: midnight blue Holy Staff with Mystic runes
   Rarity: Rare
-  Price: 135.2
+  Price: 338
   Weight: 15
+  Color: midnight blue
+  Item: staff
+  Style: holy

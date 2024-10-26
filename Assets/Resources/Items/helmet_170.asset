@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 164.52
   Weight: 50
+  Color: silver
+  Item: helmet
+  Style: cursed

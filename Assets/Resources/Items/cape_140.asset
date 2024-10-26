@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_140
   Name: pink Cursed Cape with Mystic runes
   Rarity: Uncommon
-  Price: 52.87
+  Price: 79.3
   Weight: 30
+  Color: pink
+  Item: cape
+  Style: cursed

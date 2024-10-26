@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_131
   Name: midnight blue Ancient Necklace with Skulls
   Rarity: Rare
-  Price: 73.32
+  Price: 183.3
   Weight: 15
+  Color: midnight blue
+  Item: necklace
+  Style: ancient

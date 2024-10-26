@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_888
   Name: crimson red Cursed Necklace with Crystals
   Rarity: Rare
-  Price: 268.02
+  Price: 670.05
   Weight: 15
+  Color: crimson red
+  Item: necklace
+  Style: cursed

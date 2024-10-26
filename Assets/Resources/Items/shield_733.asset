@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 239.94
   Weight: 50
+  Color: purple
+  Item: shield
+  Style: enchanted

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 12.95
   Weight: 50
+  Color: crimson red
+  Item: book
+  Style: arcane

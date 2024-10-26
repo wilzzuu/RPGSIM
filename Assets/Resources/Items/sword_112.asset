@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_112
   Name: purple Ancient Sword with Sparkling particles
   Rarity: Epic
-  Price: 563
+  Price: 2815
   Weight: 4
+  Color: purple
+  Item: sword
+  Style: ancient

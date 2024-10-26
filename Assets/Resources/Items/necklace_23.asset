@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_23
   Name: emerald green Mystical Necklace with Sparkling particles
   Rarity: Rare
-  Price: 1.6
+  Price: 4
   Weight: 15
+  Color: emerald green
+  Item: necklace
+  Style: mystical

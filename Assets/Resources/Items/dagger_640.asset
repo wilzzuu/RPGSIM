@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: dagger_640
   Name: pink Cursed Dagger with Glowing aura
   Rarity: Uncommon
-  Price: 24.63
+  Price: 36.95
   Weight: 30
+  Color: pink
+  Item: dagger
+  Style: cursed

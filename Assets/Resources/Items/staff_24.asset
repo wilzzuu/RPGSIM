@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 255.98
   Weight: 50
+  Color: purple
+  Item: staff
+  Style: ancient

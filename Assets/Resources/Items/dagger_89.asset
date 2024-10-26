@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 256.94
   Weight: 50
+  Color: gold
+  Item: dagger
+  Style: ancient

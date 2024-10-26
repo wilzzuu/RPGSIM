@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_545
   Name: crimson red Enchanted Amulet with Mystic runes
   Rarity: Rare
-  Price: 27.44
+  Price: 68.6
   Weight: 15
+  Color: crimson red
+  Item: amulet
+  Style: enchanted

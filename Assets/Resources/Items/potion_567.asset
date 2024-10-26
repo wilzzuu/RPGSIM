@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 260.96
   Weight: 50
+  Color: gold
+  Item: potion
+  Style: ancient

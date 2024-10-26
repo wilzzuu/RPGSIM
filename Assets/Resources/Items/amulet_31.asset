@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 271.51
   Weight: 50
+  Color: gold
+  Item: amulet
+  Style: ancient

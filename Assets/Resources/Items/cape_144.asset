@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_144
   Name: midnight blue Ancient Cape with Sparkling particles
   Rarity: Uncommon
-  Price: 84.01
+  Price: 126.02
   Weight: 30
+  Color: midnight blue
+  Item: cape
+  Style: ancient

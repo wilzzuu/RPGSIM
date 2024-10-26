@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: helmet_657
   Name: purple Enchanted Helmet with Ethereal mist
   Rarity: Rare
-  Price: 253.31
+  Price: 633.27
   Weight: 15
+  Color: purple
+  Item: helmet
+  Style: enchanted

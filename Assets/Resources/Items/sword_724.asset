@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_724
   Name: silver Holy Sword with Mystic runes
   Rarity: Uncommon
-  Price: 152.45
+  Price: 228.67
   Weight: 30
+  Color: silver
+  Item: sword
+  Style: holy

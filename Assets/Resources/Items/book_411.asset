@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_411
   Name: pink Arcane Book with Glowing aura
   Rarity: Uncommon
-  Price: 267.13
+  Price: 400.69
   Weight: 30
+  Color: pink
+  Item: book
+  Style: arcane

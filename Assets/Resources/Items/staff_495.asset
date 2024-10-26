@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: staff_495
   Name: purple Cursed Staff with Skulls
   Rarity: Uncommon
-  Price: 197.43
+  Price: 296.14
   Weight: 30
+  Color: purple
+  Item: staff
+  Style: cursed

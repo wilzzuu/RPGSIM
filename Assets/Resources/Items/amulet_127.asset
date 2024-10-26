@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_127
   Name: shadow black Holy Amulet with Sparkling particles
   Rarity: Uncommon
-  Price: 233.1
+  Price: 349.65
   Weight: 30
+  Color: shadow black
+  Item: amulet
+  Style: holy

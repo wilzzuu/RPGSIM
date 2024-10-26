@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: dagger_391
   Name: emerald green Enchanted Dagger with Ethereal mist
   Rarity: Rare
-  Price: 259.21
+  Price: 648.02
   Weight: 15
+  Color: emerald green
+  Item: dagger
+  Style: enchanted

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 253.75
   Weight: 50
+  Color: pink
+  Item: cape
+  Style: ancient

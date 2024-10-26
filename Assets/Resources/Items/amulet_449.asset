@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_449
   Name: crimson red Holy Amulet with Mystic runes
   Rarity: Uncommon
-  Price: 36.12
+  Price: 54.18
   Weight: 30
+  Color: crimson red
+  Item: amulet
+  Style: holy

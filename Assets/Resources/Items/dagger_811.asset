@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 193.7
   Weight: 50
+  Color: pink
+  Item: dagger
+  Style: enchanted

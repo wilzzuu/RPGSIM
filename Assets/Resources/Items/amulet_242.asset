@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_242
   Name: shadow black Holy Amulet with Skulls
   Rarity: Uncommon
-  Price: 77.55
+  Price: 116.32
   Weight: 30
+  Color: shadow black
+  Item: amulet
+  Style: holy

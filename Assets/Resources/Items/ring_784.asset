@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: ring_784
   Name: pink Arcane Ring with Ethereal mist
   Rarity: Uncommon
-  Price: 51.37
+  Price: 77.05
   Weight: 30
+  Color: pink
+  Item: ring
+  Style: arcane

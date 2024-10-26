@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 222.12
   Weight: 50
+  Color: silver
+  Item: staff
+  Style: ancient

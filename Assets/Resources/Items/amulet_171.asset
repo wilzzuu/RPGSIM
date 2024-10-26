@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_171
   Name: crimson red Holy Amulet with Sparkling particles
   Rarity: Rare
-  Price: 228.47
+  Price: 571.17
   Weight: 15
+  Color: crimson red
+  Item: amulet
+  Style: holy

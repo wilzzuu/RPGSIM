@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_164
   Name: gold Mystical Necklace with Glowing aura
   Rarity: Uncommon
-  Price: 244.39
+  Price: 366.58
   Weight: 30
+  Color: gold
+  Item: necklace
+  Style: mystical

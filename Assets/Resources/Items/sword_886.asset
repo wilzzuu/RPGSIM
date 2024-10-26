@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_886
   Name: gold Cursed Sword with Mystic runes
   Rarity: Uncommon
-  Price: 234.26
+  Price: 351.39
   Weight: 30
+  Color: gold
+  Item: sword
+  Style: cursed

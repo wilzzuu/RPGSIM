@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 207.46
   Weight: 50
+  Color: purple
+  Item: ring
+  Style: arcane

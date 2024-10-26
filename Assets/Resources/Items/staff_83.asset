@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: staff_83
   Name: silver Ancient Staff with Ethereal mist
   Rarity: Uncommon
-  Price: 187.12
+  Price: 280.68
   Weight: 30
+  Color: silver
+  Item: staff
+  Style: ancient

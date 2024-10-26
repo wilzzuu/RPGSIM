@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 230.42
   Weight: 50
+  Color: shadow black
+  Item: dagger
+  Style: ancient

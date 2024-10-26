@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: helmet_120
   Name: silver Mystical Helmet with Ethereal mist
   Rarity: Uncommon
-  Price: 184.43
+  Price: 276.64
   Weight: 30
+  Color: silver
+  Item: helmet
+  Style: mystical

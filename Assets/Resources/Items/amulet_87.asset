@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 174.82
   Weight: 50
+  Color: silver
+  Item: amulet
+  Style: arcane

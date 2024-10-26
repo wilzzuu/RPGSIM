@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_711
   Name: emerald green Enchanted Book with Mystic runes
   Rarity: Uncommon
-  Price: 295.49
+  Price: 443.24
   Weight: 30
+  Color: emerald green
+  Item: book
+  Style: enchanted

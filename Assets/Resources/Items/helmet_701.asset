@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 180.54
   Weight: 50
+  Color: shadow black
+  Item: helmet
+  Style: holy

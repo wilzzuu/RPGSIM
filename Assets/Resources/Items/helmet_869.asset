@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: helmet_869
   Name: shadow black Mystical Helmet with Glowing aura
   Rarity: Rare
-  Price: 6.26
+  Price: 15.65
   Weight: 15
+  Color: shadow black
+  Item: helmet
+  Style: mystical

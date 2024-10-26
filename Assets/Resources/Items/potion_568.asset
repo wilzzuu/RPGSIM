@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_568
   Name: midnight blue Enchanted Potion with Skulls
   Rarity: Rare
-  Price: 162.21
+  Price: 405.53
   Weight: 15
+  Color: midnight blue
+  Item: potion
+  Style: enchanted

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 237.76
   Weight: 50
+  Color: purple
+  Item: shield
+  Style: arcane

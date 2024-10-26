@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: staff_750
   Name: crimson red Enchanted Staff with Crystals
   Rarity: Rare
-  Price: 25.2
+  Price: 63
   Weight: 15
+  Color: crimson red
+  Item: staff
+  Style: enchanted

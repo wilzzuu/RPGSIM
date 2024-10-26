@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_444
   Name: silver Cursed Cape with Mystic runes
   Rarity: Epic
-  Price: 511.63
+  Price: 2558.15
   Weight: 4
+  Color: silver
+  Item: cape
+  Style: cursed

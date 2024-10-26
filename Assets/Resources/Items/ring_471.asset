@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 114.79
   Weight: 50
+  Color: shadow black
+  Item: ring
+  Style: enchanted

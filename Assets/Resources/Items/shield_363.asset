@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: shield_363
   Name: gold Enchanted Shield with Glowing aura
   Rarity: Uncommon
-  Price: 14.72
+  Price: 22.08
   Weight: 30
+  Color: gold
+  Item: shield
+  Style: enchanted

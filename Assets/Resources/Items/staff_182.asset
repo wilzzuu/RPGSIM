@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: staff_182
   Name: shadow black Cursed Staff with Sparkling particles
   Rarity: Uncommon
-  Price: 71.42
+  Price: 107.13
   Weight: 30
+  Color: shadow black
+  Item: staff
+  Style: cursed

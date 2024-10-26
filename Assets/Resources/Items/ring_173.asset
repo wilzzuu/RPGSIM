@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 58.83
   Weight: 50
+  Color: purple
+  Item: ring
+  Style: holy

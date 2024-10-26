@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 92.53
   Weight: 50
+  Color: pink
+  Item: sword
+  Style: arcane

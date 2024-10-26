@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 38.97
   Weight: 50
+  Color: pink
+  Item: potion
+  Style: mystical

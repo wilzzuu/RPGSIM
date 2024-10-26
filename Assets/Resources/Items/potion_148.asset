@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_148
   Name: shadow black Ancient Potion with Glowing aura
   Rarity: Uncommon
-  Price: 150.85
+  Price: 226.27
   Weight: 30
+  Color: shadow black
+  Item: potion
+  Style: ancient

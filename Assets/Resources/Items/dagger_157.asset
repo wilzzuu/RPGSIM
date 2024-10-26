@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 61.65
   Weight: 50
+  Color: pink
+  Item: dagger
+  Style: ancient

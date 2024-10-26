@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_663
   Name: silver Enchanted Necklace with Crystals
   Rarity: Uncommon
-  Price: 121.89
+  Price: 182.84
   Weight: 30
+  Color: silver
+  Item: necklace
+  Style: enchanted

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_494
   Name: purple Arcane Sword with Crystals
   Rarity: Uncommon
-  Price: 27.85
+  Price: 41.78
   Weight: 30
+  Color: purple
+  Item: sword
+  Style: arcane

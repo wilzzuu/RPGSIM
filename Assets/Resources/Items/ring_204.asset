@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: ring_204
   Name: gold Arcane Ring with Glowing aura
   Rarity: Rare
-  Price: 106.84
+  Price: 267.1
   Weight: 15
+  Color: gold
+  Item: ring
+  Style: arcane

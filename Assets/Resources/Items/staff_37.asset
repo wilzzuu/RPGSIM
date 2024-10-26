@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: staff_37
   Name: midnight blue Holy Staff with Sparkling particles
   Rarity: Uncommon
-  Price: 81.48
+  Price: 122.22
   Weight: 30
+  Color: midnight blue
+  Item: staff
+  Style: holy

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 6.16
   Weight: 50
+  Color: shadow black
+  Item: cape
+  Style: cursed

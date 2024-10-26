@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_879
   Name: gold Mystical Amulet with Sparkling particles
   Rarity: Uncommon
-  Price: 222.43
+  Price: 333.64
   Weight: 30
+  Color: gold
+  Item: amulet
+  Style: mystical

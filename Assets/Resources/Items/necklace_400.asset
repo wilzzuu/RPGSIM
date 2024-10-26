@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_400
   Name: shadow black Mystical Necklace with Mystic runes
   Rarity: Rare
-  Price: 91.81
+  Price: 229.53
   Weight: 15
+  Color: shadow black
+  Item: necklace
+  Style: mystical

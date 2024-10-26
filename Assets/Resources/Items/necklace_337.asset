@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 16.1
   Weight: 50
+  Color: gold
+  Item: necklace
+  Style: holy

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 131.71
   Weight: 50
+  Color: gold
+  Item: ring
+  Style: ancient

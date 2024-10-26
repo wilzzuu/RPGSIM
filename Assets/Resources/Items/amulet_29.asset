@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_29
   Name: shadow black Holy Amulet with Crystals
   Rarity: Rare
-  Price: 240.62
+  Price: 601.55
   Weight: 15
+  Color: shadow black
+  Item: amulet
+  Style: holy

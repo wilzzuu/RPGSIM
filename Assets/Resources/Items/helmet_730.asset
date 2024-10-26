@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 249.63
   Weight: 50
+  Color: purple
+  Item: helmet
+  Style: holy

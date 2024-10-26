@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_842
   Name: crimson red Ancient Book with Crystals
   Rarity: Uncommon
-  Price: 14.39
+  Price: 21.59
   Weight: 30
+  Color: crimson red
+  Item: book
+  Style: ancient

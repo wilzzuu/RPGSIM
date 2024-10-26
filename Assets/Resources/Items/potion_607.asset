@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 149.9
   Weight: 50
+  Color: silver
+  Item: potion
+  Style: mystical

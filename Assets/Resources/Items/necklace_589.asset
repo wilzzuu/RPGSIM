@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_589
   Name: shadow black Cursed Necklace with Ethereal mist
   Rarity: Rare
-  Price: 2.24
+  Price: 5.6
   Weight: 15
+  Color: shadow black
+  Item: necklace
+  Style: cursed

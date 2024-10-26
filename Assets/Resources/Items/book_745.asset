@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_745
   Name: emerald green Mystical Book with Skulls
   Rarity: Uncommon
-  Price: 10.34
+  Price: 15.51
   Weight: 30
+  Color: emerald green
+  Item: book
+  Style: mystical

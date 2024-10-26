@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: helmet_11
   Name: silver Mystical Helmet with Glowing aura
   Rarity: Uncommon
-  Price: 23.85
+  Price: 35.78
   Weight: 30
+  Color: silver
+  Item: helmet
+  Style: mystical

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: ring_613
   Name: pink Cursed Ring with Ethereal mist
   Rarity: Rare
-  Price: 226.33
+  Price: 565.83
   Weight: 15
+  Color: pink
+  Item: ring
+  Style: cursed

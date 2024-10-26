@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_596
   Name: purple Mystical Potion with Ethereal mist
   Rarity: Rare
-  Price: 159.53
+  Price: 398.82
   Weight: 15
+  Color: purple
+  Item: potion
+  Style: mystical

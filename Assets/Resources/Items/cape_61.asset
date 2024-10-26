@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_61
   Name: silver Enchanted Cape with Glowing aura
   Rarity: Uncommon
-  Price: 149.57
+  Price: 224.35
   Weight: 30
+  Color: silver
+  Item: cape
+  Style: enchanted

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: necklace_703
   Name: pink Ancient Necklace with Skulls
   Rarity: Uncommon
-  Price: 233.3
+  Price: 349.95
   Weight: 30
+  Color: pink
+  Item: necklace
+  Style: ancient

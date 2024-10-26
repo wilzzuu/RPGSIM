@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 201.95
   Weight: 50
+  Color: gold
+  Item: shield
+  Style: mystical

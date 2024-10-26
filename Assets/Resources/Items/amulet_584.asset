@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 90.68
   Weight: 50
+  Color: purple
+  Item: amulet
+  Style: holy

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 120.67
   Weight: 50
+  Color: purple
+  Item: necklace
+  Style: arcane

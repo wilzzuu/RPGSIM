@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_342
   Name: purple Arcane Book with Ethereal mist
   Rarity: Uncommon
-  Price: 44.6
+  Price: 66.9
   Weight: 30
+  Color: purple
+  Item: book
+  Style: arcane

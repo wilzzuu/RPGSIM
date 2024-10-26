@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_291
   Name: gold Mystical Sword with Crystals
   Rarity: Uncommon
-  Price: 226.82
+  Price: 340.23
   Weight: 30
+  Color: gold
+  Item: sword
+  Style: mystical

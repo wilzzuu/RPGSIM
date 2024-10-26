@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 293.84
   Weight: 50
+  Color: purple
+  Item: helmet
+  Style: enchanted

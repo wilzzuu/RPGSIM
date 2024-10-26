@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_405
   Name: shadow black Ancient Book with Skulls
   Rarity: Uncommon
-  Price: 105.11
+  Price: 157.66
   Weight: 30
+  Color: shadow black
+  Item: book
+  Style: ancient

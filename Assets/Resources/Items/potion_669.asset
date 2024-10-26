@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_669
   Name: gold Mystical Potion with Skulls
   Rarity: Uncommon
-  Price: 150.84
+  Price: 226.26
   Weight: 30
+  Color: gold
+  Item: potion
+  Style: mystical

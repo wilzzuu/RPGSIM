@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 70.4
   Weight: 50
+  Color: gold
+  Item: cape
+  Style: arcane

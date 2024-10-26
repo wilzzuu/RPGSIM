@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_680
   Name: silver Mystical Sword with Glowing aura
   Rarity: Uncommon
-  Price: 278.98
+  Price: 418.47
   Weight: 30
+  Color: silver
+  Item: sword
+  Style: mystical

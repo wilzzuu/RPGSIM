@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 135.4
   Weight: 50
+  Color: shadow black
+  Item: sword
+  Style: holy

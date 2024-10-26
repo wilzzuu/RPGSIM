@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_425
   Name: purple Mystical Sword with Skulls
   Rarity: Uncommon
-  Price: 102.95
+  Price: 154.43
   Weight: 30
+  Color: purple
+  Item: sword
+  Style: mystical

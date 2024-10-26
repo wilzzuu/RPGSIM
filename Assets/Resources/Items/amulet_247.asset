@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_247
   Name: gold Ancient Amulet with Sparkling particles
   Rarity: Uncommon
-  Price: 199.3
+  Price: 298.95
   Weight: 30
+  Color: gold
+  Item: amulet
+  Style: ancient

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 227.16
   Weight: 50
+  Color: shadow black
+  Item: dagger
+  Style: holy

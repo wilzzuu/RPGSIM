@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_222
   Name: silver Arcane Sword with Mystic runes
   Rarity: Rare
-  Price: 45.3
+  Price: 113.25
   Weight: 15
+  Color: silver
+  Item: sword
+  Style: arcane

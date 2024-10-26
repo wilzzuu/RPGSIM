@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 82.52
   Weight: 50
+  Color: purple
+  Item: potion
+  Style: enchanted

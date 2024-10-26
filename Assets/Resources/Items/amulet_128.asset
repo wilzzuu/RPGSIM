@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_128
   Name: silver Enchanted Amulet with Sparkling particles
   Rarity: Uncommon
-  Price: 106.83
+  Price: 160.25
   Weight: 30
+  Color: silver
+  Item: amulet
+  Style: enchanted

@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 294.18
   Weight: 50
+  Color: gold
+  Item: helmet
+  Style: mystical

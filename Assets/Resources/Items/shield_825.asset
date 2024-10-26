@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: shield_825
   Name: emerald green Ancient Shield with Ethereal mist
   Rarity: Uncommon
-  Price: 198.97
+  Price: 298.45
   Weight: 30
+  Color: emerald green
+  Item: shield
+  Style: ancient

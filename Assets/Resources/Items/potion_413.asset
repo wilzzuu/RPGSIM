@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_413
   Name: silver Holy Potion with Ethereal mist
   Rarity: Uncommon
-  Price: 151
+  Price: 226.5
   Weight: 30
+  Color: silver
+  Item: potion
+  Style: holy

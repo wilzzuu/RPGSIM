@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: dagger_314
   Name: midnight blue Holy Dagger with Sparkling particles
   Rarity: Rare
-  Price: 9.98
+  Price: 24.95
   Weight: 15
+  Color: midnight blue
+  Item: dagger
+  Style: holy

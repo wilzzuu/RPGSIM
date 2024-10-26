@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 100.6
   Weight: 50
+  Color: gold
+  Item: shield
+  Style: cursed

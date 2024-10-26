@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: cape_592
   Name: gold Cursed Cape with Mystic runes
   Rarity: Rare
-  Price: 144.57
+  Price: 361.42
   Weight: 15
+  Color: gold
+  Item: cape
+  Style: cursed

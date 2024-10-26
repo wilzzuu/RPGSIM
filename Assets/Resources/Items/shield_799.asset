@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: shield_799
   Name: pink Holy Shield with Skulls
   Rarity: Uncommon
-  Price: 75.78
+  Price: 113.67
   Weight: 30
+  Color: pink
+  Item: shield
+  Style: holy

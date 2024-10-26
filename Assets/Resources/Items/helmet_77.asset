@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: helmet_77
   Name: silver Mystical Helmet with Skulls
   Rarity: Uncommon
-  Price: 77.36
+  Price: 116.04
   Weight: 30
+  Color: silver
+  Item: helmet
+  Style: mystical

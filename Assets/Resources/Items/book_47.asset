@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: book_47
   Name: silver Enchanted Book with Ethereal mist
   Rarity: Uncommon
-  Price: 176.99
+  Price: 265.49
   Weight: 30
+  Color: silver
+  Item: book
+  Style: enchanted

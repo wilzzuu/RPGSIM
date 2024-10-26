@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: helmet_22
   Name: shadow black Mystical Helmet with Skulls
   Rarity: Rare
-  Price: 200.89
+  Price: 502.22
   Weight: 15
+  Color: shadow black
+  Item: helmet
+  Style: mystical

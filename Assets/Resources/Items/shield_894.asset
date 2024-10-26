@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: shield_894
   Name: midnight blue Holy Shield with Skulls
   Rarity: Uncommon
-  Price: 149.55
+  Price: 224.33
   Weight: 30
+  Color: midnight blue
+  Item: shield
+  Style: holy

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: sword_73
   Name: gold Arcane Sword with Skulls
   Rarity: Uncommon
-  Price: 262.01
+  Price: 393.01
   Weight: 30
+  Color: gold
+  Item: sword
+  Style: arcane

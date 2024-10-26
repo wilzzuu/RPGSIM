@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 267.01
   Weight: 50
+  Color: pink
+  Item: staff
+  Style: arcane

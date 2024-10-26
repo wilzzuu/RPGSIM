@@ -17,3 +17,6 @@ MonoBehaviour:
   Rarity: Common
   Price: 33.77
   Weight: 50
+  Color: purple
+  Item: sword
+  Style: arcane

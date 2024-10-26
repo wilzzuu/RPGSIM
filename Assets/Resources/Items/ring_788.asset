@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: ring_788
   Name: pink Mystical Ring with Glowing aura
   Rarity: Rare
-  Price: 120.69
+  Price: 301.73
   Weight: 15
+  Color: pink
+  Item: ring
+  Style: mystical

@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: amulet_426
   Name: shadow black Arcane Amulet with Skulls
   Rarity: Uncommon
-  Price: 61.31
+  Price: 91.97
   Weight: 30
+  Color: shadow black
+  Item: amulet
+  Style: arcane

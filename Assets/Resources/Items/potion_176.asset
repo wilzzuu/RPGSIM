@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_176
   Name: crimson red Cursed Potion with Skulls
   Rarity: Uncommon
-  Price: 214.32
+  Price: 321.48
   Weight: 30
+  Color: crimson red
+  Item: potion
+  Style: cursed

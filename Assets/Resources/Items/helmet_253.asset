@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: helmet_253
   Name: pink Ancient Helmet with Mystic runes
   Rarity: Uncommon
-  Price: 201.7
+  Price: 302.55
   Weight: 30
+  Color: pink
+  Item: helmet
+  Style: ancient

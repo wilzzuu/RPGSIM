@@ -15,5 +15,8 @@ MonoBehaviour:
   ID: potion_4
   Name: silver Arcane Potion with Crystals
   Rarity: Uncommon
-  Price: 258.2
+  Price: 387.3
   Weight: 30
+  Color: silver
+  Item: potion
+  Style: arcane
