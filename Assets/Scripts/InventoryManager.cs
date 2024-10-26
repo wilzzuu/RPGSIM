@@ -1,13 +1,12 @@
 using System.Collections.Generic;
 using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager instance { get; private set; }
-    private const string SaveFileName = "InventoryData.dat";
-    private List<SerializableItemData> inventoryItems = new List<SerializableItemData>();
+    private List<ItemData> inventoryItems = new List<ItemData>();
+    private const string SaveFileName = "GameData.dat";
 
     void Awake()
     {
@@ -15,7 +14,10 @@ public class InventoryManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
-            LoadInventory(); // Load inventory on start
+
+            // Load inventory data
+            List<SerializableItemData> loadedItems = DataSerializationManager.Instance.LoadGameData();
+            inventoryItems = ConvertSerializableItemsToItemData(loadedItems);
         }
         else
         {
@@ -23,19 +25,55 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    // Add item to inventory
+    // Converts SerializableItemData back to ItemData for runtime use
+    private List<ItemData> ConvertSerializableItemsToItemData(List<SerializableItemData> serializableItems)
+    {
+        List<ItemData> items = new List<ItemData>();
+        foreach (SerializableItemData sItem in serializableItems)
+        {
+            ItemData item = Resources.Load<ItemData>($"ItemAssets/{sItem.ID}");
+            if (item != null)
+            {
+                items.Add(item);
+            }
+        }
+        return items;
+    }
+
+    public bool HasItem(ItemData item)
+    {
+        return inventoryItems.Contains(item);
+    }
+
+    public void RemoveItemFromInventory(ItemData item)
+    {
+        if (HasItem(item))
+        {
+            inventoryItems.Remove(item);
+            Debug.Log($"{item.Name} removed from inventory.");
+            SaveInventory();
+        }
+        else
+        {
+            Debug.LogWarning($"{item.Name} not found in inventory.");
+        }
+    }
+
     public void AddItemToInventory(ItemData item)
     {
-        SerializableItemData serializableItem = new SerializableItemData(item);
-        inventoryItems.Add(serializableItem);
+        inventoryItems.Add(item);
         SaveInventory();
     }
 
-    // Calculate total value of inventory
+    public List<ItemData> GetAllItems()
+    {
+        return new List<ItemData>(inventoryItems); // Returns a copy of the list to prevent external modifications
+    }
+
     public float CalculateInventoryValue()
     {
         float totalValue = 0;
-        foreach (SerializableItemData item in inventoryItems)
+        foreach (ItemData item in inventoryItems)
         {
             totalValue += item.Price;
         }
@@ -47,7 +85,7 @@ public class InventoryManager : MonoBehaviour
         inventoryItems.Clear();
         string path = Path.Combine(Application.persistentDataPath, SaveFileName);
         Debug.Log("InventoryData path: " + path);
-        
+
         if (File.Exists(path))
         {
             File.Delete(path);
@@ -58,57 +96,20 @@ public class InventoryManager : MonoBehaviour
         Debug.Log("Inventory cleared.");
     }
 
-    public void SaveInventory()
+    // Save the inventory by converting items to serializable data
+    private void SaveInventory()
     {
-        BinaryFormatter bf = new BinaryFormatter();
-        string path = Path.Combine(Application.persistentDataPath, SaveFileName);
-        using (FileStream file = File.Create(path))
+        List<SerializableItemData> serializableItems = new List<SerializableItemData>();
+        foreach (var item in inventoryItems)
         {
-            bf.Serialize(file, inventoryItems);
+            serializableItems.Add(new SerializableItemData(item));
         }
-        Debug.Log("Inventory saved successfully at " + path);
+        DataSerializationManager.Instance.SaveGameData(serializableItems);
+        Debug.Log("Inventory saved.");
     }
 
-    public void LoadInventory()
-    {
-        string path = Path.Combine(Application.persistentDataPath, SaveFileName);
-        if (File.Exists(path))
-        {
-            BinaryFormatter bf = new BinaryFormatter();
-            using (FileStream file = File.Open(path, FileMode.Open))
-            {
-                inventoryItems = (List<SerializableItemData>)bf.Deserialize(file);
-            }
-            Debug.Log("Inventory loaded successfully from " + path);
-        }
-        else
-        {
-            Debug.LogWarning("No inventory file found. Starting with an empty inventory.");
-        }
-    }
-
-    public List<SerializableItemData> GetInventoryItems()
+    public List<ItemData> GetInventoryItems()
     {
         return inventoryItems;
-    }
-
-}
-
-[System.Serializable]
-public class SerializableItemData
-{
-    public string ID;
-    public string Name;
-    public string Rarity;
-    public float Price;
-    public int Weight;
-
-    public SerializableItemData(ItemData itemData)
-    {
-        ID = itemData.ID;
-        Name = itemData.Name;
-        Price = itemData.Price;
-        Rarity = itemData.Rarity;
-        Weight = itemData.Weight;
     }
 }

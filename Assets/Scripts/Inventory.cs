@@ -4,12 +4,13 @@ using UnityEngine.UI;
 
 public class InventoryScreen : MonoBehaviour
 {
-    public GameObject inventorySlotPrefab;
-    public Transform inventoryGrid;
-    public int itemsPerPage = 112;
-    private int currentPage = 0;
+    public GameObject inventorySlotPrefab; // Prefab for each inventory slot
+    public Transform inventoryGrid; // Grid to hold inventory slots
+    public Text totalValueText; // Text UI element to display the total value (optional)
+    public int itemsPerPage = 112; // Number of items per page
+    private int currentPage = 0; // Track current page number
 
-    private List<SerializableItemData> items;
+    private List<ItemData> items = new List<ItemData>(); // List to store inventory items
 
     void Start()
     {
@@ -21,32 +22,63 @@ public class InventoryScreen : MonoBehaviour
 
         // Load items from InventoryManager
         items = InventoryManager.instance.GetInventoryItems();
+        if (items == null || items.Count == 0)
+        {
+            Debug.LogWarning("No items found in inventory.");
+            return;
+        }
+
         DisplayCurrentPage();
+        DisplayTotalValue(); // Display total inventory value (optional)
     }
 
     void DisplayCurrentPage()
     {
+        // Clear existing items in the grid
         foreach (Transform child in inventoryGrid)
         {
             Destroy(child.gameObject);
         }
 
         int itemIndexOffset = currentPage * itemsPerPage;
-        for (int i = itemIndexOffset; i < Mathf.Min(itemIndexOffset + itemsPerPage, items.Count); i++)
+        int endIndex = Mathf.Min(itemIndexOffset + itemsPerPage, items.Count);
+
+        for (int i = itemIndexOffset; i < endIndex; i++)
         {
             GameObject slot = Instantiate(inventorySlotPrefab, inventoryGrid);
-            SerializableItemData item = items[i];
+            ItemData item = items[i];
 
             // Find Image components in prefab
-            Image itemImage = slot.transform.Find("ItemImage").GetComponent<Image>();
-            Image rarityImage = slot.transform.Find("RarityImage").GetComponent<Image>();
+            Image itemImage = slot.transform.Find("ItemImage")?.GetComponent<Image>();
+            Image rarityImage = slot.transform.Find("RarityImage")?.GetComponent<Image>();
 
-            // Load images based on paths
-            string imagePath = "ItemImages/" + item.ID;
-            string rarityPath = "RarityImages/" + item.Rarity;
+            if (itemImage != null)
+            {
+                string imagePath = "ItemImages/" + item.ID;
+                Sprite itemSprite = Resources.Load<Sprite>(imagePath);
+                if (itemSprite != null)
+                {
+                    itemImage.sprite = itemSprite;
+                }
+                else
+                {
+                    Debug.LogWarning($"Failed to load item image for path: {imagePath}");
+                }
+            }
 
-            itemImage.sprite = Resources.Load<Sprite>(imagePath);
-            rarityImage.sprite = Resources.Load<Sprite>(rarityPath);
+            if (rarityImage != null)
+            {
+                string rarityPath = "RarityImages/" + item.Rarity;
+                Sprite raritySprite = Resources.Load<Sprite>(rarityPath);
+                if (raritySprite != null)
+                {
+                    rarityImage.sprite = raritySprite;
+                }
+                else
+                {
+                    Debug.LogWarning($"Failed to load rarity image for path: {rarityPath}");
+                }
+            }
         }
     }
 
@@ -57,6 +89,10 @@ public class InventoryScreen : MonoBehaviour
             currentPage++;
             DisplayCurrentPage();
         }
+        else
+        {
+            Debug.Log("Reached the last page.");
+        }
     }
 
     public void PreviousPage()
@@ -66,11 +102,20 @@ public class InventoryScreen : MonoBehaviour
             currentPage--;
             DisplayCurrentPage();
         }
+        else
+        {
+            Debug.Log("Already at the first page.");
+        }
     }
 
     public void DisplayTotalValue()
     {
         float totalValue = InventoryManager.instance.CalculateInventoryValue();
         Debug.Log("Total Inventory Value: " + totalValue);
+
+        if (totalValueText != null)
+        {
+            totalValueText.text = $"Total Value: {totalValue:F2}";
+        }
     }
 }

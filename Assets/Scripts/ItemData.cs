@@ -8,4 +8,7 @@ public class ItemData : ScriptableObject
     public string Rarity;
     public float Price;
     public int Weight;
+    public string Color;
+    public string Item;
+    public string Style;
 }

@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 
 public class CrateOpening : MonoBehaviour
 {
@@ -138,12 +139,12 @@ public class CrateOpening : MonoBehaviour
         float randomValue = Random.Range(0, totalWeight);
         float cumulativeWeight = 0f;
 
-        foreach (var item in selectedCrateData.Items)
+        foreach (var Item in selectedCrateData.Items)
         {
-            cumulativeWeight += item.Weight;
+            cumulativeWeight += Item.Weight;
             if (randomValue <= cumulativeWeight)
             {
-                return item;
+                return Item;
             }
         }
 
@@ -241,9 +242,13 @@ public class CrateOpening : MonoBehaviour
             GameObject item = Instantiate(crateItemPrefab, crateItemGrid);
             Image itemImage = item.transform.Find("ItemImage").GetComponent<Image>();
             Image rarityImage = item.transform.Find("RarityImage").GetComponent<Image>();
+            TextMeshProUGUI nameText = item.transform.Find("NameText").GetComponent<TextMeshProUGUI>();
+            TextMeshProUGUI priceText = item.transform.Find("PriceText").GetComponent<TextMeshProUGUI>();
 
             itemImage.sprite = Resources.Load<Sprite>($"ItemImages/{itemData.ID}");
             rarityImage.sprite = Resources.Load<Sprite>($"RarityImages/{itemData.Rarity}");
+            nameText.text = itemData.Name;
+            priceText.text = $"{itemData.Price:F2}";
         }
     }
 
@@ -266,14 +271,19 @@ public class CrateOpening : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        foreach (var crateData in availableCrates)
+        foreach (var CrateData in availableCrates)
         {
             GameObject crateButton = Instantiate(crateButtonPrefab, crateSelectorPanel);
             Image crateImage = crateButton.transform.Find("CrateImage").GetComponent<Image>();
-            crateImage.sprite = Resources.Load<Sprite>($"CrateImages/{crateData.ID}");
+            TextMeshProUGUI nameText = crateButton.transform.Find("NameText").GetComponent<TextMeshProUGUI>();
+            TextMeshProUGUI priceText = crateButton.transform.Find("PriceText").GetComponent<TextMeshProUGUI>();
+            
+            crateImage.sprite = Resources.Load<Sprite>($"CrateImages/{CrateData.ID}");
+            nameText.text = CrateData.Name;
+            priceText.text = $"{CrateData.Price:F2}";
 
             Button button = crateButton.GetComponent<Button>();
-            button.onClick.AddListener(() => SelectCrate(crateData));
+            button.onClick.AddListener(() => SelectCrate(CrateData));
         }
     }
 }

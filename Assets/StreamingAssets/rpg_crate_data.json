@@ -2,8 +2,8 @@
     "crates": [
         {
             "id": "crate_01",
-            "name": "RPG Crate 1",
-            "price": 44.93,
+            "name": "Shadowmist Crate",
+            "price": 479.89,
             "items": [
                 {
                     "item": "amulet",
@@ -12,7 +12,7 @@
                     "effect": "crystals",
                     "id": "amulet_1",
                     "name": "purple Enchanted Amulet with Crystals",
-                    "price": 164.01,
+                    "price": 246.01,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -23,7 +23,7 @@
                     "effect": "crystals",
                     "id": "ring_2",
                     "name": "crimson red Holy Ring with Crystals",
-                    "price": 199.69,
+                    "price": 299.53,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -45,7 +45,7 @@
                     "effect": "crystals",
                     "id": "potion_4",
                     "name": "silver Arcane Potion with Crystals",
-                    "price": 258.2,
+                    "price": 387.3,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -56,7 +56,7 @@
                     "effect": "mystic runes",
                     "id": "sword_5",
                     "name": "purple Cursed Sword with Mystic runes",
-                    "price": 215.62,
+                    "price": 539.05,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -78,7 +78,7 @@
                     "effect": "mystic runes",
                     "id": "necklace_7",
                     "name": "purple Enchanted Necklace with Mystic runes",
-                    "price": 254.14,
+                    "price": 1270.7,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -122,7 +122,7 @@
                     "effect": "glowing aura",
                     "id": "helmet_11",
                     "name": "silver Mystical Helmet with Glowing aura",
-                    "price": 23.85,
+                    "price": 35.78,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -133,7 +133,7 @@
                     "effect": "skulls",
                     "id": "cape_12",
                     "name": "midnight blue Arcane Cape with Skulls",
-                    "price": 303.5,
+                    "price": 3035.0,
                     "rarity": "Legendary",
                     "weight": 1
                 },
@@ -144,7 +144,7 @@
                     "effect": "skulls",
                     "id": "potion_13",
                     "name": "pink Mystical Potion with Skulls",
-                    "price": 126.96,
+                    "price": 190.44,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -166,7 +166,7 @@
                     "effect": "glowing aura",
                     "id": "ring_15",
                     "name": "silver Mystical Ring with Glowing aura",
-                    "price": 218.36,
+                    "price": 545.9,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -199,7 +199,7 @@
                     "effect": "ethereal mist",
                     "id": "book_18",
                     "name": "purple Enchanted Book with Ethereal mist",
-                    "price": 154.29,
+                    "price": 231.44,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -210,7 +210,7 @@
                     "effect": "mystic runes",
                     "id": "amulet_19",
                     "name": "purple Enchanted Amulet with Mystic runes",
-                    "price": 978.23,
+                    "price": 4891.15,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -243,7 +243,7 @@
                     "effect": "skulls",
                     "id": "helmet_22",
                     "name": "shadow black Mystical Helmet with Skulls",
-                    "price": 200.89,
+                    "price": 502.22,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -254,7 +254,7 @@
                     "effect": "sparkling particles",
                     "id": "necklace_23",
                     "name": "emerald green Mystical Necklace with Sparkling particles",
-                    "price": 1.6,
+                    "price": 4.0,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -320,7 +320,7 @@
                     "effect": "crystals",
                     "id": "amulet_29",
                     "name": "shadow black Holy Amulet with Crystals",
-                    "price": 240.62,
+                    "price": 601.55,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -331,7 +331,7 @@
                     "effect": "glowing aura",
                     "id": "shield_30",
                     "name": "emerald green Arcane Shield with Glowing aura",
-                    "price": 201.82,
+                    "price": 504.55,
                     "rarity": "Rare",
                     "weight": 15
                 }
@@ -339,8 +339,8 @@
         },
         {
             "id": "crate_02",
-            "name": "RPG Crate 2",
-            "price": 39.27,
+            "name": "Cursed Rose Crate",
+            "price": 317.26,
             "items": [
                 {
                     "item": "amulet",
@@ -371,7 +371,7 @@
                     "effect": "glowing aura",
                     "id": "shield_33",
                     "name": "pink Cursed Shield with Glowing aura",
-                    "price": 236.24,
+                    "price": 354.36,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -382,7 +382,7 @@
                     "effect": "ethereal mist",
                     "id": "necklace_34",
                     "name": "pink Ancient Necklace with Ethereal mist",
-                    "price": 41.52,
+                    "price": 103.8,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -393,7 +393,7 @@
                     "effect": "crystals",
                     "id": "ring_35",
                     "name": "emerald green Enchanted Ring with Crystals",
-                    "price": 31.84,
+                    "price": 47.76,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -415,7 +415,7 @@
                     "effect": "sparkling particles",
                     "id": "staff_37",
                     "name": "midnight blue Holy Staff with Sparkling particles",
-                    "price": 81.48,
+                    "price": 122.22,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -459,7 +459,7 @@
                     "effect": "skulls",
                     "id": "dagger_41",
                     "name": "pink Mystical Dagger with Skulls",
-                    "price": 106.11,
+                    "price": 159.16,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -470,7 +470,7 @@
                     "effect": "skulls",
                     "id": "amulet_42",
                     "name": "pink Mystical Amulet with Skulls",
-                    "price": 210.6,
+                    "price": 315.9,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -492,7 +492,7 @@
                     "effect": "skulls",
                     "id": "shield_44",
                     "name": "gold Holy Shield with Skulls",
-                    "price": 142.94,
+                    "price": 214.41,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -525,7 +525,7 @@
                     "effect": "ethereal mist",
                     "id": "book_47",
                     "name": "silver Enchanted Book with Ethereal mist",
-                    "price": 176.99,
+                    "price": 265.49,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -536,7 +536,7 @@
                     "effect": "crystals",
                     "id": "book_48",
                     "name": "emerald green Mystical Book with Crystals",
-                    "price": 167.72,
+                    "price": 251.58,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -547,7 +547,7 @@
                     "effect": "glowing aura",
                     "id": "shield_49",
                     "name": "shadow black Holy Shield with Glowing aura",
-                    "price": 23.43,
+                    "price": 35.14,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -558,7 +558,7 @@
                     "effect": "sparkling particles",
                     "id": "cape_50",
                     "name": "silver Arcane Cape with Sparkling particles",
-                    "price": 48.73,
+                    "price": 73.09,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -580,7 +580,7 @@
                     "effect": "skulls",
                     "id": "necklace_52",
                     "name": "shadow black Arcane Necklace with Skulls",
-                    "price": 225.77,
+                    "price": 564.43,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -591,7 +591,7 @@
                     "effect": "glowing aura",
                     "id": "helmet_53",
                     "name": "gold Ancient Helmet with Glowing aura",
-                    "price": 543.21,
+                    "price": 2716.05,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -602,7 +602,7 @@
                     "effect": "sparkling particles",
                     "id": "necklace_54",
                     "name": "crimson red Ancient Necklace with Sparkling particles",
-                    "price": 377.64,
+                    "price": 1888.2,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -613,7 +613,7 @@
                     "effect": "glowing aura",
                     "id": "sword_55",
                     "name": "pink Holy Sword with Glowing aura",
-                    "price": 244.17,
+                    "price": 366.25,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -624,7 +624,7 @@
                     "effect": "sparkling particles",
                     "id": "ring_56",
                     "name": "gold Mystical Ring with Sparkling particles",
-                    "price": 248.68,
+                    "price": 621.7,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -635,7 +635,7 @@
                     "effect": "glowing aura",
                     "id": "helmet_57",
                     "name": "emerald green Ancient Helmet with Glowing aura",
-                    "price": 279.37,
+                    "price": 419.06,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -646,7 +646,7 @@
                     "effect": "ethereal mist",
                     "id": "amulet_58",
                     "name": "midnight blue Enchanted Amulet with Ethereal mist",
-                    "price": 36.94,
+                    "price": 92.35,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -676,8 +676,8 @@
         },
         {
             "id": "crate_03",
-            "name": "RPG Crate 3",
-            "price": 40.1,
+            "name": "Emerald Skull Cache",
+            "price": 474.7,
             "items": [
                 {
                     "item": "cape",
@@ -686,7 +686,7 @@
                     "effect": "glowing aura",
                     "id": "cape_61",
                     "name": "silver Enchanted Cape with Glowing aura",
-                    "price": 149.57,
+                    "price": 224.35,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -697,7 +697,7 @@
                     "effect": "skulls",
                     "id": "helmet_62",
                     "name": "silver Enchanted Helmet with Skulls",
-                    "price": 450.84,
+                    "price": 2254.2,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -708,7 +708,7 @@
                     "effect": "ethereal mist",
                     "id": "staff_63",
                     "name": "gold Holy Staff with Ethereal mist",
-                    "price": 280.72,
+                    "price": 421.08,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -741,7 +741,7 @@
                     "effect": "glowing aura",
                     "id": "staff_66",
                     "name": "pink Cursed Staff with Glowing aura",
-                    "price": 887.1,
+                    "price": 4435.5,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -774,7 +774,7 @@
                     "effect": "mystic runes",
                     "id": "amulet_69",
                     "name": "shadow black Holy Amulet with Mystic runes",
-                    "price": 25.82,
+                    "price": 64.55,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -818,7 +818,7 @@
                     "effect": "skulls",
                     "id": "sword_73",
                     "name": "gold Arcane Sword with Skulls",
-                    "price": 262.01,
+                    "price": 393.01,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -851,7 +851,7 @@
                     "effect": "crystals",
                     "id": "ring_76",
                     "name": "pink Ancient Ring with Crystals",
-                    "price": 266.41,
+                    "price": 666.03,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -862,7 +862,7 @@
                     "effect": "skulls",
                     "id": "helmet_77",
                     "name": "silver Mystical Helmet with Skulls",
-                    "price": 77.36,
+                    "price": 116.04,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -884,7 +884,7 @@
                     "effect": "sparkling particles",
                     "id": "potion_79",
                     "name": "shadow black Arcane Potion with Sparkling particles",
-                    "price": 250.2,
+                    "price": 375.3,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -928,7 +928,7 @@
                     "effect": "ethereal mist",
                     "id": "staff_83",
                     "name": "silver Ancient Staff with Ethereal mist",
-                    "price": 187.12,
+                    "price": 280.68,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -939,7 +939,7 @@
                     "effect": "mystic runes",
                     "id": "cape_84",
                     "name": "midnight blue Holy Cape with Mystic runes",
-                    "price": 117.89,
+                    "price": 176.84,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -983,7 +983,7 @@
                     "effect": "crystals",
                     "id": "necklace_88",
                     "name": "pink Arcane Necklace with Crystals",
-                    "price": 770.61,
+                    "price": 3853.05,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -1005,7 +1005,7 @@
                     "effect": "crystals",
                     "id": "dagger_90",
                     "name": "crimson red Mystical Dagger with Crystals",
-                    "price": 119.05,
+                    "price": 297.62,
                     "rarity": "Rare",
                     "weight": 15
                 }
@@ -1013,8 +1013,8 @@
         },
         {
             "id": "crate_04",
-            "name": "RPG Crate 4",
-            "price": 45.7,
+            "name": "Silver Relic Chest",
+            "price": 284.31,
             "items": [
                 {
                     "item": "ring",
@@ -1023,7 +1023,7 @@
                     "effect": "ethereal mist",
                     "id": "ring_91",
                     "name": "emerald green Ancient Ring with Ethereal mist",
-                    "price": 166.99,
+                    "price": 250.49,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1056,7 +1056,7 @@
                     "effect": "ethereal mist",
                     "id": "staff_94",
                     "name": "silver Mystical Staff with Ethereal mist",
-                    "price": 107.49,
+                    "price": 161.23,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1078,7 +1078,7 @@
                     "effect": "sparkling particles",
                     "id": "dagger_96",
                     "name": "emerald green Enchanted Dagger with Sparkling particles",
-                    "price": 145.92,
+                    "price": 364.8,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -1166,7 +1166,7 @@
                     "effect": "skulls",
                     "id": "amulet_104",
                     "name": "midnight blue Mystical Amulet with Skulls",
-                    "price": 275.59,
+                    "price": 688.97,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -1188,7 +1188,7 @@
                     "effect": "sparkling particles",
                     "id": "sword_106",
                     "name": "gold Mystical Sword with Sparkling particles",
-                    "price": 248.57,
+                    "price": 372.86,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1199,7 +1199,7 @@
                     "effect": "ethereal mist",
                     "id": "helmet_107",
                     "name": "silver Holy Helmet with Ethereal mist",
-                    "price": 147.05,
+                    "price": 220.58,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1210,7 +1210,7 @@
                     "effect": "skulls",
                     "id": "necklace_108",
                     "name": "midnight blue Arcane Necklace with Skulls",
-                    "price": 290.78,
+                    "price": 726.95,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -1254,7 +1254,7 @@
                     "effect": "sparkling particles",
                     "id": "sword_112",
                     "name": "purple Ancient Sword with Sparkling particles",
-                    "price": 563.0,
+                    "price": 2815.0,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -1276,7 +1276,7 @@
                     "effect": "glowing aura",
                     "id": "cape_114",
                     "name": "silver Holy Cape with Glowing aura",
-                    "price": 181.38,
+                    "price": 272.07,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1309,7 +1309,7 @@
                     "effect": "skulls",
                     "id": "necklace_117",
                     "name": "pink Holy Necklace with Skulls",
-                    "price": 173.47,
+                    "price": 260.2,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1342,7 +1342,7 @@
                     "effect": "ethereal mist",
                     "id": "helmet_120",
                     "name": "silver Mystical Helmet with Ethereal mist",
-                    "price": 184.43,
+                    "price": 276.64,
                     "rarity": "Uncommon",
                     "weight": 30
                 }
@@ -1350,8 +1350,8 @@
         },
         {
             "id": "crate_05",
-            "name": "RPG Crate 5",
-            "price": 20.56,
+            "name": "Crimson Crystal Cache",
+            "price": 172.08,
             "items": [
                 {
                     "item": "staff",
@@ -1360,7 +1360,7 @@
                     "effect": "glowing aura",
                     "id": "staff_121",
                     "name": "midnight blue Cursed Staff with Glowing aura",
-                    "price": 191.78,
+                    "price": 287.67,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1371,7 +1371,7 @@
                     "effect": "skulls",
                     "id": "ring_122",
                     "name": "emerald green Mystical Ring with Skulls",
-                    "price": 208.4,
+                    "price": 521.0,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -1382,7 +1382,7 @@
                     "effect": "mystic runes",
                     "id": "ring_123",
                     "name": "purple Cursed Ring with Mystic runes",
-                    "price": 63.19,
+                    "price": 94.78,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1415,7 +1415,7 @@
                     "effect": "ethereal mist",
                     "id": "helmet_126",
                     "name": "midnight blue Holy Helmet with Ethereal mist",
-                    "price": 84.51,
+                    "price": 126.77,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1426,7 +1426,7 @@
                     "effect": "sparkling particles",
                     "id": "amulet_127",
                     "name": "shadow black Holy Amulet with Sparkling particles",
-                    "price": 233.1,
+                    "price": 349.65,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1437,7 +1437,7 @@
                     "effect": "sparkling particles",
                     "id": "amulet_128",
                     "name": "silver Enchanted Amulet with Sparkling particles",
-                    "price": 106.83,
+                    "price": 160.25,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1448,7 +1448,7 @@
                     "effect": "sparkling particles",
                     "id": "cape_129",
                     "name": "silver Mystical Cape with Sparkling particles",
-                    "price": 297.67,
+                    "price": 744.18,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -1459,7 +1459,7 @@
                     "effect": "sparkling particles",
                     "id": "sword_130",
                     "name": "shadow black Arcane Sword with Sparkling particles",
-                    "price": 247.11,
+                    "price": 370.67,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1470,7 +1470,7 @@
                     "effect": "skulls",
                     "id": "necklace_131",
                     "name": "midnight blue Ancient Necklace with Skulls",
-                    "price": 73.32,
+                    "price": 183.3,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -1503,7 +1503,7 @@
                     "effect": "crystals",
                     "id": "amulet_134",
                     "name": "emerald green Cursed Amulet with Crystals",
-                    "price": 68.93,
+                    "price": 103.4,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1558,7 +1558,7 @@
                     "effect": "ethereal mist",
                     "id": "potion_139",
                     "name": "crimson red Mystical Potion with Ethereal mist",
-                    "price": 70.83,
+                    "price": 177.07,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -1569,7 +1569,7 @@
                     "effect": "mystic runes",
                     "id": "cape_140",
                     "name": "pink Cursed Cape with Mystic runes",
-                    "price": 52.87,
+                    "price": 79.3,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1602,7 +1602,7 @@
                     "effect": "crystals",
                     "id": "cape_143",
                     "name": "silver Enchanted Cape with Crystals",
-                    "price": 58.94,
+                    "price": 88.41,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1613,7 +1613,7 @@
                     "effect": "sparkling particles",
                     "id": "cape_144",
                     "name": "midnight blue Ancient Cape with Sparkling particles",
-                    "price": 84.01,
+                    "price": 126.02,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1624,7 +1624,7 @@
                     "effect": "ethereal mist",
                     "id": "helmet_145",
                     "name": "gold Cursed Helmet with Ethereal mist",
-                    "price": 105.38,
+                    "price": 158.07,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1635,7 +1635,7 @@
                     "effect": "sparkling particles",
                     "id": "amulet_146",
                     "name": "crimson red Ancient Amulet with Sparkling particles",
-                    "price": 168.91,
+                    "price": 253.37,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1657,7 +1657,7 @@
                     "effect": "glowing aura",
                     "id": "potion_148",
                     "name": "shadow black Ancient Potion with Glowing aura",
-                    "price": 150.85,
+                    "price": 226.27,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1668,7 +1668,7 @@
                     "effect": "glowing aura",
                     "id": "shield_149",
                     "name": "midnight blue Ancient Shield with Glowing aura",
-                    "price": 181.77,
+                    "price": 272.66,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1679,7 +1679,7 @@
                     "effect": "crystals",
                     "id": "dagger_150",
                     "name": "silver Ancient Dagger with Crystals",
-                    "price": 58.54,
+                    "price": 87.81,
                     "rarity": "Uncommon",
                     "weight": 30
                 }
@@ -1687,8 +1687,8 @@
         },
         {
             "id": "crate_06",
-            "name": "RPG Crate 6",
-            "price": 39.27,
+            "name": "Ruby Aura Crate",
+            "price": 348.68,
             "items": [
                 {
                     "item": "staff",
@@ -1708,7 +1708,7 @@
                     "effect": "mystic runes",
                     "id": "potion_152",
                     "name": "silver Cursed Potion with Mystic runes",
-                    "price": 214.83,
+                    "price": 322.25,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1719,7 +1719,7 @@
                     "effect": "mystic runes",
                     "id": "book_153",
                     "name": "crimson red Cursed Book with Mystic runes",
-                    "price": 103.46,
+                    "price": 258.65,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -1752,7 +1752,7 @@
                     "effect": "ethereal mist",
                     "id": "book_156",
                     "name": "crimson red Ancient Book with Ethereal mist",
-                    "price": 193.83,
+                    "price": 484.58,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -1774,7 +1774,7 @@
                     "effect": "glowing aura",
                     "id": "cape_158",
                     "name": "emerald green Enchanted Cape with Glowing aura",
-                    "price": 187.93,
+                    "price": 281.89,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1785,7 +1785,7 @@
                     "effect": "crystals",
                     "id": "book_159",
                     "name": "crimson red Enchanted Book with Crystals",
-                    "price": 109.71,
+                    "price": 164.56,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1796,7 +1796,7 @@
                     "effect": "mystic runes",
                     "id": "amulet_160",
                     "name": "midnight blue Arcane Amulet with Mystic runes",
-                    "price": 551.33,
+                    "price": 5513.3,
                     "rarity": "Legendary",
                     "weight": 1
                 },
@@ -1818,7 +1818,7 @@
                     "effect": "sparkling particles",
                     "id": "dagger_162",
                     "name": "purple Ancient Dagger with Sparkling particles",
-                    "price": 95.4,
+                    "price": 143.1,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1829,7 +1829,7 @@
                     "effect": "mystic runes",
                     "id": "sword_163",
                     "name": "midnight blue Ancient Sword with Mystic runes",
-                    "price": 80.68,
+                    "price": 806.8,
                     "rarity": "Legendary",
                     "weight": 1
                 },
@@ -1840,7 +1840,7 @@
                     "effect": "glowing aura",
                     "id": "necklace_164",
                     "name": "gold Mystical Necklace with Glowing aura",
-                    "price": 244.39,
+                    "price": 366.58,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1873,7 +1873,7 @@
                     "effect": "crystals",
                     "id": "amulet_167",
                     "name": "shadow black Arcane Amulet with Crystals",
-                    "price": 55.79,
+                    "price": 83.69,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1917,7 +1917,7 @@
                     "effect": "sparkling particles",
                     "id": "amulet_171",
                     "name": "crimson red Holy Amulet with Sparkling particles",
-                    "price": 228.47,
+                    "price": 571.17,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -1950,7 +1950,7 @@
                     "effect": "glowing aura",
                     "id": "necklace_174",
                     "name": "purple Enchanted Necklace with Glowing aura",
-                    "price": 83.1,
+                    "price": 124.65,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1972,7 +1972,7 @@
                     "effect": "skulls",
                     "id": "potion_176",
                     "name": "crimson red Cursed Potion with Skulls",
-                    "price": 214.32,
+                    "price": 321.48,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -1994,7 +1994,7 @@
                     "effect": "mystic runes",
                     "id": "dagger_178",
                     "name": "midnight blue Cursed Dagger with Mystic runes",
-                    "price": 112.99,
+                    "price": 169.48,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2005,7 +2005,7 @@
                     "effect": "glowing aura",
                     "id": "necklace_179",
                     "name": "purple Ancient Necklace with Glowing aura",
-                    "price": 180.53,
+                    "price": 270.8,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2024,8 +2024,8 @@
         },
         {
             "id": "crate_07",
-            "name": "RPG Crate 7",
-            "price": 46.59,
+            "name": "Ethereal Silver Crate",
+            "price": 187.44,
             "items": [
                 {
                     "item": "sword",
@@ -2034,7 +2034,7 @@
                     "effect": "skulls",
                     "id": "sword_181",
                     "name": "gold Enchanted Sword with Skulls",
-                    "price": 293.82,
+                    "price": 440.73,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2045,7 +2045,7 @@
                     "effect": "sparkling particles",
                     "id": "staff_182",
                     "name": "shadow black Cursed Staff with Sparkling particles",
-                    "price": 71.42,
+                    "price": 107.13,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2056,7 +2056,7 @@
                     "effect": "skulls",
                     "id": "ring_183",
                     "name": "crimson red Arcane Ring with Skulls",
-                    "price": 190.75,
+                    "price": 286.12,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2067,7 +2067,7 @@
                     "effect": "mystic runes",
                     "id": "ring_184",
                     "name": "pink Mystical Ring with Mystic runes",
-                    "price": 54.18,
+                    "price": 81.27,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2100,7 +2100,7 @@
                     "effect": "mystic runes",
                     "id": "dagger_187",
                     "name": "gold Arcane Dagger with Mystic runes",
-                    "price": 25.47,
+                    "price": 38.2,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2111,7 +2111,7 @@
                     "effect": "sparkling particles",
                     "id": "cape_188",
                     "name": "gold Ancient Cape with Sparkling particles",
-                    "price": 288.39,
+                    "price": 720.97,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -2144,7 +2144,7 @@
                     "effect": "mystic runes",
                     "id": "necklace_191",
                     "name": "emerald green Holy Necklace with Mystic runes",
-                    "price": 71.12,
+                    "price": 106.68,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2155,7 +2155,7 @@
                     "effect": "sparkling particles",
                     "id": "cape_192",
                     "name": "pink Holy Cape with Sparkling particles",
-                    "price": 134.73,
+                    "price": 202.09,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2166,7 +2166,7 @@
                     "effect": "skulls",
                     "id": "ring_193",
                     "name": "midnight blue Holy Ring with Skulls",
-                    "price": 280.72,
+                    "price": 701.8,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -2177,7 +2177,7 @@
                     "effect": "sparkling particles",
                     "id": "cape_194",
                     "name": "pink Enchanted Cape with Sparkling particles",
-                    "price": 120.08,
+                    "price": 180.12,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2199,7 +2199,7 @@
                     "effect": "crystals",
                     "id": "sword_196",
                     "name": "purple Holy Sword with Crystals",
-                    "price": 65.69,
+                    "price": 98.53,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2221,7 +2221,7 @@
                     "effect": "skulls",
                     "id": "necklace_198",
                     "name": "crimson red Ancient Necklace with Skulls",
-                    "price": 183.81,
+                    "price": 275.72,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2232,7 +2232,7 @@
                     "effect": "crystals",
                     "id": "helmet_199",
                     "name": "gold Cursed Helmet with Crystals",
-                    "price": 148.4,
+                    "price": 222.6,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2254,7 +2254,7 @@
                     "effect": "glowing aura",
                     "id": "ring_201",
                     "name": "shadow black Mystical Ring with Glowing aura",
-                    "price": 282.51,
+                    "price": 423.76,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2276,7 +2276,7 @@
                     "effect": "crystals",
                     "id": "staff_203",
                     "name": "shadow black Cursed Staff with Crystals",
-                    "price": 66.92,
+                    "price": 100.38,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2287,7 +2287,7 @@
                     "effect": "glowing aura",
                     "id": "ring_204",
                     "name": "gold Arcane Ring with Glowing aura",
-                    "price": 106.84,
+                    "price": 267.1,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -2320,7 +2320,7 @@
                     "effect": "glowing aura",
                     "id": "potion_207",
                     "name": "purple Ancient Potion with Glowing aura",
-                    "price": 58.33,
+                    "price": 87.5,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2342,7 +2342,7 @@
                     "effect": "crystals",
                     "id": "sword_209",
                     "name": "crimson red Mystical Sword with Crystals",
-                    "price": 182.92,
+                    "price": 274.38,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2353,7 +2353,7 @@
                     "effect": "sparkling particles",
                     "id": "staff_210",
                     "name": "crimson red Mystical Staff with Sparkling particles",
-                    "price": 12.51,
+                    "price": 18.77,
                     "rarity": "Uncommon",
                     "weight": 30
                 }
@@ -2361,8 +2361,8 @@
         },
         {
             "id": "crate_08",
-            "name": "RPG Crate 8",
-            "price": 40.83,
+            "name": "Rune of Blight Crate",
+            "price": 497.91,
             "items": [
                 {
                     "item": "amulet",
@@ -2382,7 +2382,7 @@
                     "effect": "sparkling particles",
                     "id": "ring_212",
                     "name": "emerald green Ancient Ring with Sparkling particles",
-                    "price": 19.94,
+                    "price": 29.91,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2404,7 +2404,7 @@
                     "effect": "glowing aura",
                     "id": "ring_214",
                     "name": "midnight blue Enchanted Ring with Glowing aura",
-                    "price": 105.7,
+                    "price": 158.55,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2481,7 +2481,7 @@
                     "effect": "ethereal mist",
                     "id": "book_221",
                     "name": "shadow black Mystical Book with Ethereal mist",
-                    "price": 282.51,
+                    "price": 423.76,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2492,7 +2492,7 @@
                     "effect": "mystic runes",
                     "id": "sword_222",
                     "name": "silver Arcane Sword with Mystic runes",
-                    "price": 45.3,
+                    "price": 113.25,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -2503,7 +2503,7 @@
                     "effect": "glowing aura",
                     "id": "book_223",
                     "name": "shadow black Holy Book with Glowing aura",
-                    "price": 230.66,
+                    "price": 345.99,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2514,7 +2514,7 @@
                     "effect": "sparkling particles",
                     "id": "sword_224",
                     "name": "gold Ancient Sword with Sparkling particles",
-                    "price": 824.17,
+                    "price": 4120.85,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -2580,7 +2580,7 @@
                     "effect": "crystals",
                     "id": "sword_230",
                     "name": "purple Mystical Sword with Crystals",
-                    "price": 700.7,
+                    "price": 7007.0,
                     "rarity": "Legendary",
                     "weight": 1
                 },
@@ -2591,7 +2591,7 @@
                     "effect": "sparkling particles",
                     "id": "potion_231",
                     "name": "midnight blue Mystical Potion with Sparkling particles",
-                    "price": 263.64,
+                    "price": 659.1,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -2624,7 +2624,7 @@
                     "effect": "skulls",
                     "id": "helmet_234",
                     "name": "shadow black Ancient Helmet with Skulls",
-                    "price": 183.58,
+                    "price": 275.37,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2668,7 +2668,7 @@
                     "effect": "crystals",
                     "id": "shield_238",
                     "name": "emerald green Arcane Shield with Crystals",
-                    "price": 33.12,
+                    "price": 49.68,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2698,8 +2698,8 @@
         },
         {
             "id": "crate_09",
-            "name": "RPG Crate 9",
-            "price": 20.16,
+            "name": "Golden Rune Vault",
+            "price": 203.99,
             "items": [
                 {
                     "item": "dagger",
@@ -2719,7 +2719,7 @@
                     "effect": "skulls",
                     "id": "amulet_242",
                     "name": "shadow black Holy Amulet with Skulls",
-                    "price": 77.55,
+                    "price": 116.32,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2763,7 +2763,7 @@
                     "effect": "skulls",
                     "id": "shield_246",
                     "name": "pink Cursed Shield with Skulls",
-                    "price": 59.92,
+                    "price": 89.88,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2774,7 +2774,7 @@
                     "effect": "sparkling particles",
                     "id": "amulet_247",
                     "name": "gold Ancient Amulet with Sparkling particles",
-                    "price": 199.3,
+                    "price": 298.95,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2796,7 +2796,7 @@
                     "effect": "skulls",
                     "id": "ring_249",
                     "name": "emerald green Enchanted Ring with Skulls",
-                    "price": 25.68,
+                    "price": 64.2,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -2818,7 +2818,7 @@
                     "effect": "sparkling particles",
                     "id": "ring_251",
                     "name": "purple Holy Ring with Sparkling particles",
-                    "price": 88.14,
+                    "price": 132.21,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2840,7 +2840,7 @@
                     "effect": "mystic runes",
                     "id": "helmet_253",
                     "name": "pink Ancient Helmet with Mystic runes",
-                    "price": 201.7,
+                    "price": 302.55,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2862,7 +2862,7 @@
                     "effect": "ethereal mist",
                     "id": "dagger_255",
                     "name": "silver Arcane Dagger with Ethereal mist",
-                    "price": 143.36,
+                    "price": 358.4,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -2884,7 +2884,7 @@
                     "effect": "sparkling particles",
                     "id": "shield_257",
                     "name": "purple Arcane Shield with Sparkling particles",
-                    "price": 158.31,
+                    "price": 237.47,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -2895,7 +2895,7 @@
                     "effect": "ethereal mist",
                     "id": "staff_258",
                     "name": "crimson red Holy Staff with Ethereal mist",
-                    "price": 283.5,
+                    "price": 708.75,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -2917,7 +2917,7 @@
                     "effect": "crystals",
                     "id": "ring_260",
                     "name": "silver Holy Ring with Crystals",
-                    "price": 286.88,
+                    "price": 717.2,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -2983,7 +2983,7 @@
                     "effect": "sparkling particles",
                     "id": "staff_266",
                     "name": "crimson red Ancient Staff with Sparkling particles",
-                    "price": 104.23,
+                    "price": 260.57,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -2994,7 +2994,7 @@
                     "effect": "ethereal mist",
                     "id": "cape_267",
                     "name": "crimson red Mystical Cape with Ethereal mist",
-                    "price": 41.02,
+                    "price": 61.53,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3005,7 +3005,7 @@
                     "effect": "glowing aura",
                     "id": "amulet_268",
                     "name": "shadow black Ancient Amulet with Glowing aura",
-                    "price": 22.79,
+                    "price": 34.19,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3016,7 +3016,7 @@
                     "effect": "crystals",
                     "id": "dagger_269",
                     "name": "midnight blue Enchanted Dagger with Crystals",
-                    "price": 296.73,
+                    "price": 1483.65,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -3027,7 +3027,7 @@
                     "effect": "crystals",
                     "id": "potion_270",
                     "name": "shadow black Arcane Potion with Crystals",
-                    "price": 28.33,
+                    "price": 42.49,
                     "rarity": "Uncommon",
                     "weight": 30
                 }
@@ -3035,8 +3035,8 @@
         },
         {
             "id": "crate_10",
-            "name": "RPG Crate 10",
-            "price": 34.86,
+            "name": "Radiant Glow Chest",
+            "price": 696.28,
             "items": [
                 {
                     "item": "sword",
@@ -3045,7 +3045,7 @@
                     "effect": "crystals",
                     "id": "sword_271",
                     "name": "silver Cursed Sword with Crystals",
-                    "price": 113.18,
+                    "price": 169.77,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3056,7 +3056,7 @@
                     "effect": "mystic runes",
                     "id": "shield_272",
                     "name": "pink Mystical Shield with Mystic runes",
-                    "price": 290.29,
+                    "price": 435.44,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3067,7 +3067,7 @@
                     "effect": "skulls",
                     "id": "potion_273",
                     "name": "shadow black Holy Potion with Skulls",
-                    "price": 57.94,
+                    "price": 86.91,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3089,7 +3089,7 @@
                     "effect": "crystals",
                     "id": "shield_275",
                     "name": "emerald green Cursed Shield with Crystals",
-                    "price": 154.66,
+                    "price": 773.3,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -3166,7 +3166,7 @@
                     "effect": "glowing aura",
                     "id": "helmet_282",
                     "name": "shadow black Ancient Helmet with Glowing aura",
-                    "price": 903.91,
+                    "price": 4519.55,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -3188,7 +3188,7 @@
                     "effect": "crystals",
                     "id": "cape_284",
                     "name": "emerald green Holy Cape with Crystals",
-                    "price": 9.04,
+                    "price": 13.56,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3243,7 +3243,7 @@
                     "effect": "skulls",
                     "id": "ring_289",
                     "name": "purple Mystical Ring with Skulls",
-                    "price": 201.68,
+                    "price": 302.52,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3254,7 +3254,7 @@
                     "effect": "mystic runes",
                     "id": "necklace_290",
                     "name": "pink Cursed Necklace with Mystic runes",
-                    "price": 89.74,
+                    "price": 134.61,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3265,7 +3265,7 @@
                     "effect": "crystals",
                     "id": "sword_291",
                     "name": "gold Mystical Sword with Crystals",
-                    "price": 226.82,
+                    "price": 340.23,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3276,7 +3276,7 @@
                     "effect": "crystals",
                     "id": "sword_292",
                     "name": "midnight blue Arcane Sword with Crystals",
-                    "price": 290.72,
+                    "price": 436.08,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3287,7 +3287,7 @@
                     "effect": "crystals",
                     "id": "staff_293",
                     "name": "midnight blue Ancient Staff with Crystals",
-                    "price": 83.01,
+                    "price": 207.53,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -3298,7 +3298,7 @@
                     "effect": "mystic runes",
                     "id": "sword_294",
                     "name": "gold Holy Sword with Mystic runes",
-                    "price": 170.35,
+                    "price": 425.88,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -3309,7 +3309,7 @@
                     "effect": "crystals",
                     "id": "sword_295",
                     "name": "crimson red Holy Sword with Crystals",
-                    "price": 157.76,
+                    "price": 394.4,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -3320,7 +3320,7 @@
                     "effect": "ethereal mist",
                     "id": "ring_296",
                     "name": "midnight blue Arcane Ring with Ethereal mist",
-                    "price": 270.86,
+                    "price": 677.15,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -3331,7 +3331,7 @@
                     "effect": "sparkling particles",
                     "id": "staff_297",
                     "name": "emerald green Cursed Staff with Sparkling particles",
-                    "price": 4.77,
+                    "price": 7.15,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3353,7 +3353,7 @@
                     "effect": "crystals",
                     "id": "helmet_299",
                     "name": "emerald green Mystical Helmet with Crystals",
-                    "price": 802.53,
+                    "price": 4012.65,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -3364,7 +3364,7 @@
                     "effect": "mystic runes",
                     "id": "necklace_300",
                     "name": "pink Holy Necklace with Mystic runes",
-                    "price": 836.85,
+                    "price": 8368.5,
                     "rarity": "Legendary",
                     "weight": 1
                 }
@@ -3372,8 +3372,8 @@
         },
         {
             "id": "crate_11",
-            "name": "RPG Crate 11",
-            "price": 43.65,
+            "name": "Arcane Gilded Box",
+            "price": 134.78,
             "items": [
                 {
                     "item": "cape",
@@ -3448,7 +3448,7 @@
                     "effect": "sparkling particles",
                     "id": "necklace_307",
                     "name": "pink Enchanted Necklace with Sparkling particles",
-                    "price": 16.41,
+                    "price": 24.62,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3459,7 +3459,7 @@
                     "effect": "ethereal mist",
                     "id": "ring_308",
                     "name": "midnight blue Holy Ring with Ethereal mist",
-                    "price": 84.19,
+                    "price": 126.28,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3492,7 +3492,7 @@
                     "effect": "sparkling particles",
                     "id": "necklace_311",
                     "name": "purple Arcane Necklace with Sparkling particles",
-                    "price": 197.88,
+                    "price": 494.7,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -3503,7 +3503,7 @@
                     "effect": "mystic runes",
                     "id": "potion_312",
                     "name": "pink Ancient Potion with Mystic runes",
-                    "price": 202.78,
+                    "price": 304.17,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3525,7 +3525,7 @@
                     "effect": "sparkling particles",
                     "id": "dagger_314",
                     "name": "midnight blue Holy Dagger with Sparkling particles",
-                    "price": 9.98,
+                    "price": 24.95,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -3613,7 +3613,7 @@
                     "effect": "glowing aura",
                     "id": "potion_322",
                     "name": "midnight blue Cursed Potion with Glowing aura",
-                    "price": 55.79,
+                    "price": 139.47,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -3635,7 +3635,7 @@
                     "effect": "glowing aura",
                     "id": "helmet_324",
                     "name": "purple Arcane Helmet with Glowing aura",
-                    "price": 4.33,
+                    "price": 6.5,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3690,7 +3690,7 @@
                     "effect": "skulls",
                     "id": "potion_329",
                     "name": "shadow black Enchanted Potion with Skulls",
-                    "price": 287.46,
+                    "price": 431.19,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3701,7 +3701,7 @@
                     "effect": "sparkling particles",
                     "id": "potion_330",
                     "name": "crimson red Ancient Potion with Sparkling particles",
-                    "price": 259.8,
+                    "price": 389.7,
                     "rarity": "Uncommon",
                     "weight": 30
                 }
@@ -3709,8 +3709,8 @@
         },
         {
             "id": "crate_12",
-            "name": "RPG Crate 12",
-            "price": 23.51,
+            "name": "Amethyst Crystal Cache",
+            "price": 237.61,
             "items": [
                 {
                     "item": "shield",
@@ -3730,7 +3730,7 @@
                     "effect": "glowing aura",
                     "id": "potion_332",
                     "name": "gold Arcane Potion with Glowing aura",
-                    "price": 54.87,
+                    "price": 82.3,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3796,7 +3796,7 @@
                     "effect": "ethereal mist",
                     "id": "potion_338",
                     "name": "gold Ancient Potion with Ethereal mist",
-                    "price": 61.34,
+                    "price": 153.35,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -3807,7 +3807,7 @@
                     "effect": "skulls",
                     "id": "potion_339",
                     "name": "gold Arcane Potion with Skulls",
-                    "price": 232.58,
+                    "price": 348.87,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3818,7 +3818,7 @@
                     "effect": "crystals",
                     "id": "book_340",
                     "name": "gold Arcane Book with Crystals",
-                    "price": 184.46,
+                    "price": 276.69,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3840,7 +3840,7 @@
                     "effect": "ethereal mist",
                     "id": "book_342",
                     "name": "purple Arcane Book with Ethereal mist",
-                    "price": 44.6,
+                    "price": 66.9,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3851,7 +3851,7 @@
                     "effect": "ethereal mist",
                     "id": "helmet_343",
                     "name": "crimson red Cursed Helmet with Ethereal mist",
-                    "price": 31.56,
+                    "price": 47.34,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3862,7 +3862,7 @@
                     "effect": "sparkling particles",
                     "id": "staff_344",
                     "name": "pink Holy Staff with Sparkling particles",
-                    "price": 511.36,
+                    "price": 2556.8,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -3906,7 +3906,7 @@
                     "effect": "mystic runes",
                     "id": "cape_348",
                     "name": "emerald green Arcane Cape with Mystic runes",
-                    "price": 43.19,
+                    "price": 107.97,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -3928,7 +3928,7 @@
                     "effect": "skulls",
                     "id": "amulet_350",
                     "name": "emerald green Mystical Amulet with Skulls",
-                    "price": 119.89,
+                    "price": 179.84,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3961,7 +3961,7 @@
                     "effect": "ethereal mist",
                     "id": "helmet_353",
                     "name": "midnight blue Cursed Helmet with Ethereal mist",
-                    "price": 298.35,
+                    "price": 745.88,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -3983,7 +3983,7 @@
                     "effect": "skulls",
                     "id": "ring_355",
                     "name": "shadow black Arcane Ring with Skulls",
-                    "price": 151.47,
+                    "price": 227.2,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -3994,7 +3994,7 @@
                     "effect": "glowing aura",
                     "id": "necklace_356",
                     "name": "pink Enchanted Necklace with Glowing aura",
-                    "price": 125.96,
+                    "price": 188.94,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4005,7 +4005,7 @@
                     "effect": "skulls",
                     "id": "potion_357",
                     "name": "silver Mystical Potion with Skulls",
-                    "price": 51.66,
+                    "price": 77.49,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4016,7 +4016,7 @@
                     "effect": "mystic runes",
                     "id": "ring_358",
                     "name": "gold Arcane Ring with Mystic runes",
-                    "price": 168.33,
+                    "price": 420.83,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -4027,7 +4027,7 @@
                     "effect": "ethereal mist",
                     "id": "dagger_359",
                     "name": "pink Cursed Dagger with Ethereal mist",
-                    "price": 160.91,
+                    "price": 241.37,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4046,8 +4046,8 @@
         },
         {
             "id": "crate_13",
-            "name": "RPG Crate 13",
-            "price": 26.88,
+            "name": "Veil of Arcana",
+            "price": 391.51,
             "items": [
                 {
                     "item": "cape",
@@ -4078,7 +4078,7 @@
                     "effect": "glowing aura",
                     "id": "shield_363",
                     "name": "gold Enchanted Shield with Glowing aura",
-                    "price": 14.72,
+                    "price": 22.08,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4100,7 +4100,7 @@
                     "effect": "ethereal mist",
                     "id": "helmet_365",
                     "name": "crimson red Ancient Helmet with Ethereal mist",
-                    "price": 207.81,
+                    "price": 311.72,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4111,7 +4111,7 @@
                     "effect": "glowing aura",
                     "id": "necklace_366",
                     "name": "emerald green Cursed Necklace with Glowing aura",
-                    "price": 29.66,
+                    "price": 44.49,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4155,7 +4155,7 @@
                     "effect": "crystals",
                     "id": "book_370",
                     "name": "gold Mystical Book with Crystals",
-                    "price": 631.05,
+                    "price": 3155.25,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -4188,7 +4188,7 @@
                     "effect": "mystic runes",
                     "id": "staff_373",
                     "name": "midnight blue Arcane Staff with Mystic runes",
-                    "price": 174.49,
+                    "price": 261.74,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4199,7 +4199,7 @@
                     "effect": "ethereal mist",
                     "id": "necklace_374",
                     "name": "emerald green Cursed Necklace with Ethereal mist",
-                    "price": 287.83,
+                    "price": 719.57,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -4221,7 +4221,7 @@
                     "effect": "skulls",
                     "id": "cape_376",
                     "name": "midnight blue Holy Cape with Skulls",
-                    "price": 422.45,
+                    "price": 2112.25,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -4232,7 +4232,7 @@
                     "effect": "glowing aura",
                     "id": "staff_377",
                     "name": "midnight blue Ancient Staff with Glowing aura",
-                    "price": 45.02,
+                    "price": 67.53,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4254,7 +4254,7 @@
                     "effect": "crystals",
                     "id": "shield_379",
                     "name": "crimson red Mystical Shield with Crystals",
-                    "price": 10.11,
+                    "price": 25.27,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -4265,7 +4265,7 @@
                     "effect": "mystic runes",
                     "id": "shield_380",
                     "name": "silver Cursed Shield with Mystic runes",
-                    "price": 213.06,
+                    "price": 532.65,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -4320,7 +4320,7 @@
                     "effect": "skulls",
                     "id": "cape_385",
                     "name": "pink Ancient Cape with Skulls",
-                    "price": 3.62,
+                    "price": 5.43,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4331,7 +4331,7 @@
                     "effect": "ethereal mist",
                     "id": "shield_386",
                     "name": "pink Mystical Shield with Ethereal mist",
-                    "price": 172.42,
+                    "price": 258.63,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4342,7 +4342,7 @@
                     "effect": "mystic runes",
                     "id": "cape_387",
                     "name": "emerald green Ancient Cape with Mystic runes",
-                    "price": 1.68,
+                    "price": 2.52,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4353,7 +4353,7 @@
                     "effect": "sparkling particles",
                     "id": "cape_388",
                     "name": "shadow black Cursed Cape with Sparkling particles",
-                    "price": 32.64,
+                    "price": 48.96,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4364,7 +4364,7 @@
                     "effect": "ethereal mist",
                     "id": "cape_389",
                     "name": "pink Arcane Cape with Ethereal mist",
-                    "price": 243.28,
+                    "price": 364.92,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4375,7 +4375,7 @@
                     "effect": "crystals",
                     "id": "cape_390",
                     "name": "silver Cursed Cape with Crystals",
-                    "price": 666.57,
+                    "price": 3332.85,
                     "rarity": "Epic",
                     "weight": 4
                 }
@@ -4383,8 +4383,8 @@
         },
         {
             "id": "crate_14",
-            "name": "RPG Crate 14",
-            "price": 47.11,
+            "name": "Night's Spark Crate",
+            "price": 325.84,
             "items": [
                 {
                     "item": "dagger",
@@ -4393,7 +4393,7 @@
                     "effect": "ethereal mist",
                     "id": "dagger_391",
                     "name": "emerald green Enchanted Dagger with Ethereal mist",
-                    "price": 259.21,
+                    "price": 648.02,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -4415,7 +4415,7 @@
                     "effect": "skulls",
                     "id": "dagger_393",
                     "name": "midnight blue Mystical Dagger with Skulls",
-                    "price": 215.77,
+                    "price": 323.66,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4426,7 +4426,7 @@
                     "effect": "skulls",
                     "id": "shield_394",
                     "name": "purple Ancient Shield with Skulls",
-                    "price": 123.43,
+                    "price": 308.58,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -4437,7 +4437,7 @@
                     "effect": "glowing aura",
                     "id": "book_395",
                     "name": "midnight blue Cursed Book with Glowing aura",
-                    "price": 91.87,
+                    "price": 137.81,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4448,7 +4448,7 @@
                     "effect": "sparkling particles",
                     "id": "dagger_396",
                     "name": "gold Arcane Dagger with Sparkling particles",
-                    "price": 218.65,
+                    "price": 546.62,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -4470,7 +4470,7 @@
                     "effect": "ethereal mist",
                     "id": "amulet_398",
                     "name": "shadow black Holy Amulet with Ethereal mist",
-                    "price": 110.87,
+                    "price": 166.31,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4492,7 +4492,7 @@
                     "effect": "mystic runes",
                     "id": "necklace_400",
                     "name": "shadow black Mystical Necklace with Mystic runes",
-                    "price": 91.81,
+                    "price": 229.53,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -4503,7 +4503,7 @@
                     "effect": "skulls",
                     "id": "sword_401",
                     "name": "crimson red Ancient Sword with Skulls",
-                    "price": 206.02,
+                    "price": 515.05,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -4525,7 +4525,7 @@
                     "effect": "glowing aura",
                     "id": "necklace_403",
                     "name": "crimson red Enchanted Necklace with Glowing aura",
-                    "price": 288.02,
+                    "price": 432.03,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4536,7 +4536,7 @@
                     "effect": "glowing aura",
                     "id": "cape_404",
                     "name": "gold Cursed Cape with Glowing aura",
-                    "price": 8.07,
+                    "price": 20.18,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -4547,7 +4547,7 @@
                     "effect": "skulls",
                     "id": "book_405",
                     "name": "shadow black Ancient Book with Skulls",
-                    "price": 105.11,
+                    "price": 157.66,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4558,7 +4558,7 @@
                     "effect": "sparkling particles",
                     "id": "helmet_406",
                     "name": "purple Ancient Helmet with Sparkling particles",
-                    "price": 258.52,
+                    "price": 387.78,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4569,7 +4569,7 @@
                     "effect": "ethereal mist",
                     "id": "necklace_407",
                     "name": "crimson red Mystical Necklace with Ethereal mist",
-                    "price": 687.97,
+                    "price": 3439.85,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -4602,7 +4602,7 @@
                     "effect": "skulls",
                     "id": "sword_410",
                     "name": "silver Ancient Sword with Skulls",
-                    "price": 131.75,
+                    "price": 197.62,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4613,7 +4613,7 @@
                     "effect": "glowing aura",
                     "id": "book_411",
                     "name": "pink Arcane Book with Glowing aura",
-                    "price": 267.13,
+                    "price": 400.69,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4635,7 +4635,7 @@
                     "effect": "ethereal mist",
                     "id": "potion_413",
                     "name": "silver Holy Potion with Ethereal mist",
-                    "price": 151.0,
+                    "price": 226.5,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4646,7 +4646,7 @@
                     "effect": "sparkling particles",
                     "id": "necklace_414",
                     "name": "gold Cursed Necklace with Sparkling particles",
-                    "price": 246.27,
+                    "price": 369.41,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4668,7 +4668,7 @@
                     "effect": "ethereal mist",
                     "id": "potion_416",
                     "name": "purple Enchanted Potion with Ethereal mist",
-                    "price": 16.33,
+                    "price": 24.49,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4679,7 +4679,7 @@
                     "effect": "skulls",
                     "id": "book_417",
                     "name": "gold Ancient Book with Skulls",
-                    "price": 74.93,
+                    "price": 112.4,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4690,7 +4690,7 @@
                     "effect": "skulls",
                     "id": "ring_418",
                     "name": "purple Cursed Ring with Skulls",
-                    "price": 188.59,
+                    "price": 282.88,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4712,7 +4712,7 @@
                     "effect": "skulls",
                     "id": "potion_420",
                     "name": "silver Cursed Potion with Skulls",
-                    "price": 148.12,
+                    "price": 370.3,
                     "rarity": "Rare",
                     "weight": 15
                 }
@@ -4720,8 +4720,8 @@
         },
         {
             "id": "crate_15",
-            "name": "RPG Crate 15",
-            "price": 33.19,
+            "name": "Shadowed Bone Cache",
+            "price": 231.81,
             "items": [
                 {
                     "item": "staff",
@@ -4752,7 +4752,7 @@
                     "effect": "mystic runes",
                     "id": "sword_423",
                     "name": "midnight blue Arcane Sword with Mystic runes",
-                    "price": 226.34,
+                    "price": 339.51,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4774,7 +4774,7 @@
                     "effect": "skulls",
                     "id": "sword_425",
                     "name": "purple Mystical Sword with Skulls",
-                    "price": 102.95,
+                    "price": 154.43,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4785,7 +4785,7 @@
                     "effect": "skulls",
                     "id": "amulet_426",
                     "name": "shadow black Arcane Amulet with Skulls",
-                    "price": 61.31,
+                    "price": 91.97,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4851,7 +4851,7 @@
                     "effect": "ethereal mist",
                     "id": "sword_432",
                     "name": "gold Arcane Sword with Ethereal mist",
-                    "price": 258.58,
+                    "price": 646.45,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -4873,7 +4873,7 @@
                     "effect": "sparkling particles",
                     "id": "book_434",
                     "name": "shadow black Cursed Book with Sparkling particles",
-                    "price": 134.72,
+                    "price": 336.8,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -4906,7 +4906,7 @@
                     "effect": "skulls",
                     "id": "helmet_437",
                     "name": "pink Holy Helmet with Skulls",
-                    "price": 221.66,
+                    "price": 332.49,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4939,7 +4939,7 @@
                     "effect": "crystals",
                     "id": "cape_440",
                     "name": "midnight blue Cursed Cape with Crystals",
-                    "price": 107.93,
+                    "price": 161.9,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4950,7 +4950,7 @@
                     "effect": "sparkling particles",
                     "id": "helmet_441",
                     "name": "silver Cursed Helmet with Sparkling particles",
-                    "price": 147.38,
+                    "price": 368.45,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -4961,7 +4961,7 @@
                     "effect": "crystals",
                     "id": "dagger_442",
                     "name": "silver Holy Dagger with Crystals",
-                    "price": 30.68,
+                    "price": 46.02,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -4983,7 +4983,7 @@
                     "effect": "mystic runes",
                     "id": "cape_444",
                     "name": "silver Cursed Cape with Mystic runes",
-                    "price": 511.63,
+                    "price": 2558.15,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -5027,7 +5027,7 @@
                     "effect": "sparkling particles",
                     "id": "shield_448",
                     "name": "silver Ancient Shield with Sparkling particles",
-                    "price": 95.94,
+                    "price": 143.91,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5038,7 +5038,7 @@
                     "effect": "mystic runes",
                     "id": "amulet_449",
                     "name": "crimson red Holy Amulet with Mystic runes",
-                    "price": 36.12,
+                    "price": 54.18,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5049,7 +5049,7 @@
                     "effect": "skulls",
                     "id": "ring_450",
                     "name": "purple Holy Ring with Skulls",
-                    "price": 149.94,
+                    "price": 224.91,
                     "rarity": "Uncommon",
                     "weight": 30
                 }
@@ -5057,8 +5057,8 @@
         },
         {
             "id": "crate_16",
-            "name": "RPG Crate 16",
-            "price": 43.57,
+            "name": "Midnight Relic Vault",
+            "price": 192.35,
             "items": [
                 {
                     "item": "book",
@@ -5100,7 +5100,7 @@
                     "effect": "sparkling particles",
                     "id": "dagger_454",
                     "name": "silver Cursed Dagger with Sparkling particles",
-                    "price": 115.33,
+                    "price": 173.0,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5122,7 +5122,7 @@
                     "effect": "mystic runes",
                     "id": "helmet_456",
                     "name": "pink Mystical Helmet with Mystic runes",
-                    "price": 138.15,
+                    "price": 345.38,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -5133,7 +5133,7 @@
                     "effect": "ethereal mist",
                     "id": "potion_457",
                     "name": "pink Arcane Potion with Ethereal mist",
-                    "price": 253.38,
+                    "price": 380.07,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5144,7 +5144,7 @@
                     "effect": "mystic runes",
                     "id": "cape_458",
                     "name": "crimson red Cursed Cape with Mystic runes",
-                    "price": 75.01,
+                    "price": 187.53,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -5188,7 +5188,7 @@
                     "effect": "mystic runes",
                     "id": "cape_462",
                     "name": "shadow black Arcane Cape with Mystic runes",
-                    "price": 143.06,
+                    "price": 214.59,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5210,7 +5210,7 @@
                     "effect": "sparkling particles",
                     "id": "ring_464",
                     "name": "pink Arcane Ring with Sparkling particles",
-                    "price": 111.25,
+                    "price": 166.88,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5221,7 +5221,7 @@
                     "effect": "mystic runes",
                     "id": "necklace_465",
                     "name": "shadow black Cursed Necklace with Mystic runes",
-                    "price": 274.53,
+                    "price": 686.32,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -5298,7 +5298,7 @@
                     "effect": "mystic runes",
                     "id": "helmet_472",
                     "name": "crimson red Arcane Helmet with Mystic runes",
-                    "price": 128.92,
+                    "price": 193.38,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5320,7 +5320,7 @@
                     "effect": "glowing aura",
                     "id": "potion_474",
                     "name": "midnight blue Enchanted Potion with Glowing aura",
-                    "price": 130.55,
+                    "price": 195.83,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5353,7 +5353,7 @@
                     "effect": "skulls",
                     "id": "potion_477",
                     "name": "silver Holy Potion with Skulls",
-                    "price": 182.45,
+                    "price": 456.12,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -5364,7 +5364,7 @@
                     "effect": "ethereal mist",
                     "id": "sword_478",
                     "name": "crimson red Cursed Sword with Ethereal mist",
-                    "price": 126.13,
+                    "price": 189.19,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5394,8 +5394,8 @@
         },
         {
             "id": "crate_17",
-            "name": "RPG Crate 17",
-            "price": 29.8,
+            "name": "Sanctified Crystal Chest",
+            "price": 539.27,
             "items": [
                 {
                     "item": "book",
@@ -5404,7 +5404,7 @@
                     "effect": "skulls",
                     "id": "book_481",
                     "name": "silver Holy Book with Skulls",
-                    "price": 212.23,
+                    "price": 530.57,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -5426,7 +5426,7 @@
                     "effect": "glowing aura",
                     "id": "shield_483",
                     "name": "purple Arcane Shield with Glowing aura",
-                    "price": 103.48,
+                    "price": 155.22,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5437,7 +5437,7 @@
                     "effect": "mystic runes",
                     "id": "helmet_484",
                     "name": "pink Arcane Helmet with Mystic runes",
-                    "price": 255.84,
+                    "price": 383.76,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5448,7 +5448,7 @@
                     "effect": "crystals",
                     "id": "staff_485",
                     "name": "pink Ancient Staff with Crystals",
-                    "price": 257.36,
+                    "price": 643.4,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -5459,7 +5459,7 @@
                     "effect": "skulls",
                     "id": "sword_486",
                     "name": "midnight blue Arcane Sword with Skulls",
-                    "price": 999.02,
+                    "price": 4995.1,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -5470,7 +5470,7 @@
                     "effect": "skulls",
                     "id": "helmet_487",
                     "name": "gold Enchanted Helmet with Skulls",
-                    "price": 169.75,
+                    "price": 424.38,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -5481,7 +5481,7 @@
                     "effect": "crystals",
                     "id": "potion_488",
                     "name": "emerald green Ancient Potion with Crystals",
-                    "price": 188.12,
+                    "price": 282.18,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5492,7 +5492,7 @@
                     "effect": "skulls",
                     "id": "cape_489",
                     "name": "shadow black Cursed Cape with Skulls",
-                    "price": 93.46,
+                    "price": 140.19,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5514,7 +5514,7 @@
                     "effect": "mystic runes",
                     "id": "ring_491",
                     "name": "silver Enchanted Ring with Mystic runes",
-                    "price": 249.36,
+                    "price": 623.4,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -5525,7 +5525,7 @@
                     "effect": "ethereal mist",
                     "id": "book_492",
                     "name": "pink Holy Book with Ethereal mist",
-                    "price": 104.16,
+                    "price": 260.4,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -5547,7 +5547,7 @@
                     "effect": "crystals",
                     "id": "sword_494",
                     "name": "purple Arcane Sword with Crystals",
-                    "price": 27.85,
+                    "price": 41.78,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5558,7 +5558,7 @@
                     "effect": "skulls",
                     "id": "staff_495",
                     "name": "purple Cursed Staff with Skulls",
-                    "price": 197.43,
+                    "price": 296.14,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5569,7 +5569,7 @@
                     "effect": "glowing aura",
                     "id": "necklace_496",
                     "name": "pink Cursed Necklace with Glowing aura",
-                    "price": 20.64,
+                    "price": 51.6,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -5613,7 +5613,7 @@
                     "effect": "skulls",
                     "id": "ring_500",
                     "name": "silver Arcane Ring with Skulls",
-                    "price": 216.53,
+                    "price": 324.8,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5635,7 +5635,7 @@
                     "effect": "sparkling particles",
                     "id": "book_502",
                     "name": "crimson red Mystical Book with Sparkling particles",
-                    "price": 232.51,
+                    "price": 581.27,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -5646,7 +5646,7 @@
                     "effect": "sparkling particles",
                     "id": "necklace_503",
                     "name": "emerald green Enchanted Necklace with Sparkling particles",
-                    "price": 209.95,
+                    "price": 314.92,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5657,7 +5657,7 @@
                     "effect": "skulls",
                     "id": "sword_504",
                     "name": "emerald green Cursed Sword with Skulls",
-                    "price": 445.69,
+                    "price": 4456.9,
                     "rarity": "Legendary",
                     "weight": 1
                 },
@@ -5723,7 +5723,7 @@
                     "effect": "crystals",
                     "id": "ring_510",
                     "name": "shadow black Mystical Ring with Crystals",
-                    "price": 385.48,
+                    "price": 1927.4,
                     "rarity": "Epic",
                     "weight": 4
                 }
@@ -5731,8 +5731,8 @@
         },
         {
             "id": "crate_18",
-            "name": "RPG Crate 18",
-            "price": 35.29,
+            "name": "Pink Skull Chest",
+            "price": 412.7,
             "items": [
                 {
                     "item": "shield",
@@ -5741,7 +5741,7 @@
                     "effect": "glowing aura",
                     "id": "shield_511",
                     "name": "pink Arcane Shield with Glowing aura",
-                    "price": 48.15,
+                    "price": 72.22,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5752,7 +5752,7 @@
                     "effect": "skulls",
                     "id": "shield_512",
                     "name": "midnight blue Cursed Shield with Skulls",
-                    "price": 291.78,
+                    "price": 1458.9,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -5785,7 +5785,7 @@
                     "effect": "skulls",
                     "id": "necklace_515",
                     "name": "emerald green Enchanted Necklace with Skulls",
-                    "price": 37.78,
+                    "price": 94.45,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -5796,7 +5796,7 @@
                     "effect": "crystals",
                     "id": "book_516",
                     "name": "purple Mystical Book with Crystals",
-                    "price": 83.33,
+                    "price": 125.0,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5818,7 +5818,7 @@
                     "effect": "mystic runes",
                     "id": "book_518",
                     "name": "purple Cursed Book with Mystic runes",
-                    "price": 104.69,
+                    "price": 157.03,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5851,7 +5851,7 @@
                     "effect": "sparkling particles",
                     "id": "dagger_521",
                     "name": "crimson red Holy Dagger with Sparkling particles",
-                    "price": 214.45,
+                    "price": 321.67,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5862,7 +5862,7 @@
                     "effect": "glowing aura",
                     "id": "book_522",
                     "name": "crimson red Ancient Book with Glowing aura",
-                    "price": 728.92,
+                    "price": 3644.6,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -5906,7 +5906,7 @@
                     "effect": "crystals",
                     "id": "necklace_526",
                     "name": "pink Holy Necklace with Crystals",
-                    "price": 44.53,
+                    "price": 66.8,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5928,7 +5928,7 @@
                     "effect": "mystic runes",
                     "id": "necklace_528",
                     "name": "midnight blue Mystical Necklace with Mystic runes",
-                    "price": 297.55,
+                    "price": 446.33,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5950,7 +5950,7 @@
                     "effect": "crystals",
                     "id": "ring_530",
                     "name": "shadow black Holy Ring with Crystals",
-                    "price": 110.87,
+                    "price": 277.18,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -5983,7 +5983,7 @@
                     "effect": "sparkling particles",
                     "id": "dagger_533",
                     "name": "emerald green Ancient Dagger with Sparkling particles",
-                    "price": 99.55,
+                    "price": 149.32,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -5994,7 +5994,7 @@
                     "effect": "glowing aura",
                     "id": "dagger_534",
                     "name": "silver Ancient Dagger with Glowing aura",
-                    "price": 463.18,
+                    "price": 2315.9,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -6005,7 +6005,7 @@
                     "effect": "ethereal mist",
                     "id": "helmet_535",
                     "name": "gold Holy Helmet with Ethereal mist",
-                    "price": 251.9,
+                    "price": 629.75,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6027,7 +6027,7 @@
                     "effect": "skulls",
                     "id": "cape_537",
                     "name": "emerald green Arcane Cape with Skulls",
-                    "price": 123.09,
+                    "price": 615.45,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -6038,7 +6038,7 @@
                     "effect": "glowing aura",
                     "id": "amulet_538",
                     "name": "shadow black Cursed Amulet with Glowing aura",
-                    "price": 204.18,
+                    "price": 306.27,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6049,7 +6049,7 @@
                     "effect": "skulls",
                     "id": "ring_539",
                     "name": "emerald green Cursed Ring with Skulls",
-                    "price": 241.84,
+                    "price": 362.76,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6068,8 +6068,8 @@
         },
         {
             "id": "crate_19",
-            "name": "RPG Crate 19",
-            "price": 25.72,
+            "name": "Mystic Silver Vault",
+            "price": 435.32,
             "items": [
                 {
                     "item": "shield",
@@ -6122,7 +6122,7 @@
                     "effect": "mystic runes",
                     "id": "amulet_545",
                     "name": "crimson red Enchanted Amulet with Mystic runes",
-                    "price": 27.44,
+                    "price": 68.6,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6133,7 +6133,7 @@
                     "effect": "ethereal mist",
                     "id": "staff_546",
                     "name": "crimson red Arcane Staff with Ethereal mist",
-                    "price": 182.82,
+                    "price": 457.05,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6144,7 +6144,7 @@
                     "effect": "mystic runes",
                     "id": "helmet_547",
                     "name": "emerald green Holy Helmet with Mystic runes",
-                    "price": 286.71,
+                    "price": 1433.55,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -6155,7 +6155,7 @@
                     "effect": "ethereal mist",
                     "id": "book_548",
                     "name": "midnight blue Mystical Book with Ethereal mist",
-                    "price": 71.77,
+                    "price": 179.42,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6199,7 +6199,7 @@
                     "effect": "sparkling particles",
                     "id": "staff_552",
                     "name": "silver Cursed Staff with Sparkling particles",
-                    "price": 982.6,
+                    "price": 4913.0,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -6210,7 +6210,7 @@
                     "effect": "skulls",
                     "id": "ring_553",
                     "name": "gold Cursed Ring with Skulls",
-                    "price": 63.49,
+                    "price": 95.23,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6287,7 +6287,7 @@
                     "effect": "glowing aura",
                     "id": "cape_560",
                     "name": "silver Mystical Cape with Glowing aura",
-                    "price": 106.98,
+                    "price": 267.45,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6298,7 +6298,7 @@
                     "effect": "crystals",
                     "id": "shield_561",
                     "name": "gold Arcane Shield with Crystals",
-                    "price": 138.42,
+                    "price": 346.05,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6309,7 +6309,7 @@
                     "effect": "ethereal mist",
                     "id": "book_562",
                     "name": "pink Cursed Book with Ethereal mist",
-                    "price": 107.74,
+                    "price": 161.61,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6342,7 +6342,7 @@
                     "effect": "glowing aura",
                     "id": "helmet_565",
                     "name": "gold Arcane Helmet with Glowing aura",
-                    "price": 547.63,
+                    "price": 2738.15,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -6375,7 +6375,7 @@
                     "effect": "skulls",
                     "id": "potion_568",
                     "name": "midnight blue Enchanted Potion with Skulls",
-                    "price": 162.21,
+                    "price": 405.53,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6386,7 +6386,7 @@
                     "effect": "mystic runes",
                     "id": "helmet_569",
                     "name": "shadow black Enchanted Helmet with Mystic runes",
-                    "price": 153.48,
+                    "price": 383.7,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6397,7 +6397,7 @@
                     "effect": "mystic runes",
                     "id": "dagger_570",
                     "name": "silver Cursed Dagger with Mystic runes",
-                    "price": 123.02,
+                    "price": 307.55,
                     "rarity": "Rare",
                     "weight": 15
                 }
@@ -6405,8 +6405,8 @@
         },
         {
             "id": "crate_20",
-            "name": "RPG Crate 20",
-            "price": 30.98,
+            "name": "Radiant Spark Crate",
+            "price": 151.42,
             "items": [
                 {
                     "item": "helmet",
@@ -6415,7 +6415,7 @@
                     "effect": "ethereal mist",
                     "id": "helmet_571",
                     "name": "crimson red Arcane Helmet with Ethereal mist",
-                    "price": 250.39,
+                    "price": 375.58,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6448,7 +6448,7 @@
                     "effect": "mystic runes",
                     "id": "cape_574",
                     "name": "emerald green Cursed Cape with Mystic runes",
-                    "price": 77.59,
+                    "price": 193.98,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6470,7 +6470,7 @@
                     "effect": "mystic runes",
                     "id": "necklace_576",
                     "name": "silver Holy Necklace with Mystic runes",
-                    "price": 127.4,
+                    "price": 191.1,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6525,7 +6525,7 @@
                     "effect": "glowing aura",
                     "id": "shield_581",
                     "name": "silver Arcane Shield with Glowing aura",
-                    "price": 259.66,
+                    "price": 389.49,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6536,7 +6536,7 @@
                     "effect": "crystals",
                     "id": "helmet_582",
                     "name": "crimson red Arcane Helmet with Crystals",
-                    "price": 57.38,
+                    "price": 143.45,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6547,7 +6547,7 @@
                     "effect": "crystals",
                     "id": "necklace_583",
                     "name": "midnight blue Holy Necklace with Crystals",
-                    "price": 215.1,
+                    "price": 322.65,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6569,7 +6569,7 @@
                     "effect": "mystic runes",
                     "id": "shield_585",
                     "name": "pink Enchanted Shield with Mystic runes",
-                    "price": 108.58,
+                    "price": 271.45,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6613,7 +6613,7 @@
                     "effect": "ethereal mist",
                     "id": "necklace_589",
                     "name": "shadow black Cursed Necklace with Ethereal mist",
-                    "price": 2.24,
+                    "price": 5.6,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6624,7 +6624,7 @@
                     "effect": "crystals",
                     "id": "amulet_590",
                     "name": "midnight blue Arcane Amulet with Crystals",
-                    "price": 18.94,
+                    "price": 47.35,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6635,7 +6635,7 @@
                     "effect": "skulls",
                     "id": "book_591",
                     "name": "crimson red Mystical Book with Skulls",
-                    "price": 74.56,
+                    "price": 186.4,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6646,7 +6646,7 @@
                     "effect": "mystic runes",
                     "id": "cape_592",
                     "name": "gold Cursed Cape with Mystic runes",
-                    "price": 144.57,
+                    "price": 361.42,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6679,7 +6679,7 @@
                     "effect": "sparkling particles",
                     "id": "potion_595",
                     "name": "crimson red Mystical Potion with Sparkling particles",
-                    "price": 82.7,
+                    "price": 206.75,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6690,7 +6690,7 @@
                     "effect": "ethereal mist",
                     "id": "potion_596",
                     "name": "purple Mystical Potion with Ethereal mist",
-                    "price": 159.53,
+                    "price": 398.82,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6723,7 +6723,7 @@
                     "effect": "crystals",
                     "id": "book_599",
                     "name": "emerald green Cursed Book with Crystals",
-                    "price": 52.2,
+                    "price": 78.3,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6742,8 +6742,8 @@
         },
         {
             "id": "crate_21",
-            "name": "RPG Crate 21",
-            "price": 43.83,
+            "name": "Rune of Shadows",
+            "price": 322.51,
             "items": [
                 {
                     "item": "amulet",
@@ -6752,7 +6752,7 @@
                     "effect": "crystals",
                     "id": "amulet_601",
                     "name": "purple Mystical Amulet with Crystals",
-                    "price": 39.69,
+                    "price": 59.53,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6774,7 +6774,7 @@
                     "effect": "mystic runes",
                     "id": "dagger_603",
                     "name": "crimson red Holy Dagger with Mystic runes",
-                    "price": 51.98,
+                    "price": 77.97,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6785,7 +6785,7 @@
                     "effect": "ethereal mist",
                     "id": "potion_604",
                     "name": "midnight blue Ancient Potion with Ethereal mist",
-                    "price": 32.1,
+                    "price": 80.25,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6807,7 +6807,7 @@
                     "effect": "sparkling particles",
                     "id": "potion_606",
                     "name": "silver Holy Potion with Sparkling particles",
-                    "price": 4.31,
+                    "price": 6.46,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6829,7 +6829,7 @@
                     "effect": "crystals",
                     "id": "amulet_608",
                     "name": "silver Arcane Amulet with Crystals",
-                    "price": 226.2,
+                    "price": 565.5,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6884,7 +6884,7 @@
                     "effect": "ethereal mist",
                     "id": "ring_613",
                     "name": "pink Cursed Ring with Ethereal mist",
-                    "price": 226.33,
+                    "price": 565.83,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -6895,7 +6895,7 @@
                     "effect": "ethereal mist",
                     "id": "ring_614",
                     "name": "emerald green Cursed Ring with Ethereal mist",
-                    "price": 293.07,
+                    "price": 439.61,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6906,7 +6906,7 @@
                     "effect": "sparkling particles",
                     "id": "ring_615",
                     "name": "shadow black Holy Ring with Sparkling particles",
-                    "price": 7.25,
+                    "price": 10.88,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6939,7 +6939,7 @@
                     "effect": "sparkling particles",
                     "id": "necklace_618",
                     "name": "purple Cursed Necklace with Sparkling particles",
-                    "price": 886.27,
+                    "price": 4431.35,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -6950,7 +6950,7 @@
                     "effect": "mystic runes",
                     "id": "cape_619",
                     "name": "crimson red Ancient Cape with Mystic runes",
-                    "price": 76.24,
+                    "price": 114.36,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6961,7 +6961,7 @@
                     "effect": "glowing aura",
                     "id": "book_620",
                     "name": "shadow black Arcane Book with Glowing aura",
-                    "price": 178.94,
+                    "price": 268.41,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -6994,7 +6994,7 @@
                     "effect": "ethereal mist",
                     "id": "ring_623",
                     "name": "midnight blue Cursed Ring with Ethereal mist",
-                    "price": 254.08,
+                    "price": 635.2,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -7005,7 +7005,7 @@
                     "effect": "glowing aura",
                     "id": "staff_624",
                     "name": "purple Holy Staff with Glowing aura",
-                    "price": 269.74,
+                    "price": 404.61,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7027,7 +7027,7 @@
                     "effect": "ethereal mist",
                     "id": "sword_626",
                     "name": "pink Arcane Sword with Ethereal mist",
-                    "price": 254.1,
+                    "price": 635.25,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -7038,7 +7038,7 @@
                     "effect": "glowing aura",
                     "id": "shield_627",
                     "name": "emerald green Cursed Shield with Glowing aura",
-                    "price": 32.32,
+                    "price": 48.48,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7071,7 +7071,7 @@
                     "effect": "glowing aura",
                     "id": "sword_630",
                     "name": "midnight blue Holy Sword with Glowing aura",
-                    "price": 188.52,
+                    "price": 471.3,
                     "rarity": "Rare",
                     "weight": 15
                 }
@@ -7079,8 +7079,8 @@
         },
         {
             "id": "crate_22",
-            "name": "RPG Crate 22",
-            "price": 20.96,
+            "name": "Holy Skull Cache",
+            "price": 254.45,
             "items": [
                 {
                     "item": "amulet",
@@ -7111,7 +7111,7 @@
                     "effect": "ethereal mist",
                     "id": "necklace_633",
                     "name": "pink Cursed Necklace with Ethereal mist",
-                    "price": 192.68,
+                    "price": 289.02,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7144,7 +7144,7 @@
                     "effect": "crystals",
                     "id": "book_636",
                     "name": "shadow black Ancient Book with Crystals",
-                    "price": 23.92,
+                    "price": 119.6,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -7155,7 +7155,7 @@
                     "effect": "glowing aura",
                     "id": "dagger_637",
                     "name": "pink Enchanted Dagger with Glowing aura",
-                    "price": 521.95,
+                    "price": 2609.75,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -7166,7 +7166,7 @@
                     "effect": "sparkling particles",
                     "id": "amulet_638",
                     "name": "crimson red Cursed Amulet with Sparkling particles",
-                    "price": 299.26,
+                    "price": 748.15,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -7188,7 +7188,7 @@
                     "effect": "glowing aura",
                     "id": "dagger_640",
                     "name": "pink Cursed Dagger with Glowing aura",
-                    "price": 24.63,
+                    "price": 36.95,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7232,7 +7232,7 @@
                     "effect": "crystals",
                     "id": "cape_644",
                     "name": "gold Ancient Cape with Crystals",
-                    "price": 53.53,
+                    "price": 133.82,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -7287,7 +7287,7 @@
                     "effect": "crystals",
                     "id": "sword_649",
                     "name": "emerald green Mystical Sword with Crystals",
-                    "price": 151.0,
+                    "price": 226.5,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7298,7 +7298,7 @@
                     "effect": "sparkling particles",
                     "id": "helmet_650",
                     "name": "gold Enchanted Helmet with Sparkling particles",
-                    "price": 107.27,
+                    "price": 160.91,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7309,7 +7309,7 @@
                     "effect": "mystic runes",
                     "id": "potion_651",
                     "name": "midnight blue Enchanted Potion with Mystic runes",
-                    "price": 15.16,
+                    "price": 22.74,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7331,7 +7331,7 @@
                     "effect": "glowing aura",
                     "id": "potion_653",
                     "name": "pink Ancient Potion with Glowing aura",
-                    "price": 66.06,
+                    "price": 165.15,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -7364,7 +7364,7 @@
                     "effect": "crystals",
                     "id": "book_656",
                     "name": "crimson red Holy Book with Crystals",
-                    "price": 71.43,
+                    "price": 107.15,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7375,7 +7375,7 @@
                     "effect": "ethereal mist",
                     "id": "helmet_657",
                     "name": "purple Enchanted Helmet with Ethereal mist",
-                    "price": 253.31,
+                    "price": 633.27,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -7397,7 +7397,7 @@
                     "effect": "skulls",
                     "id": "ring_659",
                     "name": "midnight blue Ancient Ring with Skulls",
-                    "price": 93.54,
+                    "price": 140.31,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7416,8 +7416,8 @@
         },
         {
             "id": "crate_23",
-            "name": "RPG Crate 23",
-            "price": 25.05,
+            "name": "Emerald Crystal Chest",
+            "price": 215.59,
             "items": [
                 {
                     "item": "staff",
@@ -7426,7 +7426,7 @@
                     "effect": "skulls",
                     "id": "staff_661",
                     "name": "crimson red Cursed Staff with Skulls",
-                    "price": 284.88,
+                    "price": 427.32,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7448,7 +7448,7 @@
                     "effect": "crystals",
                     "id": "necklace_663",
                     "name": "silver Enchanted Necklace with Crystals",
-                    "price": 121.89,
+                    "price": 182.84,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7459,7 +7459,7 @@
                     "effect": "glowing aura",
                     "id": "cape_664",
                     "name": "gold Mystical Cape with Glowing aura",
-                    "price": 212.05,
+                    "price": 318.08,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7481,7 +7481,7 @@
                     "effect": "sparkling particles",
                     "id": "necklace_666",
                     "name": "crimson red Mystical Necklace with Sparkling particles",
-                    "price": 240.42,
+                    "price": 360.63,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7492,7 +7492,7 @@
                     "effect": "skulls",
                     "id": "sword_667",
                     "name": "pink Enchanted Sword with Skulls",
-                    "price": 69.22,
+                    "price": 103.83,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7503,7 +7503,7 @@
                     "effect": "sparkling particles",
                     "id": "necklace_668",
                     "name": "silver Holy Necklace with Sparkling particles",
-                    "price": 55.95,
+                    "price": 139.88,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -7514,7 +7514,7 @@
                     "effect": "skulls",
                     "id": "potion_669",
                     "name": "gold Mystical Potion with Skulls",
-                    "price": 150.84,
+                    "price": 226.26,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7525,7 +7525,7 @@
                     "effect": "glowing aura",
                     "id": "potion_670",
                     "name": "gold Mystical Potion with Glowing aura",
-                    "price": 220.22,
+                    "price": 330.33,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7536,7 +7536,7 @@
                     "effect": "ethereal mist",
                     "id": "shield_671",
                     "name": "gold Enchanted Shield with Ethereal mist",
-                    "price": 236.81,
+                    "price": 355.22,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7558,7 +7558,7 @@
                     "effect": "skulls",
                     "id": "sword_673",
                     "name": "midnight blue Ancient Sword with Skulls",
-                    "price": 10.92,
+                    "price": 16.38,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7580,7 +7580,7 @@
                     "effect": "sparkling particles",
                     "id": "helmet_675",
                     "name": "pink Cursed Helmet with Sparkling particles",
-                    "price": 182.35,
+                    "price": 455.88,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -7624,7 +7624,7 @@
                     "effect": "skulls",
                     "id": "necklace_679",
                     "name": "purple Mystical Necklace with Skulls",
-                    "price": 105.38,
+                    "price": 158.07,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7635,7 +7635,7 @@
                     "effect": "glowing aura",
                     "id": "sword_680",
                     "name": "silver Mystical Sword with Glowing aura",
-                    "price": 278.98,
+                    "price": 418.47,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7646,7 +7646,7 @@
                     "effect": "ethereal mist",
                     "id": "amulet_681",
                     "name": "gold Mystical Amulet with Ethereal mist",
-                    "price": 279.15,
+                    "price": 418.72,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7668,7 +7668,7 @@
                     "effect": "sparkling particles",
                     "id": "amulet_683",
                     "name": "midnight blue Cursed Amulet with Sparkling particles",
-                    "price": 12.27,
+                    "price": 122.7,
                     "rarity": "Legendary",
                     "weight": 1
                 },
@@ -7690,7 +7690,7 @@
                     "effect": "crystals",
                     "id": "dagger_685",
                     "name": "gold Ancient Dagger with Crystals",
-                    "price": 63.09,
+                    "price": 157.73,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -7723,7 +7723,7 @@
                     "effect": "crystals",
                     "id": "sword_688",
                     "name": "emerald green Ancient Sword with Crystals",
-                    "price": 286.75,
+                    "price": 716.88,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -7734,7 +7734,7 @@
                     "effect": "crystals",
                     "id": "ring_689",
                     "name": "pink Cursed Ring with Crystals",
-                    "price": 217.32,
+                    "price": 325.98,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7745,7 +7745,7 @@
                     "effect": "glowing aura",
                     "id": "necklace_690",
                     "name": "silver Enchanted Necklace with Glowing aura",
-                    "price": 155.74,
+                    "price": 389.35,
                     "rarity": "Rare",
                     "weight": 15
                 }
@@ -7753,8 +7753,8 @@
         },
         {
             "id": "crate_24",
-            "name": "RPG Crate 24",
-            "price": 31.81,
+            "name": "Spectral Wraith Chest",
+            "price": 416.54,
             "items": [
                 {
                     "item": "necklace",
@@ -7763,7 +7763,7 @@
                     "effect": "skulls",
                     "id": "necklace_691",
                     "name": "gold Ancient Necklace with Skulls",
-                    "price": 236.08,
+                    "price": 590.2,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -7785,7 +7785,7 @@
                     "effect": "crystals",
                     "id": "ring_693",
                     "name": "purple Arcane Ring with Crystals",
-                    "price": 61.74,
+                    "price": 92.61,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7818,7 +7818,7 @@
                     "effect": "crystals",
                     "id": "amulet_696",
                     "name": "crimson red Holy Amulet with Crystals",
-                    "price": 729.33,
+                    "price": 7293.3,
                     "rarity": "Legendary",
                     "weight": 1
                 },
@@ -7851,7 +7851,7 @@
                     "effect": "mystic runes",
                     "id": "sword_699",
                     "name": "purple Arcane Sword with Mystic runes",
-                    "price": 136.11,
+                    "price": 340.28,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -7862,7 +7862,7 @@
                     "effect": "skulls",
                     "id": "sword_700",
                     "name": "pink Cursed Sword with Skulls",
-                    "price": 80.51,
+                    "price": 201.28,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -7895,7 +7895,7 @@
                     "effect": "skulls",
                     "id": "necklace_703",
                     "name": "pink Ancient Necklace with Skulls",
-                    "price": 233.3,
+                    "price": 349.95,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7906,7 +7906,7 @@
                     "effect": "glowing aura",
                     "id": "necklace_704",
                     "name": "midnight blue Enchanted Necklace with Glowing aura",
-                    "price": 220.5,
+                    "price": 330.75,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -7961,7 +7961,7 @@
                     "effect": "mystic runes",
                     "id": "staff_709",
                     "name": "midnight blue Ancient Staff with Mystic runes",
-                    "price": 93.75,
+                    "price": 234.38,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -7972,7 +7972,7 @@
                     "effect": "sparkling particles",
                     "id": "dagger_710",
                     "name": "purple Cursed Dagger with Sparkling particles",
-                    "price": 264.72,
+                    "price": 661.8,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -7983,7 +7983,7 @@
                     "effect": "mystic runes",
                     "id": "book_711",
                     "name": "emerald green Enchanted Book with Mystic runes",
-                    "price": 295.49,
+                    "price": 443.24,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8005,7 +8005,7 @@
                     "effect": "mystic runes",
                     "id": "sword_713",
                     "name": "pink Cursed Sword with Mystic runes",
-                    "price": 35.16,
+                    "price": 52.74,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8016,7 +8016,7 @@
                     "effect": "crystals",
                     "id": "necklace_714",
                     "name": "emerald green Holy Necklace with Crystals",
-                    "price": 229.54,
+                    "price": 573.85,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -8038,7 +8038,7 @@
                     "effect": "skulls",
                     "id": "dagger_716",
                     "name": "gold Cursed Dagger with Skulls",
-                    "price": 197.06,
+                    "price": 295.59,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8071,7 +8071,7 @@
                     "effect": "mystic runes",
                     "id": "sword_719",
                     "name": "pink Mystical Sword with Mystic runes",
-                    "price": 77.63,
+                    "price": 116.44,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8090,8 +8090,8 @@
         },
         {
             "id": "crate_25",
-            "name": "RPG Crate 25",
-            "price": 41.83,
+            "name": "Golden Bone Box",
+            "price": 253.18,
             "items": [
                 {
                     "item": "staff",
@@ -8111,7 +8111,7 @@
                     "effect": "sparkling particles",
                     "id": "ring_722",
                     "name": "crimson red Arcane Ring with Sparkling particles",
-                    "price": 135.47,
+                    "price": 203.2,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8133,7 +8133,7 @@
                     "effect": "mystic runes",
                     "id": "sword_724",
                     "name": "silver Holy Sword with Mystic runes",
-                    "price": 152.45,
+                    "price": 228.67,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8144,7 +8144,7 @@
                     "effect": "mystic runes",
                     "id": "ring_725",
                     "name": "crimson red Enchanted Ring with Mystic runes",
-                    "price": 459.72,
+                    "price": 2298.6,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -8254,7 +8254,7 @@
                     "effect": "ethereal mist",
                     "id": "staff_735",
                     "name": "purple Arcane Staff with Ethereal mist",
-                    "price": 279.91,
+                    "price": 419.87,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8265,7 +8265,7 @@
                     "effect": "skulls",
                     "id": "sword_736",
                     "name": "crimson red Arcane Sword with Skulls",
-                    "price": 118.65,
+                    "price": 177.98,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8276,7 +8276,7 @@
                     "effect": "skulls",
                     "id": "necklace_737",
                     "name": "purple Cursed Necklace with Skulls",
-                    "price": 173.08,
+                    "price": 259.62,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8287,7 +8287,7 @@
                     "effect": "glowing aura",
                     "id": "ring_738",
                     "name": "silver Ancient Ring with Glowing aura",
-                    "price": 137.93,
+                    "price": 344.83,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -8298,7 +8298,7 @@
                     "effect": "mystic runes",
                     "id": "necklace_739",
                     "name": "pink Ancient Necklace with Mystic runes",
-                    "price": 262.42,
+                    "price": 393.63,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8320,7 +8320,7 @@
                     "effect": "ethereal mist",
                     "id": "book_741",
                     "name": "shadow black Cursed Book with Ethereal mist",
-                    "price": 110.29,
+                    "price": 165.44,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8331,7 +8331,7 @@
                     "effect": "mystic runes",
                     "id": "amulet_742",
                     "name": "purple Mystical Amulet with Mystic runes",
-                    "price": 71.34,
+                    "price": 107.01,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8342,7 +8342,7 @@
                     "effect": "glowing aura",
                     "id": "helmet_743",
                     "name": "purple Ancient Helmet with Glowing aura",
-                    "price": 264.6,
+                    "price": 661.5,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -8353,7 +8353,7 @@
                     "effect": "mystic runes",
                     "id": "potion_744",
                     "name": "crimson red Arcane Potion with Mystic runes",
-                    "price": 7.53,
+                    "price": 18.82,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -8364,7 +8364,7 @@
                     "effect": "skulls",
                     "id": "book_745",
                     "name": "emerald green Mystical Book with Skulls",
-                    "price": 10.34,
+                    "price": 15.51,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8419,7 +8419,7 @@
                     "effect": "crystals",
                     "id": "staff_750",
                     "name": "crimson red Enchanted Staff with Crystals",
-                    "price": 25.2,
+                    "price": 63.0,
                     "rarity": "Rare",
                     "weight": 15
                 }
@@ -8427,8 +8427,8 @@
         },
         {
             "id": "crate_26",
-            "name": "RPG Crate 26",
-            "price": 35.98,
+            "name": "Duskbound Crystal Vault",
+            "price": 383.39,
             "items": [
                 {
                     "item": "dagger",
@@ -8470,7 +8470,7 @@
                     "effect": "crystals",
                     "id": "necklace_754",
                     "name": "gold Arcane Necklace with Crystals",
-                    "price": 299.91,
+                    "price": 749.78,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -8503,7 +8503,7 @@
                     "effect": "sparkling particles",
                     "id": "amulet_757",
                     "name": "emerald green Arcane Amulet with Sparkling particles",
-                    "price": 112.9,
+                    "price": 169.35,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8525,7 +8525,7 @@
                     "effect": "ethereal mist",
                     "id": "ring_759",
                     "name": "gold Arcane Ring with Ethereal mist",
-                    "price": 290.44,
+                    "price": 435.66,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8536,7 +8536,7 @@
                     "effect": "ethereal mist",
                     "id": "cape_760",
                     "name": "silver Arcane Cape with Ethereal mist",
-                    "price": 700.23,
+                    "price": 3501.15,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -8558,7 +8558,7 @@
                     "effect": "skulls",
                     "id": "cape_762",
                     "name": "silver Mystical Cape with Skulls",
-                    "price": 99.13,
+                    "price": 247.82,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -8580,7 +8580,7 @@
                     "effect": "mystic runes",
                     "id": "necklace_764",
                     "name": "midnight blue Ancient Necklace with Mystic runes",
-                    "price": 252.53,
+                    "price": 631.33,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -8591,7 +8591,7 @@
                     "effect": "sparkling particles",
                     "id": "staff_765",
                     "name": "pink Enchanted Staff with Sparkling particles",
-                    "price": 136.67,
+                    "price": 341.67,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -8613,7 +8613,7 @@
                     "effect": "skulls",
                     "id": "staff_767",
                     "name": "silver Ancient Staff with Skulls",
-                    "price": 222.32,
+                    "price": 333.48,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8624,7 +8624,7 @@
                     "effect": "ethereal mist",
                     "id": "sword_768",
                     "name": "shadow black Mystical Sword with Ethereal mist",
-                    "price": 87.7,
+                    "price": 131.55,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8657,7 +8657,7 @@
                     "effect": "glowing aura",
                     "id": "sword_771",
                     "name": "shadow black Holy Sword with Glowing aura",
-                    "price": 148.37,
+                    "price": 222.56,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8668,7 +8668,7 @@
                     "effect": "crystals",
                     "id": "dagger_772",
                     "name": "purple Ancient Dagger with Crystals",
-                    "price": 43.59,
+                    "price": 65.39,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8679,7 +8679,7 @@
                     "effect": "mystic runes",
                     "id": "staff_773",
                     "name": "midnight blue Holy Staff with Mystic runes",
-                    "price": 135.2,
+                    "price": 338.0,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -8690,7 +8690,7 @@
                     "effect": "glowing aura",
                     "id": "potion_774",
                     "name": "emerald green Cursed Potion with Glowing aura",
-                    "price": 37.75,
+                    "price": 94.38,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -8712,7 +8712,7 @@
                     "effect": "mystic runes",
                     "id": "necklace_776",
                     "name": "gold Cursed Necklace with Mystic runes",
-                    "price": 524.38,
+                    "price": 2621.9,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -8734,7 +8734,7 @@
                     "effect": "sparkling particles",
                     "id": "amulet_778",
                     "name": "pink Arcane Amulet with Sparkling particles",
-                    "price": 29.54,
+                    "price": 147.7,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -8756,7 +8756,7 @@
                     "effect": "skulls",
                     "id": "staff_780",
                     "name": "crimson red Mystical Staff with Skulls",
-                    "price": 254.33,
+                    "price": 381.5,
                     "rarity": "Uncommon",
                     "weight": 30
                 }
@@ -8764,8 +8764,8 @@
         },
         {
             "id": "crate_27",
-            "name": "RPG Crate 27",
-            "price": 23.65,
+            "name": "Blue Mistral Cache",
+            "price": 166.71,
             "items": [
                 {
                     "item": "sword",
@@ -8785,7 +8785,7 @@
                     "effect": "glowing aura",
                     "id": "potion_782",
                     "name": "emerald green Ancient Potion with Glowing aura",
-                    "price": 68.35,
+                    "price": 170.88,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -8807,7 +8807,7 @@
                     "effect": "ethereal mist",
                     "id": "ring_784",
                     "name": "pink Arcane Ring with Ethereal mist",
-                    "price": 51.37,
+                    "price": 77.05,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8840,7 +8840,7 @@
                     "effect": "glowing aura",
                     "id": "shield_787",
                     "name": "crimson red Cursed Shield with Glowing aura",
-                    "price": 254.69,
+                    "price": 382.03,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8851,7 +8851,7 @@
                     "effect": "glowing aura",
                     "id": "ring_788",
                     "name": "pink Mystical Ring with Glowing aura",
-                    "price": 120.69,
+                    "price": 301.73,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -8906,7 +8906,7 @@
                     "effect": "sparkling particles",
                     "id": "shield_793",
                     "name": "midnight blue Mystical Shield with Sparkling particles",
-                    "price": 7.29,
+                    "price": 18.23,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -8917,7 +8917,7 @@
                     "effect": "ethereal mist",
                     "id": "staff_794",
                     "name": "pink Mystical Staff with Ethereal mist",
-                    "price": 183.28,
+                    "price": 274.92,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8928,7 +8928,7 @@
                     "effect": "ethereal mist",
                     "id": "ring_795",
                     "name": "silver Cursed Ring with Ethereal mist",
-                    "price": 64.69,
+                    "price": 97.03,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8939,7 +8939,7 @@
                     "effect": "sparkling particles",
                     "id": "sword_796",
                     "name": "gold Cursed Sword with Sparkling particles",
-                    "price": 276.95,
+                    "price": 415.42,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8972,7 +8972,7 @@
                     "effect": "skulls",
                     "id": "shield_799",
                     "name": "pink Holy Shield with Skulls",
-                    "price": 75.78,
+                    "price": 113.67,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -8983,7 +8983,7 @@
                     "effect": "crystals",
                     "id": "shield_800",
                     "name": "crimson red Cursed Shield with Crystals",
-                    "price": 140.27,
+                    "price": 350.68,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -9027,7 +9027,7 @@
                     "effect": "mystic runes",
                     "id": "necklace_804",
                     "name": "midnight blue Arcane Necklace with Mystic runes",
-                    "price": 137.99,
+                    "price": 206.99,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9060,7 +9060,7 @@
                     "effect": "ethereal mist",
                     "id": "ring_807",
                     "name": "midnight blue Enchanted Ring with Ethereal mist",
-                    "price": 91.32,
+                    "price": 228.3,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -9101,8 +9101,8 @@
         },
         {
             "id": "crate_28",
-            "name": "RPG Crate 28",
-            "price": 41.96,
+            "name": "Violet Bone Chest",
+            "price": 250.19,
             "items": [
                 {
                     "item": "dagger",
@@ -9144,7 +9144,7 @@
                     "effect": "glowing aura",
                     "id": "sword_814",
                     "name": "gold Holy Sword with Glowing aura",
-                    "price": 158.68,
+                    "price": 396.7,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -9177,7 +9177,7 @@
                     "effect": "skulls",
                     "id": "amulet_817",
                     "name": "crimson red Ancient Amulet with Skulls",
-                    "price": 49.4,
+                    "price": 123.5,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -9188,7 +9188,7 @@
                     "effect": "skulls",
                     "id": "ring_818",
                     "name": "crimson red Cursed Ring with Skulls",
-                    "price": 22.38,
+                    "price": 33.57,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9210,7 +9210,7 @@
                     "effect": "ethereal mist",
                     "id": "book_820",
                     "name": "crimson red Arcane Book with Ethereal mist",
-                    "price": 151.06,
+                    "price": 377.65,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -9232,7 +9232,7 @@
                     "effect": "mystic runes",
                     "id": "helmet_822",
                     "name": "emerald green Arcane Helmet with Mystic runes",
-                    "price": 5.46,
+                    "price": 8.19,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9243,7 +9243,7 @@
                     "effect": "glowing aura",
                     "id": "ring_823",
                     "name": "emerald green Enchanted Ring with Glowing aura",
-                    "price": 150.74,
+                    "price": 226.11,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9254,7 +9254,7 @@
                     "effect": "ethereal mist",
                     "id": "cape_824",
                     "name": "purple Ancient Cape with Ethereal mist",
-                    "price": 285.75,
+                    "price": 428.62,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9265,7 +9265,7 @@
                     "effect": "ethereal mist",
                     "id": "shield_825",
                     "name": "emerald green Ancient Shield with Ethereal mist",
-                    "price": 198.97,
+                    "price": 298.45,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9276,7 +9276,7 @@
                     "effect": "skulls",
                     "id": "shield_826",
                     "name": "emerald green Enchanted Shield with Skulls",
-                    "price": 48.62,
+                    "price": 72.93,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9287,7 +9287,7 @@
                     "effect": "ethereal mist",
                     "id": "dagger_827",
                     "name": "purple Ancient Dagger with Ethereal mist",
-                    "price": 20.44,
+                    "price": 30.66,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9298,7 +9298,7 @@
                     "effect": "sparkling particles",
                     "id": "helmet_828",
                     "name": "silver Enchanted Helmet with Sparkling particles",
-                    "price": 617.44,
+                    "price": 3087.2,
                     "rarity": "Epic",
                     "weight": 4
                 },
@@ -9309,7 +9309,7 @@
                     "effect": "sparkling particles",
                     "id": "amulet_829",
                     "name": "shadow black Mystical Amulet with Sparkling particles",
-                    "price": 190.54,
+                    "price": 285.81,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9342,7 +9342,7 @@
                     "effect": "sparkling particles",
                     "id": "necklace_832",
                     "name": "pink Arcane Necklace with Sparkling particles",
-                    "price": 191.45,
+                    "price": 478.62,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -9364,7 +9364,7 @@
                     "effect": "crystals",
                     "id": "dagger_834",
                     "name": "emerald green Ancient Dagger with Crystals",
-                    "price": 129.24,
+                    "price": 193.86,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9375,7 +9375,7 @@
                     "effect": "glowing aura",
                     "id": "ring_835",
                     "name": "crimson red Enchanted Ring with Glowing aura",
-                    "price": 107.95,
+                    "price": 161.93,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9386,7 +9386,7 @@
                     "effect": "ethereal mist",
                     "id": "staff_836",
                     "name": "pink Enchanted Staff with Ethereal mist",
-                    "price": 235.73,
+                    "price": 353.59,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9397,7 +9397,7 @@
                     "effect": "sparkling particles",
                     "id": "ring_837",
                     "name": "emerald green Mystical Ring with Sparkling particles",
-                    "price": 3.31,
+                    "price": 4.96,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9438,8 +9438,8 @@
         },
         {
             "id": "crate_29",
-            "name": "RPG Crate 29",
-            "price": 40.52,
+            "name": "Bloody Jewel Cache",
+            "price": 207.22,
             "items": [
                 {
                     "item": "staff",
@@ -9448,7 +9448,7 @@
                     "effect": "crystals",
                     "id": "staff_841",
                     "name": "midnight blue Enchanted Staff with Crystals",
-                    "price": 182.57,
+                    "price": 273.86,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9459,7 +9459,7 @@
                     "effect": "crystals",
                     "id": "book_842",
                     "name": "crimson red Ancient Book with Crystals",
-                    "price": 14.39,
+                    "price": 21.59,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9470,7 +9470,7 @@
                     "effect": "sparkling particles",
                     "id": "necklace_843",
                     "name": "emerald green Ancient Necklace with Sparkling particles",
-                    "price": 271.12,
+                    "price": 677.8,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -9481,7 +9481,7 @@
                     "effect": "glowing aura",
                     "id": "dagger_844",
                     "name": "crimson red Holy Dagger with Glowing aura",
-                    "price": 98.93,
+                    "price": 148.4,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9492,7 +9492,7 @@
                     "effect": "glowing aura",
                     "id": "potion_845",
                     "name": "midnight blue Holy Potion with Glowing aura",
-                    "price": 226.16,
+                    "price": 339.24,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9503,7 +9503,7 @@
                     "effect": "skulls",
                     "id": "amulet_846",
                     "name": "purple Arcane Amulet with Skulls",
-                    "price": 129.99,
+                    "price": 194.99,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9591,7 +9591,7 @@
                     "effect": "mystic runes",
                     "id": "shield_854",
                     "name": "crimson red Enchanted Shield with Mystic runes",
-                    "price": 271.99,
+                    "price": 679.98,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -9624,7 +9624,7 @@
                     "effect": "sparkling particles",
                     "id": "book_857",
                     "name": "shadow black Holy Book with Sparkling particles",
-                    "price": 15.68,
+                    "price": 23.52,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9635,7 +9635,7 @@
                     "effect": "crystals",
                     "id": "ring_858",
                     "name": "purple Ancient Ring with Crystals",
-                    "price": 96.28,
+                    "price": 144.42,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9646,7 +9646,7 @@
                     "effect": "mystic runes",
                     "id": "shield_859",
                     "name": "purple Mystical Shield with Mystic runes",
-                    "price": 193.06,
+                    "price": 482.65,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -9668,7 +9668,7 @@
                     "effect": "glowing aura",
                     "id": "staff_861",
                     "name": "gold Arcane Staff with Glowing aura",
-                    "price": 243.99,
+                    "price": 365.99,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9679,7 +9679,7 @@
                     "effect": "mystic runes",
                     "id": "staff_862",
                     "name": "emerald green Holy Staff with Mystic runes",
-                    "price": 251.29,
+                    "price": 376.94,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9701,7 +9701,7 @@
                     "effect": "glowing aura",
                     "id": "sword_864",
                     "name": "purple Enchanted Sword with Glowing aura",
-                    "price": 140.95,
+                    "price": 211.42,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9712,7 +9712,7 @@
                     "effect": "mystic runes",
                     "id": "helmet_865",
                     "name": "emerald green Cursed Helmet with Mystic runes",
-                    "price": 43.3,
+                    "price": 64.95,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9734,7 +9734,7 @@
                     "effect": "sparkling particles",
                     "id": "book_867",
                     "name": "crimson red Ancient Book with Sparkling particles",
-                    "price": 210.32,
+                    "price": 315.48,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9756,7 +9756,7 @@
                     "effect": "glowing aura",
                     "id": "helmet_869",
                     "name": "shadow black Mystical Helmet with Glowing aura",
-                    "price": 6.26,
+                    "price": 15.65,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -9775,8 +9775,8 @@
         },
         {
             "id": "crate_30",
-            "name": "RPG Crate 30",
-            "price": 43.76,
+            "name": "Runic Blood Box",
+            "price": 303.82,
             "items": [
                 {
                     "item": "shield",
@@ -9785,7 +9785,7 @@
                     "effect": "ethereal mist",
                     "id": "shield_871",
                     "name": "midnight blue Enchanted Shield with Ethereal mist",
-                    "price": 284.95,
+                    "price": 712.38,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -9796,7 +9796,7 @@
                     "effect": "glowing aura",
                     "id": "helmet_872",
                     "name": "emerald green Holy Helmet with Glowing aura",
-                    "price": 336.67,
+                    "price": 3366.7,
                     "rarity": "Legendary",
                     "weight": 1
                 },
@@ -9818,7 +9818,7 @@
                     "effect": "ethereal mist",
                     "id": "cape_874",
                     "name": "crimson red Holy Cape with Ethereal mist",
-                    "price": 44.56,
+                    "price": 66.84,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9829,7 +9829,7 @@
                     "effect": "crystals",
                     "id": "sword_875",
                     "name": "crimson red Enchanted Sword with Crystals",
-                    "price": 262.46,
+                    "price": 393.69,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9840,7 +9840,7 @@
                     "effect": "ethereal mist",
                     "id": "staff_876",
                     "name": "midnight blue Mystical Staff with Ethereal mist",
-                    "price": 66.15,
+                    "price": 99.23,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9873,7 +9873,7 @@
                     "effect": "sparkling particles",
                     "id": "amulet_879",
                     "name": "gold Mystical Amulet with Sparkling particles",
-                    "price": 222.43,
+                    "price": 333.64,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9884,7 +9884,7 @@
                     "effect": "skulls",
                     "id": "potion_880",
                     "name": "shadow black Ancient Potion with Skulls",
-                    "price": 138.03,
+                    "price": 207.05,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9895,7 +9895,7 @@
                     "effect": "glowing aura",
                     "id": "sword_881",
                     "name": "crimson red Cursed Sword with Glowing aura",
-                    "price": 216.69,
+                    "price": 541.73,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -9950,7 +9950,7 @@
                     "effect": "mystic runes",
                     "id": "sword_886",
                     "name": "gold Cursed Sword with Mystic runes",
-                    "price": 234.26,
+                    "price": 351.39,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -9972,7 +9972,7 @@
                     "effect": "crystals",
                     "id": "necklace_888",
                     "name": "crimson red Cursed Necklace with Crystals",
-                    "price": 268.02,
+                    "price": 670.05,
                     "rarity": "Rare",
                     "weight": 15
                 },
@@ -10038,7 +10038,7 @@
                     "effect": "skulls",
                     "id": "shield_894",
                     "name": "midnight blue Holy Shield with Skulls",
-                    "price": 149.55,
+                    "price": 224.33,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -10060,7 +10060,7 @@
                     "effect": "skulls",
                     "id": "dagger_896",
                     "name": "shadow black Cursed Dagger with Skulls",
-                    "price": 173.77,
+                    "price": 260.66,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -10071,7 +10071,7 @@
                     "effect": "skulls",
                     "id": "staff_897",
                     "name": "pink Holy Staff with Skulls",
-                    "price": 88.25,
+                    "price": 132.38,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -10082,7 +10082,7 @@
                     "effect": "crystals",
                     "id": "ring_898",
                     "name": "crimson red Ancient Ring with Crystals",
-                    "price": 113.42,
+                    "price": 170.13,
                     "rarity": "Uncommon",
                     "weight": 30
                 },
@@ -10104,7 +10104,7 @@
                     "effect": "ethereal mist",
                     "id": "dagger_900",
                     "name": "gold Enchanted Dagger with Ethereal mist",
-                    "price": 230.58,
+                    "price": 345.87,
                     "rarity": "Uncommon",
                     "weight": 30
                 }
