@@ -122,14 +122,14 @@ public class PlayerManager : MonoBehaviour
         else
         {
             // Initialize with a default balance if no save file exists
-            player = new Player(800f);
+            player = new Player(1500f);
             Debug.Log("No save file found. Initialized player with default balance.");
         }
     }
 
     public void ResetProgress()
     {
-        player.balance = 800f;
+        player.balance = 1500f;
         SavePlayerData();
     }
 }

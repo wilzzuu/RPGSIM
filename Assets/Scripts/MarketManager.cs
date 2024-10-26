@@ -196,7 +196,7 @@ public class MarketManager : MonoBehaviour
     }
 
     // Sell an item
-    public void SellItem(ItemData item)
+    public void SellItem(ItemData item, GameObject itemPrefab)
     {
         float sellingPrice = item.Price * 0.85f;
         if (InventoryManager.instance.HasItem(item))
@@ -204,6 +204,12 @@ public class MarketManager : MonoBehaviour
             InventoryManager.instance.RemoveItemFromInventory(item);
             PlayerManager.Instance.AddCurrency(sellingPrice);
             Debug.Log($"Sold {item.Name} for ${sellingPrice:F2}");
+            
+            // Remove the sold item prefab from the Sell tab grid
+            Destroy(itemPrefab);
+            
+            // Optionally, update displayed items if needed
+            displayedItems.Remove(item);
         }
         else
         {

@@ -19,16 +19,13 @@ public class MarketplaceItem : MonoBehaviour
     public void Setup(ItemData item, bool isBuying)
     {
         itemData = item;
-        
+
         itemImage.sprite = Resources.Load<Sprite>($"ItemImages/{itemData.ID}");
         rarityImage.sprite = Resources.Load<Sprite>($"RarityImages/{itemData.Rarity}");
         nameText.text = itemData.Name;
-        priceText.text = $"${itemData.Price:0.00}";
-
-        nameText.text = item.Name;
         priceText.text = isBuying
-            ? $"{item.Price * buyMarkup:F2}"
-            : $"{item.Price * sellDiscount:F2}";
+            ? $"Buy: ${item.Price * buyMarkup:F2}"
+            : $"Sell: ${item.Price * sellDiscount:F2}";
 
         buyButton.gameObject.SetActive(isBuying);
         sellButton.gameObject.SetActive(!isBuying);
@@ -41,7 +38,7 @@ public class MarketplaceItem : MonoBehaviour
         else
         {
             sellButton.onClick.RemoveAllListeners();
-            sellButton.onClick.AddListener(() => MarketManager.instance.SellItem(itemData));
+            sellButton.onClick.AddListener(() => MarketManager.instance.SellItem(itemData, gameObject));
         }
     }
 }
