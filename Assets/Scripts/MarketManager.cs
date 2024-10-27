@@ -75,7 +75,7 @@ public class MarketManager : MonoBehaviour
         sortDropdown.onValueChanged.AddListener(delegate { SortItems(); });
         ascendingToggle.onValueChanged.AddListener(delegate { SortItems(); });
         affordableItemsToggle.onValueChanged.AddListener(delegate { DisplayItems(); });
-        InventoryManager.Instance.onInventoryValueChanged += DisplayItems;
+        InventoryManager.Instance.onInventoryValueChanged += RefreshInventoryValue;
         if (isBuyingTabActive && affordableItemsToggle.isOn)
         {
             PlayerManager.Instance.onBalanceChanged += DisplayItems;
@@ -149,6 +149,7 @@ public class MarketManager : MonoBehaviour
         buyScrollView.SetActive(true);
         sellScrollView.SetActive(false);
         itemsLoaded = 0;
+        RefreshInventoryValue();
         DisplayItems();
     }
 
@@ -158,7 +159,14 @@ public class MarketManager : MonoBehaviour
         buyScrollView.SetActive(false);
         sellScrollView.SetActive(true);
         itemsLoaded = 0;
+        RefreshInventoryValue();
         DisplayItems();
+    }
+
+    void RefreshInventoryValue()
+    {
+        float inventoryValue = InventoryManager.Instance.CalculateInventoryValue();
+        inventoryValueText.text = $"Inventory Value:        {inventoryValue:F2}";
     }
 
     void DisplayItems()
@@ -167,9 +175,6 @@ public class MarketManager : MonoBehaviour
         List<ItemData> displayedItems = isBuyingTabActive ? allItems : inventoryItems;
 
         if (currentCatalogGrid == null) return;
-
-        float inventoryValue = InventoryManager.Instance.CalculateInventoryValue();
-        inventoryValueText.text = $"Inventory Value:        {inventoryValue:F2}";
         
         if (isBuyingTabActive && affordableItemsToggle.isOn)
         {

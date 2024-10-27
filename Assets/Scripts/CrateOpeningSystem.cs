@@ -47,6 +47,7 @@ public class CrateOpening : MonoBehaviour
     {   
         openCrateButton.interactable = false;
         availableCrates = new List<CrateData>(Resources.LoadAll<CrateData>("Crates"));
+
         DisplayCrateSelector(availableCrates);
         selectCrateButton.onClick.AddListener(ToggleCrateSelector);
 
@@ -283,7 +284,9 @@ public class CrateOpening : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        foreach (var CrateData in availableCrates)
+        List<CrateData> orderedAvailableCrates = availableCrates.OrderBy(i => i.Price).ToList();
+
+        foreach (var CrateData in orderedAvailableCrates)
         {
             GameObject crateButton = Instantiate(crateButtonPrefab, crateSelectorPanel);
             Image crateImage = crateButton.transform.Find("CrateImage").GetComponent<Image>();

@@ -62,6 +62,7 @@ public class InventoryManager : MonoBehaviour
             inventoryItems.Remove(item);
             Debug.Log($"{item.Name} removed from inventory.");
             SaveInventory();
+            onInventoryValueChanged?.Invoke();
         }
         else
         {
@@ -73,6 +74,7 @@ public class InventoryManager : MonoBehaviour
     {
         inventoryItems.Add(item);
         SaveInventory();
+        onInventoryValueChanged?.Invoke();
     }
 
     public List<ItemData> GetAllItems()
@@ -87,7 +89,6 @@ public class InventoryManager : MonoBehaviour
         {
             totalValue += item.Price;
         }
-        onInventoryValueChanged?.Invoke();
         return totalValue;
     }
 
