@@ -251,9 +251,9 @@ public class UpgraderManager : MonoBehaviour
     {
         if (selectedInventoryItem != null && selectedUpgradeItem != null)
         {
-            successProbability = selectedInventoryItem.Price / selectedUpgradeItem.Price * 100;
+            successProbability = selectedInventoryItem.Price / selectedUpgradeItem.Price;
             probabilityText.fontSize = 32;
-            probabilityText.text = $"{successProbability:0.00}%";
+            probabilityText.text = $"{successProbability * 100:0.00}%";
             multiplierText.text = $"{selectedUpgradeItem.Price / selectedInventoryItem.Price:0.0}x";
         }
         else
@@ -267,6 +267,7 @@ public class UpgraderManager : MonoBehaviour
     public void AttemptUpgrade()
     {
         if (selectedInventoryItem == null || selectedUpgradeItem == null) return;
+        if (selectedInventoryItem == selectedUpgradeItem) return;
 
         float chance = UnityEngine.Random.value;
         if (chance <= successProbability)

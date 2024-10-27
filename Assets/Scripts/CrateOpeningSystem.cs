@@ -123,6 +123,8 @@ public class CrateOpening : MonoBehaviour
         else
         {
             Debug.LogError("Not enough money to open this crate.");
+            isSelectorOpen = true;
+            return;
         }
     }
 
