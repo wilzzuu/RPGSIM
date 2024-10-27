@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_605
   Name: emerald green Arcane Sword with Mystic runes
   Rarity: Common
+  BasePrice: 214.68
   Price: 214.68
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: sword

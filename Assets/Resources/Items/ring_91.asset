@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_91
   Name: emerald green Ancient Ring with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 250.49
   Price: 250.49
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: ring

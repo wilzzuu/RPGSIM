@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_887
   Name: gold Arcane Staff with Crystals
   Rarity: Common
+  BasePrice: 26.19
   Price: 26.19
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: staff

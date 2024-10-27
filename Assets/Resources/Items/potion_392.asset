@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_392
   Name: crimson red Cursed Potion with Mystic runes
   Rarity: Common
+  BasePrice: 46.66
   Price: 46.66
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: potion

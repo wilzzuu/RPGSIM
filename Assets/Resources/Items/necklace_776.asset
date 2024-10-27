@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_776
   Name: gold Cursed Necklace with Mystic runes
   Rarity: Epic
+  BasePrice: 2621.9
   Price: 2621.9
+  DemandScore: 0
   Weight: 4
   Color: gold
   Item: necklace

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_516
   Name: purple Mystical Book with Crystals
   Rarity: Uncommon
+  BasePrice: 125
   Price: 125
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: book

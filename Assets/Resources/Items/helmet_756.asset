@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_756
   Name: silver Mystical Helmet with Crystals
   Rarity: Common
+  BasePrice: 205.33
   Price: 205.33
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: helmet

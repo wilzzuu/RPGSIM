@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_584
   Name: purple Holy Amulet with Ethereal mist
   Rarity: Common
+  BasePrice: 90.68
   Price: 90.68
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: amulet

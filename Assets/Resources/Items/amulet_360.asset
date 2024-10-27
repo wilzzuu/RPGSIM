@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_360
   Name: midnight blue Ancient Amulet with Mystic runes
   Rarity: Common
+  BasePrice: 201.68
   Price: 201.68
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: amulet

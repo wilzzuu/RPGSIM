@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_86
   Name: midnight blue Cursed Sword with Glowing aura
   Rarity: Common
+  BasePrice: 257.38
   Price: 257.38
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: sword

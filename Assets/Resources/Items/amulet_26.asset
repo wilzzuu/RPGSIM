@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_26
   Name: crimson red Ancient Amulet with Ethereal mist
   Rarity: Common
+  BasePrice: 122.71
   Price: 122.71
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: amulet

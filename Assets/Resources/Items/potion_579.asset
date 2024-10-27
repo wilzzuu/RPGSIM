@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_579
   Name: pink Arcane Potion with Skulls
   Rarity: Common
+  BasePrice: 195.31
   Price: 195.31
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: potion

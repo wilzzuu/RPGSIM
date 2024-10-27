@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_804
   Name: midnight blue Arcane Necklace with Mystic runes
   Rarity: Uncommon
+  BasePrice: 206.99
   Price: 206.99
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: necklace

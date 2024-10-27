@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_743
   Name: purple Ancient Helmet with Glowing aura
   Rarity: Rare
+  BasePrice: 661.5
   Price: 661.5
+  DemandScore: 0
   Weight: 15
   Color: purple
   Item: helmet

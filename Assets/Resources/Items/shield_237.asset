@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_237
   Name: shadow black Mystical Shield with Glowing aura
   Rarity: Common
+  BasePrice: 193.83
   Price: 193.83
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: shield

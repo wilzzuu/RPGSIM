@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_316
   Name: emerald green Cursed Staff with Mystic runes
   Rarity: Common
+  BasePrice: 205.11
   Price: 205.11
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: staff

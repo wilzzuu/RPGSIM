@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_273
   Name: shadow black Holy Potion with Skulls
   Rarity: Uncommon
+  BasePrice: 86.91
   Price: 86.91
+  DemandScore: 0
   Weight: 30
   Color: shadow black
   Item: potion

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_373
   Name: midnight blue Arcane Staff with Mystic runes
   Rarity: Uncommon
+  BasePrice: 261.74
   Price: 261.74
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: staff

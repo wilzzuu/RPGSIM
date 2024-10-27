@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_213
   Name: shadow black Ancient Shield with Ethereal mist
   Rarity: Common
+  BasePrice: 36.56
   Price: 36.56
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: shield

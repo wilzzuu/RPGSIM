@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_588
   Name: purple Ancient Shield with Glowing aura
   Rarity: Common
+  BasePrice: 178.37
   Price: 178.37
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: shield

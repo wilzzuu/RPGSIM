@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_420
   Name: silver Cursed Potion with Skulls
   Rarity: Rare
+  BasePrice: 370.3
   Price: 370.3
+  DemandScore: 0
   Weight: 15
   Color: silver
   Item: potion

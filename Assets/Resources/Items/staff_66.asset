@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_66
   Name: pink Cursed Staff with Glowing aura
   Rarity: Epic
+  BasePrice: 4435.5
   Price: 4435.5
+  DemandScore: 0
   Weight: 4
   Color: pink
   Item: staff

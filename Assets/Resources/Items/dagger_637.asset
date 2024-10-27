@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_637
   Name: pink Enchanted Dagger with Glowing aura
   Rarity: Epic
+  BasePrice: 2609.75
   Price: 2609.75
+  DemandScore: 0
   Weight: 4
   Color: pink
   Item: dagger

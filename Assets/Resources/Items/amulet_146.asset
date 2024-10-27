@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_146
   Name: crimson red Ancient Amulet with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 253.37
   Price: 253.37
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: amulet

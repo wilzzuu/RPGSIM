@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_439
   Name: purple Enchanted Book with Mystic runes
   Rarity: Common
+  BasePrice: 2.46
   Price: 2.46
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: book

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_777
   Name: silver Enchanted Dagger with Ethereal mist
   Rarity: Common
+  BasePrice: 142.46
   Price: 142.46
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: dagger

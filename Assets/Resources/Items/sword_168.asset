@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_168
   Name: pink Holy Sword with Crystals
   Rarity: Common
+  BasePrice: 169.32
   Price: 169.32
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: sword

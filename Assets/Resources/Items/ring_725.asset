@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_725
   Name: crimson red Enchanted Ring with Mystic runes
   Rarity: Epic
+  BasePrice: 2298.6
   Price: 2298.6
+  DemandScore: 0
   Weight: 4
   Color: crimson red
   Item: ring

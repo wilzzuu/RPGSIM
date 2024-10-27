@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_107
   Name: silver Holy Helmet with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 220.58
   Price: 220.58
+  DemandScore: 0
   Weight: 30
   Color: silver
   Item: helmet

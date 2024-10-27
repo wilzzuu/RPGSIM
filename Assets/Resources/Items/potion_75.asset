@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_75
   Name: midnight blue Enchanted Potion with Sparkling particles
   Rarity: Common
+  BasePrice: 26.46
   Price: 26.46
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: potion

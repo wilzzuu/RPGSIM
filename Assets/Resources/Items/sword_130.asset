@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_130
   Name: shadow black Arcane Sword with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 370.67
   Price: 370.67
+  DemandScore: 0
   Weight: 30
   Color: shadow black
   Item: sword

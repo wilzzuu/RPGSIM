@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_611
   Name: crimson red Mystical Dagger with Skulls
   Rarity: Common
+  BasePrice: 136.34
   Price: 136.34
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: dagger

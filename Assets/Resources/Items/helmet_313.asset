@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_313
   Name: silver Enchanted Helmet with Mystic runes
   Rarity: Common
+  BasePrice: 156.28
   Price: 156.28
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: helmet

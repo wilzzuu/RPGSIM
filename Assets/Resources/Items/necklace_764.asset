@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_764
   Name: midnight blue Ancient Necklace with Mystic runes
   Rarity: Rare
+  BasePrice: 631.33
   Price: 631.33
+  DemandScore: 0
   Weight: 15
   Color: midnight blue
   Item: necklace

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_463
   Name: pink Ancient Sword with Sparkling particles
   Rarity: Common
+  BasePrice: 189.59
   Price: 189.59
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: sword

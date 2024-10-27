@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_642
   Name: emerald green Enchanted Cape with Crystals
   Rarity: Common
+  BasePrice: 299.88
   Price: 299.88
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: cape

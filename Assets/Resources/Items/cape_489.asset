@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_489
   Name: shadow black Cursed Cape with Skulls
   Rarity: Uncommon
+  BasePrice: 140.19
   Price: 140.19
+  DemandScore: 0
   Weight: 30
   Color: shadow black
   Item: cape

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_769
   Name: silver Enchanted Cape with Mystic runes
   Rarity: Common
+  BasePrice: 255.92
   Price: 255.92
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: cape

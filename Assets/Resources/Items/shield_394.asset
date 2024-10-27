@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_394
   Name: purple Ancient Shield with Skulls
   Rarity: Rare
+  BasePrice: 308.58
   Price: 308.58
+  DemandScore: 0
   Weight: 15
   Color: purple
   Item: shield

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_233
   Name: pink Arcane Helmet with Glowing aura
   Rarity: Common
+  BasePrice: 142.48
   Price: 142.48
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: helmet

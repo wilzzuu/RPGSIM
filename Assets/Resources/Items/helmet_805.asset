@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_805
   Name: silver Mystical Helmet with Mystic runes
   Rarity: Common
+  BasePrice: 172.04
   Price: 172.04
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: helmet

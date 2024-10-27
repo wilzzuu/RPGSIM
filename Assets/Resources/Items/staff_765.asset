@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_765
   Name: pink Enchanted Staff with Sparkling particles
   Rarity: Rare
+  BasePrice: 341.67
   Price: 341.67
+  DemandScore: 0
   Weight: 15
   Color: pink
   Item: staff

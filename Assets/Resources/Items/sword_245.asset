@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_245
   Name: gold Cursed Sword with Crystals
   Rarity: Common
+  BasePrice: 46.55
   Price: 46.55
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: sword

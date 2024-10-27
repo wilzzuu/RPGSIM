@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_43
   Name: crimson red Holy Staff with Sparkling particles
   Rarity: Common
+  BasePrice: 292.72
   Price: 292.72
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: staff

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_318
   Name: shadow black Mystical Dagger with Glowing aura
   Rarity: Common
+  BasePrice: 4.12
   Price: 4.12
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: dagger

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_772
   Name: purple Ancient Dagger with Crystals
   Rarity: Uncommon
+  BasePrice: 65.39
   Price: 65.39
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: dagger

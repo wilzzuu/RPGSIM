@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_170
   Name: silver Cursed Helmet with Skulls
   Rarity: Common
+  BasePrice: 164.52
   Price: 164.52
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: helmet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_321
   Name: midnight blue Ancient Ring with Glowing aura
   Rarity: Common
+  BasePrice: 238.77
   Price: 238.77
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: ring

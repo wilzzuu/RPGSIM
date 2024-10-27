@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_14
   Name: silver Ancient Cape with Skulls
   Rarity: Common
+  BasePrice: 85.51
   Price: 85.51
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: cape

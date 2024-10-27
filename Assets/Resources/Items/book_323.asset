@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_323
   Name: purple Enchanted Book with Glowing aura
   Rarity: Common
+  BasePrice: 34.82
   Price: 34.82
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: book

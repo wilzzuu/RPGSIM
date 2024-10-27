@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_814
   Name: gold Holy Sword with Glowing aura
   Rarity: Rare
+  BasePrice: 396.7
   Price: 396.7
+  DemandScore: 0
   Weight: 15
   Color: gold
   Item: sword

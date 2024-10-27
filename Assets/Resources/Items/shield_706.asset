@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_706
   Name: crimson red Mystical Shield with Sparkling particles
   Rarity: Common
+  BasePrice: 12.22
   Price: 12.22
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: shield

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_819
   Name: pink Arcane Necklace with Skulls
   Rarity: Common
+  BasePrice: 17.63
   Price: 17.63
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: necklace

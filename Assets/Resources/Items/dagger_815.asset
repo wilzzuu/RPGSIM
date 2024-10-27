@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_815
   Name: midnight blue Arcane Dagger with Skulls
   Rarity: Common
+  BasePrice: 173.54
   Price: 173.54
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: dagger

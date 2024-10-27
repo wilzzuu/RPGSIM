@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_721
   Name: gold Mystical Staff with Mystic runes
   Rarity: Common
+  BasePrice: 189.19
   Price: 189.19
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: staff

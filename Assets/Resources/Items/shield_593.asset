@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_593
   Name: silver Cursed Shield with Glowing aura
   Rarity: Common
+  BasePrice: 12.36
   Price: 12.36
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: shield

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_625
   Name: pink Arcane Sword with Glowing aura
   Rarity: Common
+  BasePrice: 92.53
   Price: 92.53
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: sword

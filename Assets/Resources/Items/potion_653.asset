@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_653
   Name: pink Ancient Potion with Glowing aura
   Rarity: Rare
+  BasePrice: 165.15
   Price: 165.15
+  DemandScore: 0
   Weight: 15
   Color: pink
   Item: potion

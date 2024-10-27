@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_618
   Name: purple Cursed Necklace with Sparkling particles
   Rarity: Epic
+  BasePrice: 4431.35
   Price: 4431.35
+  DemandScore: 0
   Weight: 4
   Color: purple
   Item: necklace

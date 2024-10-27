@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_185
   Name: midnight blue Arcane Potion with Mystic runes
   Rarity: Common
+  BasePrice: 195.16
   Price: 195.16
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: potion

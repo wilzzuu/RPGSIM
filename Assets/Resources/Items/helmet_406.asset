@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_406
   Name: purple Ancient Helmet with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 387.78
   Price: 387.78
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: helmet

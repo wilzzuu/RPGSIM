@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_280
   Name: crimson red Holy Staff with Crystals
   Rarity: Common
+  BasePrice: 182.43
   Price: 182.43
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: staff

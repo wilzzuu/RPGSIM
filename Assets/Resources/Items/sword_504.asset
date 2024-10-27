@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_504
   Name: emerald green Cursed Sword with Skulls
   Rarity: Legendary
+  BasePrice: 4456.9
   Price: 4456.9
+  DemandScore: 0
   Weight: 1
   Color: emerald green
   Item: sword

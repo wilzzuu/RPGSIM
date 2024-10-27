@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_267
   Name: crimson red Mystical Cape with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 61.53
   Price: 61.53
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: cape

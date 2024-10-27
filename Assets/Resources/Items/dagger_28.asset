@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_28
   Name: shadow black Enchanted Dagger with Ethereal mist
   Rarity: Common
+  BasePrice: 218.63
   Price: 218.63
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: dagger

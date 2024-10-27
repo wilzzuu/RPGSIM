@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_690
   Name: silver Enchanted Necklace with Glowing aura
   Rarity: Rare
+  BasePrice: 389.35
   Price: 389.35
+  DemandScore: 0
   Weight: 15
   Color: silver
   Item: necklace

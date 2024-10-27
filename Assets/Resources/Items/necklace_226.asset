@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_226
   Name: silver Ancient Necklace with Glowing aura
   Rarity: Common
+  BasePrice: 188.34
   Price: 188.34
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: necklace

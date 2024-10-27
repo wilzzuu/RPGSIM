@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_884
   Name: midnight blue Enchanted Staff with Glowing aura
   Rarity: Common
+  BasePrice: 135.49
   Price: 135.49
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: staff

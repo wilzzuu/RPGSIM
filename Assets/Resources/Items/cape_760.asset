@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_760
   Name: silver Arcane Cape with Ethereal mist
   Rarity: Epic
+  BasePrice: 3501.15
   Price: 3501.15
+  DemandScore: 0
   Weight: 4
   Color: silver
   Item: cape

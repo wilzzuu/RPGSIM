@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_872
   Name: emerald green Holy Helmet with Glowing aura
   Rarity: Legendary
+  BasePrice: 3366.7
   Price: 3366.7
+  DemandScore: 0
   Weight: 1
   Color: emerald green
   Item: helmet

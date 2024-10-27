@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_371
   Name: gold Holy Helmet with Crystals
   Rarity: Common
+  BasePrice: 103.6
   Price: 103.6
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: helmet

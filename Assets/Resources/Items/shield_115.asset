@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_115
   Name: midnight blue Cursed Shield with Glowing aura
   Rarity: Common
+  BasePrice: 58.54
   Price: 58.54
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: shield

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_741
   Name: shadow black Cursed Book with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 165.44
   Price: 165.44
+  DemandScore: 0
   Weight: 30
   Color: shadow black
   Item: book

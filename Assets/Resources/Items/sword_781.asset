@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_781
   Name: gold Holy Sword with Sparkling particles
   Rarity: Common
+  BasePrice: 54.03
   Price: 54.03
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: sword

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_840
   Name: purple Holy Sword with Mystic runes
   Rarity: Common
+  BasePrice: 81.85
   Price: 81.85
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: sword

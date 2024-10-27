@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_264
   Name: purple Ancient Necklace with Crystals
   Rarity: Common
+  BasePrice: 46.43
   Price: 46.43
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: necklace

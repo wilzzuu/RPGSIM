@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_480
   Name: shadow black Enchanted Cape with Ethereal mist
   Rarity: Common
+  BasePrice: 296.99
   Price: 296.99
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: cape

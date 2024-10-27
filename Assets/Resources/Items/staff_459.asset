@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_459
   Name: silver Enchanted Staff with Mystic runes
   Rarity: Common
+  BasePrice: 176.46
   Price: 176.46
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: staff

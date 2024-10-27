@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_506
   Name: silver Ancient Staff with Crystals
   Rarity: Common
+  BasePrice: 66.47
   Price: 66.47
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: staff

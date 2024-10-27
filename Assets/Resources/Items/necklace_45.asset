@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_45
   Name: pink Holy Necklace with Ethereal mist
   Rarity: Common
+  BasePrice: 125.08
   Price: 125.08
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: necklace

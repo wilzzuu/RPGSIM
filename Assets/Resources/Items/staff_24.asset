@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_24
   Name: purple Ancient Staff with Sparkling particles
   Rarity: Common
+  BasePrice: 255.98
   Price: 255.98
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: staff

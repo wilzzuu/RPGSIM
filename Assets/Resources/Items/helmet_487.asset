@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_487
   Name: gold Enchanted Helmet with Skulls
   Rarity: Rare
+  BasePrice: 424.38
   Price: 424.38
+  DemandScore: 0
   Weight: 15
   Color: gold
   Item: helmet

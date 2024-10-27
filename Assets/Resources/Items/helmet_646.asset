@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_646
   Name: emerald green Arcane Helmet with Skulls
   Rarity: Common
+  BasePrice: 293.32
   Price: 293.32
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: helmet

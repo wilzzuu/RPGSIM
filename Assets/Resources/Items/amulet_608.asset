@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_608
   Name: silver Arcane Amulet with Crystals
   Rarity: Rare
+  BasePrice: 565.5
   Price: 565.5
+  DemandScore: 0
   Weight: 15
   Color: silver
   Item: amulet

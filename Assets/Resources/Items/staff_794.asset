@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_794
   Name: pink Mystical Staff with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 274.92
   Price: 274.92
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: staff

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_412
   Name: shadow black Enchanted Potion with Crystals
   Rarity: Common
+  BasePrice: 114.88
   Price: 114.88
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: potion

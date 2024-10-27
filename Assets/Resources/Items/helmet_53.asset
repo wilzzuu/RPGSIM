@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_53
   Name: gold Ancient Helmet with Glowing aura
   Rarity: Epic
+  BasePrice: 2716.05
   Price: 2716.05
+  DemandScore: 0
   Weight: 4
   Color: gold
   Item: helmet

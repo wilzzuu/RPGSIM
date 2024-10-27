@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_382
   Name: shadow black Enchanted Shield with Crystals
   Rarity: Common
+  BasePrice: 44.31
   Price: 44.31
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: shield

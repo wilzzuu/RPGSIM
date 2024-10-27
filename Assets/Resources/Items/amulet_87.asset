@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_87
   Name: silver Arcane Amulet with Skulls
   Rarity: Common
+  BasePrice: 174.82
   Price: 174.82
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: amulet

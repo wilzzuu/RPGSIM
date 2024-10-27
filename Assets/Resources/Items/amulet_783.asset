@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_783
   Name: emerald green Enchanted Amulet with Sparkling particles
   Rarity: Common
+  BasePrice: 229.31
   Price: 229.31
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: amulet

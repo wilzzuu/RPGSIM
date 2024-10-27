@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_475
   Name: emerald green Arcane Sword with Glowing aura
   Rarity: Common
+  BasePrice: 139.21
   Price: 139.21
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: sword

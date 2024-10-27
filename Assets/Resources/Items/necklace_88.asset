@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_88
   Name: pink Arcane Necklace with Crystals
   Rarity: Epic
+  BasePrice: 3853.05
   Price: 3853.05
+  DemandScore: 0
   Weight: 4
   Color: pink
   Item: necklace

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_301
   Name: crimson red Holy Cape with Mystic runes
   Rarity: Common
+  BasePrice: 223.13
   Price: 223.13
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: cape

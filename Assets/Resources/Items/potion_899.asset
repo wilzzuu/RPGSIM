@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_899
   Name: purple Ancient Potion with Skulls
   Rarity: Common
+  BasePrice: 286.53
   Price: 286.53
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: potion

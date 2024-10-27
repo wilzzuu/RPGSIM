@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_586
   Name: crimson red Arcane Amulet with Glowing aura
   Rarity: Common
+  BasePrice: 125.66
   Price: 125.66
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: amulet

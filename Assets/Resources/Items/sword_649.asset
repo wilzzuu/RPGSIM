@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_649
   Name: emerald green Mystical Sword with Crystals
   Rarity: Uncommon
+  BasePrice: 226.5
   Price: 226.5
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: sword

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_198
   Name: crimson red Ancient Necklace with Skulls
   Rarity: Uncommon
+  BasePrice: 275.72
   Price: 275.72
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: necklace

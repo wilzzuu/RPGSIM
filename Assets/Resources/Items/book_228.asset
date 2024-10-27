@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_228
   Name: midnight blue Ancient Book with Mystic runes
   Rarity: Common
+  BasePrice: 200.2
   Price: 200.2
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: book

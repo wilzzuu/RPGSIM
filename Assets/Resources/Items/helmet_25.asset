@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_25
   Name: shadow black Cursed Helmet with Crystals
   Rarity: Common
+  BasePrice: 104.6
   Price: 104.6
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: helmet

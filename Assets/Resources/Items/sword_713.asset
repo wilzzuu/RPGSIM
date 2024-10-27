@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_713
   Name: pink Cursed Sword with Mystic runes
   Rarity: Uncommon
+  BasePrice: 52.74
   Price: 52.74
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: sword

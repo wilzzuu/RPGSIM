@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_252
   Name: emerald green Ancient Amulet with Crystals
   Rarity: Common
+  BasePrice: 122.37
   Price: 122.37
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: amulet

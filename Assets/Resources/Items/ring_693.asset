@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_693
   Name: purple Arcane Ring with Crystals
   Rarity: Uncommon
+  BasePrice: 92.61
   Price: 92.61
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: ring

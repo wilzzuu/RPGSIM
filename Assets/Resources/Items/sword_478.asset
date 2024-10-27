@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_478
   Name: crimson red Cursed Sword with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 189.19
   Price: 189.19
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: sword

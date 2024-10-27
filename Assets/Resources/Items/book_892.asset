@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_892
   Name: pink Holy Book with Glowing aura
   Rarity: Common
+  BasePrice: 62.26
   Price: 62.26
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: book

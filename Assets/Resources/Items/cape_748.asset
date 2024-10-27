@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_748
   Name: gold Arcane Cape with Glowing aura
   Rarity: Common
+  BasePrice: 70.4
   Price: 70.4
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: cape

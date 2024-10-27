@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_417
   Name: gold Ancient Book with Skulls
   Rarity: Uncommon
+  BasePrice: 112.4
   Price: 112.4
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: book

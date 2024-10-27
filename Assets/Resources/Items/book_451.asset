@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_451
   Name: purple Mystical Book with Skulls
   Rarity: Common
+  BasePrice: 200.26
   Price: 200.26
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: book

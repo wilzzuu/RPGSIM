@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_716
   Name: gold Cursed Dagger with Skulls
   Rarity: Uncommon
+  BasePrice: 295.59
   Price: 295.59
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: dagger

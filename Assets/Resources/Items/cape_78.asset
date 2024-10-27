@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_78
   Name: crimson red Cursed Cape with Glowing aura
   Rarity: Common
+  BasePrice: 68.52
   Price: 68.52
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: cape

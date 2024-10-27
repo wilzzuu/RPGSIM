@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_119
   Name: midnight blue Arcane Book with Sparkling particles
   Rarity: Common
+  BasePrice: 40.21
   Price: 40.21
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: book

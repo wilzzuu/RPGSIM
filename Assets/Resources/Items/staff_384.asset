@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_384
   Name: shadow black Holy Staff with Ethereal mist
   Rarity: Common
+  BasePrice: 20.49
   Price: 20.49
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: staff

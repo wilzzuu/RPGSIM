@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_571
   Name: crimson red Arcane Helmet with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 375.58
   Price: 375.58
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: helmet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_453
   Name: emerald green Holy Ring with Ethereal mist
   Rarity: Common
+  BasePrice: 234.87
   Price: 234.87
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: ring

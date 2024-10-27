@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_243
   Name: shadow black Ancient Dagger with Glowing aura
   Rarity: Common
+  BasePrice: 230.42
   Price: 230.42
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: dagger

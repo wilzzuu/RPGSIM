@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_269
   Name: midnight blue Enchanted Dagger with Crystals
   Rarity: Epic
+  BasePrice: 1483.65
   Price: 1483.65
+  DemandScore: 0
   Weight: 4
   Color: midnight blue
   Item: dagger

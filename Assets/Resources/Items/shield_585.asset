@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_585
   Name: pink Enchanted Shield with Mystic runes
   Rarity: Rare
+  BasePrice: 271.45
   Price: 271.45
+  DemandScore: 0
   Weight: 15
   Color: pink
   Item: shield

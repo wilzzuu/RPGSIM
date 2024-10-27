@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_752
   Name: crimson red Arcane Amulet with Skulls
   Rarity: Common
+  BasePrice: 57.92
   Price: 57.92
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: amulet

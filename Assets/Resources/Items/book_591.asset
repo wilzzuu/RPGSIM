@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_591
   Name: crimson red Mystical Book with Skulls
   Rarity: Rare
+  BasePrice: 186.4
   Price: 186.4
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: book

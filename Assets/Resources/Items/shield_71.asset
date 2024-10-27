@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_71
   Name: shadow black Ancient Shield with Sparkling particles
   Rarity: Common
+  BasePrice: 144.64
   Price: 144.64
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: shield

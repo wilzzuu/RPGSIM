@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_542
   Name: purple Arcane Amulet with Sparkling particles
   Rarity: Common
+  BasePrice: 240.22
   Price: 240.22
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: amulet

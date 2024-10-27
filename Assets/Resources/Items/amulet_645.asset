@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_645
   Name: pink Holy Amulet with Mystic runes
   Rarity: Common
+  BasePrice: 223.53
   Price: 223.53
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: amulet

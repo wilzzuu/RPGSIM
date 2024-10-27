@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_93
   Name: purple Arcane Amulet with Ethereal mist
   Rarity: Common
+  BasePrice: 294.81
   Price: 294.81
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: amulet

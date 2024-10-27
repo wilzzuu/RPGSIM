@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_638
   Name: crimson red Cursed Amulet with Sparkling particles
   Rarity: Rare
+  BasePrice: 748.15
   Price: 748.15
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: amulet

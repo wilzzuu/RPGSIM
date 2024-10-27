@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_434
   Name: shadow black Cursed Book with Sparkling particles
   Rarity: Rare
+  BasePrice: 336.8
   Price: 336.8
+  DemandScore: 0
   Weight: 15
   Color: shadow black
   Item: book

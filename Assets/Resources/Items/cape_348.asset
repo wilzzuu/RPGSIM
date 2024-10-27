@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_348
   Name: emerald green Arcane Cape with Mystic runes
   Rarity: Rare
+  BasePrice: 107.97
   Price: 107.97
+  DemandScore: 0
   Weight: 15
   Color: emerald green
   Item: cape

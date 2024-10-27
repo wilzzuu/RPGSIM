@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_723
   Name: shadow black Ancient Ring with Sparkling particles
   Rarity: Common
+  BasePrice: 243.75
   Price: 243.75
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: ring

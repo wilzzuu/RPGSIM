@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_525
   Name: silver Holy Dagger with Mystic runes
   Rarity: Common
+  BasePrice: 148.71
   Price: 148.71
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: dagger

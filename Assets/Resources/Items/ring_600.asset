@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_600
   Name: silver Holy Ring with Glowing aura
   Rarity: Common
+  BasePrice: 143.39
   Price: 143.39
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: ring

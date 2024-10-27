@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_438
   Name: pink Holy Ring with Glowing aura
   Rarity: Common
+  BasePrice: 117.1
   Price: 117.1
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: ring

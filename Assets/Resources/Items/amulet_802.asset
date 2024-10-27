@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_802
   Name: crimson red Holy Amulet with Skulls
   Rarity: Common
+  BasePrice: 294.75
   Price: 294.75
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: amulet

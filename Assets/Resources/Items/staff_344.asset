@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_344
   Name: pink Holy Staff with Sparkling particles
   Rarity: Epic
+  BasePrice: 2556.8
   Price: 2556.8
+  DemandScore: 0
   Weight: 4
   Color: pink
   Item: staff

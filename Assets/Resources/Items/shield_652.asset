@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_652
   Name: silver Holy Shield with Crystals
   Rarity: Common
+  BasePrice: 290
   Price: 290
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: shield

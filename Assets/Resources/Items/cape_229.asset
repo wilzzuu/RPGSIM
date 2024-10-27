@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_229
   Name: crimson red Cursed Cape with Crystals
   Rarity: Common
+  BasePrice: 85.18
   Price: 85.18
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: cape

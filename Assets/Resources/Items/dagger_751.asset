@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_751
   Name: silver Mystical Dagger with Ethereal mist
   Rarity: Common
+  BasePrice: 285.16
   Price: 285.16
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: dagger

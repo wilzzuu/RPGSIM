@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_572
   Name: purple Arcane Staff with Sparkling particles
   Rarity: Common
+  BasePrice: 51.93
   Price: 51.93
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: staff

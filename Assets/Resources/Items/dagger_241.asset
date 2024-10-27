@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_241
   Name: emerald green Mystical Dagger with Ethereal mist
   Rarity: Common
+  BasePrice: 213.31
   Price: 213.31
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: dagger

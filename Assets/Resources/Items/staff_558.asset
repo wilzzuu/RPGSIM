@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_558
   Name: gold Cursed Staff with Glowing aura
   Rarity: Common
+  BasePrice: 298.77
   Price: 298.77
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: staff

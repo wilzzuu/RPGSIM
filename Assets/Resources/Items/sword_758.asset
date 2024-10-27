@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_758
   Name: emerald green Enchanted Sword with Mystic runes
   Rarity: Common
+  BasePrice: 213.2
   Price: 213.2
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: sword

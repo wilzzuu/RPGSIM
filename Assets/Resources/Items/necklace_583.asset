@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_583
   Name: midnight blue Holy Necklace with Crystals
   Rarity: Uncommon
+  BasePrice: 322.65
   Price: 322.65
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: necklace

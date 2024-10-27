@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_234
   Name: shadow black Ancient Helmet with Skulls
   Rarity: Uncommon
+  BasePrice: 275.37
   Price: 275.37
+  DemandScore: 0
   Weight: 30
   Color: shadow black
   Item: helmet

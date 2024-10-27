@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_378
   Name: silver Mystical Shield with Glowing aura
   Rarity: Common
+  BasePrice: 85.2
   Price: 85.2
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: shield

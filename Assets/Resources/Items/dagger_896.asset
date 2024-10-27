@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_896
   Name: shadow black Cursed Dagger with Skulls
   Rarity: Uncommon
+  BasePrice: 260.66
   Price: 260.66
+  DemandScore: 0
   Weight: 30
   Color: shadow black
   Item: dagger

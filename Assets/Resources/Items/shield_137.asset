@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_137
   Name: midnight blue Cursed Shield with Ethereal mist
   Rarity: Common
+  BasePrice: 143.63
   Price: 143.63
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: shield

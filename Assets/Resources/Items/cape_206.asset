@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_206
   Name: purple Ancient Cape with Glowing aura
   Rarity: Common
+  BasePrice: 217.63
   Price: 217.63
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: cape

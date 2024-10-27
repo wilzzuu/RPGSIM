@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_126
   Name: midnight blue Holy Helmet with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 126.77
   Price: 126.77
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: helmet

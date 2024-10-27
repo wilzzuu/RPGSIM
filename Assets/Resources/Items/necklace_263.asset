@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_263
   Name: gold Arcane Necklace with Mystic runes
   Rarity: Common
+  BasePrice: 45.7
   Price: 45.7
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: necklace

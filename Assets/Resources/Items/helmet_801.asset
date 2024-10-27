@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_801
   Name: purple Enchanted Helmet with Sparkling particles
   Rarity: Common
+  BasePrice: 293.84
   Price: 293.84
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: helmet

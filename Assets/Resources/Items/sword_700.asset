@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_700
   Name: pink Cursed Sword with Skulls
   Rarity: Rare
+  BasePrice: 201.28
   Price: 201.28
+  DemandScore: 0
   Weight: 15
   Color: pink
   Item: sword

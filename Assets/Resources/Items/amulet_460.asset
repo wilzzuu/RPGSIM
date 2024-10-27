@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_460
   Name: purple Ancient Amulet with Crystals
   Rarity: Common
+  BasePrice: 79.22
   Price: 79.22
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: amulet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_481
   Name: silver Holy Book with Skulls
   Rarity: Rare
+  BasePrice: 530.57
   Price: 530.57
+  DemandScore: 0
   Weight: 15
   Color: silver
   Item: book

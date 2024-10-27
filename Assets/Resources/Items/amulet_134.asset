@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_134
   Name: emerald green Cursed Amulet with Crystals
   Rarity: Uncommon
+  BasePrice: 103.4
   Price: 103.4
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: amulet

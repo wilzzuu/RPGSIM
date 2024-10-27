@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_678
   Name: crimson red Ancient Shield with Crystals
   Rarity: Common
+  BasePrice: 120.47
   Price: 120.47
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: shield

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_118
   Name: emerald green Enchanted Potion with Skulls
   Rarity: Common
+  BasePrice: 228.61
   Price: 228.61
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: potion

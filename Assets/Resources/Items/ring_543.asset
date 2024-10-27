@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_543
   Name: shadow black Cursed Ring with Crystals
   Rarity: Common
+  BasePrice: 290.22
   Price: 290.22
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: ring

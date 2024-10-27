@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_739
   Name: pink Ancient Necklace with Mystic runes
   Rarity: Uncommon
+  BasePrice: 393.63
   Price: 393.63
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: necklace

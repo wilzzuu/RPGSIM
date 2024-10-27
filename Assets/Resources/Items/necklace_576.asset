@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_576
   Name: silver Holy Necklace with Mystic runes
   Rarity: Uncommon
+  BasePrice: 191.1
   Price: 191.1
+  DemandScore: 0
   Weight: 30
   Color: silver
   Item: necklace

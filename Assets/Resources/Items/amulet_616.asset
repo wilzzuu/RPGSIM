@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_616
   Name: crimson red Cursed Amulet with Skulls
   Rarity: Common
+  BasePrice: 45.77
   Price: 45.77
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: amulet

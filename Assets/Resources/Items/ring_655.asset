@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_655
   Name: shadow black Cursed Ring with Sparkling particles
   Rarity: Common
+  BasePrice: 160.77
   Price: 160.77
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: ring

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_749
   Name: crimson red Ancient Potion with Ethereal mist
   Rarity: Common
+  BasePrice: 130.86
   Price: 130.86
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: potion

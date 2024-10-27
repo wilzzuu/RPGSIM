@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_728
   Name: midnight blue Holy Amulet with Ethereal mist
   Rarity: Common
+  BasePrice: 251.44
   Price: 251.44
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: amulet

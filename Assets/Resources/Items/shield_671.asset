@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_671
   Name: gold Enchanted Shield with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 355.22
   Price: 355.22
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: shield

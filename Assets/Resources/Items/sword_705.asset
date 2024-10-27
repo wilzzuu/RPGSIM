@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_705
   Name: pink Ancient Sword with Skulls
   Rarity: Common
+  BasePrice: 135.94
   Price: 135.94
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: sword

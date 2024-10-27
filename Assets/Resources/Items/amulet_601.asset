@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_601
   Name: purple Mystical Amulet with Crystals
   Rarity: Uncommon
+  BasePrice: 59.53
   Price: 59.53
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: amulet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_159
   Name: crimson red Enchanted Book with Crystals
   Rarity: Uncommon
+  BasePrice: 164.56
   Price: 164.56
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: book

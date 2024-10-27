@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_38
   Name: pink Enchanted Necklace with Mystic runes
   Rarity: Common
+  BasePrice: 169.18
   Price: 169.18
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: necklace

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_755
   Name: midnight blue Enchanted Amulet with Crystals
   Rarity: Common
+  BasePrice: 8.57
   Price: 8.57
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: amulet

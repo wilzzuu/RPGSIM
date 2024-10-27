@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_407
   Name: crimson red Mystical Necklace with Ethereal mist
   Rarity: Epic
+  BasePrice: 3439.85
   Price: 3439.85
+  DemandScore: 0
   Weight: 4
   Color: crimson red
   Item: necklace

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_354
   Name: emerald green Enchanted Book with Ethereal mist
   Rarity: Common
+  BasePrice: 71.32
   Price: 71.32
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: book

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_485
   Name: pink Ancient Staff with Crystals
   Rarity: Rare
+  BasePrice: 643.4
   Price: 643.4
+  DemandScore: 0
   Weight: 15
   Color: pink
   Item: staff

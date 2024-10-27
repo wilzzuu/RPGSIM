@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_830
   Name: midnight blue Mystical Helmet with Sparkling particles
   Rarity: Common
+  BasePrice: 27.51
   Price: 27.51
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: helmet

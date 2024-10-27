@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_715
   Name: crimson red Ancient Cape with Sparkling particles
   Rarity: Common
+  BasePrice: 187.48
   Price: 187.48
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: cape

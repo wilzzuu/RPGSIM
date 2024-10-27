@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_761
   Name: silver Enchanted Amulet with Glowing aura
   Rarity: Common
+  BasePrice: 200.47
   Price: 200.47
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: amulet

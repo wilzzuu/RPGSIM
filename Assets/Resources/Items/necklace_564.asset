@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_564
   Name: silver Enchanted Necklace with Ethereal mist
   Rarity: Common
+  BasePrice: 11.78
   Price: 11.78
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: necklace

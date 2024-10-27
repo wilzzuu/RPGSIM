@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_396
   Name: gold Arcane Dagger with Sparkling particles
   Rarity: Rare
+  BasePrice: 546.62
   Price: 546.62
+  DemandScore: 0
   Weight: 15
   Color: gold
   Item: dagger

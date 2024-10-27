@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_284
   Name: emerald green Holy Cape with Crystals
   Rarity: Uncommon
+  BasePrice: 13.56
   Price: 13.56
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: cape

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_70
   Name: midnight blue Arcane Ring with Sparkling particles
   Rarity: Common
+  BasePrice: 14.42
   Price: 14.42
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: ring

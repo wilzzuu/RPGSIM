@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_707
   Name: midnight blue Holy Dagger with Ethereal mist
   Rarity: Common
+  BasePrice: 74.68
   Price: 74.68
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: dagger

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_551
   Name: emerald green Mystical Necklace with Glowing aura
   Rarity: Common
+  BasePrice: 228.74
   Price: 228.74
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: necklace

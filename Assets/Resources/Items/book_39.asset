@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_39
   Name: pink Mystical Book with Mystic runes
   Rarity: Common
+  BasePrice: 167.73
   Price: 167.73
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: book

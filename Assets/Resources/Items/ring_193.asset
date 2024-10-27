@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_193
   Name: midnight blue Holy Ring with Skulls
   Rarity: Rare
+  BasePrice: 701.8
   Price: 701.8
+  DemandScore: 0
   Weight: 15
   Color: midnight blue
   Item: ring

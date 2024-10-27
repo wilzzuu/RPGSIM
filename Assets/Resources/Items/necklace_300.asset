@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_300
   Name: pink Holy Necklace with Mystic runes
   Rarity: Legendary
+  BasePrice: 8368.5
   Price: 8368.5
+  DemandScore: 0
   Weight: 1
   Color: pink
   Item: necklace

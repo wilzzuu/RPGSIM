@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_860
   Name: pink Cursed Potion with Mystic runes
   Rarity: Common
+  BasePrice: 87.58
   Price: 87.58
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: potion

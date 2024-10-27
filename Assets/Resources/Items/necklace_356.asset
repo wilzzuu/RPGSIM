@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_356
   Name: pink Enchanted Necklace with Glowing aura
   Rarity: Uncommon
+  BasePrice: 188.94
   Price: 188.94
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: necklace

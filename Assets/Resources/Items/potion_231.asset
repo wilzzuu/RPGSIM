@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_231
   Name: midnight blue Mystical Potion with Sparkling particles
   Rarity: Rare
+  BasePrice: 659.1
   Price: 659.1
+  DemandScore: 0
   Weight: 15
   Color: midnight blue
   Item: potion

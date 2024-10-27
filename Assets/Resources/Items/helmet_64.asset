@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_64
   Name: silver Holy Helmet with Mystic runes
   Rarity: Common
+  BasePrice: 70.43
   Price: 70.43
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: helmet

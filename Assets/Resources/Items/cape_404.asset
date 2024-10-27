@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_404
   Name: gold Cursed Cape with Glowing aura
   Rarity: Rare
+  BasePrice: 20.18
   Price: 20.18
+  DemandScore: 0
   Weight: 15
   Color: gold
   Item: cape

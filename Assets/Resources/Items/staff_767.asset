@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_767
   Name: silver Ancient Staff with Skulls
   Rarity: Uncommon
+  BasePrice: 333.48
   Price: 333.48
+  DemandScore: 0
   Weight: 30
   Color: silver
   Item: staff

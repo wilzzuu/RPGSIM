@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_523
   Name: purple Arcane Sword with Ethereal mist
   Rarity: Common
+  BasePrice: 282.25
   Price: 282.25
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: sword

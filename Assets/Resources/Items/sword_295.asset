@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_295
   Name: crimson red Holy Sword with Crystals
   Rarity: Rare
+  BasePrice: 394.4
   Price: 394.4
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: sword

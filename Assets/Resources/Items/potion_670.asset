@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_670
   Name: gold Mystical Potion with Glowing aura
   Rarity: Uncommon
+  BasePrice: 330.33
   Price: 330.33
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: potion

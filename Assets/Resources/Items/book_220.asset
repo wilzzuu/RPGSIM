@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_220
   Name: midnight blue Enchanted Book with Skulls
   Rarity: Common
+  BasePrice: 14.62
   Price: 14.62
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: book

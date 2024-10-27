@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_897
   Name: pink Holy Staff with Skulls
   Rarity: Uncommon
+  BasePrice: 132.38
   Price: 132.38
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: staff

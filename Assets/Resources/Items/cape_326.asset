@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_326
   Name: gold Holy Cape with Mystic runes
   Rarity: Common
+  BasePrice: 50.34
   Price: 50.34
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: cape

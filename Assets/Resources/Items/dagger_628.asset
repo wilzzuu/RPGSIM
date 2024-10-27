@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_628
   Name: midnight blue Ancient Dagger with Crystals
   Rarity: Common
+  BasePrice: 258.92
   Price: 258.92
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: dagger

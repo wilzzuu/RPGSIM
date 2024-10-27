@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_469
   Name: silver Holy Dagger with Skulls
   Rarity: Common
+  BasePrice: 109.9
   Price: 109.9
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: dagger

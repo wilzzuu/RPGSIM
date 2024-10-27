@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_369
   Name: emerald green Arcane Shield with Mystic runes
   Rarity: Common
+  BasePrice: 196.43
   Price: 196.43
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: shield

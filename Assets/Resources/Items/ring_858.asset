@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_858
   Name: purple Ancient Ring with Crystals
   Rarity: Uncommon
+  BasePrice: 144.42
   Price: 144.42
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: ring

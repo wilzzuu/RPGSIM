@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_603
   Name: crimson red Holy Dagger with Mystic runes
   Rarity: Uncommon
+  BasePrice: 77.97
   Price: 77.97
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: dagger

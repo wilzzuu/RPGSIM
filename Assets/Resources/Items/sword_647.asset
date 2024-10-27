@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_647
   Name: pink Arcane Sword with Crystals
   Rarity: Common
+  BasePrice: 17.15
   Price: 17.15
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: sword

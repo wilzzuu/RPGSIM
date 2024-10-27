@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_501
   Name: shadow black Mystical Sword with Skulls
   Rarity: Common
+  BasePrice: 223.34
   Price: 223.34
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: sword

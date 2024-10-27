@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_900
   Name: gold Enchanted Dagger with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 345.87
   Price: 345.87
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: dagger

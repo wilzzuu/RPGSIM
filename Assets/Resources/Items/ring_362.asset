@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_362
   Name: gold Holy Ring with Crystals
   Rarity: Common
+  BasePrice: 14.98
   Price: 14.98
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: ring

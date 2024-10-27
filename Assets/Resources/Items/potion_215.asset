@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_215
   Name: purple Arcane Potion with Crystals
   Rarity: Common
+  BasePrice: 250.72
   Price: 250.72
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: potion

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_236
   Name: pink Arcane Cape with Glowing aura
   Rarity: Common
+  BasePrice: 229.11
   Price: 229.11
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: cape

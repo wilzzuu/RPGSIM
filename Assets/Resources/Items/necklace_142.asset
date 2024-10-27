@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_142
   Name: emerald green Arcane Necklace with Skulls
   Rarity: Common
+  BasePrice: 138.9
   Price: 138.9
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: necklace

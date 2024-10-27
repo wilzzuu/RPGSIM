@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_834
   Name: emerald green Ancient Dagger with Crystals
   Rarity: Uncommon
+  BasePrice: 193.86
   Price: 193.86
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: dagger

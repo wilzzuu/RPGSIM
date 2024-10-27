@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_560
   Name: silver Mystical Cape with Glowing aura
   Rarity: Rare
+  BasePrice: 267.45
   Price: 267.45
+  DemandScore: 0
   Weight: 15
   Color: silver
   Item: cape

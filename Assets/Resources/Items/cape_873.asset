@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_873
   Name: gold Enchanted Cape with Ethereal mist
   Rarity: Common
+  BasePrice: 207.15
   Price: 207.15
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: cape

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_883
   Name: emerald green Cursed Shield with Ethereal mist
   Rarity: Common
+  BasePrice: 232.02
   Price: 232.02
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: shield

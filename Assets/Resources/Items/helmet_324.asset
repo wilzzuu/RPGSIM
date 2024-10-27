@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_324
   Name: purple Arcane Helmet with Glowing aura
   Rarity: Uncommon
+  BasePrice: 6.5
   Price: 6.5
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: helmet

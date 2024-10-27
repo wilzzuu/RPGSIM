@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_673
   Name: midnight blue Ancient Sword with Skulls
   Rarity: Uncommon
+  BasePrice: 16.38
   Price: 16.38
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: sword

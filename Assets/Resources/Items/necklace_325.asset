@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_325
   Name: emerald green Mystical Necklace with Crystals
   Rarity: Common
+  BasePrice: 18.23
   Price: 18.23
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: necklace

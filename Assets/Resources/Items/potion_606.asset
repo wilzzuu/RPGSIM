@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_606
   Name: silver Holy Potion with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 6.46
   Price: 6.46
+  DemandScore: 0
   Weight: 30
   Color: silver
   Item: potion

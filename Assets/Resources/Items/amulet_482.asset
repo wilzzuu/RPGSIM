@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_482
   Name: silver Ancient Amulet with Ethereal mist
   Rarity: Common
+  BasePrice: 162.18
   Price: 162.18
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: amulet

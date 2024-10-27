@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_793
   Name: midnight blue Mystical Shield with Sparkling particles
   Rarity: Rare
+  BasePrice: 18.23
   Price: 18.23
+  DemandScore: 0
   Weight: 15
   Color: midnight blue
   Item: shield

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_785
   Name: emerald green Enchanted Dagger with Mystic runes
   Rarity: Common
+  BasePrice: 137.58
   Price: 137.58
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: dagger

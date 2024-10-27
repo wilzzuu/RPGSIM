@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_797
   Name: shadow black Arcane Shield with Glowing aura
   Rarity: Common
+  BasePrice: 123.34
   Price: 123.34
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: shield

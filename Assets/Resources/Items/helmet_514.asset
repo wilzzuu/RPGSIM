@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_514
   Name: emerald green Mystical Helmet with Mystic runes
   Rarity: Common
+  BasePrice: 48.79
   Price: 48.79
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: helmet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_157
   Name: pink Ancient Dagger with Glowing aura
   Rarity: Common
+  BasePrice: 61.65
   Price: 61.65
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: dagger

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_778
   Name: pink Arcane Amulet with Sparkling particles
   Rarity: Epic
+  BasePrice: 147.7
   Price: 147.7
+  DemandScore: 0
   Weight: 4
   Color: pink
   Item: amulet

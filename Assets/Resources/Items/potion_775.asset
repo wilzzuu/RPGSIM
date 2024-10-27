@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_775
   Name: purple Enchanted Potion with Crystals
   Rarity: Common
+  BasePrice: 82.52
   Price: 82.52
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: potion

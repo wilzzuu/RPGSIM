@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_540
   Name: silver Holy Amulet with Mystic runes
   Rarity: Common
+  BasePrice: 225.13
   Price: 225.13
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: amulet

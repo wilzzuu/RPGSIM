@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_563
   Name: silver Holy Cape with Crystals
   Rarity: Common
+  BasePrice: 47.57
   Price: 47.57
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: cape

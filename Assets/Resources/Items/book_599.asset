@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_599
   Name: emerald green Cursed Book with Crystals
   Rarity: Uncommon
+  BasePrice: 78.3
   Price: 78.3
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: book

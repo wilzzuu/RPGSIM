@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_40
   Name: silver Holy Amulet with Sparkling particles
   Rarity: Common
+  BasePrice: 138.59
   Price: 138.59
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: amulet

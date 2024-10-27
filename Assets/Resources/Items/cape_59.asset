@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_59
   Name: crimson red Ancient Cape with Crystals
   Rarity: Common
+  BasePrice: 47.96
   Price: 47.96
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: cape

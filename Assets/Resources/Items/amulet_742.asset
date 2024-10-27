@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_742
   Name: purple Mystical Amulet with Mystic runes
   Rarity: Uncommon
+  BasePrice: 107.01
   Price: 107.01
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: amulet

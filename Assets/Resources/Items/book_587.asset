@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_587
   Name: silver Cursed Book with Mystic runes
   Rarity: Common
+  BasePrice: 109.89
   Price: 109.89
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: book

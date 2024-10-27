@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_331
   Name: silver Mystical Shield with Crystals
   Rarity: Common
+  BasePrice: 184.43
   Price: 184.43
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: shield

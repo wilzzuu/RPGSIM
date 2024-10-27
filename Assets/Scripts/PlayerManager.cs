@@ -18,7 +18,17 @@ public class PlayerManager : MonoBehaviour
 {
     public static PlayerManager Instance { get; private set; }
     public Player player;
-    private const string SaveFileName = "PlayerData.dat";
+    private string SaveFileName
+    {
+        get
+        {
+            #if UNITY_EDITOR
+                return "PlayTest_PlayerData.dat";
+            #else
+                return "PlayerData.dat";
+            #endif
+        }
+    }
 
     public delegate void BalanceChangedHandler();
     public event BalanceChangedHandler onBalanceChanged;

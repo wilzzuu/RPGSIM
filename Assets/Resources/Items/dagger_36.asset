@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_36
   Name: emerald green Arcane Dagger with Ethereal mist
   Rarity: Common
+  BasePrice: 55.09
   Price: 55.09
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: dagger

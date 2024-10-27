@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_262
   Name: pink Cursed Shield with Ethereal mist
   Rarity: Common
+  BasePrice: 251.09
   Price: 251.09
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: shield

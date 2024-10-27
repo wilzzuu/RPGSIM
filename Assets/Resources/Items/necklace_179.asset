@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_179
   Name: purple Ancient Necklace with Glowing aura
   Rarity: Uncommon
+  BasePrice: 270.8
   Price: 270.8
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: necklace

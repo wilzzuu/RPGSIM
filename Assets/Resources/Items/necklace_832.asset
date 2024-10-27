@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_832
   Name: pink Arcane Necklace with Sparkling particles
   Rarity: Rare
+  BasePrice: 478.62
   Price: 478.62
+  DemandScore: 0
   Weight: 15
   Color: pink
   Item: necklace

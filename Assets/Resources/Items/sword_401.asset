@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_401
   Name: crimson red Ancient Sword with Skulls
   Rarity: Rare
+  BasePrice: 515.05
   Price: 515.05
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: sword

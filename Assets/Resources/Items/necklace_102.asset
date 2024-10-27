@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_102
   Name: midnight blue Cursed Necklace with Crystals
   Rarity: Common
+  BasePrice: 102.47
   Price: 102.47
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: necklace

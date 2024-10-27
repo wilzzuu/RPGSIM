@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_839
   Name: midnight blue Ancient Dagger with Glowing aura
   Rarity: Common
+  BasePrice: 270.95
   Price: 270.95
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: dagger

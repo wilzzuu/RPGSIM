@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_302
   Name: silver Ancient Book with Crystals
   Rarity: Common
+  BasePrice: 79.97
   Price: 79.97
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: book

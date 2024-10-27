@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_845
   Name: midnight blue Holy Potion with Glowing aura
   Rarity: Uncommon
+  BasePrice: 339.24
   Price: 339.24
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: potion

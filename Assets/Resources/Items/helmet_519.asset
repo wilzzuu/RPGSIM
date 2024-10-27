@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_519
   Name: crimson red Ancient Helmet with Crystals
   Rarity: Common
+  BasePrice: 28.66
   Price: 28.66
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: helmet

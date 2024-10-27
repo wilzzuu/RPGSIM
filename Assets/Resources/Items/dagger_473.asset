@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_473
   Name: emerald green Mystical Dagger with Sparkling particles
   Rarity: Common
+  BasePrice: 102
   Price: 102
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: dagger

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_684
   Name: silver Cursed Ring with Skulls
   Rarity: Common
+  BasePrice: 192.17
   Price: 192.17
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: ring

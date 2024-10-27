@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_293
   Name: midnight blue Ancient Staff with Crystals
   Rarity: Rare
+  BasePrice: 207.53
   Price: 207.53
+  DemandScore: 0
   Weight: 15
   Color: midnight blue
   Item: staff

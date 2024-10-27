@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_230
   Name: purple Mystical Sword with Crystals
   Rarity: Legendary
+  BasePrice: 7007
   Price: 7007
+  DemandScore: 0
   Weight: 1
   Color: purple
   Item: sword

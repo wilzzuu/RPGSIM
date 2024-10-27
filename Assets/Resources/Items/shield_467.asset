@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_467
   Name: pink Enchanted Shield with Crystals
   Rarity: Common
+  BasePrice: 215.64
   Price: 215.64
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: shield

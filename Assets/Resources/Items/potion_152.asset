@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_152
   Name: silver Cursed Potion with Mystic runes
   Rarity: Uncommon
+  BasePrice: 322.25
   Price: 322.25
+  DemandScore: 0
   Weight: 30
   Color: silver
   Item: potion

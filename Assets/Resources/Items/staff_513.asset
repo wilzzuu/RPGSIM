@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_513
   Name: pink Arcane Staff with Crystals
   Rarity: Common
+  BasePrice: 267.01
   Price: 267.01
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: staff

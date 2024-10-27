@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_217
   Name: crimson red Mystical Sword with Sparkling particles
   Rarity: Common
+  BasePrice: 221.86
   Price: 221.86
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: sword

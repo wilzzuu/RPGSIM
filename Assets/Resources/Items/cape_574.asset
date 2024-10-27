@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_574
   Name: emerald green Cursed Cape with Mystic runes
   Rarity: Rare
+  BasePrice: 193.98
   Price: 193.98
+  DemandScore: 0
   Weight: 15
   Color: emerald green
   Item: cape

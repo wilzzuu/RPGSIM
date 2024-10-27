@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_733
   Name: purple Enchanted Shield with Skulls
   Rarity: Common
+  BasePrice: 239.94
   Price: 239.94
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: shield

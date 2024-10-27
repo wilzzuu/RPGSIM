@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_329
   Name: shadow black Enchanted Potion with Skulls
   Rarity: Uncommon
+  BasePrice: 431.19
   Price: 431.19
+  DemandScore: 0
   Weight: 30
   Color: shadow black
   Item: potion

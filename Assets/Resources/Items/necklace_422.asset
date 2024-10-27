@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_422
   Name: silver Arcane Necklace with Mystic runes
   Rarity: Common
+  BasePrice: 93.02
   Price: 93.02
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: necklace

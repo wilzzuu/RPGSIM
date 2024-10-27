@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_570
   Name: silver Cursed Dagger with Mystic runes
   Rarity: Rare
+  BasePrice: 307.55
   Price: 307.55
+  DemandScore: 0
   Weight: 15
   Color: silver
   Item: dagger

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_235
   Name: midnight blue Ancient Staff with Ethereal mist
   Rarity: Common
+  BasePrice: 286.96
   Price: 286.96
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: staff

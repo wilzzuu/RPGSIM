@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_641
   Name: crimson red Mystical Necklace with Crystals
   Rarity: Common
+  BasePrice: 227.66
   Price: 227.66
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: necklace

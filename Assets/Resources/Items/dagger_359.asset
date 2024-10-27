@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_359
   Name: pink Cursed Dagger with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 241.37
   Price: 241.37
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: dagger

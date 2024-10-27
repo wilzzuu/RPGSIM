@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_133
   Name: crimson red Ancient Staff with Skulls
   Rarity: Common
+  BasePrice: 261.98
   Price: 261.98
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: staff

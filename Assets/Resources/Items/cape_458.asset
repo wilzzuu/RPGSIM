@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_458
   Name: crimson red Cursed Cape with Mystic runes
   Rarity: Rare
+  BasePrice: 187.53
   Price: 187.53
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: cape

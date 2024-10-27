@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_138
   Name: silver Ancient Book with Skulls
   Rarity: Common
+  BasePrice: 112.14
   Price: 112.14
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: book

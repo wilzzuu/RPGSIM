@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_211
   Name: purple Ancient Amulet with Sparkling particles
   Rarity: Common
+  BasePrice: 212.21
   Price: 212.21
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: amulet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_857
   Name: shadow black Holy Book with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 23.52
   Price: 23.52
+  DemandScore: 0
   Weight: 30
   Color: shadow black
   Item: book

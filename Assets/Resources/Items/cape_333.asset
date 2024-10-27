@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_333
   Name: pink Holy Cape with Glowing aura
   Rarity: Common
+  BasePrice: 251.31
   Price: 251.31
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: cape

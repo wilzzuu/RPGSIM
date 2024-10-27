@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_92
   Name: silver Holy Cape with Ethereal mist
   Rarity: Common
+  BasePrice: 209.96
   Price: 209.96
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: cape

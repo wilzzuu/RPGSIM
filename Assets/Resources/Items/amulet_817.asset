@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_817
   Name: crimson red Ancient Amulet with Skulls
   Rarity: Rare
+  BasePrice: 123.5
   Price: 123.5
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: amulet

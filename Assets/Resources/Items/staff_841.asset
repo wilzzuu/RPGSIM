@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_841
   Name: midnight blue Enchanted Staff with Crystals
   Rarity: Uncommon
+  BasePrice: 273.86
   Price: 273.86
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: staff

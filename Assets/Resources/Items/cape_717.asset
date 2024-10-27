@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_717
   Name: gold Holy Cape with Skulls
   Rarity: Common
+  BasePrice: 160.74
   Price: 160.74
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: cape

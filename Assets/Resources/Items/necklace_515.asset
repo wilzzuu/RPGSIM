@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_515
   Name: emerald green Enchanted Necklace with Skulls
   Rarity: Rare
+  BasePrice: 94.45
   Price: 94.45
+  DemandScore: 0
   Weight: 15
   Color: emerald green
   Item: necklace

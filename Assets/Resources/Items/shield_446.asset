@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_446
   Name: crimson red Holy Shield with Sparkling particles
   Rarity: Common
+  BasePrice: 72.64
   Price: 72.64
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: shield

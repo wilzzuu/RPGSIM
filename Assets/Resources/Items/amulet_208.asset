@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_208
   Name: shadow black Cursed Amulet with Sparkling particles
   Rarity: Common
+  BasePrice: 51.51
   Price: 51.51
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: amulet

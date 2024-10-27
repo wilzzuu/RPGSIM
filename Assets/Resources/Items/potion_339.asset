@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_339
   Name: gold Arcane Potion with Skulls
   Rarity: Uncommon
+  BasePrice: 348.87
   Price: 348.87
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: potion

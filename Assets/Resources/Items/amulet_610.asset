@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_610
   Name: emerald green Enchanted Amulet with Glowing aura
   Rarity: Common
+  BasePrice: 95
   Price: 95
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: amulet

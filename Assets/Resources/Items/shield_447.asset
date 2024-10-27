@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_447
   Name: gold Mystical Shield with Crystals
   Rarity: Common
+  BasePrice: 201.95
   Price: 201.95
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: shield

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_827
   Name: purple Ancient Dagger with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 30.66
   Price: 30.66
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: dagger

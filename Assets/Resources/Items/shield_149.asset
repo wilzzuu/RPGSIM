@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_149
   Name: midnight blue Ancient Shield with Glowing aura
   Rarity: Uncommon
+  BasePrice: 272.66
   Price: 272.66
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: shield

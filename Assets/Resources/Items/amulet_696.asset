@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_696
   Name: crimson red Holy Amulet with Crystals
   Rarity: Legendary
+  BasePrice: 7293.3
   Price: 7293.3
+  DemandScore: 0
   Weight: 1
   Color: crimson red
   Item: amulet

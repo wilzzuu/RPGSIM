@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_116
   Name: crimson red Ancient Sword with Crystals
   Rarity: Common
+  BasePrice: 253.5
   Price: 253.5
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: sword

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_166
   Name: shadow black Cursed Helmet with Skulls
   Rarity: Common
+  BasePrice: 221.34
   Price: 221.34
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: helmet

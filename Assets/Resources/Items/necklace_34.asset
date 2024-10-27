@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_34
   Name: pink Ancient Necklace with Ethereal mist
   Rarity: Rare
+  BasePrice: 103.8
   Price: 103.8
+  DemandScore: 0
   Weight: 15
   Color: pink
   Item: necklace

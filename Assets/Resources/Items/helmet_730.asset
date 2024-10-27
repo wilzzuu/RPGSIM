@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_730
   Name: purple Holy Helmet with Glowing aura
   Rarity: Common
+  BasePrice: 249.63
   Price: 249.63
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: helmet

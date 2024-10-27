@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_740
   Name: midnight blue Holy Dagger with Mystic runes
   Rarity: Common
+  BasePrice: 112.66
   Price: 112.66
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: dagger

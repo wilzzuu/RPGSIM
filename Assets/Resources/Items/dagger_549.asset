@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_549
   Name: shadow black Holy Dagger with Crystals
   Rarity: Common
+  BasePrice: 227.16
   Price: 227.16
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: dagger

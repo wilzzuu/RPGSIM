@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_729
   Name: shadow black Holy Book with Crystals
   Rarity: Common
+  BasePrice: 65.17
   Price: 65.17
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: book

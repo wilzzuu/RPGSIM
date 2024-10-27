@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_132
   Name: purple Enchanted Dagger with Mystic runes
   Rarity: Common
+  BasePrice: 44.49
   Price: 44.49
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: dagger

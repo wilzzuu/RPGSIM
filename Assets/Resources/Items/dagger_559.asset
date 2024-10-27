@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_559
   Name: silver Mystical Dagger with Glowing aura
   Rarity: Common
+  BasePrice: 251.6
   Price: 251.6
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: dagger

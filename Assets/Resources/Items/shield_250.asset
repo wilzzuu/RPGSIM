@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_250
   Name: crimson red Holy Shield with Crystals
   Rarity: Common
+  BasePrice: 224.93
   Price: 224.93
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: shield

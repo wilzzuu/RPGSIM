@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_317
   Name: gold Mystical Dagger with Skulls
   Rarity: Common
+  BasePrice: 73.46
   Price: 73.46
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: dagger

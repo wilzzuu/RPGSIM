@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_282
   Name: shadow black Ancient Helmet with Glowing aura
   Rarity: Epic
+  BasePrice: 4519.55
   Price: 4519.55
+  DemandScore: 0
   Weight: 4
   Color: shadow black
   Item: helmet

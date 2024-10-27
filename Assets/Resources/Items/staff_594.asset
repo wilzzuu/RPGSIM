@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_594
   Name: gold Arcane Staff with Mystic runes
   Rarity: Common
+  BasePrice: 173.73
   Price: 173.73
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: staff

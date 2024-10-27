@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_8
   Name: midnight blue Cursed Dagger with Sparkling particles
   Rarity: Common
+  BasePrice: 219.14
   Price: 219.14
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: dagger

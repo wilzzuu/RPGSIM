@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_187
   Name: gold Arcane Dagger with Mystic runes
   Rarity: Uncommon
+  BasePrice: 38.2
   Price: 38.2
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: dagger

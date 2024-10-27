@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_332
   Name: gold Arcane Potion with Glowing aura
   Rarity: Uncommon
+  BasePrice: 82.3
   Price: 82.3
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: potion

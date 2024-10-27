@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_299
   Name: emerald green Mystical Helmet with Crystals
   Rarity: Epic
+  BasePrice: 4012.65
   Price: 4012.65
+  DemandScore: 0
   Weight: 4
   Color: emerald green
   Item: helmet

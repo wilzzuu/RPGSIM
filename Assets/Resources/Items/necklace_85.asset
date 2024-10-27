@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_85
   Name: emerald green Holy Necklace with Glowing aura
   Rarity: Common
+  BasePrice: 242.87
   Price: 242.87
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: necklace

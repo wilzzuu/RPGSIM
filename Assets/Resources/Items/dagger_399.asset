@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_399
   Name: emerald green Holy Dagger with Skulls
   Rarity: Common
+  BasePrice: 175
   Price: 175
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: dagger

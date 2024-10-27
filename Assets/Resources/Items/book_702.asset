@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_702
   Name: shadow black Enchanted Book with Ethereal mist
   Rarity: Common
+  BasePrice: 11.98
   Price: 11.98
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: book

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_13
   Name: pink Mystical Potion with Skulls
   Rarity: Uncommon
+  BasePrice: 190.44
   Price: 190.44
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: potion

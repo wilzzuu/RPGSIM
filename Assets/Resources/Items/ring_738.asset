@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_738
   Name: silver Ancient Ring with Glowing aura
   Rarity: Rare
+  BasePrice: 344.83
   Price: 344.83
+  DemandScore: 0
   Weight: 15
   Color: silver
   Item: ring

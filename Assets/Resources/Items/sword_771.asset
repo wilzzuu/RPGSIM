@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_771
   Name: shadow black Holy Sword with Glowing aura
   Rarity: Uncommon
+  BasePrice: 222.56
   Price: 222.56
+  DemandScore: 0
   Weight: 30
   Color: shadow black
   Item: sword

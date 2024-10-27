@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_336
   Name: silver Enchanted Potion with Crystals
   Rarity: Common
+  BasePrice: 23.67
   Price: 23.67
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: potion

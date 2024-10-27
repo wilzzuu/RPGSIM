@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_81
   Name: silver Arcane Staff with Mystic runes
   Rarity: Common
+  BasePrice: 220.6
   Price: 220.6
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: staff

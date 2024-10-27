@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_216
   Name: pink Enchanted Potion with Ethereal mist
   Rarity: Common
+  BasePrice: 130.41
   Price: 130.41
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: potion

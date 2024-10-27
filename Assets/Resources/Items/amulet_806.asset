@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_806
   Name: purple Arcane Amulet with Crystals
   Rarity: Common
+  BasePrice: 241.33
   Price: 241.33
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: amulet

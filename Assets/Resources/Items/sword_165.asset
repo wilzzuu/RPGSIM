@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_165
   Name: emerald green Mystical Sword with Skulls
   Rarity: Common
+  BasePrice: 6.35
   Price: 6.35
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: sword

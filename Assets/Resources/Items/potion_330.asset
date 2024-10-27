@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_330
   Name: crimson red Ancient Potion with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 389.7
   Price: 389.7
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: potion

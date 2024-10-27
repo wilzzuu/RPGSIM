@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_225
   Name: purple Cursed Shield with Glowing aura
   Rarity: Common
+  BasePrice: 212.52
   Price: 212.52
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: shield

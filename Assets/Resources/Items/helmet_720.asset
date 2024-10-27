@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_720
   Name: midnight blue Enchanted Helmet with Crystals
   Rarity: Common
+  BasePrice: 126.76
   Price: 126.76
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: helmet

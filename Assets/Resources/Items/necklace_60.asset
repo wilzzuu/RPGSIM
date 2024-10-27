@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_60
   Name: gold Enchanted Necklace with Skulls
   Rarity: Common
+  BasePrice: 37.55
   Price: 37.55
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: necklace

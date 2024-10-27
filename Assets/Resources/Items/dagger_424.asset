@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_424
   Name: pink Mystical Dagger with Glowing aura
   Rarity: Common
+  BasePrice: 222.91
   Price: 222.91
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: dagger

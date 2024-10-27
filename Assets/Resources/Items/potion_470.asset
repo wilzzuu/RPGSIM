@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_470
   Name: crimson red Mystical Potion with Glowing aura
   Rarity: Common
+  BasePrice: 161.92
   Price: 161.92
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: potion

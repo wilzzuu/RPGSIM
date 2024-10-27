@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_44
   Name: gold Holy Shield with Skulls
   Rarity: Uncommon
+  BasePrice: 214.41
   Price: 214.41
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: shield

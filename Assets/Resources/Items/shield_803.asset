@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_803
   Name: shadow black Enchanted Shield with Sparkling particles
   Rarity: Common
+  BasePrice: 89.38
   Price: 89.38
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: shield

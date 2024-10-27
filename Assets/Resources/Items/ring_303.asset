@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_303
   Name: crimson red Holy Ring with Mystic runes
   Rarity: Common
+  BasePrice: 138.22
   Price: 138.22
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: ring

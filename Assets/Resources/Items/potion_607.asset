@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_607
   Name: silver Mystical Potion with Sparkling particles
   Rarity: Common
+  BasePrice: 149.9
   Price: 149.9
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: potion

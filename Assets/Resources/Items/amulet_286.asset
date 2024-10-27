@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_286
   Name: crimson red Ancient Amulet with Crystals
   Rarity: Common
+  BasePrice: 130.66
   Price: 130.66
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: amulet

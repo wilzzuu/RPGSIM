@@ -18,6 +18,7 @@ public class InventoryManager : MonoBehaviour
             // Load inventory data
             List<SerializableItemData> loadedItems = DataSerializationManager.Instance.LoadGameData();
             inventoryItems = ConvertSerializableItemsToItemData(loadedItems);
+            Debug.Log($"Loaded {inventoryItems.Count} items into inventory.");
         }
         else
         {
@@ -31,10 +32,16 @@ public class InventoryManager : MonoBehaviour
         List<ItemData> items = new List<ItemData>();
         foreach (SerializableItemData sItem in serializableItems)
         {
-            ItemData item = Resources.Load<ItemData>($"ItemAssets/{sItem.ID}");
+            string itemPath = $"Items/{sItem.ID}";
+            ItemData item = Resources.Load<ItemData>(itemPath);
             if (item != null)
             {
                 items.Add(item);
+                Debug.Log($"Successfully loaded {item.Name} with ID {sItem.ID} from {itemPath}");
+            }
+            else
+            {
+                Debug.LogWarning($"Failed to load ItemData at {itemPath}. Asset with ID {sItem.ID} may be missing or incorrectly named.");
             }
         }
         return items;

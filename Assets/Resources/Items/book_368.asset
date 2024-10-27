@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_368
   Name: gold Mystical Book with Skulls
   Rarity: Common
+  BasePrice: 105.91
   Price: 105.91
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: book

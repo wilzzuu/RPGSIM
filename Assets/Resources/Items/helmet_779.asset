@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_779
   Name: gold Mystical Helmet with Sparkling particles
   Rarity: Common
+  BasePrice: 294.18
   Price: 294.18
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: helmet

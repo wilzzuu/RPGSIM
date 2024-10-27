@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_186
   Name: silver Enchanted Sword with Skulls
   Rarity: Common
+  BasePrice: 10.99
   Price: 10.99
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: sword

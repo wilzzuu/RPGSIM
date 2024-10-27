@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_227
   Name: silver Ancient Amulet with Glowing aura
   Rarity: Common
+  BasePrice: 227.49
   Price: 227.49
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: amulet

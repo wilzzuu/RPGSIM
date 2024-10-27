@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_882
   Name: crimson red Ancient Sword with Glowing aura
   Rarity: Common
+  BasePrice: 116.06
   Price: 116.06
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: sword

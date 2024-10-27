@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_867
   Name: crimson red Ancient Book with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 315.48
   Price: 315.48
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: book

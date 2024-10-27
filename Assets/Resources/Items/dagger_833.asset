@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_833
   Name: shadow black Cursed Dagger with Glowing aura
   Rarity: Common
+  BasePrice: 97.76
   Price: 97.76
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: dagger

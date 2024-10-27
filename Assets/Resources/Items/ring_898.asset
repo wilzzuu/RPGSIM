@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_898
   Name: crimson red Ancient Ring with Crystals
   Rarity: Uncommon
+  BasePrice: 170.13
   Price: 170.13
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: ring

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_697
   Name: emerald green Holy Book with Glowing aura
   Rarity: Common
+  BasePrice: 10.8
   Price: 10.8
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: book

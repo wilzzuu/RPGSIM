@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_21
   Name: crimson red Holy Potion with Skulls
   Rarity: Common
+  BasePrice: 288.56
   Price: 288.56
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: potion

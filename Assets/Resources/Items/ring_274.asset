@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_274
   Name: silver Ancient Ring with Ethereal mist
   Rarity: Common
+  BasePrice: 137.77
   Price: 137.77
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: ring

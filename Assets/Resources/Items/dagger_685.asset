@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_685
   Name: gold Ancient Dagger with Crystals
   Rarity: Rare
+  BasePrice: 157.73
   Price: 157.73
+  DemandScore: 0
   Weight: 15
   Color: gold
   Item: dagger

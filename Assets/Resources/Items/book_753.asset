@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_753
   Name: crimson red Arcane Book with Glowing aura
   Rarity: Common
+  BasePrice: 12.95
   Price: 12.95
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: book

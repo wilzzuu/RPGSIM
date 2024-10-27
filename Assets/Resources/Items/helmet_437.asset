@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_437
   Name: pink Holy Helmet with Skulls
   Rarity: Uncommon
+  BasePrice: 332.49
   Price: 332.49
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: helmet

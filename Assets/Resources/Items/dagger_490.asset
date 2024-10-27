@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_490
   Name: pink Cursed Dagger with Sparkling particles
   Rarity: Common
+  BasePrice: 56.38
   Price: 56.38
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: dagger

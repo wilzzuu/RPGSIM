@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_582
   Name: crimson red Arcane Helmet with Crystals
   Rarity: Rare
+  BasePrice: 143.45
   Price: 143.45
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: helmet

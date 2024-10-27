@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_889
   Name: shadow black Ancient Staff with Ethereal mist
   Rarity: Common
+  BasePrice: 231.63
   Price: 231.63
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: staff

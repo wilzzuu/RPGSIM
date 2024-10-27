@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_709
   Name: midnight blue Ancient Staff with Mystic runes
   Rarity: Rare
+  BasePrice: 234.38
   Price: 234.38
+  DemandScore: 0
   Weight: 15
   Color: midnight blue
   Item: staff

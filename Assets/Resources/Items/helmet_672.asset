@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_672
   Name: purple Mystical Helmet with Glowing aura
   Rarity: Common
+  BasePrice: 71.15
   Price: 71.15
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: helmet

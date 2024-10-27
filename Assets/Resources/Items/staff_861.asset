@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_861
   Name: gold Arcane Staff with Glowing aura
   Rarity: Uncommon
+  BasePrice: 365.99
   Price: 365.99
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: staff

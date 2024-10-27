@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_635
   Name: pink Enchanted Sword with Sparkling particles
   Rarity: Common
+  BasePrice: 158.35
   Price: 158.35
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: sword

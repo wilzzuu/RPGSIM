@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_111
   Name: shadow black Mystical Staff with Skulls
   Rarity: Common
+  BasePrice: 269.15
   Price: 269.15
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: staff

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_527
   Name: gold Holy Shield with Glowing aura
   Rarity: Common
+  BasePrice: 235.17
   Price: 235.17
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: shield

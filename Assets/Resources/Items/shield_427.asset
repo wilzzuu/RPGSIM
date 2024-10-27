@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_427
   Name: silver Enchanted Shield with Ethereal mist
   Rarity: Common
+  BasePrice: 125.1
   Price: 125.1
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: shield

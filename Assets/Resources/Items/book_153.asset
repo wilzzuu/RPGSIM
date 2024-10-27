@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_153
   Name: crimson red Cursed Book with Mystic runes
   Rarity: Rare
+  BasePrice: 258.65
   Price: 258.65
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: book

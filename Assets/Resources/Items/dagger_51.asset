@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_51
   Name: gold Arcane Dagger with Glowing aura
   Rarity: Common
+  BasePrice: 201.84
   Price: 201.84
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: dagger

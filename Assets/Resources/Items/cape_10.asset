@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_10
   Name: shadow black Holy Cape with Skulls
   Rarity: Common
+  BasePrice: 248.09
   Price: 248.09
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: cape

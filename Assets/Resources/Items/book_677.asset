@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_677
   Name: midnight blue Cursed Book with Mystic runes
   Rarity: Common
+  BasePrice: 142.46
   Price: 142.46
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: book

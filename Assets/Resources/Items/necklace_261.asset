@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_261
   Name: crimson red Cursed Necklace with Mystic runes
   Rarity: Common
+  BasePrice: 71.61
   Price: 71.61
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: necklace

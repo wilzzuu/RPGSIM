@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_701
   Name: shadow black Holy Helmet with Skulls
   Rarity: Common
+  BasePrice: 180.54
   Price: 180.54
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: helmet

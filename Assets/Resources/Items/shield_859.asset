@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_859
   Name: purple Mystical Shield with Mystic runes
   Rarity: Rare
+  BasePrice: 482.65
   Price: 482.65
+  DemandScore: 0
   Weight: 15
   Color: purple
   Item: shield

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_52
   Name: shadow black Arcane Necklace with Skulls
   Rarity: Rare
+  BasePrice: 564.43
   Price: 564.43
+  DemandScore: 0
   Weight: 15
   Color: shadow black
   Item: necklace

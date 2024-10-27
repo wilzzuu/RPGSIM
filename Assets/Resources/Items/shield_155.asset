@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_155
   Name: shadow black Cursed Shield with Mystic runes
   Rarity: Common
+  BasePrice: 88.34
   Price: 88.34
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: shield

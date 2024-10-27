@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_277
   Name: gold Ancient Helmet with Crystals
   Rarity: Common
+  BasePrice: 147.76
   Price: 147.76
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: helmet

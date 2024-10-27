@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_319
   Name: emerald green Arcane Dagger with Crystals
   Rarity: Common
+  BasePrice: 124.8
   Price: 124.8
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: dagger

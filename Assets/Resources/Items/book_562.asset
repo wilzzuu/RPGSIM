@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_562
   Name: pink Cursed Book with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 161.61
   Price: 161.61
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: book

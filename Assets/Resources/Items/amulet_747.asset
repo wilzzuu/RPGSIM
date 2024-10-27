@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_747
   Name: crimson red Enchanted Amulet with Crystals
   Rarity: Common
+  BasePrice: 184.18
   Price: 184.18
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: amulet

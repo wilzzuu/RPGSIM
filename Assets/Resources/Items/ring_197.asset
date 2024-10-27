@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_197
   Name: purple Ancient Ring with Skulls
   Rarity: Common
+  BasePrice: 114.89
   Price: 114.89
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: ring

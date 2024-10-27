@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_661
   Name: crimson red Cursed Staff with Skulls
   Rarity: Uncommon
+  BasePrice: 427.32
   Price: 427.32
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: staff

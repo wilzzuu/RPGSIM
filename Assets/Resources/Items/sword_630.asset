@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_630
   Name: midnight blue Holy Sword with Glowing aura
   Rarity: Rare
+  BasePrice: 471.3
   Price: 471.3
+  DemandScore: 0
   Weight: 15
   Color: midnight blue
   Item: sword

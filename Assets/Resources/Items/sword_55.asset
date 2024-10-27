@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_55
   Name: pink Holy Sword with Glowing aura
   Rarity: Uncommon
+  BasePrice: 366.25
   Price: 366.25
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: sword

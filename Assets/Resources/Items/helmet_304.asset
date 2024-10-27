@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_304
   Name: crimson red Arcane Helmet with Glowing aura
   Rarity: Common
+  BasePrice: 289.5
   Price: 289.5
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: helmet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_686
   Name: purple Enchanted Necklace with Ethereal mist
   Rarity: Common
+  BasePrice: 134.67
   Price: 134.67
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: necklace

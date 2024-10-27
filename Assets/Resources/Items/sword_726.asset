@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_726
   Name: midnight blue Arcane Sword with Ethereal mist
   Rarity: Common
+  BasePrice: 284.96
   Price: 284.96
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: sword

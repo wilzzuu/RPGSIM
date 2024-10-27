@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_577
   Name: shadow black Arcane Potion with Ethereal mist
   Rarity: Common
+  BasePrice: 144.86
   Price: 144.86
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: potion

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_746
   Name: midnight blue Holy Shield with Ethereal mist
   Rarity: Common
+  BasePrice: 258.29
   Price: 258.29
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: shield

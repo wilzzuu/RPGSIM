@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_169
   Name: midnight blue Ancient Necklace with Ethereal mist
   Rarity: Common
+  BasePrice: 68.61
   Price: 68.61
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: necklace

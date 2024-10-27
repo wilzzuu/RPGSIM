@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_343
   Name: crimson red Cursed Helmet with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 47.34
   Price: 47.34
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: helmet

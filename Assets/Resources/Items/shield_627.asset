@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_627
   Name: emerald green Cursed Shield with Glowing aura
   Rarity: Uncommon
+  BasePrice: 48.48
   Price: 48.48
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: shield

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_84
   Name: midnight blue Holy Cape with Mystic runes
   Rarity: Uncommon
+  BasePrice: 176.84
   Price: 176.84
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: cape

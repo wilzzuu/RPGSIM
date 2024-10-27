@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_122
   Name: emerald green Mystical Ring with Skulls
   Rarity: Rare
+  BasePrice: 521
   Price: 521
+  DemandScore: 0
   Weight: 15
   Color: emerald green
   Item: ring

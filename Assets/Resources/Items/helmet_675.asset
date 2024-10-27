@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_675
   Name: pink Cursed Helmet with Sparkling particles
   Rarity: Rare
+  BasePrice: 455.88
   Price: 455.88
+  DemandScore: 0
   Weight: 15
   Color: pink
   Item: helmet

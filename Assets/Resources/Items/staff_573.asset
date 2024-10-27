@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_573
   Name: silver Holy Staff with Sparkling particles
   Rarity: Common
+  BasePrice: 140.28
   Price: 140.28
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: staff

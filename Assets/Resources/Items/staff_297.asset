@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_297
   Name: emerald green Cursed Staff with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 7.15
   Price: 7.15
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: staff

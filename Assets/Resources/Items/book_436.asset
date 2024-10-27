@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_436
   Name: silver Mystical Book with Mystic runes
   Rarity: Common
+  BasePrice: 55.82
   Price: 55.82
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: book

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_639
   Name: midnight blue Arcane Shield with Mystic runes
   Rarity: Common
+  BasePrice: 198.01
   Price: 198.01
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: shield

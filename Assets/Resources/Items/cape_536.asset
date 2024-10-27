@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_536
   Name: purple Mystical Cape with Glowing aura
   Rarity: Common
+  BasePrice: 232.44
   Price: 232.44
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: cape

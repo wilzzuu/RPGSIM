@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_694
   Name: midnight blue Holy Ring with Glowing aura
   Rarity: Common
+  BasePrice: 182.18
   Price: 182.18
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: ring

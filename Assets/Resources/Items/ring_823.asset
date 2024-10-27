@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_823
   Name: emerald green Enchanted Ring with Glowing aura
   Rarity: Uncommon
+  BasePrice: 226.11
   Price: 226.11
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: ring

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_732
   Name: gold Ancient Ring with Crystals
   Rarity: Common
+  BasePrice: 131.71
   Price: 131.71
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: ring

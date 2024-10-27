@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_853
   Name: gold Arcane Cape with Ethereal mist
   Rarity: Common
+  BasePrice: 259.2
   Price: 259.2
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: cape

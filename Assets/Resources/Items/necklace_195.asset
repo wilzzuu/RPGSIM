@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_195
   Name: purple Arcane Necklace with Skulls
   Rarity: Common
+  BasePrice: 120.67
   Price: 120.67
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: necklace

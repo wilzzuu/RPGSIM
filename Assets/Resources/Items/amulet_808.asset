@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_808
   Name: purple Cursed Amulet with Glowing aura
   Rarity: Common
+  BasePrice: 197.04
   Price: 197.04
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: amulet

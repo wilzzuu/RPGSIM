@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_660
   Name: silver Mystical Shield with Skulls
   Rarity: Common
+  BasePrice: 236.44
   Price: 236.44
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: shield

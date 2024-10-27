@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_852
   Name: crimson red Mystical Ring with Sparkling particles
   Rarity: Common
+  BasePrice: 282.41
   Price: 282.41
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: ring

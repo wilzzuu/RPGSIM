@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_337
   Name: gold Holy Necklace with Skulls
   Rarity: Common
+  BasePrice: 16.1
   Price: 16.1
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: necklace

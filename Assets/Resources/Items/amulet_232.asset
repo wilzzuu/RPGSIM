@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_232
   Name: shadow black Cursed Amulet with Crystals
   Rarity: Common
+  BasePrice: 275.69
   Price: 275.69
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: amulet

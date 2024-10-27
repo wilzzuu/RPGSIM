@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_376
   Name: midnight blue Holy Cape with Skulls
   Rarity: Epic
+  BasePrice: 2112.25
   Price: 2112.25
+  DemandScore: 0
   Weight: 4
   Color: midnight blue
   Item: cape

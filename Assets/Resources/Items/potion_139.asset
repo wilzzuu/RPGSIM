@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_139
   Name: crimson red Mystical Potion with Ethereal mist
   Rarity: Rare
+  BasePrice: 177.07
   Price: 177.07
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: potion

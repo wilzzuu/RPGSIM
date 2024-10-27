@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_294
   Name: gold Holy Sword with Mystic runes
   Rarity: Rare
+  BasePrice: 425.88
   Price: 425.88
+  DemandScore: 0
   Weight: 15
   Color: gold
   Item: sword

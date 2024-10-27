@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_147
   Name: shadow black Holy Necklace with Ethereal mist
   Rarity: Common
+  BasePrice: 213.4
   Price: 213.4
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: necklace

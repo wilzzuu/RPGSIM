@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_598
   Name: shadow black Mystical Helmet with Ethereal mist
   Rarity: Common
+  BasePrice: 267.35
   Price: 267.35
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: helmet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_103
   Name: midnight blue Cursed Ring with Skulls
   Rarity: Common
+  BasePrice: 187.33
   Price: 187.33
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: ring

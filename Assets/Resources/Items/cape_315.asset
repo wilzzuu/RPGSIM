@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_315
   Name: emerald green Mystical Cape with Crystals
   Rarity: Common
+  BasePrice: 149
   Price: 149
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: cape

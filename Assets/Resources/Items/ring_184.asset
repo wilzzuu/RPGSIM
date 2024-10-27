@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_184
   Name: pink Mystical Ring with Mystic runes
   Rarity: Uncommon
+  BasePrice: 81.27
   Price: 81.27
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: ring

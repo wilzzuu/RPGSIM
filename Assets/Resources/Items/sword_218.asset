@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_218
   Name: shadow black Cursed Sword with Glowing aura
   Rarity: Common
+  BasePrice: 42.12
   Price: 42.12
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: sword

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_177
   Name: pink Mystical Sword with Crystals
   Rarity: Common
+  BasePrice: 294.61
   Price: 294.61
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: sword

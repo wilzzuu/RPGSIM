@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_479
   Name: purple Holy Amulet with Skulls
   Rarity: Common
+  BasePrice: 219.29
   Price: 219.29
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: amulet

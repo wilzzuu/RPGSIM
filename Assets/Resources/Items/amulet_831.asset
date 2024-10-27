@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_831
   Name: gold Ancient Amulet with Glowing aura
   Rarity: Common
+  BasePrice: 275.6
   Price: 275.6
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: amulet

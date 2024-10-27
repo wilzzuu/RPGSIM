@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_466
   Name: midnight blue Mystical Shield with Crystals
   Rarity: Common
+  BasePrice: 255.48
   Price: 255.48
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: shield

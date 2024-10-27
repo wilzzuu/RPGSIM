@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_224
   Name: gold Ancient Sword with Sparkling particles
   Rarity: Epic
+  BasePrice: 4120.85
   Price: 4120.85
+  DemandScore: 0
   Weight: 4
   Color: gold
   Item: sword

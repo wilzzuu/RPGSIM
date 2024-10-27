@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_311
   Name: purple Arcane Necklace with Sparkling particles
   Rarity: Rare
+  BasePrice: 494.7
   Price: 494.7
+  DemandScore: 0
   Weight: 15
   Color: purple
   Item: necklace

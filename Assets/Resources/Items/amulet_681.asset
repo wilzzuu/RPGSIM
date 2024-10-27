@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_681
   Name: gold Mystical Amulet with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 418.72
   Price: 418.72
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: amulet

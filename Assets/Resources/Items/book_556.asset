@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_556
   Name: gold Ancient Book with Crystals
   Rarity: Common
+  BasePrice: 22.59
   Price: 22.59
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: book

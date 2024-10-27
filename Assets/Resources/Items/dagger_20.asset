@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_20
   Name: crimson red Arcane Dagger with Glowing aura
   Rarity: Common
+  BasePrice: 251
   Price: 251
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: dagger

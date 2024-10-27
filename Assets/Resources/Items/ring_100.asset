@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_100
   Name: midnight blue Ancient Ring with Sparkling particles
   Rarity: Common
+  BasePrice: 148.67
   Price: 148.67
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: ring

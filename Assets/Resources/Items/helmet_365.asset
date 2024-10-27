@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_365
   Name: crimson red Ancient Helmet with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 311.72
   Price: 311.72
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: helmet

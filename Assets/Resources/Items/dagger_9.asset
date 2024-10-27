@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_9
   Name: pink Arcane Dagger with Mystic runes
   Rarity: Common
+  BasePrice: 57.07
   Price: 57.07
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: dagger

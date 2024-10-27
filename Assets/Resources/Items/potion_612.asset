@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_612
   Name: pink Mystical Potion with Sparkling particles
   Rarity: Common
+  BasePrice: 38.97
   Price: 38.97
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: potion

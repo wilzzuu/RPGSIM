@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_621
   Name: gold Arcane Dagger with Ethereal mist
   Rarity: Common
+  BasePrice: 296.52
   Price: 296.52
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: dagger

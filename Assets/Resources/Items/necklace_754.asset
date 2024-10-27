@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_754
   Name: gold Arcane Necklace with Crystals
   Rarity: Rare
+  BasePrice: 749.78
   Price: 749.78
+  DemandScore: 0
   Weight: 15
   Color: gold
   Item: necklace

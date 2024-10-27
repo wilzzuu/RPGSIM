@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_691
   Name: gold Ancient Necklace with Skulls
   Rarity: Rare
+  BasePrice: 590.2
   Price: 590.2
+  DemandScore: 0
   Weight: 15
   Color: gold
   Item: necklace

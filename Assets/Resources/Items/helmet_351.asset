@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_351
   Name: pink Mystical Helmet with Crystals
   Rarity: Common
+  BasePrice: 135.41
   Price: 135.41
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: helmet

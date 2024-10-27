@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_532
   Name: pink Mystical Necklace with Glowing aura
   Rarity: Common
+  BasePrice: 288.09
   Price: 288.09
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: necklace

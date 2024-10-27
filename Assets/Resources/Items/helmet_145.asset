@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_145
   Name: gold Cursed Helmet with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 158.07
   Price: 158.07
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: helmet

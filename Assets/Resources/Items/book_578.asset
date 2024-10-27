@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_578
   Name: shadow black Arcane Book with Crystals
   Rarity: Common
+  BasePrice: 25.56
   Price: 25.56
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: book

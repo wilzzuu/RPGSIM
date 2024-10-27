@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_811
   Name: pink Enchanted Dagger with Mystic runes
   Rarity: Common
+  BasePrice: 193.7
   Price: 193.7
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: dagger

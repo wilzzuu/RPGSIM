@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_67
   Name: purple Enchanted Cape with Crystals
   Rarity: Common
+  BasePrice: 210.06
   Price: 210.06
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: cape

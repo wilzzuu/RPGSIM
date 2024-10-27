@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_870
   Name: emerald green Mystical Shield with Skulls
   Rarity: Common
+  BasePrice: 109.22
   Price: 109.22
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: shield

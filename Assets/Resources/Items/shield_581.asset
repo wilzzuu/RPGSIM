@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_581
   Name: silver Arcane Shield with Glowing aura
   Rarity: Uncommon
+  BasePrice: 389.49
   Price: 389.49
+  DemandScore: 0
   Weight: 30
   Color: silver
   Item: shield

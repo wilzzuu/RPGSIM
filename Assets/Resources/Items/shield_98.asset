@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_98
   Name: crimson red Enchanted Shield with Crystals
   Rarity: Common
+  BasePrice: 268.41
   Price: 268.41
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: shield

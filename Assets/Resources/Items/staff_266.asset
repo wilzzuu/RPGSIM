@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_266
   Name: crimson red Ancient Staff with Sparkling particles
   Rarity: Rare
+  BasePrice: 260.57
   Price: 260.57
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: staff

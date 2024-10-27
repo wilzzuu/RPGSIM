@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_327
   Name: emerald green Holy Amulet with Mystic runes
   Rarity: Common
+  BasePrice: 18.55
   Price: 18.55
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: amulet

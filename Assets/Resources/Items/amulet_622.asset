@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_622
   Name: gold Cursed Amulet with Glowing aura
   Rarity: Common
+  BasePrice: 292.38
   Price: 292.38
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: amulet

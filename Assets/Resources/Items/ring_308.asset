@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_308
   Name: midnight blue Holy Ring with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 126.28
   Price: 126.28
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: ring

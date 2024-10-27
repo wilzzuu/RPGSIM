@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_786
   Name: purple Holy Necklace with Glowing aura
   Rarity: Common
+  BasePrice: 231.03
   Price: 231.03
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: necklace

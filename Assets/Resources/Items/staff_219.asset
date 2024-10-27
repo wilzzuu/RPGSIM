@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_219
   Name: crimson red Ancient Staff with Glowing aura
   Rarity: Common
+  BasePrice: 1.46
   Price: 1.46
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: staff

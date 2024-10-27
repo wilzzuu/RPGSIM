@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_124
   Name: silver Ancient Shield with Skulls
   Rarity: Common
+  BasePrice: 70.66
   Price: 70.66
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: shield

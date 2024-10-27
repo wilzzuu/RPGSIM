@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_151
   Name: shadow black Mystical Staff with Crystals
   Rarity: Common
+  BasePrice: 160.36
   Price: 160.36
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: staff

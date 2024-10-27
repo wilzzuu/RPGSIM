@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_546
   Name: crimson red Arcane Staff with Ethereal mist
   Rarity: Rare
+  BasePrice: 457.05
   Price: 457.05
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: staff

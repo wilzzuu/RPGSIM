@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_507
   Name: crimson red Holy Staff with Skulls
   Rarity: Common
+  BasePrice: 96.24
   Price: 96.24
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: staff

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_662
   Name: silver Holy Sword with Crystals
   Rarity: Common
+  BasePrice: 283.3
   Price: 283.3
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: sword

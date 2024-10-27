@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_871
   Name: midnight blue Enchanted Shield with Ethereal mist
   Rarity: Rare
+  BasePrice: 712.38
   Price: 712.38
+  DemandScore: 0
   Weight: 15
   Color: midnight blue
   Item: shield

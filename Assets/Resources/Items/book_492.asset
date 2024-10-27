@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_492
   Name: pink Holy Book with Ethereal mist
   Rarity: Rare
+  BasePrice: 260.4
   Price: 260.4
+  DemandScore: 0
   Weight: 15
   Color: pink
   Item: book

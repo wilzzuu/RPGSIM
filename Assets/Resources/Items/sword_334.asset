@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_334
   Name: pink Cursed Sword with Glowing aura
   Rarity: Common
+  BasePrice: 136.96
   Price: 136.96
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: sword

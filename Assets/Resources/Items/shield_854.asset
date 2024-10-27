@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_854
   Name: crimson red Enchanted Shield with Mystic runes
   Rarity: Rare
+  BasePrice: 679.98
   Price: 679.98
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: shield

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_544
   Name: purple Mystical Necklace with Ethereal mist
   Rarity: Common
+  BasePrice: 219.75
   Price: 219.75
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: necklace

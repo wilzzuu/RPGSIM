@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_689
   Name: pink Cursed Ring with Crystals
   Rarity: Uncommon
+  BasePrice: 325.98
   Price: 325.98
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: ring

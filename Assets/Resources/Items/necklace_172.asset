@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_172
   Name: shadow black Arcane Necklace with Glowing aura
   Rarity: Common
+  BasePrice: 51.63
   Price: 51.63
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: necklace

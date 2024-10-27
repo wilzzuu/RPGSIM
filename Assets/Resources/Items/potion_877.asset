@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_877
   Name: emerald green Ancient Potion with Ethereal mist
   Rarity: Common
+  BasePrice: 69.22
   Price: 69.22
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: potion

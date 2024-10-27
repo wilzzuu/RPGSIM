@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_101
   Name: pink Ancient Shield with Skulls
   Rarity: Common
+  BasePrice: 127
   Price: 127
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: shield

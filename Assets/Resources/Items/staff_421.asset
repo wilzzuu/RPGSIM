@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_421
   Name: silver Cursed Staff with Crystals
   Rarity: Common
+  BasePrice: 119.34
   Price: 119.34
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: staff

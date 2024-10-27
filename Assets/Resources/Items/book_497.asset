@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_497
   Name: midnight blue Mystical Book with Skulls
   Rarity: Common
+  BasePrice: 127.2
   Price: 127.2
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: book

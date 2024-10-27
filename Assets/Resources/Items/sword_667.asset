@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_667
   Name: pink Enchanted Sword with Skulls
   Rarity: Uncommon
+  BasePrice: 103.83
   Price: 103.83
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: sword

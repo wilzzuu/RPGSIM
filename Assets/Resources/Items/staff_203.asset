@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_203
   Name: shadow black Cursed Staff with Crystals
   Rarity: Uncommon
+  BasePrice: 100.38
   Price: 100.38
+  DemandScore: 0
   Weight: 30
   Color: shadow black
   Item: staff

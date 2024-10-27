@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_377
   Name: midnight blue Ancient Staff with Glowing aura
   Rarity: Uncommon
+  BasePrice: 67.53
   Price: 67.53
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: staff

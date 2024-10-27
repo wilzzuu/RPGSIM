@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_175
   Name: purple Holy Sword with Skulls
   Rarity: Common
+  BasePrice: 175.69
   Price: 175.69
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: sword

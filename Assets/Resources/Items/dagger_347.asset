@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_347
   Name: silver Enchanted Dagger with Glowing aura
   Rarity: Common
+  BasePrice: 155.49
   Price: 155.49
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: dagger

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_194
   Name: pink Enchanted Cape with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 180.12
   Price: 180.12
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: cape

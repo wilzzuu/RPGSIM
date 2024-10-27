@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_692
   Name: silver Mystical Staff with Sparkling particles
   Rarity: Common
+  BasePrice: 118.57
   Price: 118.57
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: staff

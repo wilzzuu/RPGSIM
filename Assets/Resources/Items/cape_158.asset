@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_158
   Name: emerald green Enchanted Cape with Glowing aura
   Rarity: Uncommon
+  BasePrice: 281.89
   Price: 281.89
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: cape

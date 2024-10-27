@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_259
   Name: silver Arcane Amulet with Sparkling particles
   Rarity: Common
+  BasePrice: 71.93
   Price: 71.93
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: amulet

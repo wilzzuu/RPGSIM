@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_798
   Name: shadow black Holy Sword with Sparkling particles
   Rarity: Common
+  BasePrice: 135.4
   Price: 135.4
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: sword

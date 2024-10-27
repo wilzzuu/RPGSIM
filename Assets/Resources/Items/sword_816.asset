@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_816
   Name: gold Holy Sword with Skulls
   Rarity: Common
+  BasePrice: 282.24
   Price: 282.24
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: sword

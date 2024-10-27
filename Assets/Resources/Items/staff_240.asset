@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_240
   Name: emerald green Arcane Staff with Sparkling particles
   Rarity: Common
+  BasePrice: 294.03
   Price: 294.03
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: staff

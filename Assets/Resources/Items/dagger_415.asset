@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_415
   Name: silver Cursed Dagger with Ethereal mist
   Rarity: Common
+  BasePrice: 221.29
   Price: 221.29
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: dagger

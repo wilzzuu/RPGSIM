@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_62
   Name: silver Enchanted Helmet with Skulls
   Rarity: Epic
+  BasePrice: 2254.2
   Price: 2254.2
+  DemandScore: 0
   Weight: 4
   Color: silver
   Item: helmet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_810
   Name: shadow black Mystical Amulet with Skulls
   Rarity: Common
+  BasePrice: 48.35
   Price: 48.35
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: amulet

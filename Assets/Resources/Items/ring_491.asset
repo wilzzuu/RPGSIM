@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_491
   Name: silver Enchanted Ring with Mystic runes
   Rarity: Rare
+  BasePrice: 623.4
   Price: 623.4
+  DemandScore: 0
   Weight: 15
   Color: silver
   Item: ring

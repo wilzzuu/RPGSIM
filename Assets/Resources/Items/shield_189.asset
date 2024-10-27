@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_189
   Name: purple Holy Shield with Skulls
   Rarity: Common
+  BasePrice: 167.71
   Price: 167.71
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: shield

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_306
   Name: emerald green Arcane Helmet with Ethereal mist
   Rarity: Common
+  BasePrice: 49.97
   Price: 49.97
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: helmet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_875
   Name: crimson red Enchanted Sword with Crystals
   Rarity: Uncommon
+  BasePrice: 393.69
   Price: 393.69
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: sword

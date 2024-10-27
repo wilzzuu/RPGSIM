@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_454
   Name: silver Cursed Dagger with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 173
   Price: 173
+  DemandScore: 0
   Weight: 30
   Color: silver
   Item: dagger

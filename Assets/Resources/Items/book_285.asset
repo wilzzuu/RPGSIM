@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_285
   Name: shadow black Arcane Book with Skulls
   Rarity: Common
+  BasePrice: 112.18
   Price: 112.18
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: book

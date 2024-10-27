@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_534
   Name: silver Ancient Dagger with Glowing aura
   Rarity: Epic
+  BasePrice: 2315.9
   Price: 2315.9
+  DemandScore: 0
   Weight: 4
   Color: silver
   Item: dagger

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_65
   Name: pink Ancient Amulet with Glowing aura
   Rarity: Common
+  BasePrice: 41.69
   Price: 41.69
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: amulet

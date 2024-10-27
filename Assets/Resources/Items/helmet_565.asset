@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_565
   Name: gold Arcane Helmet with Glowing aura
   Rarity: Epic
+  BasePrice: 2738.15
   Price: 2738.15
+  DemandScore: 0
   Weight: 4
   Color: gold
   Item: helmet

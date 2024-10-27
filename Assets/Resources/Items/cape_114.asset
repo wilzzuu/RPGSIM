@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_114
   Name: silver Holy Cape with Glowing aura
   Rarity: Uncommon
+  BasePrice: 272.07
   Price: 272.07
+  DemandScore: 0
   Weight: 30
   Color: silver
   Item: cape

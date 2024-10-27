@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_416
   Name: purple Enchanted Potion with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 24.49
   Price: 24.49
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: potion

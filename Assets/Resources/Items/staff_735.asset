@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_735
   Name: purple Arcane Staff with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 419.87
   Price: 419.87
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: staff

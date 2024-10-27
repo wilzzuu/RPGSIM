@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_580
   Name: emerald green Mystical Staff with Glowing aura
   Rarity: Common
+  BasePrice: 160.4
   Price: 160.4
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: staff

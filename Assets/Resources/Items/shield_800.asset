@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_800
   Name: crimson red Cursed Shield with Crystals
   Rarity: Rare
+  BasePrice: 350.68
   Price: 350.68
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: shield

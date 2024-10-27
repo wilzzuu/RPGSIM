@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_35
   Name: emerald green Enchanted Ring with Crystals
   Rarity: Uncommon
+  BasePrice: 47.76
   Price: 47.76
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: ring

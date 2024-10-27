@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_791
   Name: midnight blue Holy Helmet with Mystic runes
   Rarity: Common
+  BasePrice: 127.75
   Price: 127.75
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: helmet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_856
   Name: silver Ancient Staff with Mystic runes
   Rarity: Common
+  BasePrice: 222.12
   Price: 222.12
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: staff

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_891
   Name: gold Cursed Ring with Sparkling particles
   Rarity: Common
+  BasePrice: 9.7
   Price: 9.7
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: ring

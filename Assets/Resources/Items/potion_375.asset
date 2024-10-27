@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_375
   Name: purple Ancient Potion with Crystals
   Rarity: Common
+  BasePrice: 210.63
   Price: 210.63
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: potion

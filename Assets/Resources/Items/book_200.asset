@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_200
   Name: silver Cursed Book with Ethereal mist
   Rarity: Common
+  BasePrice: 286.58
   Price: 286.58
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: book

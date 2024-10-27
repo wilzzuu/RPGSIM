@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_604
   Name: midnight blue Ancient Potion with Ethereal mist
   Rarity: Rare
+  BasePrice: 80.25
   Price: 80.25
+  DemandScore: 0
   Weight: 15
   Color: midnight blue
   Item: potion

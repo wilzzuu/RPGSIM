@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_569
   Name: shadow black Enchanted Helmet with Mystic runes
   Rarity: Rare
+  BasePrice: 383.7
   Price: 383.7
+  DemandScore: 0
   Weight: 15
   Color: shadow black
   Item: helmet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_279
   Name: shadow black Ancient Amulet with Mystic runes
   Rarity: Common
+  BasePrice: 147.97
   Price: 147.97
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: amulet

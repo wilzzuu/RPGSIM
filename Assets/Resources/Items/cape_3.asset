@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_3
   Name: purple Enchanted Cape with Ethereal mist
   Rarity: Common
+  BasePrice: 256.57
   Price: 256.57
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: cape

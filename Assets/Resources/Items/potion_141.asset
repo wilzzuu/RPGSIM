@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_141
   Name: purple Cursed Potion with Crystals
   Rarity: Common
+  BasePrice: 9.41
   Price: 9.41
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: potion

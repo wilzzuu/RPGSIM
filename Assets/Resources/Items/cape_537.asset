@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_537
   Name: emerald green Arcane Cape with Skulls
   Rarity: Epic
+  BasePrice: 615.45
   Price: 615.45
+  DemandScore: 0
   Weight: 4
   Color: emerald green
   Item: cape

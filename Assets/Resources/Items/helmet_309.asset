@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_309
   Name: gold Holy Helmet with Skulls
   Rarity: Common
+  BasePrice: 97.49
   Price: 97.49
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: helmet

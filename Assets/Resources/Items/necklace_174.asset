@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_174
   Name: purple Enchanted Necklace with Glowing aura
   Rarity: Uncommon
+  BasePrice: 124.65
   Price: 124.65
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: necklace

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_440
   Name: midnight blue Cursed Cape with Crystals
   Rarity: Uncommon
+  BasePrice: 161.9
   Price: 161.9
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: cape

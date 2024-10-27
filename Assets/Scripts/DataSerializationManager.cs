@@ -6,7 +6,17 @@ using UnityEngine;
 public class DataSerializationManager : MonoBehaviour
 {
     public static DataSerializationManager Instance { get; private set; }
-    private const string SaveFileName = "gameData.dat";
+    private string SaveFileName
+    {
+        get
+        {
+            #if UNITY_EDITOR
+                return "PlayTest_GameData.dat";
+            #else
+                return "GameData.dat";
+            #endif
+        }
+    }
 
     private void Awake()
     {
@@ -30,7 +40,7 @@ public class DataSerializationManager : MonoBehaviour
         {
             bf.Serialize(file, items);
         }
-        Debug.Log("Game data saved successfully to " + path);
+        Debug.Log($"Saving {items.Count} items to {path}");
     }
 
     // Load data from file
@@ -43,6 +53,10 @@ public class DataSerializationManager : MonoBehaviour
             using (FileStream file = File.Open(path, FileMode.Open))
             {
                 List<SerializableItemData> items = (List<SerializableItemData>)bf.Deserialize(file);
+                foreach (var item in items)
+                {
+                    Debug.Log($"Loaded SerializableItemData: ID = {item.ID}, Name = {item.Name}");
+                }
                 Debug.Log("Game data loaded successfully from " + path);
                 return items;
             }

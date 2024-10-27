@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_476
   Name: silver Cursed Ring with Mystic runes
   Rarity: Common
+  BasePrice: 159.05
   Price: 159.05
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: ring

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_518
   Name: purple Cursed Book with Mystic runes
   Rarity: Uncommon
+  BasePrice: 157.03
   Price: 157.03
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: book

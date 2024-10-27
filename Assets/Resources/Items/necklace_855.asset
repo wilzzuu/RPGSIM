@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_855
   Name: emerald green Mystical Necklace with Skulls
   Rarity: Common
+  BasePrice: 152.01
   Price: 152.01
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: necklace

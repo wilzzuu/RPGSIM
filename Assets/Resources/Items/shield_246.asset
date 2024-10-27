@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_246
   Name: pink Cursed Shield with Skulls
   Rarity: Uncommon
+  BasePrice: 89.88
   Price: 89.88
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: shield

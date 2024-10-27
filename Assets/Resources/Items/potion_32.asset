@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_32
   Name: pink Cursed Potion with Ethereal mist
   Rarity: Common
+  BasePrice: 169.72
   Price: 169.72
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: potion

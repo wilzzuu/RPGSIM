@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_58
   Name: midnight blue Enchanted Amulet with Ethereal mist
   Rarity: Rare
+  BasePrice: 92.35
   Price: 92.35
+  DemandScore: 0
   Weight: 15
   Color: midnight blue
   Item: amulet

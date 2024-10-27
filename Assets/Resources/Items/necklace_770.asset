@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_770
   Name: shadow black Mystical Necklace with Crystals
   Rarity: Common
+  BasePrice: 90.15
   Price: 90.15
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: necklace

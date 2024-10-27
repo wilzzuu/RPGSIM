@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_822
   Name: emerald green Arcane Helmet with Mystic runes
   Rarity: Uncommon
+  BasePrice: 8.19
   Price: 8.19
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: helmet

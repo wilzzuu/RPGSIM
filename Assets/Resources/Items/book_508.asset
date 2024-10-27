@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_508
   Name: silver Ancient Book with Mystic runes
   Rarity: Common
+  BasePrice: 26.47
   Price: 26.47
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: book

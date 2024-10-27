@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_430
   Name: pink Cursed Amulet with Sparkling particles
   Rarity: Common
+  BasePrice: 120.05
   Price: 120.05
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: amulet

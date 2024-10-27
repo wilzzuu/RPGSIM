@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_632
   Name: purple Enchanted Amulet with Glowing aura
   Rarity: Common
+  BasePrice: 180.65
   Price: 180.65
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: amulet

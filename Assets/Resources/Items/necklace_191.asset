@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_191
   Name: emerald green Holy Necklace with Mystic runes
   Rarity: Uncommon
+  BasePrice: 106.68
   Price: 106.68
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: necklace

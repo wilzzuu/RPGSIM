@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_41
   Name: pink Mystical Dagger with Skulls
   Rarity: Uncommon
+  BasePrice: 159.16
   Price: 159.16
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: dagger

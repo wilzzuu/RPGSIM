@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_590
   Name: midnight blue Arcane Amulet with Crystals
   Rarity: Rare
+  BasePrice: 47.35
   Price: 47.35
+  DemandScore: 0
   Weight: 15
   Color: midnight blue
   Item: amulet

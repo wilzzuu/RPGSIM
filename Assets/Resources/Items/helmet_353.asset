@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_353
   Name: midnight blue Cursed Helmet with Ethereal mist
   Rarity: Rare
+  BasePrice: 745.88
   Price: 745.88
+  DemandScore: 0
   Weight: 15
   Color: midnight blue
   Item: helmet

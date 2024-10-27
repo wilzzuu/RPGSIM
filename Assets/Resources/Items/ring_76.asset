@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_76
   Name: pink Ancient Ring with Crystals
   Rarity: Rare
+  BasePrice: 666.03
   Price: 666.03
+  DemandScore: 0
   Weight: 15
   Color: pink
   Item: ring

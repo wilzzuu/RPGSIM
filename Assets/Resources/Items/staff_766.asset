@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_766
   Name: crimson red Enchanted Staff with Skulls
   Rarity: Common
+  BasePrice: 259.74
   Price: 259.74
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: staff

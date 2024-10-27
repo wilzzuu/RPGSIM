@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_320
   Name: silver Ancient Necklace with Mystic runes
   Rarity: Common
+  BasePrice: 9.25
   Price: 9.25
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: necklace

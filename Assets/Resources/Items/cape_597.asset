@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_597
   Name: midnight blue Mystical Cape with Sparkling particles
   Rarity: Common
+  BasePrice: 48.99
   Price: 48.99
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: cape

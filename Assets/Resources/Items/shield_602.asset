@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_602
   Name: emerald green Arcane Shield with Ethereal mist
   Rarity: Common
+  BasePrice: 183.52
   Price: 183.52
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: shield

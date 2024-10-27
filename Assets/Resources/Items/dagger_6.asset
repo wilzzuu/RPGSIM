@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_6
   Name: midnight blue Ancient Dagger with Sparkling particles
   Rarity: Common
+  BasePrice: 95.57
   Price: 95.57
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: dagger

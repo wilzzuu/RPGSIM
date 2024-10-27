@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_27
   Name: silver Holy Staff with Skulls
   Rarity: Common
+  BasePrice: 242.77
   Price: 242.77
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: staff

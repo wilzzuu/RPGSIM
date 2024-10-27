@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_2
   Name: crimson red Holy Ring with Crystals
   Rarity: Uncommon
+  BasePrice: 299.53
   Price: 299.53
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: ring

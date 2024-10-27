@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_188
   Name: gold Ancient Cape with Sparkling particles
   Rarity: Rare
+  BasePrice: 720.97
   Price: 720.97
+  DemandScore: 0
   Weight: 15
   Color: gold
   Item: cape

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_443
   Name: purple Cursed Potion with Mystic runes
   Rarity: Common
+  BasePrice: 235.78
   Price: 235.78
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: potion

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_687
   Name: midnight blue Arcane Staff with Skulls
   Rarity: Common
+  BasePrice: 19.8
   Price: 19.8
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: staff

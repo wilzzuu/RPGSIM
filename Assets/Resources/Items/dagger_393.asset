@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_393
   Name: midnight blue Mystical Dagger with Skulls
   Rarity: Uncommon
+  BasePrice: 323.66
   Price: 323.66
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: dagger

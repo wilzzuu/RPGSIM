@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_643
   Name: crimson red Mystical Cape with Skulls
   Rarity: Common
+  BasePrice: 3.3
   Price: 3.3
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: cape

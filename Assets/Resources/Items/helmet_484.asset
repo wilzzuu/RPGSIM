@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_484
   Name: pink Arcane Helmet with Mystic runes
   Rarity: Uncommon
+  BasePrice: 383.76
   Price: 383.76
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: helmet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_878
   Name: silver Cursed Amulet with Skulls
   Rarity: Common
+  BasePrice: 217.72
   Price: 217.72
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: amulet

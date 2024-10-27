@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_688
   Name: emerald green Ancient Sword with Crystals
   Rarity: Rare
+  BasePrice: 716.88
   Price: 716.88
+  DemandScore: 0
   Weight: 15
   Color: emerald green
   Item: sword

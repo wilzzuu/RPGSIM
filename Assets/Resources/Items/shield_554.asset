@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_554
   Name: gold Ancient Shield with Mystic runes
   Rarity: Common
+  BasePrice: 59.47
   Price: 59.47
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: shield

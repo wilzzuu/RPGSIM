@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_575
   Name: midnight blue Mystical Necklace with Glowing aura
   Rarity: Common
+  BasePrice: 6.24
   Price: 6.24
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: necklace

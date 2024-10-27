@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_63
   Name: gold Holy Staff with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 421.08
   Price: 421.08
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: staff

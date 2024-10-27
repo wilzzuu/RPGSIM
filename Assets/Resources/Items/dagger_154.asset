@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_154
   Name: silver Mystical Dagger with Skulls
   Rarity: Common
+  BasePrice: 195.37
   Price: 195.37
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: dagger

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_486
   Name: midnight blue Arcane Sword with Skulls
   Rarity: Epic
+  BasePrice: 4995.1
   Price: 4995.1
+  DemandScore: 0
   Weight: 4
   Color: midnight blue
   Item: sword

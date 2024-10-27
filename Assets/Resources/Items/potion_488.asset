@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_488
   Name: emerald green Ancient Potion with Crystals
   Rarity: Uncommon
+  BasePrice: 282.18
   Price: 282.18
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: potion

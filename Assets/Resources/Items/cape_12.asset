@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_12
   Name: midnight blue Arcane Cape with Skulls
   Rarity: Legendary
+  BasePrice: 3035
   Price: 3035
+  DemandScore: 0
   Weight: 1
   Color: midnight blue
   Item: cape

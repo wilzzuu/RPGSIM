@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_509
   Name: emerald green Mystical Ring with Mystic runes
   Rarity: Common
+  BasePrice: 188.67
   Price: 188.67
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: ring

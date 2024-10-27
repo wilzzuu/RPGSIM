@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_161
   Name: midnight blue Arcane Amulet with Skulls
   Rarity: Common
+  BasePrice: 21.19
   Price: 21.19
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: amulet

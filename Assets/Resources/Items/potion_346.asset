@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_346
   Name: crimson red Ancient Potion with Skulls
   Rarity: Common
+  BasePrice: 247.39
   Price: 247.39
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: potion

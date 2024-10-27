@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_654
   Name: pink Ancient Sword with Glowing aura
   Rarity: Common
+  BasePrice: 167.14
   Price: 167.14
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: sword

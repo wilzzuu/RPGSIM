@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_349
   Name: emerald green Arcane Amulet with Ethereal mist
   Rarity: Common
+  BasePrice: 180.98
   Price: 180.98
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: amulet

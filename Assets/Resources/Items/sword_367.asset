@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_367
   Name: silver Holy Sword with Glowing aura
   Rarity: Common
+  BasePrice: 196.17
   Price: 196.17
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: sword

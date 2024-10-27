@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_99
   Name: shadow black Mystical Sword with Crystals
   Rarity: Common
+  BasePrice: 59.33
   Price: 59.33
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: sword

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_847
   Name: crimson red Holy Necklace with Skulls
   Rarity: Common
+  BasePrice: 218.99
   Price: 218.99
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: necklace

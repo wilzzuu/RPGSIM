@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_472
   Name: crimson red Arcane Helmet with Mystic runes
   Rarity: Uncommon
+  BasePrice: 193.38
   Price: 193.38
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: helmet

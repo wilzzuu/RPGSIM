@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_789
   Name: silver Arcane Staff with Ethereal mist
   Rarity: Common
+  BasePrice: 99.55
   Price: 99.55
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: staff

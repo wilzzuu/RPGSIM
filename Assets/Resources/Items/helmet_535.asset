@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_535
   Name: gold Holy Helmet with Ethereal mist
   Rarity: Rare
+  BasePrice: 629.75
   Price: 629.75
+  DemandScore: 0
   Weight: 15
   Color: gold
   Item: helmet

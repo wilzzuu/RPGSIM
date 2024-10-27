@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_550
   Name: gold Ancient Helmet with Ethereal mist
   Rarity: Common
+  BasePrice: 4.19
   Price: 4.19
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: helmet

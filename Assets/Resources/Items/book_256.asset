@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_256
   Name: emerald green Arcane Book with Sparkling particles
   Rarity: Common
+  BasePrice: 114.86
   Price: 114.86
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: book

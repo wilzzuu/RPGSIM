@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_257
   Name: purple Arcane Shield with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 237.47
   Price: 237.47
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: shield

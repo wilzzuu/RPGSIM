@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_719
   Name: pink Mystical Sword with Mystic runes
   Rarity: Uncommon
+  BasePrice: 116.44
   Price: 116.44
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: sword

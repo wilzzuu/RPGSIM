@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_790
   Name: crimson red Enchanted Ring with Sparkling particles
   Rarity: Common
+  BasePrice: 154.69
   Price: 154.69
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: ring

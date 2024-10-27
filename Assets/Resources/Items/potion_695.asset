@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_695
   Name: emerald green Holy Potion with Ethereal mist
   Rarity: Common
+  BasePrice: 279.51
   Price: 279.51
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: potion

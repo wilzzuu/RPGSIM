@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_541
   Name: silver Arcane Shield with Skulls
   Rarity: Common
+  BasePrice: 200.82
   Price: 200.82
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: shield

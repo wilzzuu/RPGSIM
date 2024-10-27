@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_205
   Name: shadow black Enchanted Staff with Sparkling particles
   Rarity: Common
+  BasePrice: 181.93
   Price: 181.93
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: staff

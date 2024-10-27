@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_714
   Name: emerald green Holy Necklace with Crystals
   Rarity: Rare
+  BasePrice: 573.85
   Price: 573.85
+  DemandScore: 0
   Weight: 15
   Color: emerald green
   Item: necklace

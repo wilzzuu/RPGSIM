@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_809
   Name: silver Holy Amulet with Glowing aura
   Rarity: Common
+  BasePrice: 270.7
   Price: 270.7
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: amulet

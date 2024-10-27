@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_113
   Name: midnight blue Holy Book with Sparkling particles
   Rarity: Common
+  BasePrice: 67.55
   Price: 67.55
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: book

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_49
   Name: shadow black Holy Shield with Glowing aura
   Rarity: Uncommon
+  BasePrice: 35.14
   Price: 35.14
+  DemandScore: 0
   Weight: 30
   Color: shadow black
   Item: shield

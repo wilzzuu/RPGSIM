@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_402
   Name: emerald green Ancient Shield with Sparkling particles
   Rarity: Common
+  BasePrice: 264.63
   Price: 264.63
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: shield

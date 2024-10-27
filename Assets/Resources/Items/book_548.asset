@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_548
   Name: midnight blue Mystical Book with Ethereal mist
   Rarity: Rare
+  BasePrice: 179.42
   Price: 179.42
+  DemandScore: 0
   Weight: 15
   Color: midnight blue
   Item: book

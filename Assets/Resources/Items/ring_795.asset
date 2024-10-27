@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_795
   Name: silver Cursed Ring with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 97.03
   Price: 97.03
+  DemandScore: 0
   Weight: 30
   Color: silver
   Item: ring

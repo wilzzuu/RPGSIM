@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_117
   Name: pink Holy Necklace with Skulls
   Rarity: Uncommon
+  BasePrice: 260.2
   Price: 260.2
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: necklace

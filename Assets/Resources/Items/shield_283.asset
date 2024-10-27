@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_283
   Name: gold Arcane Shield with Glowing aura
   Rarity: Common
+  BasePrice: 121.6
   Price: 121.6
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: shield

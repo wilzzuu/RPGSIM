@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_552
   Name: silver Cursed Staff with Sparkling particles
   Rarity: Epic
+  BasePrice: 4913
   Price: 4913
+  DemandScore: 0
   Weight: 4
   Color: silver
   Item: staff

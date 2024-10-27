@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_708
   Name: crimson red Ancient Cape with Ethereal mist
   Rarity: Common
+  BasePrice: 226
   Price: 226
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: cape

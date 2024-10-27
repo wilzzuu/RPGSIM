@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_210
   Name: crimson red Mystical Staff with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 18.77
   Price: 18.77
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: staff

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_383
   Name: silver Enchanted Helmet with Crystals
   Rarity: Common
+  BasePrice: 218.62
   Price: 218.62
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: helmet

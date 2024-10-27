@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_780
   Name: crimson red Mystical Staff with Skulls
   Rarity: Uncommon
+  BasePrice: 381.5
   Price: 381.5
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: staff

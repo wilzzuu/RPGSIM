@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_676
   Name: gold Cursed Dagger with Ethereal mist
   Rarity: Common
+  BasePrice: 258.37
   Price: 258.37
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: dagger

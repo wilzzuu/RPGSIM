@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_674
   Name: midnight blue Enchanted Sword with Glowing aura
   Rarity: Common
+  BasePrice: 7.13
   Price: 7.13
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: sword

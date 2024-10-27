@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_658
   Name: gold Arcane Amulet with Sparkling particles
   Rarity: Common
+  BasePrice: 258.53
   Price: 258.53
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: amulet

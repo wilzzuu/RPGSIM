@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_258
   Name: crimson red Holy Staff with Ethereal mist
   Rarity: Rare
+  BasePrice: 708.75
   Price: 708.75
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: staff

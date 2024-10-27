@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_80
   Name: emerald green Ancient Shield with Mystic runes
   Rarity: Common
+  BasePrice: 37.97
   Price: 37.97
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: shield

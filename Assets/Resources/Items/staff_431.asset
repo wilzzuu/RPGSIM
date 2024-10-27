@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_431
   Name: silver Cursed Staff with Glowing aura
   Rarity: Common
+  BasePrice: 152.17
   Price: 152.17
+  DemandScore: 0
   Weight: 50
   Color: silver
   Item: staff

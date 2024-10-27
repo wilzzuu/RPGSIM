@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_97
   Name: purple Enchanted Dagger with Glowing aura
   Rarity: Common
+  BasePrice: 239.02
   Price: 239.02
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: dagger

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_727
   Name: purple Enchanted Staff with Ethereal mist
   Rarity: Common
+  BasePrice: 293.9
   Price: 293.9
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: staff

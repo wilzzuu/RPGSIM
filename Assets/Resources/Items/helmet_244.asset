@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_244
   Name: shadow black Arcane Helmet with Ethereal mist
   Rarity: Common
+  BasePrice: 137.25
   Price: 137.25
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: helmet

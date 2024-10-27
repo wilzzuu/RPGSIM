@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_829
   Name: shadow black Mystical Amulet with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 285.81
   Price: 285.81
+  DemandScore: 0
   Weight: 30
   Color: shadow black
   Item: amulet

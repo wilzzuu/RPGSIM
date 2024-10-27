@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_885
   Name: shadow black Mystical Staff with Sparkling particles
   Rarity: Common
+  BasePrice: 8.65
   Price: 8.65
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: staff

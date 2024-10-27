@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_54
   Name: crimson red Ancient Necklace with Sparkling particles
   Rarity: Epic
+  BasePrice: 1888.2
   Price: 1888.2
+  DemandScore: 0
   Weight: 4
   Color: crimson red
   Item: necklace

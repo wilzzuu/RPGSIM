@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_441
   Name: silver Cursed Helmet with Sparkling particles
   Rarity: Rare
+  BasePrice: 368.45
   Price: 368.45
+  DemandScore: 0
   Weight: 15
   Color: silver
   Item: helmet

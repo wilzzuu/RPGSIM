@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_868
   Name: pink Mystical Necklace with Crystals
   Rarity: Common
+  BasePrice: 124.83
   Price: 124.83
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: necklace

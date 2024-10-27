@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_838
   Name: crimson red Holy Necklace with Crystals
   Rarity: Common
+  BasePrice: 48.7
   Price: 48.7
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: necklace

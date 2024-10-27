@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_109
   Name: emerald green Ancient Potion with Mystic runes
   Rarity: Common
+  BasePrice: 72.26
   Price: 72.26
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: potion

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_214
   Name: midnight blue Enchanted Ring with Glowing aura
   Rarity: Uncommon
+  BasePrice: 158.55
   Price: 158.55
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: ring

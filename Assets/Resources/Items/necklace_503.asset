@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_503
   Name: emerald green Enchanted Necklace with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 314.92
   Price: 314.92
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: necklace

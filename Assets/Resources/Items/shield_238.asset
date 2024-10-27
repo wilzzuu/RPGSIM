@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_238
   Name: emerald green Arcane Shield with Crystals
   Rarity: Uncommon
+  BasePrice: 49.68
   Price: 49.68
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: shield

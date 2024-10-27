@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_890
   Name: pink Ancient Cape with Sparkling particles
   Rarity: Common
+  BasePrice: 253.75
   Price: 253.75
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: cape

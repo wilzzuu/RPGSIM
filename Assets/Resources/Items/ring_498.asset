@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_498
   Name: gold Cursed Ring with Ethereal mist
   Rarity: Common
+  BasePrice: 95.33
   Price: 95.33
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: ring

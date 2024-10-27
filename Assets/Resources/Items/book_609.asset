@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_609
   Name: midnight blue Enchanted Book with Crystals
   Rarity: Common
+  BasePrice: 58.76
   Price: 58.76
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: book

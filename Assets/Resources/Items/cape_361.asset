@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_361
   Name: purple Mystical Cape with Mystic runes
   Rarity: Common
+  BasePrice: 281.23
   Price: 281.23
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: cape

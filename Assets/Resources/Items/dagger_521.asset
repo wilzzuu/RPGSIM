@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_521
   Name: crimson red Holy Dagger with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 321.67
   Price: 321.67
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: dagger

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_843
   Name: emerald green Ancient Necklace with Sparkling particles
   Rarity: Rare
+  BasePrice: 677.8
   Price: 677.8
+  DemandScore: 0
   Weight: 15
   Color: emerald green
   Item: necklace

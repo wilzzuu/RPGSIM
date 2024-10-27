@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_209
   Name: crimson red Mystical Sword with Crystals
   Rarity: Uncommon
+  BasePrice: 274.38
   Price: 274.38
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: sword

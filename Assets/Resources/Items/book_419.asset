@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_419
   Name: gold Cursed Book with Skulls
   Rarity: Common
+  BasePrice: 112.97
   Price: 112.97
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: book

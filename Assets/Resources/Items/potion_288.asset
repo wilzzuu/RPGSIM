@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_288
   Name: midnight blue Ancient Potion with Crystals
   Rarity: Common
+  BasePrice: 16.42
   Price: 16.42
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: potion

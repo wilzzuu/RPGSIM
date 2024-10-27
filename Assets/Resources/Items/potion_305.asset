@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_305
   Name: gold Enchanted Potion with Sparkling particles
   Rarity: Common
+  BasePrice: 163.31
   Price: 163.31
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: potion

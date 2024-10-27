@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_636
   Name: shadow black Ancient Book with Crystals
   Rarity: Epic
+  BasePrice: 119.6
   Price: 119.6
+  DemandScore: 0
   Weight: 4
   Color: shadow black
   Item: book

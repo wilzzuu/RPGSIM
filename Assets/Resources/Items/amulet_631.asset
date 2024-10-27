@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_631
   Name: gold Arcane Amulet with Crystals
   Rarity: Common
+  BasePrice: 88.25
   Price: 88.25
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: amulet

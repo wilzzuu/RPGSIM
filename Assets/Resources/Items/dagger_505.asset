@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_505
   Name: shadow black Holy Dagger with Ethereal mist
   Rarity: Common
+  BasePrice: 107.75
   Price: 107.75
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: dagger

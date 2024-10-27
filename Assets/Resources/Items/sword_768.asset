@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_768
   Name: shadow black Mystical Sword with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 131.55
   Price: 131.55
+  DemandScore: 0
   Weight: 30
   Color: shadow black
   Item: sword

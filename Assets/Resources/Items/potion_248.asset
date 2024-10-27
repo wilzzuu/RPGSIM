@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_248
   Name: midnight blue Mystical Potion with Ethereal mist
   Rarity: Common
+  BasePrice: 92.12
   Price: 92.12
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: potion

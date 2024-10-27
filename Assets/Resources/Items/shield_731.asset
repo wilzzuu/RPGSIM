@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_731
   Name: purple Arcane Shield with Mystic runes
   Rarity: Common
+  BasePrice: 237.76
   Price: 237.76
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: shield

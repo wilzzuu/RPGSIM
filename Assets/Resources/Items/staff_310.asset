@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_310
   Name: emerald green Holy Staff with Crystals
   Rarity: Common
+  BasePrice: 265.34
   Price: 265.34
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: staff

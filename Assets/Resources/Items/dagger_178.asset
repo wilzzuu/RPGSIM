@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_178
   Name: midnight blue Cursed Dagger with Mystic runes
   Rarity: Uncommon
+  BasePrice: 169.48
   Price: 169.48
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: dagger

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_254
   Name: shadow black Cursed Potion with Sparkling particles
   Rarity: Common
+  BasePrice: 105.1
   Price: 105.1
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: potion

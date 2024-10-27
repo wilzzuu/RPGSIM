@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_33
   Name: pink Cursed Shield with Glowing aura
   Rarity: Uncommon
+  BasePrice: 354.36
   Price: 354.36
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: shield

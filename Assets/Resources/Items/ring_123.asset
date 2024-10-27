@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_123
   Name: purple Cursed Ring with Mystic runes
   Rarity: Uncommon
+  BasePrice: 94.78
   Price: 94.78
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: ring

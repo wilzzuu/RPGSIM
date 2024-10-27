@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_181
   Name: gold Enchanted Sword with Skulls
   Rarity: Uncommon
+  BasePrice: 440.73
   Price: 440.73
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: sword

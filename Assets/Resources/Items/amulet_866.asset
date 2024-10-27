@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_866
   Name: midnight blue Cursed Amulet with Ethereal mist
   Rarity: Common
+  BasePrice: 232.9
   Price: 232.9
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: amulet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_493
   Name: purple Cursed Cape with Mystic runes
   Rarity: Common
+  BasePrice: 115.79
   Price: 115.79
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: cape

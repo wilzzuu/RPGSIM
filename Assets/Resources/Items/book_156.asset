@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_156
   Name: crimson red Ancient Book with Ethereal mist
   Rarity: Rare
+  BasePrice: 484.58
   Price: 484.58
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: book

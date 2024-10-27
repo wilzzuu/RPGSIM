@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_864
   Name: purple Enchanted Sword with Glowing aura
   Rarity: Uncommon
+  BasePrice: 211.42
   Price: 211.42
+  DemandScore: 0
   Weight: 30
   Color: purple
   Item: sword

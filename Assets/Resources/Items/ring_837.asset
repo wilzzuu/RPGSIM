@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_837
   Name: emerald green Mystical Ring with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 4.96
   Price: 4.96
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: ring

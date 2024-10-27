@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_452
   Name: pink Holy Book with Skulls
   Rarity: Common
+  BasePrice: 133.34
   Price: 133.34
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: book

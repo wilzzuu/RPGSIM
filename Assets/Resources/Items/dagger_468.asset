@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_468
   Name: purple Cursed Dagger with Skulls
   Rarity: Common
+  BasePrice: 71.19
   Price: 71.19
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: dagger

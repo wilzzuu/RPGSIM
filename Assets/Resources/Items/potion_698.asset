@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_698
   Name: shadow black Ancient Potion with Sparkling particles
   Rarity: Common
+  BasePrice: 172.17
   Price: 172.17
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: potion

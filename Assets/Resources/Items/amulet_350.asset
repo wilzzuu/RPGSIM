@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_350
   Name: emerald green Mystical Amulet with Skulls
   Rarity: Uncommon
+  BasePrice: 179.84
   Price: 179.84
+  DemandScore: 0
   Weight: 30
   Color: emerald green
   Item: amulet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_143
   Name: silver Enchanted Cape with Crystals
   Rarity: Uncommon
+  BasePrice: 88.41
   Price: 88.41
+  DemandScore: 0
   Weight: 30
   Color: silver
   Item: cape

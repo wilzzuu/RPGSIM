@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_414
   Name: gold Cursed Necklace with Sparkling particles
   Rarity: Uncommon
+  BasePrice: 369.41
   Price: 369.41
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: necklace

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_634
   Name: midnight blue Mystical Book with Glowing aura
   Rarity: Common
+  BasePrice: 173.49
   Price: 173.49
+  DemandScore: 0
   Weight: 50
   Color: midnight blue
   Item: book

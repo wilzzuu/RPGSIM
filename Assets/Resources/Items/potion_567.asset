@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_567
   Name: gold Ancient Potion with Glowing aura
   Rarity: Common
+  BasePrice: 260.96
   Price: 260.96
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: potion

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_345
   Name: pink Mystical Book with Sparkling particles
   Rarity: Common
+  BasePrice: 153.52
   Price: 153.52
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: book

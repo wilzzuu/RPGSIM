@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_292
   Name: midnight blue Arcane Sword with Crystals
   Rarity: Uncommon
+  BasePrice: 436.08
   Price: 436.08
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: sword

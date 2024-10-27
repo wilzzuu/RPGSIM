@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_17
   Name: emerald green Ancient Amulet with Skulls
   Rarity: Common
+  BasePrice: 123.51
   Price: 123.51
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: amulet

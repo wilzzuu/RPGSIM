@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_379
   Name: crimson red Mystical Shield with Crystals
   Rarity: Rare
+  BasePrice: 25.27
   Price: 25.27
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: shield

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_125
   Name: shadow black Cursed Cape with Ethereal mist
   Rarity: Common
+  BasePrice: 6.16
   Price: 6.16
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: cape

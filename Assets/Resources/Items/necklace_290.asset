@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_290
   Name: pink Cursed Necklace with Mystic runes
   Rarity: Uncommon
+  BasePrice: 134.61
   Price: 134.61
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: necklace

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_90
   Name: crimson red Mystical Dagger with Crystals
   Rarity: Rare
+  BasePrice: 297.62
   Price: 297.62
+  DemandScore: 0
   Weight: 15
   Color: crimson red
   Item: dagger

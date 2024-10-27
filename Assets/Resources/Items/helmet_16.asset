@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_16
   Name: purple Holy Helmet with Ethereal mist
   Rarity: Common
+  BasePrice: 142.06
   Price: 142.06
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: helmet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_105
   Name: crimson red Arcane Book with Skulls
   Rarity: Common
+  BasePrice: 40.15
   Price: 40.15
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: book

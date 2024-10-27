@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: staff_287
   Name: crimson red Mystical Staff with Mystic runes
   Rarity: Common
+  BasePrice: 224.24
   Price: 224.24
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: staff

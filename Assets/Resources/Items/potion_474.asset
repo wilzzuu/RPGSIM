@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_474
   Name: midnight blue Enchanted Potion with Glowing aura
   Rarity: Uncommon
+  BasePrice: 195.83
   Price: 195.83
+  DemandScore: 0
   Weight: 30
   Color: midnight blue
   Item: potion

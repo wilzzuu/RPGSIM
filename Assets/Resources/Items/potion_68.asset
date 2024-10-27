@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_68
   Name: pink Mystical Potion with Crystals
   Rarity: Common
+  BasePrice: 207.81
   Price: 207.81
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: potion

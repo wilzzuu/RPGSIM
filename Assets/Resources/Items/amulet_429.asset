@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_429
   Name: shadow black Ancient Amulet with Crystals
   Rarity: Common
+  BasePrice: 20.27
   Price: 20.27
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: amulet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: dagger_813
   Name: gold Enchanted Dagger with Mystic runes
   Rarity: Common
+  BasePrice: 136.59
   Price: 136.59
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: dagger

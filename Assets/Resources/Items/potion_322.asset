@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_322
   Name: midnight blue Cursed Potion with Glowing aura
   Rarity: Rare
+  BasePrice: 139.47
   Price: 139.47
+  DemandScore: 0
   Weight: 15
   Color: midnight blue
   Item: potion

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_699
   Name: purple Arcane Sword with Mystic runes
   Rarity: Rare
+  BasePrice: 340.28
   Price: 340.28
+  DemandScore: 0
   Weight: 15
   Color: purple
   Item: sword

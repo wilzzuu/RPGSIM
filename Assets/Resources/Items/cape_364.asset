@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_364
   Name: shadow black Mystical Cape with Mystic runes
   Rarity: Common
+  BasePrice: 162.64
   Price: 162.64
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: cape

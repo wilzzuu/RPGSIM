@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: amulet_520
   Name: emerald green Arcane Amulet with Crystals
   Rarity: Common
+  BasePrice: 109.19
   Price: 109.19
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: amulet

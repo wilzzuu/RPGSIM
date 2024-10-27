@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: potion_880
   Name: shadow black Ancient Potion with Skulls
   Rarity: Uncommon
+  BasePrice: 207.05
   Price: 207.05
+  DemandScore: 0
   Weight: 30
   Color: shadow black
   Item: potion

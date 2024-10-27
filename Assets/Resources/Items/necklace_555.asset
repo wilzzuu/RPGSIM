@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_555
   Name: shadow black Enchanted Necklace with Mystic runes
   Rarity: Common
+  BasePrice: 204.68
   Price: 204.68
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: necklace

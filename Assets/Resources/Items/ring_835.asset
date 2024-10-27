@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_835
   Name: crimson red Enchanted Ring with Glowing aura
   Rarity: Uncommon
+  BasePrice: 161.93
   Price: 161.93
+  DemandScore: 0
   Weight: 30
   Color: crimson red
   Item: ring

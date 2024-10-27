@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_517
   Name: purple Ancient Shield with Sparkling particles
   Rarity: Common
+  BasePrice: 294.13
   Price: 294.13
+  DemandScore: 0
   Weight: 50
   Color: purple
   Item: shield

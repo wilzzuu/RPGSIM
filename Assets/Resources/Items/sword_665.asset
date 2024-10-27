@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_665
   Name: emerald green Holy Sword with Skulls
   Rarity: Common
+  BasePrice: 111.52
   Price: 111.52
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: sword

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_386
   Name: pink Mystical Shield with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 258.63
   Price: 258.63
+  DemandScore: 0
   Weight: 30
   Color: pink
   Item: shield

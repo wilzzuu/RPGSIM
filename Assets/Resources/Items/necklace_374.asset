@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: necklace_374
   Name: emerald green Cursed Necklace with Ethereal mist
   Rarity: Rare
+  BasePrice: 719.57
   Price: 719.57
+  DemandScore: 0
   Weight: 15
   Color: emerald green
   Item: necklace

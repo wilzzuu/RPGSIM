@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: helmet_456
   Name: pink Mystical Helmet with Mystic runes
   Rarity: Rare
+  BasePrice: 345.38
   Price: 345.38
+  DemandScore: 0
   Weight: 15
   Color: pink
   Item: helmet

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: cape_372
   Name: emerald green Holy Cape with Glowing aura
   Rarity: Common
+  BasePrice: 57.39
   Price: 57.39
+  DemandScore: 0
   Weight: 50
   Color: emerald green
   Item: cape

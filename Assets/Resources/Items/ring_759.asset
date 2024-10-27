@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_759
   Name: gold Arcane Ring with Ethereal mist
   Rarity: Uncommon
+  BasePrice: 435.66
   Price: 435.66
+  DemandScore: 0
   Weight: 30
   Color: gold
   Item: ring

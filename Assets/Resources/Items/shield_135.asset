@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_135
   Name: gold Ancient Shield with Glowing aura
   Rarity: Common
+  BasePrice: 159.69
   Price: 159.69
+  DemandScore: 0
   Weight: 50
   Color: gold
   Item: shield

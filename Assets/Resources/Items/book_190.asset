@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_190
   Name: crimson red Enchanted Book with Mystic runes
   Rarity: Common
+  BasePrice: 196.53
   Price: 196.53
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: book

@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: shield_408
   Name: shadow black Ancient Shield with Crystals
   Rarity: Common
+  BasePrice: 292.63
   Price: 292.63
+  DemandScore: 0
   Weight: 50
   Color: shadow black
   Item: shield

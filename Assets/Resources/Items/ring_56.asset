@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: ring_56
   Name: gold Mystical Ring with Sparkling particles
   Rarity: Rare
+  BasePrice: 621.7
   Price: 621.7
+  DemandScore: 0
   Weight: 15
   Color: gold
   Item: ring

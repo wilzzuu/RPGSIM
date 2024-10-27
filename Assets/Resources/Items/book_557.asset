@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: book_557
   Name: pink Ancient Book with Crystals
   Rarity: Common
+  BasePrice: 119.99
   Price: 119.99
+  DemandScore: 0
   Weight: 50
   Color: pink
   Item: book

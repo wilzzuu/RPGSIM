@@ -15,7 +15,9 @@ MonoBehaviour:
   ID: sword_136
   Name: crimson red Ancient Sword with Mystic runes
   Rarity: Common
+  BasePrice: 164.82
   Price: 164.82
+  DemandScore: 0
   Weight: 50
   Color: crimson red
   Item: sword
