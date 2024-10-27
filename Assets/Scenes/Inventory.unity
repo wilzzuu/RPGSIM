@@ -253,7 +253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.20392159, g: 0.26666668, b: 0.37647063, a: 1}
+  m_Color: {r: 0.7568628, g: 0.65882355, b: 0.4784314, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -457,6 +457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventorySlotPrefab: {fileID: 5516520769898927687, guid: 65a4ecfa1388efe4b951fa060147a530, type: 3}
   inventoryGrid: {fileID: 1615725397}
+  totalValueText: {fileID: 0}
   itemsPerPage: 112
 --- !u!1 &2119912392
 GameObject:

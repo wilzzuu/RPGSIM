@@ -22,6 +22,8 @@ public class UpgraderManager : MonoBehaviour
     public Button upgradeTabButton;
     public GameObject inventoryScrollView;
     public GameObject upgradeItemsScrollView;
+    public Button[] multiplierButtons;
+
     private GameObject selectedInventoryItemObj;
     private GameObject selectedUpgradeItemObj;
     public Transform selectedInventoryItemContainer;
@@ -52,6 +54,8 @@ public class UpgraderManager : MonoBehaviour
         {"Legendary", 5}
     };
 
+    private float[] multipliers = { 1.5f, 2f, 5f, 10f, 20f };
+
     void Awake()
     {
         if (instance == null) instance = this;
@@ -67,6 +71,14 @@ public class UpgraderManager : MonoBehaviour
         upgradeTabButton.interactable = false;
         ShowInventoryTab();
 
+        SetMultiplierButtons(false);
+
+        for (int i = 0; i < multiplierButtons.Length; i++)
+        {
+            float multiplier = multipliers[i];
+            multiplierButtons[i].onClick.AddListener(() => SelectRandomUpgradeItem(multiplier));
+        }
+
         inventoryTabButton.onClick.AddListener(ShowInventoryTab);
         upgradeTabButton.onClick.AddListener(ShowUpgradeTab);
 
@@ -78,6 +90,14 @@ public class UpgraderManager : MonoBehaviour
         ascendingToggle.onValueChanged.AddListener(delegate { SortItems(); });
         
         upgradeButton.onClick.AddListener(AttemptUpgrade);
+    }
+
+    private void SetMultiplierButtons(bool enable)
+    {
+        foreach (Button button in multiplierButtons)
+        {
+            button.interactable = enable;
+        }
     }
 
     private void UpdateCurrentTab()
@@ -150,6 +170,7 @@ public class UpgraderManager : MonoBehaviour
     {
         selectedInventoryItem = item;
         upgradeTabButton.interactable = selectedInventoryItem != null;
+        SetMultiplierButtons(true);
 
         foreach (Transform child in selectedInventoryItemContainer.transform)
         {
@@ -170,7 +191,6 @@ public class UpgraderManager : MonoBehaviour
     {
         selectedUpgradeItem = item;
 
-
         foreach (Transform child in selectedUpgradeItemContainer.transform)
         {
             Debug.Log("Destroying previous selectedUpgradeItemObj");
@@ -185,6 +205,33 @@ public class UpgraderManager : MonoBehaviour
         PopulateItemPrefab(selectedUpgradeItemObj, item);
         selectItemText2.SetActive(false);
         UpdateUpgradeProbability();
+    }
+
+    private void SelectRandomUpgradeItem(float multiplier)
+    {
+        if (selectedInventoryItem == null) return;
+
+        float targetPrice = selectedInventoryItem.Price * multiplier;
+        float minPrice = targetPrice * 0.8f;
+        float maxPrice = targetPrice * 1.2f;
+
+        List<ItemData> validItems = allItems.FindAll(upgradeItem => upgradeItem.Price >= minPrice && upgradeItem.Price <= maxPrice);
+
+        if (validItems.Count == 0)
+        {
+            validItems = allItems.FindAll(upgradeItem => upgradeItem.Price > selectedInventoryItem.Price);
+        }
+
+        if (validItems.Count > 0)
+        {
+            ItemData randomItem = validItems[UnityEngine.Random.Range(0, validItems.Count)];
+            SelectUpgradeItem(randomItem); // Select the random upgrade item
+            Debug.Log($"Randomly selected upgrade item: {randomItem.Name} with price: {randomItem.Price}");
+        }
+        else
+        {
+            Debug.Log("No valid items found within the specified range.");
+        }
     }
 
     private void PopulateItemPrefab(GameObject itemObj, ItemData item)
@@ -204,16 +251,16 @@ public class UpgraderManager : MonoBehaviour
     {
         if (selectedInventoryItem != null && selectedUpgradeItem != null)
         {
-            successProbability = Mathf.Clamp(selectedInventoryItem.Price / selectedUpgradeItem.Price, 0.1f, 0.9f);
+            successProbability = selectedInventoryItem.Price / selectedUpgradeItem.Price * 100;
             probabilityText.fontSize = 32;
-            probabilityText.text = $"{successProbability * 100:0.00}%";
-            multiplierText.text = $"{selectedUpgradeItem.Price / selectedInventoryItem.Price:0}x";
+            probabilityText.text = $"{successProbability:0.00}%";
+            multiplierText.text = $"{selectedUpgradeItem.Price / selectedInventoryItem.Price:0.0}x";
         }
         else
         {
             probabilityText.fontSize = 20;
             probabilityText.text = "Select Both Items";
-            multiplierText.text = "";
+            multiplierText.text = "-";
         }
     }
 

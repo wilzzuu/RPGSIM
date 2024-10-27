@@ -32,6 +32,8 @@ public class CrateOpening : MonoBehaviour
     private List<CrateData> availableCrates;
     private CrateData selectedCrateData;
 
+    public UIManager uiManager;
+
     private static readonly Dictionary<string, int> rarityOrder = new Dictionary<string, int>
     {
         {"Common", 1},
@@ -158,6 +160,9 @@ public class CrateOpening : MonoBehaviour
     private IEnumerator AnimateScrollingReel(ItemData openedItem)
     {
         isScrolling = true;
+        openCrateButton.interactable = false;
+        selectCrateButton.interactable = false;
+        uiManager.LockUI();
 
         List<GameObject> reelItems = new List<GameObject>();
         float itemWidth = gridLayout.cellSize.x + gridLayout.spacing.x;
@@ -194,6 +199,9 @@ public class CrateOpening : MonoBehaviour
 
         StopReel(openedItem);
         isScrolling = false;
+        openCrateButton.interactable = true;
+        selectCrateButton.interactable = true;
+        uiManager.UnlockUI();
     }
 
     private void StopReel(ItemData openedItem)
