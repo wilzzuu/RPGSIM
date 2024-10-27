@@ -161,7 +161,6 @@ GameObject:
   - component: {fileID: 7043787121230694738}
   - component: {fileID: 219482493836940989}
   - component: {fileID: 6745169616653295114}
-  - component: {fileID: 3811551165114836709}
   m_Layer: 5
   m_Name: SelectedUpgraderItemPrefab
   m_TagString: Untagged
@@ -231,24 +230,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &3811551165114836709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5593887287504035381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6feab8adbdc26b747a80d3be6618550e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImage: {fileID: 4579673787968660229}
-  rarityImage: {fileID: 1065704244692565512}
-  nameText: {fileID: 8254332657501768280}
-  priceText: {fileID: 2181698988778364873}
-  buyButton: {fileID: 0}
-  sellButton: {fileID: 0}
 --- !u!1 &6387564043186356060
 GameObject:
   m_ObjectHideFlags: 0

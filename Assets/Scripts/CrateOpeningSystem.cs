@@ -26,6 +26,7 @@ public class CrateOpening : MonoBehaviour
     public GameObject crateButtonPrefab;
     public Transform crateSelectorPanel;
     public Button selectCrateButton;
+    public Button openCrateButton;
     private bool isSelectorOpen = false;
     private bool isFirstSelection = true;
     private List<CrateData> availableCrates;
@@ -42,6 +43,7 @@ public class CrateOpening : MonoBehaviour
 
     void Start()
     {   
+        openCrateButton.interactable = false;
         availableCrates = new List<CrateData>(Resources.LoadAll<CrateData>("Crates"));
         DisplayCrateSelector(availableCrates);
         selectCrateButton.onClick.AddListener(ToggleCrateSelector);
@@ -61,6 +63,7 @@ public class CrateOpening : MonoBehaviour
         }
 
         selectedCrateData = chosenCrate;
+        openCrateButton.interactable = selectedCrateData != null;
         DisplayCrateItems(selectedCrateData);
 
         if (isFirstSelection)

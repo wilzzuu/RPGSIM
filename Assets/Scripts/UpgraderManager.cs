@@ -5,6 +5,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Threading;
 
 public class UpgraderManager : MonoBehaviour
 {
@@ -26,6 +27,7 @@ public class UpgraderManager : MonoBehaviour
     public Transform selectedInventoryItemContainer;
     public Transform selectedUpgradeItemContainer;
     public TextMeshProUGUI probabilityText;
+    public TextMeshProUGUI multiplierText;
     public TextMeshProUGUI isSuccessText;
     public GameObject selectItemText1;
     public GameObject selectItemText2;
@@ -61,6 +63,8 @@ public class UpgraderManager : MonoBehaviour
         LoadAllGameItems();
         LoadInventoryItems();
 
+
+        upgradeTabButton.interactable = false;
         ShowInventoryTab();
 
         inventoryTabButton.onClick.AddListener(ShowInventoryTab);
@@ -85,6 +89,11 @@ public class UpgraderManager : MonoBehaviour
     {
         Transform currentCatalogGrid = isInventoryTabActive ? inventoryCatalogGrid : upgradeCatalogGrid;
         List<ItemData> displayedItems = isInventoryTabActive ? inventoryItems : allItems;
+
+        if (!isInventoryTabActive && selectedInventoryItem != null)
+        {
+            displayedItems = allItems.FindAll(upgradeItem => upgradeItem.Price > selectedInventoryItem.Price);
+        }
 
         foreach (Transform child in currentCatalogGrid)
         {
@@ -140,13 +149,17 @@ public class UpgraderManager : MonoBehaviour
     public void SelectInventoryItem(ItemData item)
     {
         selectedInventoryItem = item;
+        upgradeTabButton.interactable = selectedInventoryItem != null;
 
-        if (selectedInventoryItemObj != null)
+        foreach (Transform child in selectedInventoryItemContainer.transform)
         {
-            Destroy(selectedInventoryItemObj);
+            Debug.Log("Destroying previous selectedInventoryItemObj");
+            DestroyImmediate(child.gameObject);
         }
 
         selectedInventoryItemObj = Instantiate(selectedUpgraderItemPrefab, selectedInventoryItemContainer);
+        Debug.Log("New selectedInventoryItemObj instantiated: " + selectedInventoryItemObj.name);
+
         isSuccessText.text = "";
         PopulateItemPrefab(selectedInventoryItemObj, item);
         selectItemText1.SetActive(false);
@@ -157,12 +170,17 @@ public class UpgraderManager : MonoBehaviour
     {
         selectedUpgradeItem = item;
 
-        if(selectedUpgradeItemObj != null)
+
+        foreach (Transform child in selectedUpgradeItemContainer.transform)
         {
-            Destroy(selectedUpgradeItemObj);
+            Debug.Log("Destroying previous selectedUpgradeItemObj");
+            DestroyImmediate(child.gameObject);
         }
 
+
         selectedUpgradeItemObj = Instantiate(selectedUpgraderItemPrefab, selectedUpgradeItemContainer);
+        Debug.Log("New selectedUpgradeItemObj instantiated: " + selectedUpgradeItemObj.name);
+
         isSuccessText.text = "";
         PopulateItemPrefab(selectedUpgradeItemObj, item);
         selectItemText2.SetActive(false);
@@ -189,11 +207,13 @@ public class UpgraderManager : MonoBehaviour
             successProbability = Mathf.Clamp(selectedInventoryItem.Price / selectedUpgradeItem.Price, 0.1f, 0.9f);
             probabilityText.fontSize = 32;
             probabilityText.text = $"{successProbability * 100:0.00}%";
+            multiplierText.text = $"{selectedUpgradeItem.Price / selectedInventoryItem.Price:0}x";
         }
         else
         {
             probabilityText.fontSize = 20;
             probabilityText.text = "Select Both Items";
+            multiplierText.text = "";
         }
     }
 
@@ -226,6 +246,8 @@ public class UpgraderManager : MonoBehaviour
         selectItemText1.SetActive(true);
         selectItemText2.SetActive(true);
         probabilityText.text = "-";
+        upgradeTabButton.interactable = false;
+        ShowInventoryTab();
     }
 
     public void SortItems()

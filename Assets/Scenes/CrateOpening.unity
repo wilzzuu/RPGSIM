@@ -1508,6 +1508,7 @@ MonoBehaviour:
   crateButtonPrefab: {fileID: 123025997980287184, guid: f87ff3d3840b35f4fb18b7312be526b2, type: 3}
   crateSelectorPanel: {fileID: 465343517}
   selectCrateButton: {fileID: 1060654786}
+  openCrateButton: {fileID: 1921354910}
 --- !u!1 &1848189877
 GameObject:
   m_ObjectHideFlags: 0
