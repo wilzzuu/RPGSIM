@@ -123,7 +123,6 @@ public class CrateOpening : MonoBehaviour
         else
         {
             Debug.LogError("Not enough money to open this crate.");
-            isSelectorOpen = true;
             return;
         }
     }
@@ -209,7 +208,7 @@ public class CrateOpening : MonoBehaviour
     private void StopReel(ItemData openedItem)
     {
         Debug.Log($"Opened item: {openedItem.Name} | {openedItem.ID} | {openedItem.Rarity}");
-        InventoryManager.instance.AddItemToInventory(openedItem);
+        InventoryManager.Instance.AddItemToInventory(openedItem);
     }
 
     private void SetUpReelItem(GameObject reelItem, ItemData itemData)

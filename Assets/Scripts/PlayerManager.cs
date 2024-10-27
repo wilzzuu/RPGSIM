@@ -51,7 +51,7 @@ public class PlayerManager : MonoBehaviour
     private IEnumerator InitializePlayerAndInventory()
     {
         // Wait for InventoryManager to be ready
-        while (InventoryManager.instance == null)
+        while (InventoryManager.Instance == null)
         {
             yield return null; // Wait for the next frame
         }
@@ -92,7 +92,7 @@ public class PlayerManager : MonoBehaviour
         if (!File.Exists(path))
         {
             Debug.LogWarning("Player save file missing or tampered with. Clearing inventory as a security measure.");
-            InventoryManager.instance.ClearInventory();
+            InventoryManager.Instance.ClearInventory();
 
             ResetProgress();
         }

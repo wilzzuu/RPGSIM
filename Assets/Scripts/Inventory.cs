@@ -14,14 +14,14 @@ public class InventoryScreen : MonoBehaviour
 
     void Start()
     {
-        if (InventoryManager.instance == null)
+        if (InventoryManager.Instance == null)
         {
             Debug.LogError("InventoryManager instance is not set.");
             return;
         }
 
         // Load items from InventoryManager
-        items = InventoryManager.instance.GetInventoryItems();
+        items = InventoryManager.Instance.GetInventoryItems();
         if (items == null || items.Count == 0)
         {
             Debug.LogWarning("No items found in inventory.");
@@ -110,7 +110,7 @@ public class InventoryScreen : MonoBehaviour
 
     public void DisplayTotalValue()
     {
-        float totalValue = InventoryManager.instance.CalculateInventoryValue();
+        float totalValue = InventoryManager.Instance.CalculateInventoryValue();
         Debug.Log("Total Inventory Value: " + totalValue);
 
         if (totalValueText != null)

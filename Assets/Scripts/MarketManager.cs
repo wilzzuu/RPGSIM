@@ -21,6 +21,8 @@ public class MarketManager : MonoBehaviour
     public TMP_InputField searchInput;
     public TMP_Dropdown sortDropdown;
     public Toggle ascendingToggle;
+    public Toggle affordableItemsToggle;
+    public TextMeshProUGUI inventoryValueText;
 
     private List<ItemData> allItems = new List<ItemData>();
     private List<ItemData> inventoryItems = new List<ItemData>();
@@ -72,7 +74,13 @@ public class MarketManager : MonoBehaviour
         searchInput.onValueChanged.AddListener(delegate { SearchItems(); });
         sortDropdown.onValueChanged.AddListener(delegate { SortItems(); });
         ascendingToggle.onValueChanged.AddListener(delegate { SortItems(); });
-
+        affordableItemsToggle.onValueChanged.AddListener(delegate { DisplayItems(); });
+        InventoryManager.Instance.onInventoryValueChanged += DisplayItems;
+        if (isBuyingTabActive && affordableItemsToggle.isOn)
+        {
+            PlayerManager.Instance.onBalanceChanged += DisplayItems;
+        }
+        
         LoadLastUpdateTimestamp();
         ApplyRealTimeFluctuations();
         StartCoroutine(MarketFluctuationCoroutine());
@@ -132,7 +140,7 @@ public class MarketManager : MonoBehaviour
 
     void LoadInventoryItems()
     {
-        inventoryItems = InventoryManager.instance.GetAllItems();
+        inventoryItems = InventoryManager.Instance.GetAllItems();
     }
 
     public void ShowBuyTab()
@@ -158,13 +166,25 @@ public class MarketManager : MonoBehaviour
         Transform currentCatalogGrid = isBuyingTabActive ? buyCatalogGrid : sellCatalogGrid;
         List<ItemData> displayedItems = isBuyingTabActive ? allItems : inventoryItems;
 
-        // Fully clear the grid before re-rendering
-        foreach (Transform child in currentCatalogGrid)
+        if (currentCatalogGrid == null) return;
+
+        float inventoryValue = InventoryManager.Instance.CalculateInventoryValue();
+        inventoryValueText.text = $"Inventory Value:        {inventoryValue:F2}";
+        
+        if (isBuyingTabActive && affordableItemsToggle.isOn)
         {
-            Destroy(child.gameObject);
+            float playerBalance = PlayerManager.Instance.GetPlayerBalance();
+            displayedItems = displayedItems.Where(item => item.Price * 1.15f <= playerBalance).ToList();
         }
 
-        // Display all items from the beginning based on sorted allItems
+        foreach (Transform child in currentCatalogGrid)
+        {
+            if (child != null)
+            {
+                Destroy(child.gameObject);
+            }
+        }
+
         for (int i = 0; i < displayedItems.Count; i++)
         {
             GameObject itemObj = Instantiate(marketItemPrefab, currentCatalogGrid);
@@ -227,7 +247,7 @@ public class MarketManager : MonoBehaviour
         if (PlayerManager.Instance.GetPlayerBalance() >= purchasePrice)
         {
             PlayerManager.Instance.DeductCurrency(purchasePrice);
-            InventoryManager.instance.AddItemToInventory(item);
+            InventoryManager.Instance.AddItemToInventory(item);
             AdjustItemPrice(item, 1);
         }
         else
@@ -239,9 +259,9 @@ public class MarketManager : MonoBehaviour
     public void SellItem(ItemData item, GameObject itemPrefab)
     {
         float sellingPrice = item.Price * 0.85f;
-        if (InventoryManager.instance.HasItem(item))
+        if (InventoryManager.Instance.HasItem(item))
         {
-            InventoryManager.instance.RemoveItemFromInventory(item);
+            InventoryManager.Instance.RemoveItemFromInventory(item);
             PlayerManager.Instance.AddCurrency(sellingPrice);
             Destroy(itemPrefab);
             AdjustItemPrice(item, -1);

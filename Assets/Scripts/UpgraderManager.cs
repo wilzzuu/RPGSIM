@@ -145,7 +145,7 @@ public class UpgraderManager : MonoBehaviour
 
     void LoadInventoryItems()
     {
-        inventoryItems = InventoryManager.instance.GetAllItems();
+        inventoryItems = InventoryManager.Instance.GetAllItems();
     }
 
     public void ShowInventoryTab()
@@ -272,14 +272,14 @@ public class UpgraderManager : MonoBehaviour
         float chance = UnityEngine.Random.value;
         if (chance <= successProbability)
         {
-            InventoryManager.instance.AddItemToInventory(selectedUpgradeItem);
-            InventoryManager.instance.RemoveItemFromInventory(selectedInventoryItem);
+            InventoryManager.Instance.AddItemToInventory(selectedUpgradeItem);
+            InventoryManager.Instance.RemoveItemFromInventory(selectedInventoryItem);
             isSuccessText.text = "Upgrade Successful!";
             Debug.Log("Upgrade Successful!");
         }
         else
         {
-            InventoryManager.instance.RemoveItemFromInventory(selectedInventoryItem);
+            InventoryManager.Instance.RemoveItemFromInventory(selectedInventoryItem);
             isSuccessText.text = "Upgrade Failed!";
             Debug.Log("Upgrade Failed!");
         }

@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
-    public static InventoryManager instance { get; private set; }
+    public static InventoryManager Instance { get; private set; }
     private List<ItemData> inventoryItems = new List<ItemData>();
     private const string SaveFileName = "GameData.dat";
 
+    public delegate void InventoryValueChangedHandler();
+    public event InventoryValueChangedHandler onInventoryValueChanged;
+
     void Awake()
     {
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this;
+            Instance = this;
             DontDestroyOnLoad(gameObject);
 
             // Load inventory data
@@ -84,6 +87,7 @@ public class InventoryManager : MonoBehaviour
         {
             totalValue += item.Price;
         }
+        onInventoryValueChanged?.Invoke();
         return totalValue;
     }
 
