@@ -19,6 +19,8 @@ public class CrashManager : MonoBehaviour
     private float betAmount = 0f;
     private bool hasCashedOut = false;
 
+    private float difficultyBias = 2.15f;
+
     public UIManager uiManager;
 
     void Start()
@@ -52,7 +54,9 @@ public class CrashManager : MonoBehaviour
             PlayerManager.Instance.DeductCurrency(betAmount);
             UpdateUI();
             ResetGame();
-            crashPoint = Random.Range(1f, 20.0f);
+
+            crashPoint = GenerateBiasedCrashPoint(1.1f, 20.0f, difficultyBias);
+            Debug.Log("Crash Point: " + crashPoint);
             isGameRunning = true;
             cashOutButton.interactable = true;
             startGameButton.interactable = false;
@@ -63,6 +67,12 @@ public class CrashManager : MonoBehaviour
             Debug.LogWarning("Invalid bet amount!");
             return;
         }
+    }
+
+    private float GenerateBiasedCrashPoint(float min, float max, float bias)
+    {
+        float randomValue = Mathf.Pow(Random.value, bias);
+        return Mathf.Lerp(min, max, randomValue);
     }
 
     private void ResetGame()
