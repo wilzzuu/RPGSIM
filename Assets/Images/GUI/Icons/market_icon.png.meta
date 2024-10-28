@@ -5,6 +5,30 @@ TextureImporter:
   - first:
       213: -6414054721793828995
     second: market_icon_0
+  - first:
+      213: -8380721812399992638
+    second: market_icon_1
+  - first:
+      213: -9133270047186848274
+    second: market_icon_2
+  - first:
+      213: -1079335722442196099
+    second: market_icon_3
+  - first:
+      213: -3347950797793799912
+    second: market_icon_4
+  - first:
+      213: 2492297670094807320
+    second: market_icon_5
+  - first:
+      213: -9110302883069802024
+    second: market_icon_6
+  - first:
+      213: 31988406553927106
+    second: market_icon_7
+  - first:
+      213: -4955200928745585781
+    second: market_icon_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,10 +127,10 @@ TextureImporter:
       name: market_icon_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 4
-        width: 42
-        height: 42
+        x: 214
+        y: 661
+        width: 150
+        height: 179
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,6 +141,182 @@ TextureImporter:
       bones: []
       spriteID: d77df81b633bcf6a0800000000000000
       internalID: -6414054721793828995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_icon_1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 660
+        width: 120
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0d7822ae1b1bb80800000000000000
+      internalID: -8380721812399992638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_icon_2
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 660
+        width: 104
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee576bf384b104180800000000000000
+      internalID: -9133270047186848274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_icon_3
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 661
+        width: 119
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b717601ed6501f0800000000000000
+      internalID: -1079335722442196099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_icon_4
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 661
+        width: 148
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811d304dc70b981d0800000000000000
+      internalID: -3347950797793799912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_icon_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 486
+        width: 27
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811e884b68b669220800000000000000
+      internalID: 2492297670094807320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_icon_6
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 486
+        width: 27
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9486adbc3b19180800000000000000
+      internalID: -9110302883069802024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_icon_7
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 421
+        width: 598
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdd3994945a17000800000000000000
+      internalID: 31988406553927106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_icon_8
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 225
+        width: 594
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b830f6352079b3bb0800000000000000
+      internalID: -4955200928745585781
       vertices: []
       indices: 
       edges: []
@@ -136,6 +336,14 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       market_icon_0: -6414054721793828995
+      market_icon_1: -8380721812399992638
+      market_icon_2: -9133270047186848274
+      market_icon_3: -1079335722442196099
+      market_icon_4: -3347950797793799912
+      market_icon_5: 2492297670094807320
+      market_icon_6: -9110302883069802024
+      market_icon_7: 31988406553927106
+      market_icon_8: -4955200928745585781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

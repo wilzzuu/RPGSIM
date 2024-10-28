@@ -19,6 +19,8 @@ public class ClickerManager : MonoBehaviour
 
     private Coroutine multiplierResetCoroutine;
 
+    public UIManager uiManager;
+
     void Start()
     {
         clickButton.onClick.AddListener(OnButtonClick);
@@ -27,6 +29,7 @@ public class ClickerManager : MonoBehaviour
 
     void OnButtonClick()
     {
+        uiManager.LockUI();
         float earnedThisClick = baseGain * currentMultiplier;
         currency += earnedThisClick;
         sessionCurrency += earnedThisClick;
@@ -51,6 +54,7 @@ public class ClickerManager : MonoBehaviour
 
         currentMultiplier = 1f;
         UpdateUI();
+        uiManager.UnlockUI();
     }
 
     private void UpdateUI()

@@ -5,6 +5,27 @@ TextureImporter:
   - first:
       213: -6545728518257143831
     second: coinflip_icon_0
+  - first:
+      213: -8550072456952622878
+    second: coinflip_icon_1
+  - first:
+      213: -7052497926869845200
+    second: coinflip_icon_2
+  - first:
+      213: -2941918678733535051
+    second: coinflip_icon_3
+  - first:
+      213: 1617549622862662525
+    second: coinflip_icon_4
+  - first:
+      213: 4786785250202859552
+    second: coinflip_icon_5
+  - first:
+      213: 3399270968348682424
+    second: coinflip_icon_6
+  - first:
+      213: 8096715752394050469
+    second: coinflip_icon_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,10 +124,10 @@ TextureImporter:
       name: coinflip_icon_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 39
-        height: 40
+        x: 319
+        y: 716
+        width: 21
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,6 +138,160 @@ TextureImporter:
       bones: []
       spriteID: 9ef8329e796e825a0800000000000000
       internalID: -6545728518257143831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinflip_icon_1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 644
+        width: 359
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0dc7f866a085980800000000000000
+      internalID: -8550072456952622878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinflip_icon_2
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 702
+        width: 221
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b7eb1508e702e90800000000000000
+      internalID: -7052497926869845200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinflip_icon_3
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 714
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b840047c843c27d0800000000000000
+      internalID: -2941918678733535051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinflip_icon_4
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 267
+        width: 674
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bcb45dfc0b27610800000000000000
+      internalID: 1617549622862662525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinflip_icon_5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 148
+        width: 57
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028bb66d2d31e6240800000000000000
+      internalID: 4786785250202859552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinflip_icon_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 144
+        width: 281
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8a8b38fe2ac2f20800000000000000
+      internalID: 3399270968348682424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinflip_icon_7
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 148
+        width: 58
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abc1cc14105d5070800000000000000
+      internalID: 8096715752394050469
       vertices: []
       indices: 
       edges: []
@@ -136,6 +311,13 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       coinflip_icon_0: -6545728518257143831
+      coinflip_icon_1: -8550072456952622878
+      coinflip_icon_2: -7052497926869845200
+      coinflip_icon_3: -2941918678733535051
+      coinflip_icon_4: 1617549622862662525
+      coinflip_icon_5: 4786785250202859552
+      coinflip_icon_6: 3399270968348682424
+      coinflip_icon_7: 8096715752394050469
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -19,6 +19,8 @@ public class CrashManager : MonoBehaviour
     private float betAmount = 0f;
     private bool hasCashedOut = false;
 
+    public UIManager uiManager;
+
     void Start()
     {
         UpdateUI();
@@ -54,6 +56,7 @@ public class CrashManager : MonoBehaviour
             isGameRunning = true;
             cashOutButton.interactable = true;
             startGameButton.interactable = false;
+            uiManager.LockUI();
         }
         else
         {
@@ -78,6 +81,7 @@ public class CrashManager : MonoBehaviour
         Debug.Log("CRASH! Player lost the bet.");
         outcomeText.text = "You crashed..";
         UpdateUI();
+        uiManager.UnlockUI();
     }
 
     private void CashOut()
@@ -90,6 +94,7 @@ public class CrashManager : MonoBehaviour
             outcomeText.text = $"You cashed out {winnings:F2}";
             hasCashedOut = true;
             EndGame();
+            uiManager.UnlockUI();
         }
     }
 

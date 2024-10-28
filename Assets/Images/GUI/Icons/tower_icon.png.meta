@@ -1,31 +1,46 @@
 fileFormatVersion: 2
-guid: c3e5da79d3fa03d429126b50fab9c3e1
+guid: 877e574cb6e1e0d40ad5737449aaa88c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5945786167257189742
-    second: collection_icon_0
+      213: 4219518050640266156
+    second: tower_icon_0
   - first:
-      213: -6578392305576850864
-    second: collection_icon_1
+      213: 6401215499799125884
+    second: tower_icon_1
   - first:
-      213: -4334188242052835033
-    second: collection_icon_2
+      213: 2844556234991751622
+    second: tower_icon_2
   - first:
-      213: 3439183900238650015
-    second: collection_icon_3
+      213: -3520028861927534660
+    second: tower_icon_3
   - first:
-      213: -1201122116955499009
-    second: collection_icon_4
+      213: 6140401734982960546
+    second: tower_icon_4
   - first:
-      213: -7283890518854260196
-    second: collection_icon_5
+      213: -388289868721671065
+    second: tower_icon_5
   - first:
-      213: -4740241543033481301
-    second: collection_icon_6
+      213: -2868644658021524630
+    second: tower_icon_6
   - first:
-      213: -9007725967552419825
-    second: collection_icon_7
+      213: 2634998757041943628
+    second: tower_icon_7
+  - first:
+      213: -809074759718018041
+    second: tower_icon_8
+  - first:
+      213: -1230762903413289308
+    second: tower_icon_9
+  - first:
+      213: -5604739253108719597
+    second: tower_icon_10
+  - first:
+      213: 2200159687070578551
+    second: tower_icon_11
+  - first:
+      213: 5902109315595312936
+    second: tower_icon_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: collection_icon_0
+      name: tower_icon_0
       rect:
         serializedVersion: 2
-        x: 264
-        y: 329
-        width: 511
-        height: 398
+        x: 482
+        y: 809
+        width: 61
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +151,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2923436abf25c7da0800000000000000
-      internalID: -5945786167257189742
+      spriteID: ca303c3af4dbe8a30800000000000000
+      internalID: 4219518050640266156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: collection_icon_1
+      name: tower_icon_1
       rect:
         serializedVersion: 2
-        x: 385
-        y: 272
+        x: 411
+        y: 732
+        width: 203
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f504cf49fa5d850800000000000000
+      internalID: 6401215499799125884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_icon_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 219
+        width: 506
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c15e4a13d4e97720800000000000000
+      internalID: 2844556234991751622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_icon_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 190
         width: 17
-        height: 18
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05acde84d0bd4b4a0800000000000000
-      internalID: -6578392305576850864
+      spriteID: cbfcfa56668562fc0800000000000000
+      internalID: -3520028861927534660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: collection_icon_2
+      name: tower_icon_4
       rect:
         serializedVersion: 2
-        x: 410
-        y: 271
-        width: 24
-        height: 20
+        x: 355
+        y: 191
+        width: 22
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72914c2e1ced9d3c0800000000000000
-      internalID: -4334188242052835033
+      spriteID: 2a50adf38d6173550800000000000000
+      internalID: 6140401734982960546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: collection_icon_3
+      name: tower_icon_5
       rect:
         serializedVersion: 2
-        x: 439
-        y: 271
-        width: 28
-        height: 21
+        x: 402
+        y: 191
+        width: 17
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9a97f2298f6abf20800000000000000
-      internalID: 3439183900238650015
+      spriteID: 76436f0fb648c9af0800000000000000
+      internalID: -388289868721671065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: collection_icon_4
+      name: tower_icon_6
       rect:
         serializedVersion: 2
-        x: 480
-        y: 272
-        width: 79
-        height: 19
+        x: 442
+        y: 191
+        width: 16
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff590076cc1c45fe0800000000000000
-      internalID: -1201122116955499009
+      spriteID: a6b1ecbd1e68038d0800000000000000
+      internalID: -2868644658021524630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: collection_icon_5
+      name: tower_icon_7
       rect:
         serializedVersion: 2
-        x: 573
-        y: 273
-        width: 28
-        height: 18
+        x: 469
+        y: 191
+        width: 19
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +305,86 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1a2bd03a2c6aea90800000000000000
-      internalID: -7283890518854260196
+      spriteID: c44b411a865619420800000000000000
+      internalID: 2634998757041943628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: collection_icon_6
+      name: tower_icon_8
       rect:
         serializedVersion: 2
-        x: 608
-        y: 273
+        x: 504
+        y: 191
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704e54eeac695c4f0800000000000000
+      internalID: -809074759718018041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_icon_9
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 191
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae825309a37beee0800000000000000
+      internalID: -1230762903413289308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_icon_10
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 192
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31044cf2857f732b0800000000000000
+      internalID: -5604739253108719597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_icon_11
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 191
         width: 21
-        height: 19
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,18 +393,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba790f57e67473eb0800000000000000
-      internalID: -4740241543033481301
+      spriteID: 777f9f41499888e10800000000000000
+      internalID: 2200159687070578551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: collection_icon_7
+      name: tower_icon_12
       rect:
         serializedVersion: 2
-        x: 638
-        y: 273
+        x: 690
+        y: 189
         width: 17
         height: 17
       alignment: 0
@@ -290,8 +415,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f08e9fd15f02ef280800000000000000
-      internalID: -9007725967552419825
+      spriteID: 82f159dd62188e150800000000000000
+      internalID: 5902109315595312936
       vertices: []
       indices: 
       edges: []
@@ -310,14 +435,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      collection_icon_0: -5945786167257189742
-      collection_icon_1: -6578392305576850864
-      collection_icon_2: -4334188242052835033
-      collection_icon_3: 3439183900238650015
-      collection_icon_4: -1201122116955499009
-      collection_icon_5: -7283890518854260196
-      collection_icon_6: -4740241543033481301
-      collection_icon_7: -9007725967552419825
+      tower_icon_0: 4219518050640266156
+      tower_icon_1: 6401215499799125884
+      tower_icon_10: -5604739253108719597
+      tower_icon_11: 2200159687070578551
+      tower_icon_12: 5902109315595312936
+      tower_icon_2: 2844556234991751622
+      tower_icon_3: -3520028861927534660
+      tower_icon_4: 6140401734982960546
+      tower_icon_5: -388289868721671065
+      tower_icon_6: -2868644658021524630
+      tower_icon_7: 2634998757041943628
+      tower_icon_8: -809074759718018041
+      tower_icon_9: -1230762903413289308
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

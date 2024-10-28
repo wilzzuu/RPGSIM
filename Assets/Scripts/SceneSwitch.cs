@@ -63,6 +63,21 @@ public class SceneSwitch : MonoBehaviour
         SceneManager.LoadScene(12);
     }
 
+    public void LoadHighLowScene()
+    {
+        SceneManager.LoadScene(13);
+    }
+
+    public void LoadTowerScene()
+    {
+        SceneManager.LoadScene(14);
+    }
+
+    public void LoadSettingsScene()
+    {
+        SceneManager.LoadScene(15);
+    }
+
     public void ExitApplication()
     {
         Application.Quit();

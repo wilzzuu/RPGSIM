@@ -19,6 +19,9 @@ public class MarketManager : MonoBehaviour
     public GameObject sellScrollView;
 
     public TMP_InputField searchInput;
+    public Button searchBtn;
+    public TMP_InputField priceInput;
+    public Button searchPriceBtn;
     public TMP_Dropdown sortDropdown;
     public Toggle ascendingToggle;
     public Toggle affordableItemsToggle;
@@ -71,7 +74,11 @@ public class MarketManager : MonoBehaviour
         ScrollRect scrollRect = (isBuyingTabActive ? buyScrollView : sellScrollView).GetComponent<ScrollRect>();
         scrollRect.onValueChanged.AddListener(OnScroll);
 
-        searchInput.onValueChanged.AddListener(delegate { SearchItems(); });
+        searchBtn.onClick.AddListener(SearchItems);
+        searchInput.onValueChanged.AddListener(delegate { ClearSearch(); });
+        searchPriceBtn.onClick.AddListener(SearchPrices);
+        priceInput.onValueChanged.AddListener(delegate { ClearPriceSearch(); });
+
         sortDropdown.onValueChanged.AddListener(delegate { SortItems(); });
         ascendingToggle.onValueChanged.AddListener(delegate { SortItems(); });
         affordableItemsToggle.onValueChanged.AddListener(delegate { DisplayItems(); });
@@ -203,6 +210,24 @@ public class MarketManager : MonoBehaviour
         }
     }
 
+    public void ClearSearch()
+    {
+        if (string.IsNullOrWhiteSpace(searchInput.text))
+        {
+            LoadAllGameItems();
+            LoadInventoryItems();
+        }
+    }
+
+    public void ClearPriceSearch()
+    {
+        if (string.IsNullOrWhiteSpace(priceInput.text))
+        {
+            LoadAllGameItems();
+            LoadInventoryItems();
+        }
+    }
+
     public void SortItems()
     {
         allItems = new List<ItemData>(allItems);
@@ -222,17 +247,31 @@ public class MarketManager : MonoBehaviour
         // Check if the search query is empty; if so, display all items
         if (string.IsNullOrWhiteSpace(query))
         {
-            allItems = new List<ItemData>(allItems);
+            LoadAllGameItems();
+            SortItems();
         }
         else
         {
-            // Filter items based on the search query
             allItems = allItems.Where(item =>
                 item.Name.ToLower().Contains(query) ||
                 item.ID.ToString().Contains(query)).ToList();
         }
+        UpdateCurrentTab();
+    }
 
-        // Update the current tab to reflect the search results or reset if empty
+    public void SearchPrices()
+    {
+        string query = priceInput.text.ToString();
+        if (string.IsNullOrWhiteSpace(query))
+        {
+            LoadAllGameItems();
+            SortItems();
+        }
+
+        if (float.TryParse(query, out float itemPriceQuery))
+        {
+            allItems = allItems.Where(item => item.Price * 1.15f <= itemPriceQuery).ToList();
+        }
         UpdateCurrentTab();
     }
 

@@ -139,8 +139,9 @@ public class PlayerManager : MonoBehaviour
 
     public void ResetProgress()
     {
-        player.balance = 2000f;
+        player = new Player(2000f);
         SavePlayerData();
+        InventoryManager.Instance.ClearInventory();
     }
 }
 

@@ -59,14 +59,19 @@ public class CrateOpening : MonoBehaviour
 
     private void SelectCrate(CrateData chosenCrate)
     {
-        if (chosenCrate == null)
+        selectedCrateData = chosenCrate;
+
+        if (selectedCrateData != null && selectedCrateData.Price <= PlayerManager.Instance.GetPlayerBalance())
         {
-            Debug.LogError("Chosen crate is null. Ensure a valid crate is selected.");
+            openCrateButton.interactable = true;
+        }
+        else
+        {
+            
+            openCrateButton.interactable = false;
             return;
         }
-
-        selectedCrateData = chosenCrate;
-        openCrateButton.interactable = selectedCrateData != null;
+        
         DisplayCrateItems(selectedCrateData);
 
         if (isFirstSelection)
@@ -210,6 +215,12 @@ public class CrateOpening : MonoBehaviour
     {
         Debug.Log($"Opened item: {openedItem.Name} | {openedItem.ID} | {openedItem.Rarity}");
         InventoryManager.Instance.AddItemToInventory(openedItem);
+        if (PlayerManager.Instance.GetPlayerBalance() < selectedCrateData.Price)
+        {
+            DisplayCrateSelector(availableCrates);
+            ToggleCrateSelector();
+            openCrateButton.interactable = false;
+        }
     }
 
     private void SetUpReelItem(GameObject reelItem, ItemData itemData)

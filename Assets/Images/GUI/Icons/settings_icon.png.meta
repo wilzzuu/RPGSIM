@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 93c427db5d0a93442a0439f494be1e26
+guid: ee643e3fb14fb174790b36bb07e8db27
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4593531483865543287
-    second: plinko_icon_0
+      213: -4852613496269684587
+    second: settings_icon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plinko_icon_0
+      name: settings_icon_0
       rect:
         serializedVersion: 2
-        x: 90
-        y: 102
-        width: 835
-        height: 831
+        x: 0
+        y: 0
+        width: 1024
+        height: 1023
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 772f0680c808fbf30800000000000000
-      internalID: 4593531483865543287
+      spriteID: 59044924cbd08acb0800000000000000
+      internalID: -4852613496269684587
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      plinko_icon_0: 4593531483865543287
+      settings_icon_0: -4852613496269684587
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

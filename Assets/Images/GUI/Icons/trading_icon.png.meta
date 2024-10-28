@@ -5,6 +5,138 @@ TextureImporter:
   - first:
       213: -8402233539312915227
     second: trading_icon_0
+  - first:
+      213: 8899636758889350687
+    second: trading_icon_1
+  - first:
+      213: -532457621804098903
+    second: trading_icon_2
+  - first:
+      213: 2838116471786070119
+    second: trading_icon_3
+  - first:
+      213: 4534996834796613663
+    second: trading_icon_4
+  - first:
+      213: -4548146665716092107
+    second: trading_icon_5
+  - first:
+      213: 4796040607744325620
+    second: trading_icon_6
+  - first:
+      213: 2480195290226947141
+    second: trading_icon_7
+  - first:
+      213: -8520123352552061268
+    second: trading_icon_8
+  - first:
+      213: -8971853862870190476
+    second: trading_icon_9
+  - first:
+      213: -8477293045828038007
+    second: trading_icon_10
+  - first:
+      213: 1406446191357990879
+    second: trading_icon_11
+  - first:
+      213: -6234169400427311918
+    second: trading_icon_12
+  - first:
+      213: -7078476221986218231
+    second: trading_icon_13
+  - first:
+      213: -171820544049377050
+    second: trading_icon_14
+  - first:
+      213: -9007793465682142873
+    second: trading_icon_15
+  - first:
+      213: 6371117231729220165
+    second: trading_icon_16
+  - first:
+      213: -7117473909501014857
+    second: trading_icon_17
+  - first:
+      213: 5353114912488579104
+    second: trading_icon_18
+  - first:
+      213: -5853968459974562842
+    second: trading_icon_19
+  - first:
+      213: -1752611692326132507
+    second: trading_icon_20
+  - first:
+      213: 7662469568465920741
+    second: trading_icon_21
+  - first:
+      213: -6603049145197651876
+    second: trading_icon_22
+  - first:
+      213: 865157284094117176
+    second: trading_icon_23
+  - first:
+      213: -2364436892656256715
+    second: trading_icon_24
+  - first:
+      213: 1553370939991201329
+    second: trading_icon_25
+  - first:
+      213: -8859482396359926869
+    second: trading_icon_26
+  - first:
+      213: 7094615623370357485
+    second: trading_icon_27
+  - first:
+      213: 5413850926288398204
+    second: trading_icon_28
+  - first:
+      213: 6992887841993167954
+    second: trading_icon_29
+  - first:
+      213: -7626657044572861703
+    second: trading_icon_30
+  - first:
+      213: 2669697077481149461
+    second: trading_icon_31
+  - first:
+      213: -9094389353245804859
+    second: trading_icon_32
+  - first:
+      213: -3958964936543368550
+    second: trading_icon_33
+  - first:
+      213: 2264161782286698914
+    second: trading_icon_34
+  - first:
+      213: -1461871453527334984
+    second: trading_icon_35
+  - first:
+      213: 6904300507251091937
+    second: trading_icon_36
+  - first:
+      213: -6217348096397901365
+    second: trading_icon_37
+  - first:
+      213: 984627952188006082
+    second: trading_icon_38
+  - first:
+      213: 7671388891806550950
+    second: trading_icon_39
+  - first:
+      213: 9200149874918763722
+    second: trading_icon_40
+  - first:
+      213: 4348196579523206479
+    second: trading_icon_41
+  - first:
+      213: -3759827732672042608
+    second: trading_icon_42
+  - first:
+      213: 7906226497350714465
+    second: trading_icon_43
+  - first:
+      213: 164806544990633943
+    second: trading_icon_44
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,10 +235,10 @@ TextureImporter:
       name: trading_icon_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 40
-        height: 40
+        x: 214
+        y: 835
+        width: 198
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,6 +249,974 @@ TextureImporter:
       bones: []
       spriteID: 5ec6169ec15456b80800000000000000
       internalID: -8402233539312915227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_1
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 835
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16cb9bda7cd18b70800000000000000
+      internalID: 8899636758889350687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_2
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 837
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aada623d945c98f0800000000000000
+      internalID: -532457621804098903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_3
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 835
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7606ef3e4e3036720800000000000000
+      internalID: 2838116471786070119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 835
+        width: 195
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10b293089b8fee30800000000000000
+      internalID: 4534996834796613663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 514
+        width: 184
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5337d9364bcb1e0c0800000000000000
+      internalID: -4548146665716092107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_6
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 733
+        width: 196
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7f2f0b585fe8240800000000000000
+      internalID: 4796040607744325620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_7
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 790
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544f29fc97c6b6220800000000000000
+      internalID: 2480195290226947141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_8
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 263
+        width: 456
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6cf90d3f072c980800000000000000
+      internalID: -8520123352552061268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_9
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 789
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476f7e652729d7380800000000000000
+      internalID: -8971853862870190476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_10
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 515
+        width: 185
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982d782b3ea9a5a80800000000000000
+      internalID: -8477293045828038007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_11
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 648
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7189ffb53b48310800000000000000
+      internalID: 1406446191357990879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_12
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 609
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc8be9d5f7cb79a0800000000000000
+      internalID: -6234169400427311918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 580
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f5675216334cd90800000000000000
+      internalID: -7078476221986218231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 482
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e092d220229d9df0800000000000000
+      internalID: -171820544049377050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_15
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 423
+        width: 122
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7695eeb7193edf280800000000000000
+      internalID: -9007793465682142873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 359
+        width: 155
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a179bdd51ca6850800000000000000
+      internalID: 6371117231729220165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_17
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 491
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcc4167037a93d90800000000000000
+      internalID: -7117473909501014857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_18
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 481
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0206ab0a6a51a4a40800000000000000
+      internalID: 5353114912488579104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 251
+        width: 21
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb20e883b682cea0800000000000000
+      internalID: -5853968459974562842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_20
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 390
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e464b993f87da7e0800000000000000
+      internalID: -1752611692326132507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_21
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 301
+        width: 159
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2e6aa997f865a60800000000000000
+      internalID: 7662469568465920741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_22
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 390
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c581c0279c14d54a0800000000000000
+      internalID: -6603049145197651876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_23
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 251
+        width: 21
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835854157f7a10c00800000000000000
+      internalID: 865157284094117176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_24
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 337
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53935676c25df2fd0800000000000000
+      internalID: -2364436892656256715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_25
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 309
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136179ac3aeae8510800000000000000
+      internalID: 1553370939991201329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_26
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 336
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babd32733bbcc0580800000000000000
+      internalID: -8859482396359926869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_27
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 312
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea3de01253257260800000000000000
+      internalID: 7094615623370357485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_28
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 227
+        width: 133
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77e650dbbcd12b40800000000000000
+      internalID: 5413850926288398204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_29
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 287
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2549620417abb0160800000000000000
+      internalID: 6992887841993167954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_30
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 233
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa018263dba82690800000000000000
+      internalID: -7626657044572861703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_31
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 251
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5149929e85bac0520800000000000000
+      internalID: 2669697077481149461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_32
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 282
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c670be311d3ac180800000000000000
+      internalID: -9094389353245804859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_33
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 232
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a0b1f9d5eee09c0800000000000000
+      internalID: -3958964936543368550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_34
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 230
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9c63b152beb6f10800000000000000
+      internalID: 2264161782286698914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_35
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 248
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf183988a366bbe0800000000000000
+      internalID: -1461871453527334984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_36
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 247
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e920451bb001df50800000000000000
+      internalID: 6904300507251091937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_37
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 256
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc18045e8da87b9a0800000000000000
+      internalID: -6217348096397901365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_38
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 228
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce161ed7e91aad00800000000000000
+      internalID: 984627952188006082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_39
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 228
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abc1066d8f367a60800000000000000
+      internalID: 7671388891806550950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_40
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 183
+        width: 200
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc23e6119f7daf70800000000000000
+      internalID: 9200149874918763722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_41
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 182
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d9c0850c5e75c30800000000000000
+      internalID: 4348196579523206479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_42
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 184
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099ab69f89862dbc0800000000000000
+      internalID: -3759827732672042608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_43
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 182
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164ce504c1f88bd60800000000000000
+      internalID: 7906226497350714465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trading_icon_44
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 183
+        width: 194
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df73d2fda2894200800000000000000
+      internalID: 164806544990633943
       vertices: []
       indices: 
       edges: []
@@ -136,6 +1236,50 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       trading_icon_0: -8402233539312915227
+      trading_icon_1: 8899636758889350687
+      trading_icon_10: -8477293045828038007
+      trading_icon_11: 1406446191357990879
+      trading_icon_12: -6234169400427311918
+      trading_icon_13: -7078476221986218231
+      trading_icon_14: -171820544049377050
+      trading_icon_15: -9007793465682142873
+      trading_icon_16: 6371117231729220165
+      trading_icon_17: -7117473909501014857
+      trading_icon_18: 5353114912488579104
+      trading_icon_19: -5853968459974562842
+      trading_icon_2: -532457621804098903
+      trading_icon_20: -1752611692326132507
+      trading_icon_21: 7662469568465920741
+      trading_icon_22: -6603049145197651876
+      trading_icon_23: 865157284094117176
+      trading_icon_24: -2364436892656256715
+      trading_icon_25: 1553370939991201329
+      trading_icon_26: -8859482396359926869
+      trading_icon_27: 7094615623370357485
+      trading_icon_28: 5413850926288398204
+      trading_icon_29: 6992887841993167954
+      trading_icon_3: 2838116471786070119
+      trading_icon_30: -7626657044572861703
+      trading_icon_31: 2669697077481149461
+      trading_icon_32: -9094389353245804859
+      trading_icon_33: -3958964936543368550
+      trading_icon_34: 2264161782286698914
+      trading_icon_35: -1461871453527334984
+      trading_icon_36: 6904300507251091937
+      trading_icon_37: -6217348096397901365
+      trading_icon_38: 984627952188006082
+      trading_icon_39: 7671388891806550950
+      trading_icon_4: 4534996834796613663
+      trading_icon_40: 9200149874918763722
+      trading_icon_41: 4348196579523206479
+      trading_icon_42: -3759827732672042608
+      trading_icon_43: 7906226497350714465
+      trading_icon_44: 164806544990633943
+      trading_icon_5: -4548146665716092107
+      trading_icon_6: 4796040607744325620
+      trading_icon_7: 2480195290226947141
+      trading_icon_8: -8520123352552061268
+      trading_icon_9: -8971853862870190476
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

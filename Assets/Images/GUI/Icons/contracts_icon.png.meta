@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: -6176101819747218176
     second: contracts_icon_0
+  - first:
+      213: 6327823244528923433
+    second: contracts_icon_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,10 +106,10 @@ TextureImporter:
       name: contracts_icon_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 38
-        height: 38
+        x: 207
+        y: 161
+        width: 610
+        height: 726
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,6 +120,28 @@ TextureImporter:
       bones: []
       spriteID: 00dc2590e141a4aa0800000000000000
       internalID: -6176101819747218176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: contracts_icon_1
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 796
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9233b93f6b1f0d750800000000000000
+      internalID: 6327823244528923433
       vertices: []
       indices: 
       edges: []
@@ -136,6 +161,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       contracts_icon_0: -6176101819747218176
+      contracts_icon_1: 6327823244528923433
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

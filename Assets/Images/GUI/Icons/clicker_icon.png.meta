@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: -7750014945070989277
     second: clicker_icon_0
+  - first:
+      213: -3237110990128010492
+    second: clicker_icon_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,10 +106,10 @@ TextureImporter:
       name: clicker_icon_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 4
-        width: 39
-        height: 46
+        x: 348
+        y: 228
+        width: 337
+        height: 668
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,6 +120,28 @@ TextureImporter:
       bones: []
       spriteID: 3204313087a627490800000000000000
       internalID: -7750014945070989277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clicker_icon_1
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 162
+        width: 238
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b28e694b87313d0800000000000000
+      internalID: -3237110990128010492
       vertices: []
       indices: 
       edges: []
@@ -136,6 +161,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       clicker_icon_0: -7750014945070989277
+      clicker_icon_1: -3237110990128010492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
