@@ -76,11 +76,8 @@ public class MarketManager : MonoBehaviour
         ascendingToggle.onValueChanged.AddListener(delegate { SortItems(); });
         affordableItemsToggle.onValueChanged.AddListener(delegate { DisplayItems(); });
         InventoryManager.Instance.onInventoryValueChanged += RefreshInventoryValue;
-        if (isBuyingTabActive && affordableItemsToggle.isOn)
-        {
-            PlayerManager.Instance.onBalanceChanged += DisplayItems;
-        }
-        
+        PlayerManager.Instance.onBalanceChanged += RefreshBalanceFilter;
+
         LoadLastUpdateTimestamp();
         ApplyRealTimeFluctuations();
         StartCoroutine(MarketFluctuationCoroutine());
@@ -167,6 +164,14 @@ public class MarketManager : MonoBehaviour
     {
         float inventoryValue = InventoryManager.Instance.CalculateInventoryValue();
         inventoryValueText.text = $"Inventory Value:        {inventoryValue:F2}";
+    }
+
+    void RefreshBalanceFilter()
+    {
+        if (isBuyingTabActive && affordableItemsToggle.isOn)
+        {
+            DisplayItems();
+        }
     }
 
     void DisplayItems()

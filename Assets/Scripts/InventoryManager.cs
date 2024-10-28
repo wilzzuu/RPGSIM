@@ -89,7 +89,7 @@ public class InventoryManager : MonoBehaviour
         {
             totalValue += item.Price;
         }
-        return totalValue;
+        return totalValue * 0.85f;
     }
 
     public void ClearInventory()
