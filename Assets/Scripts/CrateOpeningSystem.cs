@@ -206,7 +206,6 @@ public class CrateOpening : MonoBehaviour
 
         StopReel(openedItem);
         isScrolling = false;
-        openCrateButton.interactable = true;
         selectCrateButton.interactable = true;
         uiManager.UnlockUI();
     }
@@ -220,6 +219,10 @@ public class CrateOpening : MonoBehaviour
             DisplayCrateSelector(availableCrates);
             ToggleCrateSelector();
             openCrateButton.interactable = false;
+        }
+        else
+        {
+            openCrateButton.interactable = true;
         }
     }
 
