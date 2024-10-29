@@ -20,7 +20,6 @@ public class InventoryManager : MonoBehaviour
 
             List<SerializableItemData> loadedItems = DataSerializationManager.Instance.LoadGameData();
             inventoryItems = ConvertSerializableItemsToItemData(loadedItems);
-            Debug.Log($"Loaded {inventoryItems.Count} items into inventory.");
         }
         else
         {
@@ -38,7 +37,6 @@ public class InventoryManager : MonoBehaviour
             if (item != null)
             {
                 items.Add(item);
-                Debug.Log($"Successfully loaded {item.Name} with ID {sItem.ID} from {itemPath}");
             }
             else
             {
@@ -58,7 +56,6 @@ public class InventoryManager : MonoBehaviour
         if (HasItem(item))
         {
             inventoryItems.Remove(item);
-            Debug.Log($"{item.Name} removed from inventory.");
             SaveInventory();
             onInventoryValueChanged?.Invoke();
         }
@@ -94,16 +91,13 @@ public class InventoryManager : MonoBehaviour
     {
         inventoryItems.Clear();
         string path = Path.Combine(Application.persistentDataPath, SaveFileName);
-        Debug.Log("InventoryData path: " + path);
 
         if (File.Exists(path))
         {
             File.Delete(path);
-            Debug.Log("Inventory file deleted at " + path);
         }
         
         SaveInventory();
-        Debug.Log("Inventory cleared.");
     }
 
     private void SaveInventory()
@@ -114,7 +108,6 @@ public class InventoryManager : MonoBehaviour
             serializableItems.Add(new SerializableItemData(item));
         }
         DataSerializationManager.Instance.SaveGameData(serializableItems);
-        Debug.Log("Inventory saved.");
     }
 
     public List<ItemData> GetInventoryItems()

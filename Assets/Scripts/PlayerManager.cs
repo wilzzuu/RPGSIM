@@ -73,10 +73,6 @@ public class PlayerManager : MonoBehaviour
             onBalanceChanged?.Invoke();
             SavePlayerData();
         }
-        else
-        {
-            Debug.Log("Not enough money");
-        }
     }
 
     public float GetPlayerBalance()
@@ -109,8 +105,6 @@ public class PlayerManager : MonoBehaviour
         {
             bf.Serialize(file, player);
         }
-
-        Debug.Log("Player data saved to " + path);
     }
 
     public void LoadPlayerData()
@@ -124,12 +118,10 @@ public class PlayerManager : MonoBehaviour
             {
                 player = (Player)bf.Deserialize(file);
             }
-            Debug.Log("Player data loaded from " + path);
         }
         else
         {
             player = new Player(2000f);
-            Debug.Log("No save file found. Initialized player with default balance.");
         }
     }
 

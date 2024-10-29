@@ -84,8 +84,6 @@ public class CrateOpening : MonoBehaviour
         {
             ToggleCrateSelector();
         }
-
-        Debug.Log($"Selected Crate: {selectedCrateData.Name}");
     }
 
     private void SetInitialReelPosition()
@@ -212,7 +210,6 @@ public class CrateOpening : MonoBehaviour
 
     private void StopReel(ItemData openedItem)
     {
-        Debug.Log($"Opened item: {openedItem.Name} | {openedItem.ID} | {openedItem.Rarity}");
         InventoryManager.Instance.AddItemToInventory(openedItem);
         if (PlayerManager.Instance.GetPlayerBalance() < selectedCrateData.Price)
         {

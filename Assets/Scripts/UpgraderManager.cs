@@ -170,12 +170,10 @@ public class UpgraderManager : MonoBehaviour
 
         foreach (Transform child in selectedInventoryItemContainer.transform)
         {
-            Debug.Log("Destroying previous selectedInventoryItemObj");
             DestroyImmediate(child.gameObject);
         }
 
         selectedInventoryItemObj = Instantiate(selectedUpgraderItemPrefab, selectedInventoryItemContainer);
-        Debug.Log("New selectedInventoryItemObj instantiated: " + selectedInventoryItemObj.name);
 
         isSuccessText.text = "";
         PopulateItemPrefab(selectedInventoryItemObj, item);
@@ -189,13 +187,10 @@ public class UpgraderManager : MonoBehaviour
 
         foreach (Transform child in selectedUpgradeItemContainer.transform)
         {
-            Debug.Log("Destroying previous selectedUpgradeItemObj");
             DestroyImmediate(child.gameObject);
         }
 
-
         selectedUpgradeItemObj = Instantiate(selectedUpgraderItemPrefab, selectedUpgradeItemContainer);
-        Debug.Log("New selectedUpgradeItemObj instantiated: " + selectedUpgradeItemObj.name);
 
         isSuccessText.text = "";
         PopulateItemPrefab(selectedUpgradeItemObj, item);
@@ -222,11 +217,6 @@ public class UpgraderManager : MonoBehaviour
         {
             ItemData randomItem = validItems[UnityEngine.Random.Range(0, validItems.Count)];
             SelectUpgradeItem(randomItem);
-            Debug.Log($"Randomly selected upgrade item: {randomItem.Name} with price: {randomItem.Price}");
-        }
-        else
-        {
-            Debug.Log("No valid items found within the specified range.");
         }
     }
 
@@ -271,13 +261,11 @@ public class UpgraderManager : MonoBehaviour
             InventoryManager.Instance.AddItemToInventory(selectedUpgradeItem);
             InventoryManager.Instance.RemoveItemFromInventory(selectedInventoryItem);
             isSuccessText.text = "Upgrade Successful!";
-            Debug.Log("Upgrade Successful!");
         }
         else
         {
             InventoryManager.Instance.RemoveItemFromInventory(selectedInventoryItem);
             isSuccessText.text = "Upgrade Failed!";
-            Debug.Log("Upgrade Failed!");
         }
 
         LoadInventoryItems();
@@ -301,7 +289,6 @@ public class UpgraderManager : MonoBehaviour
         bool ascending = ascendingToggle.isOn;
 
         allItems = SortItemsByCriteria(sortCriteria, ascending);
-        Debug.Log($"Sorted {allItems.Count} items by {sortCriteria}.");
 
         UpdateCurrentTab();
     }

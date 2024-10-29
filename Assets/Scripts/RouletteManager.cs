@@ -4,8 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
 using TMPro;
-using Mono.Cecil.Cil;
-using NUnit.Framework;
 
 public class RouletteManager : MonoBehaviour
 {
@@ -86,7 +84,6 @@ public class RouletteManager : MonoBehaviour
         selectedPlayerItems.Add(item);
         totalPlayerValue += item.Price;
         selectedPlayerItemsTotalValue.text = $"Total Value: {totalPlayerValue:F2}";
-        Debug.Log($"{item.Name} added to selection. Total value: {totalPlayerValue:F2}");
     }
 
     public void RemoveItemFromSelection(ItemData item)
@@ -95,7 +92,6 @@ public class RouletteManager : MonoBehaviour
         {
             totalPlayerValue -= item.Price;
             selectedPlayerItemsTotalValue.text = $"Total Value: {totalPlayerValue:F2}";
-            Debug.Log($"{item.Name} removed from selection. Total value: {totalPlayerValue:F2}");
         }
     }
 
@@ -332,7 +328,6 @@ public class RouletteManager : MonoBehaviour
             allItems = Resources.LoadAll<ItemData>("Items").ToList();
         }
 
-        // Adjust price variance to a maximum of 30% of targetValue or a capped limit (e.g., 5)
         float maxVariance = 5.0f;
         float priceVariance = Mathf.Min(targetValue * 0.3f, maxVariance);
         
@@ -340,12 +335,11 @@ public class RouletteManager : MonoBehaviour
             item.Price >= targetValue - priceVariance && 
             item.Price <= targetValue + priceVariance).ToList();
 
-        // Fallback to select items closer to targetValue if no items within the refined range
         if (eligibleItems.Count == 0)
         {
             eligibleItems = allItems
-                .OrderBy(item => Mathf.Abs(item.Price - targetValue)) // Order by closest price to targetValue
-                .Take(10) // Limit the selection to the 10 closest items
+                .OrderBy(item => Mathf.Abs(item.Price - targetValue))
+                .Take(10)
                 .ToList();
         }
         return eligibleItems[Random.Range(0, eligibleItems.Count)];

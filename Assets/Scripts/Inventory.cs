@@ -86,10 +86,6 @@ public class InventoryScreen : MonoBehaviour
             currentPage++;
             DisplayCurrentPage();
         }
-        else
-        {
-            Debug.Log("Reached the last page.");
-        }
     }
 
     public void PreviousPage()
@@ -99,16 +95,11 @@ public class InventoryScreen : MonoBehaviour
             currentPage--;
             DisplayCurrentPage();
         }
-        else
-        {
-            Debug.Log("Already at the first page.");
-        }
     }
 
     public void DisplayTotalValue()
     {
         float totalValue = InventoryManager.Instance.CalculateInventoryValue();
-        Debug.Log("Total Inventory Value: " + totalValue);
 
         if (totalValueText != null)
         {

@@ -121,7 +121,6 @@ public class MarketManager : MonoBehaviour
                 {
                     float previousPrice = item.Price;
                     ApplyFluctuation(item);
-                    Debug.Log($"[Real-Time Fluctuation] Item: {item.Name}, Previous Price: {previousPrice:F2}, New Price: {item.Price:F2}");
                 }
             }
 
@@ -351,10 +350,7 @@ public class MarketManager : MonoBehaviour
                 float newPrice = item.Price * (1 + randomFluctuation);
 
                 item.Price = Mathf.Clamp(newPrice, item.BasePrice * 0.5f, item.BasePrice * 2f);
-                Debug.Log($"[Fluctuation Event] Item: {item.Name}, Previous Price: {previousPrice:F2}, New Price: {item.Price:F2}, Fluctuation: {randomFluctuation:P}");
             }
-
-            Debug.Log("Market event: Selected items fluctuated.");
             UpdateCurrentTab();
         }
     }

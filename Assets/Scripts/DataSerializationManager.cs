@@ -39,7 +39,6 @@ public class DataSerializationManager : MonoBehaviour
         {
             bf.Serialize(file, items);
         }
-        Debug.Log($"Saving {items.Count} items to {path}");
     }
 
     public List<SerializableItemData> LoadGameData()
@@ -51,17 +50,12 @@ public class DataSerializationManager : MonoBehaviour
             using (FileStream file = File.Open(path, FileMode.Open))
             {
                 List<SerializableItemData> items = (List<SerializableItemData>)bf.Deserialize(file);
-                foreach (var item in items)
-                {
-                    Debug.Log($"Loaded SerializableItemData: ID = {item.ID}, Name = {item.Name}");
-                }
-                Debug.Log("Game data loaded successfully from " + path);
+
                 return items;
             }
         }
         else
         {
-            Debug.LogWarning("Save file not found at " + path);
             return new List<SerializableItemData>();
         }
     }

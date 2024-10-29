@@ -56,7 +56,6 @@ public class CrashManager : MonoBehaviour
             ResetGame();
 
             crashPoint = GenerateBiasedCrashPoint(1.1f, 20.0f, difficultyBias);
-            Debug.Log("Crash Point: " + crashPoint);
             isGameRunning = true;
             cashOutButton.interactable = true;
             startGameButton.interactable = false;
