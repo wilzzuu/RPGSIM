@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class UpgraderItem : MonoBehaviour
+public class RouletteInventoryItem : MonoBehaviour
 {
     public Image itemImage;
     public Image rarityImage;
@@ -10,9 +10,11 @@ public class UpgraderItem : MonoBehaviour
     public TextMeshProUGUI priceText;
     public Button chooseButton;
 
+    public TextMeshProUGUI buttonText;
+
     private ItemData itemData;
 
-    public void Setup(ItemData item, bool isInventoryItem)
+    public void Setup(ItemData item, bool isItemSelected)
     {
         itemData = item;
         
@@ -21,15 +23,17 @@ public class UpgraderItem : MonoBehaviour
         nameText.text = itemData.Name;
         priceText.text = $"{itemData.Price:0.00}";
 
-        if (isInventoryItem)
+        if (!isItemSelected)
         {
             chooseButton.onClick.RemoveAllListeners();
-            chooseButton.onClick.AddListener(() => UpgraderManager.Instance.SelectInventoryItem(itemData));
+            chooseButton.onClick.AddListener(() => RouletteManager.Instance.AddItemToSelection(itemData));
+            buttonText.text = "Select";
         }
         else
         {
             chooseButton.onClick.RemoveAllListeners();
-            chooseButton.onClick.AddListener(() => UpgraderManager.Instance.SelectUpgradeItem(itemData));
+            chooseButton.onClick.AddListener(() => RouletteManager.Instance.RemoveItemFromSelection(itemData));
+            buttonText.text = "Unselect";
         }
     }
 }

@@ -1,15 +1,12 @@
 using System.Collections.Generic;
-using System.Collections;
-using System;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using System.Threading;
 
 public class UpgraderManager : MonoBehaviour
 {
-    public static UpgraderManager instance { get; private set; }
+    public static UpgraderManager Instance { get; private set; }
     
     public Transform inventoryCatalogGrid;
     public Transform upgradeCatalogGrid;
@@ -58,7 +55,7 @@ public class UpgraderManager : MonoBehaviour
 
     void Awake()
     {
-        if (instance == null) instance = this;
+        if (Instance == null) Instance = this;
         else Destroy(gameObject);
     }
 
