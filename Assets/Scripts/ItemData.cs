@@ -17,5 +17,6 @@ public class ItemData : ScriptableObject
     private void OnEnable()
     {
         DemandScore = 0;
+        Price = BasePrice;
     }
 }

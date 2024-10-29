@@ -29,6 +29,8 @@ public class MarketManager : MonoBehaviour
 
     private List<ItemData> allItems = new List<ItemData>();
     private List<ItemData> inventoryItems = new List<ItemData>();
+    private Dictionary<ItemData, MarketplaceItem> marketplaceItems = new Dictionary<ItemData, MarketplaceItem>();
+
     private bool isBuyingTabActive = false;
 
     private int itemsLoaded = 0;
@@ -201,12 +203,13 @@ public class MarketManager : MonoBehaviour
                 Destroy(child.gameObject);
             }
         }
-
+        
         for (int i = 0; i < displayedItems.Count; i++)
         {
             GameObject itemObj = Instantiate(marketItemPrefab, currentCatalogGrid);
             MarketplaceItem marketplaceItem = itemObj.GetComponent<MarketplaceItem>();
             marketplaceItem.Setup(displayedItems[i], isBuyingTabActive);
+            marketplaceItems[displayedItems[i]] = marketplaceItem;
         }
     }
 
@@ -231,20 +234,17 @@ public class MarketManager : MonoBehaviour
     public void SortItems()
     {
         allItems = new List<ItemData>(allItems);
-
         string sortCriteria = sortDropdown.options[sortDropdown.value].text;
         bool ascending = ascendingToggle.isOn;
 
         allItems = SortItemsByCriteria(sortCriteria, ascending);
         Debug.Log($"Sorted {allItems.Count} items by {sortCriteria}.");
-
         UpdateCurrentTab();
     }
     public void SearchItems()
     {
         string query = searchInput.text.ToLower();
 
-        // Check if the search query is empty; if so, display all items
         if (string.IsNullOrWhiteSpace(query))
         {
             LoadAllGameItems();
@@ -252,7 +252,7 @@ public class MarketManager : MonoBehaviour
         }
         else
         {
-            allItems = allItems.Where(item =>
+            allItems = (isBuyingTabActive ? allItems : inventoryItems).Where(item =>
                 item.Name.ToLower().Contains(query) ||
                 item.ID.ToString().Contains(query)).ToList();
         }
@@ -297,6 +297,7 @@ public class MarketManager : MonoBehaviour
         {
             PlayerManager.Instance.DeductCurrency(purchasePrice);
             InventoryManager.Instance.AddItemToInventory(item);
+            itemsLoaded = 0;
             AdjustItemPrice(item, 1);
         }
         else
@@ -313,6 +314,7 @@ public class MarketManager : MonoBehaviour
             InventoryManager.Instance.RemoveItemFromInventory(item);
             PlayerManager.Instance.AddCurrency(sellingPrice);
             Destroy(itemPrefab);
+            itemsLoaded = 0;
             AdjustItemPrice(item, -1);
         }
         else
@@ -325,6 +327,10 @@ public class MarketManager : MonoBehaviour
     {
         item.DemandScore += change;
         item.Price = Mathf.Clamp(item.BasePrice * (1 + item.DemandScore * fluctuationIntensity), item.BasePrice * 0.75f, item.BasePrice * 1.5f);
+        if (marketplaceItems.TryGetValue(item, out MarketplaceItem marketplaceItem))
+        {
+            marketplaceItem.UpdatePrice(isBuyingTabActive);
+        }
     }
 
     private IEnumerator MarketFluctuationCoroutine()
