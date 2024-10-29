@@ -14,9 +14,14 @@ public class ItemData : ScriptableObject
     public string Item;
     public string Style;
 
+    public float LastActivityTime;
+    public const float DemandDecayInterval = 300f;
+    public const float DecayRate = 0.1f;
+
     private void OnEnable()
     {
         DemandScore = 0;
         Price = BasePrice;
+        LastActivityTime = Time.time;
     }
 }

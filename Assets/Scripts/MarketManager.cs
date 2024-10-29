@@ -90,6 +90,7 @@ public class MarketManager : MonoBehaviour
         LoadLastUpdateTimestamp();
         ApplyRealTimeFluctuations();
         StartCoroutine(MarketFluctuationCoroutine());
+        StartCoroutine(DemandScoreDecayCoroutine());
     }
 
     private void UpdateCurrentTab()
@@ -297,8 +298,9 @@ public class MarketManager : MonoBehaviour
         {
             PlayerManager.Instance.DeductCurrency(purchasePrice);
             InventoryManager.Instance.AddItemToInventory(item);
-            itemsLoaded = 0;
             AdjustItemPrice(item, 1);
+
+            item.LastActivityTime = Time.time;
         }
         else
         {
@@ -314,8 +316,9 @@ public class MarketManager : MonoBehaviour
             InventoryManager.Instance.RemoveItemFromInventory(item);
             PlayerManager.Instance.AddCurrency(sellingPrice);
             Destroy(itemPrefab);
-            itemsLoaded = 0;
             AdjustItemPrice(item, -1);
+
+            item.LastActivityTime = Time.time;
         }
         else
         {
@@ -354,7 +357,7 @@ public class MarketManager : MonoBehaviour
             }
 
             Debug.Log("Market event: Selected items fluctuated.");
-            UpdateCurrentTab();  // Refresh the displayed items to reflect updated prices
+            UpdateCurrentTab();
         }
     }
 
@@ -374,6 +377,34 @@ public class MarketManager : MonoBehaviour
         if (item.Price < 0.01f)
         {
             item.Price = item.BasePrice; // Reset to base price if fluctuation is too low
+        }
+    }
+
+    private IEnumerator DemandScoreDecayCoroutine()
+    {
+        while (true)
+        {
+            foreach (var item in allItems)
+            {
+                if (Time.time - item.LastActivityTime >= ItemData.DemandDecayInterval && item.DemandScore != 0)
+                {
+                    // Gradually decrease DemandScore
+                    item.DemandScore -= Mathf.CeilToInt(item.DemandScore * ItemData.DecayRate);
+                    
+                    if (item.DemandScore < 0) item.DemandScore = 0;
+
+                    // Update the item’s price based on new DemandScore
+                    item.Price = Mathf.Clamp(item.BasePrice * (1 + item.DemandScore * fluctuationIntensity), item.BasePrice * 0.75f, item.BasePrice * 1.5f);
+
+                    // Update the UI price if the item is displayed
+                    if (marketplaceItems.TryGetValue(item, out MarketplaceItem marketplaceItem))
+                    {
+                        marketplaceItem.UpdatePrice(isBuyingTabActive);
+                    }
+                }
+            }
+            
+            yield return new WaitForSeconds(ItemData.DemandDecayInterval);
         }
     }
 }
