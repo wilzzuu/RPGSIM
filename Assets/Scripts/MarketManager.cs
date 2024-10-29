@@ -342,7 +342,6 @@ public class MarketManager : MonoBehaviour
         {
             yield return new WaitForSeconds(marketEventInterval);
 
-            // Randomly select items to fluctuate
             List<ItemData> itemsForFluctuation = allItems.OrderBy(x => UnityEngine.Random.value).Take(itemsToFluctuate).ToList();
 
             foreach (ItemData item in itemsForFluctuation)
@@ -351,7 +350,6 @@ public class MarketManager : MonoBehaviour
                 float randomFluctuation = UnityEngine.Random.Range(-fluctuationIntensity, fluctuationIntensity);
                 float newPrice = item.Price * (1 + randomFluctuation);
 
-                // Clamp to a reasonable range around base price (50% - 200%)
                 item.Price = Mathf.Clamp(newPrice, item.BasePrice * 0.5f, item.BasePrice * 2f);
                 Debug.Log($"[Fluctuation Event] Item: {item.Name}, Previous Price: {previousPrice:F2}, New Price: {item.Price:F2}, Fluctuation: {randomFluctuation:P}");
             }
@@ -376,7 +374,7 @@ public class MarketManager : MonoBehaviour
 
         if (item.Price < 0.01f)
         {
-            item.Price = item.BasePrice; // Reset to base price if fluctuation is too low
+            item.Price = item.BasePrice;
         }
     }
 
@@ -388,15 +386,12 @@ public class MarketManager : MonoBehaviour
             {
                 if (Time.time - item.LastActivityTime >= ItemData.DemandDecayInterval && item.DemandScore != 0)
                 {
-                    // Gradually decrease DemandScore
                     item.DemandScore -= Mathf.CeilToInt(item.DemandScore * ItemData.DecayRate);
                     
                     if (item.DemandScore < 0) item.DemandScore = 0;
 
-                    // Update the item’s price based on new DemandScore
                     item.Price = Mathf.Clamp(item.BasePrice * (1 + item.DemandScore * fluctuationIntensity), item.BasePrice * 0.75f, item.BasePrice * 1.5f);
 
-                    // Update the UI price if the item is displayed
                     if (marketplaceItems.TryGetValue(item, out MarketplaceItem marketplaceItem))
                     {
                         marketplaceItem.UpdatePrice(isBuyingTabActive);

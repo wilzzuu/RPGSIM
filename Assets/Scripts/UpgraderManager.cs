@@ -137,7 +137,6 @@ public class UpgraderManager : MonoBehaviour
         }
     }
 
-    // Load inventory items
     void LoadAllGameItems()
     {
         allItems = Resources.LoadAll<ItemData>("Items").ToList();
@@ -225,7 +224,7 @@ public class UpgraderManager : MonoBehaviour
         if (validItems.Count > 0)
         {
             ItemData randomItem = validItems[UnityEngine.Random.Range(0, validItems.Count)];
-            SelectUpgradeItem(randomItem); // Select the random upgrade item
+            SelectUpgradeItem(randomItem);
             Debug.Log($"Randomly selected upgrade item: {randomItem.Name} with price: {randomItem.Price}");
         }
         else
@@ -286,7 +285,6 @@ public class UpgraderManager : MonoBehaviour
 
         LoadInventoryItems();
 
-        // Reset selected items
         selectedInventoryItem = null;
         selectedUpgradeItem = null;
         selectedInventoryItemObj = null;
@@ -314,20 +312,17 @@ public class UpgraderManager : MonoBehaviour
     {
         string query = searchInput.text.ToLower();
 
-        // Check if the search query is empty; if so, display all items
         if (string.IsNullOrWhiteSpace(query))
         {
             allItems = new List<ItemData>(allItems);
         }
         else
         {
-            // Filter items based on the search query
             allItems = allItems.Where(item =>
                 item.Name.ToLower().Contains(query) ||
                 item.ID.ToString().Contains(query)).ToList();
         }
 
-        // Update the current tab to reflect the search results or reset if empty
         UpdateCurrentTab();
     }
 

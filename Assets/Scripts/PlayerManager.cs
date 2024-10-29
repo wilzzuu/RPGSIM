@@ -50,10 +50,9 @@ public class PlayerManager : MonoBehaviour
 
     private IEnumerator InitializePlayerAndInventory()
     {
-        // Wait for InventoryManager to be ready
         while (InventoryManager.Instance == null)
         {
-            yield return null; // Wait for the next frame
+            yield return null;
         }
 
         CheckPlayerSave();
@@ -102,7 +101,6 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
-    // Save player data using binary serialization
     public void SavePlayerData()
     {
         BinaryFormatter bf = new BinaryFormatter();
@@ -115,7 +113,6 @@ public class PlayerManager : MonoBehaviour
         Debug.Log("Player data saved to " + path);
     }
 
-    // Load player data using binary serialization
     public void LoadPlayerData()
     {
         string path = Path.Combine(Application.persistentDataPath, SaveFileName);
@@ -131,7 +128,6 @@ public class PlayerManager : MonoBehaviour
         }
         else
         {
-            // Initialize with a default balance if no save file exists
             player = new Player(2000f);
             Debug.Log("No save file found. Initialized player with default balance.");
         }

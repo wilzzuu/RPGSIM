@@ -4,13 +4,13 @@ using UnityEngine.UI;
 
 public class InventoryScreen : MonoBehaviour
 {
-    public GameObject inventorySlotPrefab; // Prefab for each inventory slot
-    public Transform inventoryGrid; // Grid to hold inventory slots
-    public Text totalValueText; // Text UI element to display the total value (optional)
-    public int itemsPerPage = 112; // Number of items per page
-    private int currentPage = 0; // Track current page number
+    public GameObject inventorySlotPrefab;
+    public Transform inventoryGrid;
+    public Text totalValueText;
+    public int itemsPerPage = 112;
+    private int currentPage = 0;
 
-    private List<ItemData> items = new List<ItemData>(); // List to store inventory items
+    private List<ItemData> items = new List<ItemData>();
 
     void Start()
     {
@@ -20,7 +20,6 @@ public class InventoryScreen : MonoBehaviour
             return;
         }
 
-        // Load items from InventoryManager
         items = InventoryManager.Instance.GetInventoryItems();
         if (items == null || items.Count == 0)
         {
@@ -29,12 +28,11 @@ public class InventoryScreen : MonoBehaviour
         }
 
         DisplayCurrentPage();
-        DisplayTotalValue(); // Display total inventory value (optional)
+        DisplayTotalValue();
     }
 
     void DisplayCurrentPage()
     {
-        // Clear existing items in the grid
         foreach (Transform child in inventoryGrid)
         {
             Destroy(child.gameObject);
@@ -48,7 +46,6 @@ public class InventoryScreen : MonoBehaviour
             GameObject slot = Instantiate(inventorySlotPrefab, inventoryGrid);
             ItemData item = items[i];
 
-            // Find Image components in prefab
             Image itemImage = slot.transform.Find("ItemImage")?.GetComponent<Image>();
             Image rarityImage = slot.transform.Find("RarityImage")?.GetComponent<Image>();
 

@@ -12,7 +12,6 @@ public class UpgraderItem : MonoBehaviour
 
     private ItemData itemData;
 
-    // Setup function to initialize the item details
     public void Setup(ItemData item, bool isInventoryItem)
     {
         itemData = item;

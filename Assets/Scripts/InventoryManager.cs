@@ -18,7 +18,6 @@ public class InventoryManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
 
-            // Load inventory data
             List<SerializableItemData> loadedItems = DataSerializationManager.Instance.LoadGameData();
             inventoryItems = ConvertSerializableItemsToItemData(loadedItems);
             Debug.Log($"Loaded {inventoryItems.Count} items into inventory.");
@@ -29,7 +28,6 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    // Converts SerializableItemData back to ItemData for runtime use
     private List<ItemData> ConvertSerializableItemsToItemData(List<SerializableItemData> serializableItems)
     {
         List<ItemData> items = new List<ItemData>();
@@ -79,7 +77,7 @@ public class InventoryManager : MonoBehaviour
 
     public List<ItemData> GetAllItems()
     {
-        return new List<ItemData>(inventoryItems); // Returns a copy of the list to prevent external modifications
+        return new List<ItemData>(inventoryItems);
     }
 
     public float CalculateInventoryValue()
@@ -108,7 +106,6 @@ public class InventoryManager : MonoBehaviour
         Debug.Log("Inventory cleared.");
     }
 
-    // Save the inventory by converting items to serializable data
     private void SaveInventory()
     {
         List<SerializableItemData> serializableItems = new List<SerializableItemData>();

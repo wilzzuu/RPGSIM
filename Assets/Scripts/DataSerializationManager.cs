@@ -31,7 +31,6 @@ public class DataSerializationManager : MonoBehaviour
         }
     }
 
-    // Save the list of items in binary format
     public void SaveGameData(List<SerializableItemData> items)
     {
         BinaryFormatter bf = new BinaryFormatter();
@@ -43,7 +42,6 @@ public class DataSerializationManager : MonoBehaviour
         Debug.Log($"Saving {items.Count} items to {path}");
     }
 
-    // Load data from file
     public List<SerializableItemData> LoadGameData()
     {
         string path = Path.Combine(Application.persistentDataPath, SaveFileName);
@@ -64,7 +62,7 @@ public class DataSerializationManager : MonoBehaviour
         else
         {
             Debug.LogWarning("Save file not found at " + path);
-            return new List<SerializableItemData>(); // Return an empty list if no save file
+            return new List<SerializableItemData>();
         }
     }
 }
