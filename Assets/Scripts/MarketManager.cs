@@ -238,7 +238,6 @@ public class MarketManager : MonoBehaviour
         bool ascending = ascendingToggle.isOn;
 
         allItems = SortItemsByCriteria(sortCriteria, ascending);
-        Debug.Log($"Sorted {allItems.Count} items by {sortCriteria}.");
         UpdateCurrentTab();
     }
     public void SearchItems()
@@ -303,7 +302,7 @@ public class MarketManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Not enough balance to purchase this item.");
+            Debug.LogWarning("Not enough balance to purchase this item.");
         }
     }
 
@@ -321,7 +320,7 @@ public class MarketManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Item not available in inventory for sale.");
+            Debug.LogWarning("Item not available in inventory for sale.");
         }
     }
 

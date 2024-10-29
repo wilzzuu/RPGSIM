@@ -13,6 +13,7 @@ public class RouletteManager : MonoBehaviour
     public GameObject itemSelectorView, gameView;
     public Transform reelContainer;
     public Transform inventoryCatalogGrid;
+    public Transform selectedItemsGrid;
     public TextMeshProUGUI selectedPlayerItemsTotalValue, chanceOfWinningText, totalValueText, outcomeText;
     public Button startGameButton, confirmSelectionButton, replayButton, backButton;
 
@@ -32,9 +33,10 @@ public class RouletteManager : MonoBehaviour
     private bool isScrolling = false;
     private Vector3 initialReelPosition;
 
-    private float totalPlayerValue = 0;
-    private float totalGameValue = 0;
-    private float winChance = 0;
+    private float accumulatedBotValue = 0f;
+    private float totalPlayerValue = 0f;
+    private float totalGameValue = 0f;
+    private float winChance = 0f;
     public UIManager uiManager;
 
     void Awake()
@@ -84,6 +86,9 @@ public class RouletteManager : MonoBehaviour
         selectedPlayerItems.Add(item);
         totalPlayerValue += item.Price;
         selectedPlayerItemsTotalValue.text = $"Total Value: {totalPlayerValue:F2}";
+
+        GameObject itemObj = Instantiate(inventoryItemPrefab, selectedItemsGrid);
+        itemObj.GetComponent<RouletteInventoryItem>().Setup(item, selectedPlayerItems.Contains(item));
     }
 
     public void RemoveItemFromSelection(ItemData item)
@@ -251,26 +256,14 @@ public class RouletteManager : MonoBehaviour
     void UpdateUI()
     {
         float totalPlayerItemValue = selectedPlayerItems.Sum(item => item.Price);
-
-        float totalUniqueBotValue = reelItems
-            .Where(item => !item.OwnerIsPlayer)
-            .Select(item => item.Item)
-            .Distinct()
-            .Sum(item => item.Price);
+        float totalUniqueBotValue = accumulatedBotValue;
 
         totalGameValue = totalPlayerItemValue + totalUniqueBotValue;
 
         int playerItemCount = selectedPlayerItems.Count;
         int reelItemCount = reelItems.Count;
 
-        if (reelItemCount > 0)
-        {
-            winChance = (float)playerItemCount / reelItemCount * 100f;
-        }
-        else
-        {
-            winChance = 0f;
-        }
+        winChance = reelItemCount > 0 ? (float)playerItemCount / reelItemCount * 100f : 0f;
 
         chanceOfWinningText.text = $"Win Chance: {winChance:F2}%";
         totalValueText.text = $"Total Game Value: {totalGameValue:F2}";
@@ -281,6 +274,7 @@ public class RouletteManager : MonoBehaviour
     {
         reelItems.Clear();
         itemOwnership.Clear();
+        accumulatedBotValue = 0f;
 
         foreach (var playerItem in selectedPlayerItems)
         {
@@ -291,12 +285,14 @@ public class RouletteManager : MonoBehaviour
         int playerItemCount = selectedPlayerItems.Count;
         int botItemsCount = Mathf.Clamp(playerItemCount * 5, 1, numberOfReelItems - playerItemCount);
 
-        float botItemTargetValue = totalPlayerValue + Random.Range(-totalPlayerValue * 1f, totalPlayerValue * 1f);
+        float scalingFactor = (float)botItemsCount / playerItemCount;
+        float botItemTargetValue = totalPlayerValue * scalingFactor;
         for (int i = 0; i < botItemsCount; i++)
         {
             var botItem = GenerateRandomBotItem(botItemTargetValue / botItemsCount);
             reelItems.Add(new RouletteItem { Item = botItem, OwnerIsPlayer = false });
             itemOwnership[botItem] = false;
+            accumulatedBotValue += botItem.Price;
         }
 
         int currentReelSize = reelItems.Count;

@@ -87,7 +87,6 @@ public class CrashManager : MonoBehaviour
         isGameRunning = false;
         cashOutButton.interactable = false;
         startGameButton.interactable = true;
-        Debug.Log("CRASH! Player lost the bet.");
         outcomeText.text = "You crashed..";
         UpdateUI();
         uiManager.UnlockUI();
@@ -99,7 +98,6 @@ public class CrashManager : MonoBehaviour
         {
             float winnings = betAmount * currentMultiplier;
             PlayerManager.Instance.AddCurrency(winnings);
-            Debug.Log($"Player cashed out at {currentMultiplier:F2}x and won {winnings:F2}!");
             outcomeText.text = $"You cashed out {winnings:F2}";
             hasCashedOut = true;
             EndGame();
