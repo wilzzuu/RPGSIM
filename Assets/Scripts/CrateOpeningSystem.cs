@@ -61,16 +61,11 @@ public class CrateOpening : MonoBehaviour
     {
         selectedCrateData = chosenCrate;
 
-        if (selectedCrateData != null && selectedCrateData.Price <= PlayerManager.Instance.GetPlayerBalance())
-        {
-            openCrateButton.interactable = true;
-        }
-        else
-        {
-            
-            openCrateButton.interactable = false;
-            return;
-        }
+        if (selectedCrateData != null) openCrateButton.interactable = true;
+        else openCrateButton.interactable = false;
+
+        if (selectedCrateData.Price <= PlayerManager.Instance.GetPlayerBalance()) openCrateButton.interactable = true;
+        else openCrateButton.interactable = false;
         
         DisplayCrateItems(selectedCrateData);
 
