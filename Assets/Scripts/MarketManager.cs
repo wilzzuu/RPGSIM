@@ -40,6 +40,7 @@ public class MarketManager : MonoBehaviour
     private int itemsToFluctuate = 20;
     private float marketEventInterval = 120f;
     private DateTime lastUpdateTimestamp;
+    public float interactionCooldown = 0.2f;
     private const string LastUpdateKey = "LastMarketUpdate";
 
     private static readonly Dictionary<string, int> rarityOrder = new Dictionary<string, int>
@@ -291,6 +292,12 @@ public class MarketManager : MonoBehaviour
 
     public void BuyItem(ItemData item)
     {
+        if (Time.time - item.LastActivityTime < interactionCooldown)
+        {
+            Debug.LogWarning("Buy button is being clicked too fast.");
+            return;
+        }
+
         float purchasePrice = item.Price * 1.15f;
         if (PlayerManager.Instance.GetPlayerBalance() >= purchasePrice)
         {
@@ -308,6 +315,12 @@ public class MarketManager : MonoBehaviour
 
     public void SellItem(ItemData item, GameObject itemPrefab)
     {
+        if (Time.time - item.LastActivityTime < interactionCooldown)
+        {
+            Debug.LogWarning("Sell button is being clicked too fast.");
+            return;
+        }
+
         float sellingPrice = item.Price * 0.85f;
         if (InventoryManager.Instance.HasItem(item))
         {

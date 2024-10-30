@@ -15,11 +15,11 @@ public class CrashManager : MonoBehaviour
     private float accelerationFactor = 0.05f;
     private float elapsedTime = 0f;
     private float crashPoint;
+    private float difficultyBias = 2.15f;
     private bool isGameRunning = false;
     private float betAmount = 0f;
     private bool hasCashedOut = false;
 
-    private float difficultyBias = 2.15f;
 
     public UIManager uiManager;
 
