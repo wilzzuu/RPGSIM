@@ -83,7 +83,7 @@ public class RouletteManager : MonoBehaviour
             Debug.LogWarning("Cannot select more than 10 items or duplicate items.");
             return;
         }
-        
+
         selectedPlayerItems.Add(item);
         totalPlayerValue += item.Price;
         selectedPlayerItemsTotalValue.text = $"Total Value: {totalPlayerValue:F2}";
@@ -100,15 +100,6 @@ public class RouletteManager : MonoBehaviour
         }
 
         UpdateSelectedItemsGrid();
-    }
-
-    private void UpdateInventoryUI()
-    {
-        foreach (Transform child in inventoryCatalogGrid)
-        {
-            var rouletteItem = child.GetComponent<RouletteInventoryItem>();
-            rouletteItem.Setup(rouletteItem.ItemData, selectedPlayerItems.Contains(rouletteItem.ItemData));           
-        }
     }
 
     private void UpdateSelectedItemsGrid()
@@ -412,6 +403,7 @@ public class RouletteManager : MonoBehaviour
         startGameButton.interactable = true;
         backButton.interactable = true;
         itemSelectorView.SetActive(true);
+        UpdateSelectedItemsGrid();
         PopulateInventoryCatalog();
         selectedPlayerItemsTotalValue.text = "Total Value: 0";
         gameView.SetActive(false);
