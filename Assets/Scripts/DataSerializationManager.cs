@@ -6,6 +6,19 @@ using UnityEngine;
 public class DataSerializationManager : MonoBehaviour
 {
     public static DataSerializationManager Instance { get; private set; }
+
+    private string SaveFilePath
+    {
+        get
+        {
+
+            #if UNITY_EDITOR
+                return Path.Combine(Application.persistentDataPath, "EditorData");
+            #else
+                return Path.Combine(Application.persistentDataPath, "SaveData");
+            #endif
+        }
+    }
     private string SaveFileName
     {
         get
@@ -34,7 +47,7 @@ public class DataSerializationManager : MonoBehaviour
     public void SaveGameData(List<SerializableItemData> items)
     {
         BinaryFormatter bf = new BinaryFormatter();
-        string path = Path.Combine(Application.persistentDataPath, SaveFileName);
+        string path = Path.Combine(SaveFilePath, SaveFileName);
         using (FileStream file = File.Create(path))
         {
             bf.Serialize(file, items);
@@ -43,7 +56,7 @@ public class DataSerializationManager : MonoBehaviour
 
     public List<SerializableItemData> LoadGameData()
     {
-        string path = Path.Combine(Application.persistentDataPath, SaveFileName);
+        string path = Path.Combine(SaveFilePath, SaveFileName);
         if (File.Exists(path))
         {
             BinaryFormatter bf = new BinaryFormatter();

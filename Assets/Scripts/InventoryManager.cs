@@ -6,6 +6,19 @@ public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance { get; private set; }
     private List<ItemData> inventoryItems = new List<ItemData>();
+
+    private string SaveFilePath
+    {
+        get
+        {
+
+            #if UNITY_EDITOR
+                return Path.Combine(Application.persistentDataPath, "EditorData");
+            #else
+                return Path.Combine(Application.persistentDataPath, "SaveData");
+            #endif
+        }
+    }
     private string SaveFileName
     {
         get
@@ -100,7 +113,7 @@ public class InventoryManager : MonoBehaviour
     public void ClearInventory()
     {
         inventoryItems.Clear();
-        string path = Path.Combine(Application.persistentDataPath, "SaveData/" + SaveFileName);
+        string path = Path.Combine(SaveFilePath, SaveFileName);
 
         if (File.Exists(path))
         {

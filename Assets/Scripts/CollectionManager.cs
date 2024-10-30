@@ -13,6 +13,19 @@ public class CollectionManager : MonoBehaviour
 
     private List<ItemData> allItems = new List<ItemData>();
     private HashSet<string> collectedItemIDs = new HashSet<string>();
+
+    private string SaveFilePath
+    {
+        get
+        {
+
+            #if UNITY_EDITOR
+                return Path.Combine(Application.persistentDataPath, "EditorData");
+            #else
+                return Path.Combine(Application.persistentDataPath, "SaveData");
+            #endif
+        }
+    }
     private string SaveFileName
     {
         get
@@ -51,7 +64,7 @@ public class CollectionManager : MonoBehaviour
     private void SaveCollection()
     {   
         BinaryFormatter bf = new BinaryFormatter();
-        string path = Path.Combine(Application.persistentDataPath, "SaveData/" + SaveFileName);
+        string path = Path.Combine(SaveFilePath, SaveFileName);
         using (FileStream file = File.Create(path))
         {
             bf.Serialize(file, collectedItemIDs);
@@ -60,7 +73,7 @@ public class CollectionManager : MonoBehaviour
 
     private void LoadCollection()
     {
-        string path = Path.Combine(Application.persistentDataPath, "SaveData/" + SaveFileName);
+        string path = Path.Combine(SaveFilePath, SaveFileName);
         if (File.Exists(path))
         {
             using (FileStream file = File.Open(path, FileMode.Open))
@@ -81,7 +94,7 @@ public class CollectionManager : MonoBehaviour
     public void ClearCollection()
     {
         collectedItemIDs.Clear();
-        string path = Path.Combine(Application.persistentDataPath, "SaveData/" + SaveFileName);
+        string path = Path.Combine(SaveFilePath, SaveFileName);
 
         if (File.Exists(path))
         {

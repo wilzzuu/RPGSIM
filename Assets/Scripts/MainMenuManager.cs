@@ -5,11 +5,19 @@ public class MainMenuManager : MonoBehaviour
 {
     void Start()
     {
-        string path = Path.Combine(Application.persistentDataPath, "SaveData");
+        string saveDataDirectory = Path.Combine(Application.persistentDataPath, "SaveData");
+        string editorDataDirectory = Path.Combine(Application.persistentDataPath, "EditorData");
 
-        if (!Directory.Exists(path))
+        if (!Directory.Exists(saveDataDirectory))
         {
-            Directory.CreateDirectory(path);
+            Directory.CreateDirectory(saveDataDirectory);
         }
+
+        #if UNITY_EDITOR
+            if (!Directory.Exists(editorDataDirectory))
+            {
+                Directory.CreateDirectory(editorDataDirectory);
+            }
+        #endif
     }
 }
