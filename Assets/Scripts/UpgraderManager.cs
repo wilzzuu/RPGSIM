@@ -259,6 +259,7 @@ public class UpgraderManager : MonoBehaviour
         if (chance <= successProbability)
         {
             InventoryManager.Instance.AddItemToInventory(selectedUpgradeItem);
+            CollectionManager.Instance.AddItemToCollection(selectedUpgradeItem);
             InventoryManager.Instance.RemoveItemFromInventory(selectedInventoryItem);
             isSuccessText.text = "Upgrade Successful!";
         }

@@ -243,6 +243,7 @@ public class RouletteManager : MonoBehaviour
             foreach (var uniqueItem in uniqueItemsToAdd)
             {
                 InventoryManager.Instance.AddItemToInventory(uniqueItem);
+                CollectionManager.Instance.AddItemToCollection(uniqueItem);
             }
             outcomeText.text = "You won!";
         }

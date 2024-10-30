@@ -201,11 +201,13 @@ public class CrateOpening : MonoBehaviour
         isScrolling = false;
         selectCrateButton.interactable = true;
         uiManager.UnlockUI();
+        
     }
 
     private void StopReel(ItemData openedItem)
     {
         InventoryManager.Instance.AddItemToInventory(openedItem);
+        CollectionManager.Instance.AddItemToCollection(openedItem);
         if (PlayerManager.Instance.GetPlayerBalance() < selectedCrateData.Price)
         {
             DisplayCrateSelector(availableCrates);
