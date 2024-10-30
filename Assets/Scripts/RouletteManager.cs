@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
 using TMPro;
+using Unity.Mathematics;
 
 public class RouletteManager : MonoBehaviour
 {
@@ -87,8 +88,7 @@ public class RouletteManager : MonoBehaviour
         totalPlayerValue += item.Price;
         selectedPlayerItemsTotalValue.text = $"Total Value: {totalPlayerValue:F2}";
 
-        GameObject itemObj = Instantiate(inventoryItemPrefab, selectedItemsGrid);
-        itemObj.GetComponent<RouletteInventoryItem>().Setup(item, selectedPlayerItems.Contains(item));
+        UpdateSelectedItemsGrid();
     }
 
     public void RemoveItemFromSelection(ItemData item)
@@ -97,6 +97,31 @@ public class RouletteManager : MonoBehaviour
         {
             totalPlayerValue -= item.Price;
             selectedPlayerItemsTotalValue.text = $"Total Value: {totalPlayerValue:F2}";
+        }
+
+        UpdateSelectedItemsGrid();
+    }
+
+    private void UpdateInventoryUI()
+    {
+        foreach (Transform child in inventoryCatalogGrid)
+        {
+            var rouletteItem = child.GetComponent<RouletteInventoryItem>();
+            rouletteItem.Setup(rouletteItem.ItemData, selectedPlayerItems.Contains(rouletteItem.ItemData));           
+        }
+    }
+
+    private void UpdateSelectedItemsGrid()
+    {
+        foreach (Transform child in selectedItemsGrid)
+        {
+            Destroy(child.gameObject);
+        }
+
+        foreach (var item in selectedPlayerItems)
+        {
+            GameObject itemObj = Instantiate(inventoryItemPrefab, selectedItemsGrid);
+            itemObj.GetComponent<RouletteInventoryItem>().Setup(item, true);
         }
     }
 
@@ -120,7 +145,7 @@ public class RouletteManager : MonoBehaviour
         float itemWidth = gridLayout.cellSize.x + gridLayout.spacing.x;
         float totalReelWidth = itemWidth * reelItems.Count;
 
-        initialReelPosition = new Vector3(totalReelWidth / 2 - reelContainer.localScale.x / 2, reelContainer.localPosition.y, reelContainer.localPosition.z);
+        initialReelPosition = new Vector3(totalReelWidth / 2 - 800, reelContainer.localPosition.y, reelContainer.localPosition.z);
         reelContainer.localPosition = initialReelPosition;
     }
 
@@ -147,7 +172,7 @@ public class RouletteManager : MonoBehaviour
         }
 
         float totalWeight = reelItems.Sum(i => i.Item.Weight);
-        float randomValue = Random.Range(0, totalWeight);
+        float randomValue = UnityEngine.Random.Range(0, totalWeight);
         float cumulativeWeight = 0f;
 
         foreach (var item in reelItems)
@@ -173,17 +198,18 @@ public class RouletteManager : MonoBehaviour
         float totalReelWidth = itemWidth * reelItems.Count;
         reelTransform.sizeDelta = new Vector2(totalReelWidth, reelTransform.sizeDelta.y);
 
-        winningItemIndex = Random.Range(reelItems.Count / 2, reelItems.Count - 4);
+        winningItemIndex = UnityEngine.Random.Range(reelItems.Count / 2, reelItems.Count - 4);
+        reelItems[winningItemIndex] = winningItem;
 
         for (int i = 0; i < reelItems.Count; i++)
         {
-            RouletteItem itemData = (i == winningItemIndex) ? winningItem : GetRandomItemByChance();
+            var itemData = reelItems[i];
             GameObject reelItem = Instantiate(rouletteItemPrefab, reelContainer);
-            SetUpReelItem(reelItem, itemData.Item, itemOwnership[itemData.Item]);
+            SetUpReelItem(reelItem, itemData.Item, itemData.OwnerIsPlayer);
         }
 
-        randomOffset = Random.Range(0f, 160f);
-        float targetPosition = initialReelPosition.x - (itemWidth * winningItemIndex) - randomOffset;
+        randomOffset = UnityEngine.Random.Range(0f, 256f);
+        float targetPosition = initialReelPosition.x - (itemWidth * winningItemIndex) + 800 - randomOffset;
         float elapsed = 0f;
 
         while (elapsed < easingDuration)
@@ -210,6 +236,10 @@ public class RouletteManager : MonoBehaviour
     private void EvaluateOutcome(RouletteItem winningItem)
     {
         int winningIndex = reelItems.FindIndex(item => item.Item == winningItem.Item);
+
+        Debug.Log("winningItem.Item.ID: " + winningItem.Item.ID);
+        Debug.Log($"Winning item owner: {(winningItem.OwnerIsPlayer ? "Player":"Bot" )}");
+
         if (itemOwnership[winningItem.Item])
         {
             HashSet<ItemData> uniqueItemsToAdd = new HashSet<ItemData>();
@@ -272,13 +302,16 @@ public class RouletteManager : MonoBehaviour
 
     void GenerateBotsAndPopulateReel()
     {
+        // Clear existing items
         reelItems.Clear();
         itemOwnership.Clear();
         accumulatedBotValue = 0f;
 
+        // Step 1: Add each player item to the reel exactly once
         foreach (var playerItem in selectedPlayerItems)
         {
-            reelItems.Add(new RouletteItem { Item = playerItem, OwnerIsPlayer = true });
+            var playerRouletteItem = new RouletteItem { Item = playerItem, OwnerIsPlayer = true };
+            reelItems.Add(playerRouletteItem);
             itemOwnership[playerItem] = true;
         }
 
@@ -287,37 +320,53 @@ public class RouletteManager : MonoBehaviour
 
         float scalingFactor = (float)botItemsCount / playerItemCount;
         float botItemTargetValue = totalPlayerValue * scalingFactor;
+        HashSet<ItemData> usedBotItems = new HashSet<ItemData>();
+
+        // Step 2: Generate unique bot items and add them to the reel
         for (int i = 0; i < botItemsCount; i++)
         {
-            var botItem = GenerateRandomBotItem(botItemTargetValue / botItemsCount);
-            reelItems.Add(new RouletteItem { Item = botItem, OwnerIsPlayer = false });
+            var botItem = GenerateRandomBotItem(botItemTargetValue / botItemsCount, usedBotItems);
+            var botRouletteItem = new RouletteItem { Item = botItem, OwnerIsPlayer = false };
+            reelItems.Add(botRouletteItem);
             itemOwnership[botItem] = false;
             accumulatedBotValue += botItem.Price;
         }
 
-        int currentReelSize = reelItems.Count;
         int targetReelSize = Mathf.Max(numberOfReelItems, 40);
-        while (reelItems.Count < targetReelSize)
+        int currentReelSize = reelItems.Count;
+
+        // Step 3: Duplicate bot items until we reach the target reel size
+        for (int i = 0; reelItems.Count < targetReelSize; i++)
         {
-            reelItems.Add(reelItems[reelItems.Count % currentReelSize]);
+            // Use modulo to repeat bot items if necessary, avoiding modification of player items
+            var botItemToAdd = reelItems[(i % botItemsCount) + playerItemCount];
+            reelItems.Add(new RouletteItem { Item = botItemToAdd.Item, OwnerIsPlayer = botItemToAdd.OwnerIsPlayer });
         }
 
+        // Step 4: Shuffle the entire reel including both player and bot items
         ShuffleReelItems();
+
+        // Step 5: Confirm item counts for testing
+        int actualPlayerItemCount = reelItems.Count(item => item.OwnerIsPlayer);
+        Debug.Log("Expected Player Item Count: " + playerItemCount);
+        Debug.Log("Actual Player Item Count in Reel: " + actualPlayerItemCount);
+
         UpdateUI();
     }
+
 
     void ShuffleReelItems()
     {
         for (int i = 0; i < reelItems.Count; i++)
         {
-            int randomIndex = Random.Range(i, reelItems.Count);
+            int randomIndex = UnityEngine.Random.Range(i, reelItems.Count);
             RouletteItem temp = reelItems[i];
             reelItems[i] = reelItems[randomIndex];
             reelItems[randomIndex] = temp;
         }
     }
 
-    private ItemData GenerateRandomBotItem(float targetValue)
+    private ItemData GenerateRandomBotItem(float targetValue, HashSet<ItemData> usedBotItems)
     {
         if (allItems == null || allItems.Count == 0)
         {
@@ -326,19 +375,24 @@ public class RouletteManager : MonoBehaviour
 
         float maxVariance = 5.0f;
         float priceVariance = Mathf.Min(targetValue * 0.3f, maxVariance);
-        
-        List<ItemData> eligibleItems = allItems.Where(item => 
-            item.Price >= targetValue - priceVariance && 
-            item.Price <= targetValue + priceVariance).ToList();
 
-        if (eligibleItems.Count == 0)
+        List<ItemData> eligibleItems = allItems
+            .Where(item => item.Price >= targetValue - priceVariance && item.Price <= targetValue + priceVariance)
+            .Where(item => !usedBotItems.Contains(item))
+            .ToList();
+
+        if (eligibleItems.Count < 5)
         {
             eligibleItems = allItems
+                .Where(item => !usedBotItems.Contains(item))
                 .OrderBy(item => Mathf.Abs(item.Price - targetValue))
-                .Take(10)
+                .Take(15)
                 .ToList();
         }
-        return eligibleItems[Random.Range(0, eligibleItems.Count)];
+
+        ItemData selectedItem = eligibleItems[UnityEngine.Random.Range(0, eligibleItems.Count)];
+        usedBotItems.Add(selectedItem);
+        return selectedItem;
     }
 
     void RestartGame()

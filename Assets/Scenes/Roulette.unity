@@ -2653,6 +2653,7 @@ MonoBehaviour:
   gameView: {fileID: 1436834795}
   reelContainer: {fileID: 828918089}
   inventoryCatalogGrid: {fileID: 479668228}
+  selectedItemsGrid: {fileID: 695752189}
   selectedPlayerItemsTotalValue: {fileID: 2076696815}
   chanceOfWinningText: {fileID: 2117503941}
   totalValueText: {fileID: 587810006}
