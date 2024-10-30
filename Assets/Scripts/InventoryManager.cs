@@ -6,7 +6,17 @@ public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance { get; private set; }
     private List<ItemData> inventoryItems = new List<ItemData>();
-    private const string SaveFileName = "GameData.dat";
+    private string SaveFileName
+    {
+        get
+        {
+            #if UNITY_EDITOR
+                return "PlayTest_GameData.dat";
+            #else
+                return "GameData.dat";
+            #endif
+        }
+    }
 
     public delegate void InventoryValueChangedHandler();
     public event InventoryValueChangedHandler onInventoryValueChanged;
@@ -90,7 +100,7 @@ public class InventoryManager : MonoBehaviour
     public void ClearInventory()
     {
         inventoryItems.Clear();
-        string path = Path.Combine(Application.persistentDataPath, SaveFileName);
+        string path = Path.Combine(Application.persistentDataPath, "SaveData/" + SaveFileName);
 
         if (File.Exists(path))
         {

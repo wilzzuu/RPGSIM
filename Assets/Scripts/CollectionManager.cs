@@ -27,15 +27,8 @@ public class CollectionManager : MonoBehaviour
 
     void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
 
         LoadCollection();
     }
@@ -58,7 +51,7 @@ public class CollectionManager : MonoBehaviour
     private void SaveCollection()
     {   
         BinaryFormatter bf = new BinaryFormatter();
-        string path = Path.Combine(Application.persistentDataPath, SaveFileName);
+        string path = Path.Combine(Application.persistentDataPath, "SaveData/" + SaveFileName);
         using (FileStream file = File.Create(path))
         {
             bf.Serialize(file, collectedItemIDs);
@@ -67,7 +60,7 @@ public class CollectionManager : MonoBehaviour
 
     private void LoadCollection()
     {
-        string path = Path.Combine(Application.persistentDataPath, SaveFileName);
+        string path = Path.Combine(Application.persistentDataPath, "SaveData/" + SaveFileName);
         if (File.Exists(path))
         {
             using (FileStream file = File.Open(path, FileMode.Open))
@@ -83,6 +76,19 @@ public class CollectionManager : MonoBehaviour
     {
         allItems = Resources.LoadAll<ItemData>("Items").ToList();
         return allItems;
+    }
+
+    public void ClearCollection()
+    {
+        collectedItemIDs.Clear();
+        string path = Path.Combine(Application.persistentDataPath, "SaveData/" + SaveFileName);
+
+        if (File.Exists(path))
+        {
+            File.Delete(path);
+        }
+        
+        SaveCollection();
     }
 
     public void UpdateCollectionUI()

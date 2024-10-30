@@ -82,7 +82,7 @@ public class PlayerManager : MonoBehaviour
 
     void CheckPlayerSave()
     {
-        string path = Path.Combine(Application.persistentDataPath, SaveFileName);
+        string path = Path.Combine(Application.persistentDataPath, "SaveData/" + SaveFileName);
 
         if (!File.Exists(path))
         {
@@ -100,7 +100,7 @@ public class PlayerManager : MonoBehaviour
     public void SavePlayerData()
     {
         BinaryFormatter bf = new BinaryFormatter();
-        string path = Path.Combine(Application.persistentDataPath, SaveFileName);
+        string path = Path.Combine(Application.persistentDataPath, "SaveData/" + SaveFileName);
         using (FileStream file = File.Create(path))
         {
             bf.Serialize(file, player);
@@ -109,7 +109,7 @@ public class PlayerManager : MonoBehaviour
 
     public void LoadPlayerData()
     {
-        string path = Path.Combine(Application.persistentDataPath, SaveFileName);
+        string path = Path.Combine(Application.persistentDataPath, "SaveData/" + SaveFileName);
 
         if (File.Exists(path))
         {
@@ -130,6 +130,7 @@ public class PlayerManager : MonoBehaviour
         player = new Player(2000f);
         SavePlayerData();
         InventoryManager.Instance.ClearInventory();
+        CollectionManager.Instance.ClearCollection();
     }
 }
 
