@@ -34,12 +34,12 @@ public class MarketplaceItem : MonoBehaviour
         if (isBuying)
         {
             buyButton.onClick.RemoveAllListeners();
-            buyButton.onClick.AddListener(() => MarketManager.instance.BuyItem(itemData));
+            buyButton.onClick.AddListener(() => MarketManager.Instance.BuyItem(itemData));
         }
         else
         {
             sellButton.onClick.RemoveAllListeners();
-            sellButton.onClick.AddListener(() => MarketManager.instance.SellItem(itemData, gameObject));
+            sellButton.onClick.AddListener(() => MarketManager.Instance.SellItem(itemData, gameObject));
         }
     }
     

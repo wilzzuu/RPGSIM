@@ -3,6 +3,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEditor;
 
 public class UpgraderManager : MonoBehaviour
 {
@@ -13,16 +14,20 @@ public class UpgraderManager : MonoBehaviour
     public GameObject upgraderItemPrefab;
     public GameObject selectedUpgraderItemPrefab;
     public TMP_InputField searchInput;
+    public Button searchBtn;
+    public TMP_InputField priceInput;
+    public Button searchPriceBtn;
     public TMP_Dropdown sortDropdown;
     public Toggle ascendingToggle;
+    public TextMeshProUGUI inventoryValueText;
     public Button inventoryTabButton;
     public Button upgradeTabButton;
     public GameObject inventoryScrollView;
     public GameObject upgradeItemsScrollView;
     public Button[] multiplierButtons;
 
-    private GameObject selectedInventoryItemObj;
-    private GameObject selectedUpgradeItemObj;
+    private GameObject _selectedInventoryItemObj;
+    private GameObject _selectedUpgradeItemObj;
     public Transform selectedInventoryItemContainer;
     public Transform selectedUpgradeItemContainer;
     public TextMeshProUGUI probabilityText;
@@ -32,17 +37,17 @@ public class UpgraderManager : MonoBehaviour
     public GameObject selectItemText2;
     public Button upgradeButton;
 
-    private int itemsLoaded = 0;
-    private bool isLoadingMoreItems = false;
+    private int _itemsLoaded;
+    private bool _isLoadingMoreItems;
 
-    private List<ItemData> allItems = new List<ItemData>();
-    private List<ItemData> inventoryItems = new List<ItemData>();
-    private bool isInventoryTabActive = true;
-    private ItemData selectedInventoryItem;
-    private ItemData selectedUpgradeItem;
-    private float successProbability;
+    private List<ItemData> _allItems = new List<ItemData>();
+    private List<ItemData> _inventoryItems = new List<ItemData>();
+    private bool _isInventoryTabActive = true;
+    private ItemData _selectedInventoryItem;
+    private ItemData _selectedUpgradeItem;
+    private float _successProbability;
 
-    private static readonly Dictionary<string, int> rarityOrder = new Dictionary<string, int>
+    private static readonly Dictionary<string, int> RarityOrder = new Dictionary<string, int>
     {
         {"Common", 1},
         {"Uncommon", 2},
@@ -51,7 +56,7 @@ public class UpgraderManager : MonoBehaviour
         {"Legendary", 5}
     };
 
-    private float[] multipliers = { 1.5f, 2f, 5f, 10f, 20f };
+    private float[] _multipliers = { 1.5f, 2f, 5f, 10f, 20f };
 
     void Awake()
     {
@@ -64,7 +69,6 @@ public class UpgraderManager : MonoBehaviour
         LoadAllGameItems();
         LoadInventoryItems();
 
-
         upgradeTabButton.interactable = false;
         ShowInventoryTab();
 
@@ -72,17 +76,20 @@ public class UpgraderManager : MonoBehaviour
 
         for (int i = 0; i < multiplierButtons.Length; i++)
         {
-            float multiplier = multipliers[i];
+            float multiplier = _multipliers[i];
             multiplierButtons[i].onClick.AddListener(() => SelectRandomUpgradeItem(multiplier));
         }
 
         inventoryTabButton.onClick.AddListener(ShowInventoryTab);
         upgradeTabButton.onClick.AddListener(ShowUpgradeTab);
 
-        ScrollRect scrollRect = (isInventoryTabActive ? inventoryScrollView : upgradeItemsScrollView).GetComponent<ScrollRect>();
+        ScrollRect scrollRect = (_isInventoryTabActive ? inventoryScrollView : upgradeItemsScrollView).GetComponent<ScrollRect>();
         scrollRect.onValueChanged.AddListener(OnScroll);
 
-        searchInput.onValueChanged.AddListener(delegate { SearchItems(); });
+        searchBtn.onClick.AddListener(SearchItems);
+        searchInput.onValueChanged.AddListener(delegate { ClearSearch(); });
+        searchPriceBtn.onClick.AddListener(SearchPrices);
+        priceInput.onValueChanged.AddListener(delegate { ClearPriceSearch(); });
         sortDropdown.onValueChanged.AddListener(delegate { SortItems(); });
         ascendingToggle.onValueChanged.AddListener(delegate { SortItems(); });
         
@@ -96,6 +103,12 @@ public class UpgraderManager : MonoBehaviour
             button.interactable = enable;
         }
     }
+    
+    void RefreshInventoryValue()
+    {
+        float inventoryValue = InventoryManager.Instance.CalculateInventoryValue();
+        inventoryValueText.text = $"Inventory Value:        {inventoryValue:F2}";
+    }
 
     private void UpdateCurrentTab()
     {
@@ -104,68 +117,93 @@ public class UpgraderManager : MonoBehaviour
 
     void DisplayItems()
     {
-        Transform currentCatalogGrid = isInventoryTabActive ? inventoryCatalogGrid : upgradeCatalogGrid;
-        List<ItemData> displayedItems = isInventoryTabActive ? inventoryItems : allItems;
+        Transform currentCatalogGrid = _isInventoryTabActive ? inventoryCatalogGrid : upgradeCatalogGrid;
+        List<ItemData> displayedItems = _isInventoryTabActive ? _inventoryItems : _allItems;
 
-        if (!isInventoryTabActive && selectedInventoryItem != null)
+        if (currentCatalogGrid == null) return;
+        
+        if (!_isInventoryTabActive && _selectedInventoryItem != null)
         {
-            displayedItems = allItems.FindAll(upgradeItem => upgradeItem.Price > selectedInventoryItem.Price);
+            displayedItems = _allItems.FindAll(upgradeItem => upgradeItem.Price > _selectedInventoryItem.Price);
         }
 
         foreach (Transform child in currentCatalogGrid)
         {
-            Destroy(child.gameObject);
+            if (child != null)
+            {
+                Destroy(child.gameObject);
+            }
         }
 
         for (int i = 0; i < displayedItems.Count; i++)
         {
             GameObject itemObj = Instantiate(upgraderItemPrefab, currentCatalogGrid);
             UpgraderItem upgraderItem = itemObj.GetComponent<UpgraderItem>();
-            upgraderItem.Setup(displayedItems[i], isInventoryTabActive);
+            upgraderItem.Setup(displayedItems[i], _isInventoryTabActive);
+        }
+    }
+    
+    public void ClearSearch()
+    {
+        if (string.IsNullOrWhiteSpace(searchInput.text))
+        {
+            LoadAllGameItems();
+            LoadInventoryItems();
+        }
+    }
+
+    public void ClearPriceSearch()
+    {
+        if (string.IsNullOrWhiteSpace(priceInput.text))
+        {
+            LoadAllGameItems();
+            LoadInventoryItems();
         }
     }
 
     void OnScroll(Vector2 scrollPosition)
     {
-        if (scrollPosition.y <= 0.1f && !isLoadingMoreItems && itemsLoaded < (isInventoryTabActive ? allItems.Count : inventoryItems.Count))
+        if (scrollPosition.y <= 0.1f && !_isLoadingMoreItems && _itemsLoaded < (_isInventoryTabActive ? _allItems.Count : _inventoryItems.Count))
         {
-            isLoadingMoreItems = true;
+            _isLoadingMoreItems = true;
             DisplayItems();
         }
     }
 
     void LoadAllGameItems()
     {
-        allItems = Resources.LoadAll<ItemData>("Items").ToList();
+        _allItems = Resources.LoadAll<ItemData>("Items").ToList();
     }
 
     void LoadInventoryItems()
     {
-        inventoryItems = InventoryManager.Instance.GetAllItems();
+        _inventoryItems = InventoryManager.Instance.GetAllItems();
     }
 
     public void ShowInventoryTab()
     {
-        isInventoryTabActive = true;
+        _isInventoryTabActive = true;
         inventoryScrollView.SetActive(true);
         upgradeItemsScrollView.SetActive(false);
-        itemsLoaded = 0;
+        _itemsLoaded = 0;
+        RefreshInventoryValue();
         DisplayItems();
     }
 
     public void ShowUpgradeTab()
     {
-        isInventoryTabActive = false;
+        _isInventoryTabActive = false;
         inventoryScrollView.SetActive(false);
         upgradeItemsScrollView.SetActive(true);
-        itemsLoaded = 0;
+        _itemsLoaded = 0;
+        RefreshInventoryValue();
         DisplayItems();
     }
 
     public void SelectInventoryItem(ItemData item)
     {
-        selectedInventoryItem = item;
-        upgradeTabButton.interactable = selectedInventoryItem != null;
+        _selectedInventoryItem = item;
+        upgradeTabButton.interactable = _selectedInventoryItem != null;
         SetMultiplierButtons(true);
 
         foreach (Transform child in selectedInventoryItemContainer.transform)
@@ -173,49 +211,49 @@ public class UpgraderManager : MonoBehaviour
             DestroyImmediate(child.gameObject);
         }
 
-        selectedInventoryItemObj = Instantiate(selectedUpgraderItemPrefab, selectedInventoryItemContainer);
+        _selectedInventoryItemObj = Instantiate(selectedUpgraderItemPrefab, selectedInventoryItemContainer);
 
         isSuccessText.text = "";
-        PopulateItemPrefab(selectedInventoryItemObj, item);
+        PopulateItemPrefab(_selectedInventoryItemObj, item);
         selectItemText1.SetActive(false);
         UpdateUpgradeProbability();
     }
 
     public void SelectUpgradeItem(ItemData item)
     {
-        selectedUpgradeItem = item;
+        _selectedUpgradeItem = item;
 
         foreach (Transform child in selectedUpgradeItemContainer.transform)
         {
             DestroyImmediate(child.gameObject);
         }
 
-        selectedUpgradeItemObj = Instantiate(selectedUpgraderItemPrefab, selectedUpgradeItemContainer);
+        _selectedUpgradeItemObj = Instantiate(selectedUpgraderItemPrefab, selectedUpgradeItemContainer);
 
         isSuccessText.text = "";
-        PopulateItemPrefab(selectedUpgradeItemObj, item);
+        PopulateItemPrefab(_selectedUpgradeItemObj, item);
         selectItemText2.SetActive(false);
         UpdateUpgradeProbability();
     }
 
     private void SelectRandomUpgradeItem(float multiplier)
     {
-        if (selectedInventoryItem == null) return;
+        if (_selectedInventoryItem == null) return;
 
-        float targetPrice = selectedInventoryItem.Price * multiplier;
+        float targetPrice = _selectedInventoryItem.Price * multiplier;
         float minPrice = targetPrice * 0.8f;
         float maxPrice = targetPrice * 1.2f;
 
-        List<ItemData> validItems = allItems.FindAll(upgradeItem => upgradeItem.Price >= minPrice && upgradeItem.Price <= maxPrice);
+        List<ItemData> validItems = _allItems.FindAll(upgradeItem => upgradeItem.Price >= minPrice && upgradeItem.Price <= maxPrice);
 
         if (validItems.Count == 0)
         {
-            validItems = allItems.FindAll(upgradeItem => upgradeItem.Price > selectedInventoryItem.Price);
+            validItems = _allItems.FindAll(upgradeItem => upgradeItem.Price > _selectedInventoryItem.Price);
         }
 
         if (validItems.Count > 0)
         {
-            ItemData randomItem = validItems[UnityEngine.Random.Range(0, validItems.Count)];
+            ItemData randomItem = validItems[Random.Range(0, validItems.Count)];
             SelectUpgradeItem(randomItem);
         }
     }
@@ -235,12 +273,12 @@ public class UpgraderManager : MonoBehaviour
 
     void UpdateUpgradeProbability()
     {
-        if (selectedInventoryItem != null && selectedUpgradeItem != null)
+        if (_selectedInventoryItem != null && _selectedUpgradeItem != null)
         {
-            successProbability = selectedInventoryItem.Price / selectedUpgradeItem.Price;
+            _successProbability = _selectedInventoryItem.Price / _selectedUpgradeItem.Price;
             probabilityText.fontSize = 32;
-            probabilityText.text = $"{successProbability * 100:0.00}%";
-            multiplierText.text = $"{selectedUpgradeItem.Price / selectedInventoryItem.Price:0.0}x";
+            probabilityText.text = $"{_successProbability * 100:0.00}%";
+            multiplierText.text = $"{_selectedUpgradeItem.Price / _selectedInventoryItem.Price:0.0}x";
         }
         else
         {
@@ -252,29 +290,29 @@ public class UpgraderManager : MonoBehaviour
 
     public void AttemptUpgrade()
     {
-        if (selectedInventoryItem == null || selectedUpgradeItem == null) return;
-        if (selectedInventoryItem == selectedUpgradeItem) return;
+        if (_selectedInventoryItem == null || _selectedUpgradeItem == null) return;
+        if (_selectedInventoryItem == _selectedUpgradeItem) return;
 
-        float chance = UnityEngine.Random.value;
-        if (chance <= successProbability)
+        float chance = Random.value;
+        if (chance <= _successProbability)
         {
-            InventoryManager.Instance.AddItemToInventory(selectedUpgradeItem);
-            CollectionManager.Instance.AddItemToCollection(selectedUpgradeItem);
-            InventoryManager.Instance.RemoveItemFromInventory(selectedInventoryItem);
+            InventoryManager.Instance.AddItemToInventory(_selectedUpgradeItem);
+            CollectionManager.Instance.AddItemToCollection(_selectedUpgradeItem);
+            InventoryManager.Instance.RemoveItemFromInventory(_selectedInventoryItem);
             isSuccessText.text = "Upgrade Successful!";
         }
         else
         {
-            InventoryManager.Instance.RemoveItemFromInventory(selectedInventoryItem);
+            InventoryManager.Instance.RemoveItemFromInventory(_selectedInventoryItem);
             isSuccessText.text = "Upgrade Failed!";
         }
 
         LoadInventoryItems();
 
-        selectedInventoryItem = null;
-        selectedUpgradeItem = null;
-        selectedInventoryItemObj = null;
-        selectedUpgradeItemObj = null;
+        _selectedInventoryItem = null;
+        _selectedUpgradeItem = null;
+        _selectedInventoryItemObj = null;
+        _selectedUpgradeItemObj = null;
         selectItemText1.SetActive(true);
         selectItemText2.SetActive(true);
         probabilityText.text = "-";
@@ -284,13 +322,20 @@ public class UpgraderManager : MonoBehaviour
 
     public void SortItems()
     {
-        allItems = new List<ItemData>(allItems);
-
-        string sortCriteria = sortDropdown.options[sortDropdown.value].text;
-        bool ascending = ascendingToggle.isOn;
-
-        allItems = SortItemsByCriteria(sortCriteria, ascending);
-
+        if (_isInventoryTabActive)
+        {
+            _inventoryItems = new List<ItemData>(_inventoryItems);
+            string sortCriteria = sortDropdown.options[sortDropdown.value].text;
+            bool ascending = ascendingToggle.isOn;
+            _inventoryItems = SortInventoryItemsByCriteria(sortCriteria, ascending);
+        }
+        else
+        {
+            _allItems = new List<ItemData>(_allItems);
+            string sortCriteria = sortDropdown.options[sortDropdown.value].text;
+            bool ascending = ascendingToggle.isOn;
+            _allItems = SortAllItemsByCriteria(sortCriteria, ascending);
+        }
         UpdateCurrentTab();
     }
     public void SearchItems()
@@ -299,30 +344,113 @@ public class UpgraderManager : MonoBehaviour
 
         if (string.IsNullOrWhiteSpace(query))
         {
-            allItems = new List<ItemData>(allItems);
+            if (!_isInventoryTabActive)
+            {
+                LoadAllGameItems();
+                SortItems();
+            }
+            else
+            {
+                LoadAllGameItems();
+                SortItems();
+            }
         }
         else
         {
-            allItems = allItems.Where(item =>
-                item.Name.ToLower().Contains(query) ||
-                item.ID.ToString().Contains(query)).ToList();
+            if (!_isInventoryTabActive)
+            {
+                _allItems = _allItems.Where(item =>
+                    item.Name.ToLower().Contains(query) ||
+                    item.ID.ToString().Contains(query)).ToList();
+            }
+            else
+            {
+                _inventoryItems = _inventoryItems.Where(item =>
+                    item.Name.ToLower().Contains(query) ||
+                    item.ID.ToString().Contains(query)).ToList();
+            }
         }
 
         UpdateCurrentTab();
     }
+    
+    public void SearchPrices()
+    {
+        string query = priceInput.text;
+        if (string.IsNullOrWhiteSpace(query))
+        {
+            if (!_isInventoryTabActive)
+            {
+                LoadAllGameItems();
+                SortItems();
+            }
+            else
+            {
+                LoadInventoryItems();
+                SortItems();
+            }
+        }
 
-    private List<ItemData> SortItemsByCriteria(string criteria, bool ascending)
+        if (float.TryParse(query, out float itemPriceQuery))
+        {
+            if (!_isInventoryTabActive)
+            {
+                _allItems = _allItems.Where(item => item.Price <= itemPriceQuery).ToList();
+            }
+            else
+            {
+                _inventoryItems = _inventoryItems.Where(item => item.Price <= itemPriceQuery).ToList();
+            }
+        }
+        UpdateCurrentTab();
+    }
+
+    private List<ItemData> SortAllItemsByCriteria(string criteria, bool ascending)
     {
         return criteria switch
         {
-            "Item" => ascending ? allItems.OrderBy(i => i.Item).ToList() : allItems.OrderByDescending(i => i.Item).ToList(),
+            "Item" => ascending
+                ? _allItems.OrderBy(i => i.Item).ToList()
+                : _allItems.OrderByDescending(i => i.Item).ToList(),
             "Rarity" => ascending
-                ? allItems.OrderBy(i => rarityOrder.ContainsKey(i.Rarity) ? rarityOrder[i.Rarity] : int.MaxValue).ToList()
-                : allItems.OrderByDescending(i => rarityOrder.ContainsKey(i.Rarity) ? rarityOrder[i.Rarity] : int.MinValue).ToList(),
-            "Color" => ascending ? allItems.OrderBy(i => i.Color).ToList() : allItems.OrderByDescending(i => i.Color).ToList(),
-            "Style" => ascending ? allItems.OrderBy(i => i.Style).ToList() : allItems.OrderByDescending(i => i.Style).ToList(),
-            "Price" => ascending ? allItems.OrderBy(i => i.Price).ToList() : allItems.OrderByDescending(i => i.Price).ToList(),
-            _ => allItems
+                ? _allItems.OrderBy(i => RarityOrder.ContainsKey(i.Rarity) ? RarityOrder[i.Rarity] : int.MaxValue).ToList()
+                : _allItems.OrderByDescending(i => RarityOrder.ContainsKey(i.Rarity) ? RarityOrder[i.Rarity] : int.MinValue).ToList(),
+            "Color" => ascending
+                ? _allItems.OrderBy(i => i.Color).ToList()
+                : _allItems.OrderByDescending(i => i.Color).ToList(),
+            "Style" => ascending
+                ? _allItems.OrderBy(i => i.Style).ToList()
+                : _allItems.OrderByDescending(i => i.Style).ToList(),
+            "Price" => ascending
+                ? _allItems.OrderBy(i => i.Price).ToList()
+                : _allItems.OrderByDescending(i => i.Price).ToList(),
+            _ => _allItems
+        };
+    }
+
+    private List<ItemData> SortInventoryItemsByCriteria(string criteria, bool ascending)
+    {
+        return criteria switch
+        {
+            "Item" => ascending
+                ? _inventoryItems.OrderBy(i => i.Item).ToList()
+                : _inventoryItems.OrderByDescending(i => i.Item).ToList(),
+            "Rarity" => ascending
+                ? _inventoryItems.OrderBy(i => RarityOrder.ContainsKey(i.Rarity) ? RarityOrder[i.Rarity] : int.MaxValue)
+                    .ToList()
+                : _inventoryItems
+                    .OrderByDescending(i => RarityOrder.ContainsKey(i.Rarity) ? RarityOrder[i.Rarity] : int.MinValue)
+                    .ToList(),
+            "Color" => ascending
+                ? _inventoryItems.OrderBy(i => i.Color).ToList()
+                : _inventoryItems.OrderByDescending(i => i.Color).ToList(),
+            "Style" => ascending
+                ? _inventoryItems.OrderBy(i => i.Style).ToList()
+                : _inventoryItems.OrderByDescending(i => i.Style).ToList(),
+            "Price" => ascending
+                ? _inventoryItems.OrderBy(i => i.Price).ToList()
+                : _inventoryItems.OrderByDescending(i => i.Price).ToList(),
+            _ => _inventoryItems
         };
     }
 }
