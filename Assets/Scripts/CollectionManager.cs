@@ -11,8 +11,8 @@ public class CollectionManager : MonoBehaviour
     public GameObject collectionItemPrefab;
     public Transform collectionGrid;
 
-    private List<ItemData> allItems = new List<ItemData>();
-    private HashSet<string> collectedItemIDs = new HashSet<string>();
+    private List<ItemData> _allItems = new List<ItemData>();
+    private HashSet<string> _collectedItemIDs = new HashSet<string>();
 
     private string SaveFilePath
     {
@@ -52,11 +52,12 @@ public class CollectionManager : MonoBehaviour
         UpdateCollectionUI();
     }
 
+    // ReSharper disable Unity.PerformanceAnalysis
     public void AddItemToCollection(ItemData item)
     {
-        if (collectedItemIDs.Contains(item.ID)) return;
+        if (_collectedItemIDs.Contains(item.ID)) return;
 
-        collectedItemIDs.Add(item.ID);
+        _collectedItemIDs.Add(item.ID);
         SaveCollection();
         UpdateCollectionUI();
     }
@@ -67,7 +68,7 @@ public class CollectionManager : MonoBehaviour
         string path = Path.Combine(SaveFilePath, SaveFileName);
         using (FileStream file = File.Create(path))
         {
-            bf.Serialize(file, collectedItemIDs);
+            bf.Serialize(file, _collectedItemIDs);
         }
     }
 
@@ -79,7 +80,7 @@ public class CollectionManager : MonoBehaviour
             using (FileStream file = File.Open(path, FileMode.Open))
             {
                 BinaryFormatter bf = new BinaryFormatter();
-                collectedItemIDs = (HashSet<string>)bf.Deserialize(file);
+                _collectedItemIDs = (HashSet<string>)bf.Deserialize(file);
             }
         }
         UpdateCollectionUI();
@@ -87,13 +88,13 @@ public class CollectionManager : MonoBehaviour
 
     private List<ItemData> LoadAllGameItems()
     {
-        allItems = Resources.LoadAll<ItemData>("Items").ToList();
-        return allItems;
+        _allItems = Resources.LoadAll<ItemData>("Items").ToList();
+        return _allItems;
     }
 
     public void ClearCollection()
     {
-        collectedItemIDs.Clear();
+        _collectedItemIDs.Clear();
         string path = Path.Combine(SaveFilePath, SaveFileName);
 
         if (File.Exists(path))
@@ -118,7 +119,7 @@ public class CollectionManager : MonoBehaviour
             GameObject itemObj = Instantiate(collectionItemPrefab, collectionGrid);
             CollectionItem collectionItem = itemObj.GetComponent<CollectionItem>();
 
-            bool isCollected = collectedItemIDs.Contains(item.ID);
+            bool isCollected = _collectedItemIDs.Contains(item.ID);
             collectionItem.Setup(item, isCollected);
         }
     }

@@ -10,15 +10,15 @@ public class CrashManager : MonoBehaviour
     public Button startGameButton;
     public TMP_InputField betAmountInput;
 
-    private float currentMultiplier = 1.0f;
-    private float initialMultiplierRate = 0.02f;
-    private float accelerationFactor = 0.05f;
-    private float elapsedTime = 0f;
-    private float crashPoint;
-    private float difficultyBias = 2.15f;
-    private bool isGameRunning = false;
-    private float betAmount = 0f;
-    private bool hasCashedOut = false;
+    private float _currentMultiplier = 1.0f;
+    private const float InitialMultiplierRate = 0.02f;
+    private const float AccelerationFactor = 0.05f;
+    private float _elapsedTime = 0f;
+    private float _crashPoint;
+    private const float DifficultyBias = 2.15f;
+    private bool _isGameRunning = false;
+    private float _betAmount = 0f;
+    private bool _hasCashedOut = false;
 
 
     public UIManager uiManager;
@@ -33,14 +33,14 @@ public class CrashManager : MonoBehaviour
 
     void Update()
     {
-        if (isGameRunning && !hasCashedOut)
+        if (_isGameRunning && !_hasCashedOut)
         {
-            elapsedTime += Time.deltaTime;
-            float currentMultiplierRate = initialMultiplierRate + (accelerationFactor * elapsedTime);
-            currentMultiplier += currentMultiplierRate * Time.deltaTime;
-            multiplierText.text = $"Multiplier: {currentMultiplier:F2}x";
+            _elapsedTime += Time.deltaTime;
+            float currentMultiplierRate = InitialMultiplierRate + (AccelerationFactor * _elapsedTime);
+            _currentMultiplier += currentMultiplierRate * Time.deltaTime;
+            multiplierText.text = $"Multiplier: {_currentMultiplier:F2}x";
 
-            if (currentMultiplier >= crashPoint)
+            if (_currentMultiplier >= _crashPoint)
             {
                 Crash();
             }
@@ -49,14 +49,14 @@ public class CrashManager : MonoBehaviour
 
     public void StartCrashGame()
     {
-        if (float.TryParse(betAmountInput.text, out betAmount) && betAmount > 0 && betAmount <= PlayerManager.Instance.GetPlayerBalance())
+        if (float.TryParse(betAmountInput.text, out _betAmount) && _betAmount > 0 && _betAmount <= PlayerManager.Instance.GetPlayerBalance())
         {
-            PlayerManager.Instance.DeductCurrency(betAmount);
+            PlayerManager.Instance.DeductCurrency(_betAmount);
             UpdateUI();
             ResetGame();
 
-            crashPoint = GenerateBiasedCrashPoint(1.1f, 20.0f, difficultyBias);
-            isGameRunning = true;
+            _crashPoint = GenerateBiasedCrashPoint(1.1f, 20.0f, DifficultyBias);
+            _isGameRunning = true;
             cashOutButton.interactable = true;
             startGameButton.interactable = false;
             uiManager.LockUI();
@@ -76,15 +76,15 @@ public class CrashManager : MonoBehaviour
 
     private void ResetGame()
     {
-        currentMultiplier = 1.0f;
-        elapsedTime = 0f;
-        hasCashedOut = false;
+        _currentMultiplier = 1.0f;
+        _elapsedTime = 0f;
+        _hasCashedOut = false;
         outcomeText.text = "";
     }
 
     private void Crash()
     {
-        isGameRunning = false;
+        _isGameRunning = false;
         cashOutButton.interactable = false;
         startGameButton.interactable = true;
         outcomeText.text = "You crashed..";
@@ -94,12 +94,12 @@ public class CrashManager : MonoBehaviour
 
     private void CashOut()
     {
-        if (isGameRunning)
+        if (_isGameRunning)
         {
-            float winnings = betAmount * currentMultiplier;
+            float winnings = _betAmount * _currentMultiplier;
             PlayerManager.Instance.AddCurrency(winnings);
             outcomeText.text = $"You cashed out {winnings:F2}";
-            hasCashedOut = true;
+            _hasCashedOut = true;
             EndGame();
             uiManager.UnlockUI();
         }
@@ -107,7 +107,7 @@ public class CrashManager : MonoBehaviour
 
     private void EndGame()
     {
-        isGameRunning = false;
+        _isGameRunning = false;
         cashOutButton.interactable = false;
         startGameButton.interactable = true;
         UpdateUI();
@@ -115,6 +115,6 @@ public class CrashManager : MonoBehaviour
 
     private void UpdateUI()
     {
-        multiplierText.text = $"Multiplier: {currentMultiplier:F2}x";
+        multiplierText.text = $"Multiplier: {_currentMultiplier:F2}x";
     }
 }

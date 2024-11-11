@@ -4,12 +4,13 @@ using TMPro;
 
 public class CollectionItem : MonoBehaviour
 {
+    private static readonly int Color1 = Shader.PropertyToID("_Color");
     public Image itemImage;
     public Image rarityImage;
     public TextMeshProUGUI itemNameText;
 
     public Material grayscaleMaterial;
-    private Material originalMaterial;
+    private Material _originalMaterial;
 
     public void Setup(ItemData item, bool isCollected)
     {
@@ -17,22 +18,19 @@ public class CollectionItem : MonoBehaviour
         rarityImage.sprite = Resources.Load<Sprite>($"RarityImages/{item.Rarity}");
         itemNameText.text = item.Name;
 
-        if (originalMaterial == null)
+        if (!_originalMaterial)
         {
-            originalMaterial = itemImage.material;
+            _originalMaterial = itemImage.material;
         }
 
         if (!isCollected)
         {
             itemImage.material = grayscaleMaterial;
-            itemImage.material.SetColor("_Color", Color.gray);
+            itemImage.material.SetColor(Color1, Color.gray);
         }
         else
         {
-            itemImage.material = originalMaterial;
+            itemImage.material = _originalMaterial;
         }
-        
-        //itemImage.material = isCollected ? grayscaleMaterial : originalMaterial;
-        //itemImage.SetMaterialDirty();
     }
 }

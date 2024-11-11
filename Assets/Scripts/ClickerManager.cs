@@ -9,15 +9,15 @@ public class ClickerManager : MonoBehaviour
     public TextMeshProUGUI currencyText;
     public TextMeshProUGUI multiplierText;
 
-    private float currency = 0f;
-    private float sessionCurrency = 0f;
-    private float baseGain = 0.01f;
-    private float currentMultiplier = 1f;
-    private float maxMultiplier = 10f;
-    private float multiplierIncrement = 0.01f;
-    private float multiplierDecayTime = 1f;
+    private float _currency = 0f;
+    private float _sessionCurrency = 0f;
+    private const float BaseGain = 0.01f;
+    private float _currentMultiplier = 1f;
+    private const float MaxMultiplier = 10f;
+    private const float MultiplierIncrement = 0.01f;
+    private const float MultiplierDecayTime = 1f;
 
-    private Coroutine multiplierResetCoroutine;
+    private Coroutine _multiplierResetCoroutine;
 
     public UIManager uiManager;
 
@@ -30,36 +30,36 @@ public class ClickerManager : MonoBehaviour
     void OnButtonClick()
     {
         uiManager.LockUI();
-        float earnedThisClick = baseGain * currentMultiplier;
-        currency += earnedThisClick;
-        sessionCurrency += earnedThisClick;
+        float earnedThisClick = BaseGain * _currentMultiplier;
+        _currency += earnedThisClick;
+        _sessionCurrency += earnedThisClick;
 
-        currentMultiplier = Mathf.Min(currentMultiplier + multiplierIncrement, maxMultiplier);
+        _currentMultiplier = Mathf.Min(_currentMultiplier + MultiplierIncrement, MaxMultiplier);
 
         UpdateUI();
 
-        if (multiplierResetCoroutine != null)
+        if (_multiplierResetCoroutine != null)
         {
-            StopCoroutine(multiplierResetCoroutine);
+            StopCoroutine(_multiplierResetCoroutine);
         }
-        multiplierResetCoroutine = StartCoroutine(ResetMultiplierAfterDelay());
+        _multiplierResetCoroutine = StartCoroutine(ResetMultiplierAfterDelay());
     }
 
     private IEnumerator ResetMultiplierAfterDelay()
     {
-        yield return new WaitForSeconds(multiplierDecayTime);
+        yield return new WaitForSeconds(MultiplierDecayTime);
 
-        PlayerManager.Instance.AddCurrency(sessionCurrency);
-        sessionCurrency = 0f;
+        PlayerManager.Instance.AddCurrency(_sessionCurrency);
+        _sessionCurrency = 0f;
 
-        currentMultiplier = 1f;
+        _currentMultiplier = 1f;
         UpdateUI();
         uiManager.UnlockUI();
     }
 
     private void UpdateUI()
     {
-        currencyText.text = $"Currency Gained: \n{sessionCurrency:F2}";
-        multiplierText.text = $"Multiplier: \nx{currentMultiplier:F2}";
+        currencyText.text = $"Currency Gained: \n{_sessionCurrency:F2}";
+        multiplierText.text = $"Multiplier: \nx{_currentMultiplier:F2}";
     }
 }

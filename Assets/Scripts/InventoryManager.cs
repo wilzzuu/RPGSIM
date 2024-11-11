@@ -5,7 +5,7 @@ using UnityEngine;
 public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance { get; private set; }
-    private List<ItemData> inventoryItems = new List<ItemData>();
+    private List<ItemData> _inventoryItems = new List<ItemData>();
 
     private string SaveFilePath
     {
@@ -32,7 +32,7 @@ public class InventoryManager : MonoBehaviour
     }
 
     public delegate void InventoryValueChangedHandler();
-    public event InventoryValueChangedHandler onInventoryValueChanged;
+    public event InventoryValueChangedHandler OnInventoryValueChanged;
 
     void Awake()
     {
@@ -42,7 +42,7 @@ public class InventoryManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
 
             List<SerializableItemData> loadedItems = DataSerializationManager.Instance.LoadGameData();
-            inventoryItems = ConvertSerializableItemsToItemData(loadedItems);
+            _inventoryItems = ConvertSerializableItemsToItemData(loadedItems);
         }
         else
         {
@@ -71,16 +71,16 @@ public class InventoryManager : MonoBehaviour
 
     public bool HasItem(ItemData item)
     {
-        return inventoryItems.Contains(item);
+        return _inventoryItems.Contains(item);
     }
 
     public void RemoveItemFromInventory(ItemData item)
     {
         if (HasItem(item))
         {
-            inventoryItems.Remove(item);
+            _inventoryItems.Remove(item);
             SaveInventory();
-            onInventoryValueChanged?.Invoke();
+            OnInventoryValueChanged?.Invoke();
         }
         else
         {
@@ -90,20 +90,20 @@ public class InventoryManager : MonoBehaviour
 
     public void AddItemToInventory(ItemData item)
     {
-        inventoryItems.Add(item);
+        _inventoryItems.Add(item);
         SaveInventory();
-        onInventoryValueChanged?.Invoke();
+        OnInventoryValueChanged?.Invoke();
     }
 
     public List<ItemData> GetAllItems()
     {
-        return new List<ItemData>(inventoryItems);
+        return new List<ItemData>(_inventoryItems);
     }
 
     public float CalculateInventoryValue()
     {
         float totalValue = 0;
-        foreach (ItemData item in inventoryItems)
+        foreach (ItemData item in _inventoryItems)
         {
             totalValue += item.Price;
         }
@@ -112,7 +112,7 @@ public class InventoryManager : MonoBehaviour
 
     public void ClearInventory()
     {
-        inventoryItems.Clear();
+        _inventoryItems.Clear();
         string path = Path.Combine(SaveFilePath, SaveFileName);
 
         if (File.Exists(path))
@@ -126,7 +126,7 @@ public class InventoryManager : MonoBehaviour
     private void SaveInventory()
     {
         List<SerializableItemData> serializableItems = new List<SerializableItemData>();
-        foreach (var item in inventoryItems)
+        foreach (var item in _inventoryItems)
         {
             serializableItems.Add(new SerializableItemData(item));
         }
@@ -135,6 +135,6 @@ public class InventoryManager : MonoBehaviour
 
     public List<ItemData> GetInventoryItems()
     {
-        return inventoryItems;
+        return _inventoryItems;
     }
 }

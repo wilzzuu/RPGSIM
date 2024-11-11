@@ -5,6 +5,7 @@ using TMPro;
 using System.Linq;
 using System.Collections;
 using System;
+using System.Globalization;
 
 public class MarketManager : MonoBehaviour
 {
@@ -85,7 +86,7 @@ public class MarketManager : MonoBehaviour
         sortDropdown.onValueChanged.AddListener(delegate { SortItems(); });
         ascendingToggle.onValueChanged.AddListener(delegate { SortItems(); });
         affordableItemsToggle.onValueChanged.AddListener(delegate { DisplayItems(); });
-        InventoryManager.Instance.onInventoryValueChanged += RefreshInventoryValue;
+        InventoryManager.Instance.OnInventoryValueChanged += RefreshInventoryValue;
         PlayerManager.Instance.OnBalanceChanged += RefreshBalanceFilter;
 
         LoadLastUpdateTimestamp();
@@ -102,7 +103,7 @@ public class MarketManager : MonoBehaviour
 
     void LoadLastUpdateTimestamp()
     {
-        string lastUpdateString = PlayerPrefs.GetString(LastUpdateKey, DateTime.UtcNow.ToString());
+        string lastUpdateString = PlayerPrefs.GetString(LastUpdateKey, DateTime.UtcNow.ToString(CultureInfo.CurrentCulture));
         _lastUpdateTimestamp = DateTime.Parse(lastUpdateString);
     }
 
@@ -117,17 +118,16 @@ public class MarketManager : MonoBehaviour
         {
             for (int i = 0; i < intervals; i++)
             {
-                List<ItemData> itemsForFluctuation = _allItems.OrderBy(x => UnityEngine.Random.value).Take(ItemsToFluctuate).ToList();
+                List<ItemData> itemsForFluctuation = _allItems.OrderBy(_ => UnityEngine.Random.value).Take(ItemsToFluctuate).ToList();
 
                 foreach (var item in itemsForFluctuation)
                 {
-                    float previousPrice = item.Price;
                     ApplyFluctuation(item);
                 }
             }
 
             _lastUpdateTimestamp = currentTime;
-            PlayerPrefs.SetString(LastUpdateKey, _lastUpdateTimestamp.ToString());
+            PlayerPrefs.SetString(LastUpdateKey, _lastUpdateTimestamp.ToString(CultureInfo.CurrentCulture));
             PlayerPrefs.Save();
         }
     }
@@ -291,7 +291,7 @@ public class MarketManager : MonoBehaviour
 
     public void SearchPrices()
     {
-        string query = priceInput.text.ToString();
+        string query = priceInput.text;
         if (string.IsNullOrWhiteSpace(query))
         {
             if (_isBuyingTabActive)
@@ -434,11 +434,10 @@ public class MarketManager : MonoBehaviour
         {
             yield return new WaitForSeconds(MarketEventInterval);
 
-            List<ItemData> itemsForFluctuation = _allItems.OrderBy(x => UnityEngine.Random.value).Take(ItemsToFluctuate).ToList();
+            List<ItemData> itemsForFluctuation = _allItems.OrderBy(_ => UnityEngine.Random.value).Take(ItemsToFluctuate).ToList();
 
             foreach (ItemData item in itemsForFluctuation)
             {
-                float previousPrice = item.Price;
                 float randomFluctuation = UnityEngine.Random.Range(-FluctuationIntensity, FluctuationIntensity);
                 float newPrice = item.Price * (1 + randomFluctuation);
 

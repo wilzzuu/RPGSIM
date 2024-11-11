@@ -11,8 +11,6 @@ public class RouletteInventoryItem : MonoBehaviour
     public Button chooseButton;
     public TextMeshProUGUI buttonText;
 
-    public ItemData ItemData => ItemData;
-
     public void Setup(ItemData item, bool isItemSelected)
     {
         itemImage.sprite = Resources.Load<Sprite>($"ItemImages/{item.ID}");

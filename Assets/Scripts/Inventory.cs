@@ -8,9 +8,9 @@ public class InventoryScreen : MonoBehaviour
     public Transform inventoryGrid;
     public Text totalValueText;
     public int itemsPerPage = 112;
-    private int currentPage = 0;
+    private int _currentPage;
 
-    private List<ItemData> items = new List<ItemData>();
+    private List<ItemData> _items = new List<ItemData>();
 
     void Start()
     {
@@ -20,8 +20,8 @@ public class InventoryScreen : MonoBehaviour
             return;
         }
 
-        items = InventoryManager.Instance.GetInventoryItems();
-        if (items == null || items.Count == 0)
+        _items = InventoryManager.Instance.GetInventoryItems();
+        if (_items == null || _items.Count == 0)
         {
             Debug.LogWarning("No items found in inventory.");
             return;
@@ -38,13 +38,13 @@ public class InventoryScreen : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        int itemIndexOffset = currentPage * itemsPerPage;
-        int endIndex = Mathf.Min(itemIndexOffset + itemsPerPage, items.Count);
+        int itemIndexOffset = _currentPage * itemsPerPage;
+        int endIndex = Mathf.Min(itemIndexOffset + itemsPerPage, _items.Count);
 
         for (int i = itemIndexOffset; i < endIndex; i++)
         {
             GameObject slot = Instantiate(inventorySlotPrefab, inventoryGrid);
-            ItemData item = items[i];
+            ItemData item = _items[i];
 
             Image itemImage = slot.transform.Find("ItemImage")?.GetComponent<Image>();
             Image rarityImage = slot.transform.Find("RarityImage")?.GetComponent<Image>();
@@ -81,18 +81,18 @@ public class InventoryScreen : MonoBehaviour
 
     public void NextPage()
     {
-        if ((currentPage + 1) * itemsPerPage < items.Count)
+        if ((_currentPage + 1) * itemsPerPage < _items.Count)
         {
-            currentPage++;
+            _currentPage++;
             DisplayCurrentPage();
         }
     }
 
     public void PreviousPage()
     {
-        if (currentPage > 0)
+        if (_currentPage > 0)
         {
-            currentPage--;
+            _currentPage--;
             DisplayCurrentPage();
         }
     }

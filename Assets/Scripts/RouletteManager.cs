@@ -29,13 +29,13 @@ public class RouletteManager : MonoBehaviour
     private RectTransform _reelTransform;
     private int _winningItemIndex;
     private float _randomOffset;
-    private bool _isScrolling = false;
+    private bool _isScrolling;
     private Vector3 _initialReelPosition;
 
-    private float _accumulatedBotValue = 0f;
-    private float _totalPlayerValue = 0f;
-    private float _totalGameValue = 0f;
-    private float _winChance = 0f;
+    private float _accumulatedBotValue;
+    private float _totalPlayerValue;
+    private float _totalGameValue;
+    private float _winChance;
     public UIManager uiManager;
 
     void Awake()

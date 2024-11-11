@@ -1,9 +1,11 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
+using Random = UnityEngine.Random;
 
 public class CrateOpening : MonoBehaviour
 {
@@ -16,25 +18,25 @@ public class CrateOpening : MonoBehaviour
     public int numberOfReelItems = 40;
     public float easingDuration = 7f;
     
-    private bool isScrolling = false;
-    private Vector3 initialReelPosition;
-    private GridLayoutGroup gridLayout;
-    private RectTransform reelTransform;
-    private int openedItemIndex;
-    private float randomOffset;
+    private bool _isScrolling;
+    private Vector3 _initialReelPosition;
+    private GridLayoutGroup _gridLayout;
+    private RectTransform _reelTransform;
+    private int _openedItemIndex;
+    private float _randomOffset;
 
     public GameObject crateButtonPrefab;
     public Transform crateSelectorPanel;
     public Button selectCrateButton;
     public Button openCrateButton;
-    private bool isSelectorOpen = false;
-    private bool isFirstSelection = true;
-    private List<CrateData> availableCrates;
-    private CrateData selectedCrateData;
+    private bool _isSelectorOpen;
+    private bool _isFirstSelection = true;
+    private List<CrateData> _availableCrates;
+    private CrateData _selectedCrateData;
 
     public UIManager uiManager;
 
-    private static readonly Dictionary<string, int> rarityOrder = new Dictionary<string, int>
+    private static readonly Dictionary<string, int> RarityOrder = new Dictionary<string, int>
     {
         {"Common", 1},
         {"Uncommon", 2},
@@ -46,33 +48,34 @@ public class CrateOpening : MonoBehaviour
     void Start()
     {   
         openCrateButton.interactable = false;
-        availableCrates = new List<CrateData>(Resources.LoadAll<CrateData>("Crates"));
+        _availableCrates = new List<CrateData>(Resources.LoadAll<CrateData>("Crates"));
 
-        DisplayCrateSelector(availableCrates);
+        DisplayCrateSelector(_availableCrates);
         selectCrateButton.onClick.AddListener(ToggleCrateSelector);
 
-        gridLayout = crateGridParent.GetComponent<GridLayoutGroup>();
-        reelTransform = crateGridParent.GetComponent<RectTransform>();
+        _gridLayout = crateGridParent.GetComponent<GridLayoutGroup>();
+        _reelTransform = crateGridParent.GetComponent<RectTransform>();
 
         SetInitialReelPosition();
     }
 
+    // ReSharper disable Unity.PerformanceAnalysis
     private void SelectCrate(CrateData chosenCrate)
     {
-        selectedCrateData = chosenCrate;
+        _selectedCrateData = chosenCrate;
 
-        if (selectedCrateData != null) openCrateButton.interactable = true;
+        if (_selectedCrateData) openCrateButton.interactable = true;
         else openCrateButton.interactable = false;
 
-        if (selectedCrateData.Price <= PlayerManager.Instance.GetPlayerBalance()) openCrateButton.interactable = true;
+        if (_selectedCrateData.Price <= PlayerManager.Instance.GetPlayerBalance()) openCrateButton.interactable = true;
         else openCrateButton.interactable = false;
         
-        DisplayCrateItems(selectedCrateData);
+        DisplayCrateItems(_selectedCrateData);
 
-        if (isFirstSelection)
+        if (_isFirstSelection)
         {
-            isFirstSelection = false;
-            isSelectorOpen = false;
+            _isFirstSelection = false;
+            _isSelectorOpen = false;
             crateSelectorPanel.gameObject.SetActive(false);
         }
         else
@@ -83,24 +86,24 @@ public class CrateOpening : MonoBehaviour
 
     private void SetInitialReelPosition()
     {
-        float itemWidth = gridLayout.cellSize.x + gridLayout.spacing.x;
+        float itemWidth = _gridLayout.cellSize.x + _gridLayout.spacing.x;
         float totalReelWidth = itemWidth * numberOfReelItems;
         
-        initialReelPosition = new Vector3(totalReelWidth / 2 - 800, crateGridParent.localPosition.y, crateGridParent.localPosition.z);
-        crateGridParent.localPosition = initialReelPosition;
+        _initialReelPosition = new Vector3(totalReelWidth / 2 - 800, crateGridParent.localPosition.y, crateGridParent.localPosition.z);
+        crateGridParent.localPosition = _initialReelPosition;
     }
 
     public void OpenCrate()
     {
-        if (isScrolling) return;
+        if (_isScrolling) return;
 
-        if (PlayerManager.Instance == null || selectedCrateData == null)
+        if (PlayerManager.Instance == null || _selectedCrateData == null)
         {
             Debug.LogError("PlayerManager or selectedCrateData is null");
             return;
         }
 
-        if (selectedCrateData == null)
+        if (_selectedCrateData == null)
         {
             Debug.LogError("No crate selected. Plerate select a crate first.");
             return;
@@ -111,31 +114,31 @@ public class CrateOpening : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        crateGridParent.localPosition = initialReelPosition;
+        crateGridParent.localPosition = _initialReelPosition;
 
-        if (PlayerManager.Instance.GetPlayerBalance() >= selectedCrateData.Price)
+        if (PlayerManager.Instance.GetPlayerBalance() >= _selectedCrateData.Price)
         {
-            PlayerManager.Instance.DeductCurrency(selectedCrateData.Price);
+            PlayerManager.Instance.DeductCurrency(_selectedCrateData.Price);
             ItemData openedItem = GetRandomItemByPercentage();
             StartCoroutine(AnimateScrollingReel(openedItem));
         }
         else
         {
             Debug.LogError("Not enough money to open this crate.");
-            return;
         }
     }
 
+    // ReSharper disable Unity.PerformanceAnalysis
     private ItemData GetRandomItemByPercentage()
     {
-        if (selectedCrateData.Items == null || selectedCrateData.Items.Count == 0)
+        if (_selectedCrateData.Items == null || _selectedCrateData.Items.Count == 0)
         {
             Debug.LogError("No items in the selected crate. Ensure the selected crate has items.");
             return null; 
         }
 
         float totalWeight = 0f;
-        foreach (var item in selectedCrateData.Items)
+        foreach (var item in _selectedCrateData.Items)
         {
             totalWeight += item.Weight;  
         }
@@ -144,42 +147,44 @@ public class CrateOpening : MonoBehaviour
         float randomValue = Random.Range(0, totalWeight);
         float cumulativeWeight = 0f;
 
-        foreach (var Item in selectedCrateData.Items)
+        foreach (var item in _selectedCrateData.Items)
         {
-            cumulativeWeight += Item.Weight;
+            cumulativeWeight += item.Weight;
             if (randomValue <= cumulativeWeight)
             {
-                return Item;
+                return item;
             }
         }
 
         Debug.LogWarning("No item was selected; returning default item.");
-        return selectedCrateData.Items[selectedCrateData.Items.Count - 1];
+        return _selectedCrateData.Items[_selectedCrateData.Items.Count - 1];
     }
 
+    // ReSharper disable Unity.PerformanceAnalysis
     private IEnumerator AnimateScrollingReel(ItemData openedItem)
     {
-        isScrolling = true;
+        _isScrolling = true;
         openCrateButton.interactable = false;
         selectCrateButton.interactable = false;
         uiManager.LockUI();
 
         List<GameObject> reelItems = new List<GameObject>();
-        float itemWidth = gridLayout.cellSize.x + gridLayout.spacing.x;
+        if (reelItems == null) throw new ArgumentNullException(nameof(reelItems));
+        float itemWidth = _gridLayout.cellSize.x + _gridLayout.spacing.x;
         float totalReelWidth = itemWidth * numberOfReelItems;
-        reelTransform.sizeDelta = new Vector2(totalReelWidth, reelTransform.sizeDelta.y);
+        _reelTransform.sizeDelta = new Vector2(totalReelWidth, _reelTransform.sizeDelta.y);
 
-        openedItemIndex = Random.Range(24, numberOfReelItems - 4);
+        _openedItemIndex = Random.Range(24, numberOfReelItems - 4);
         for (int i = 0; i < numberOfReelItems; i++)
         {
-            ItemData itemData = (i == openedItemIndex) ? openedItem : GetRandomItemByPercentage();
+            ItemData itemData = (i == _openedItemIndex) ? openedItem : GetRandomItemByPercentage();
             GameObject reelItem = Instantiate(openedItemPrefab, crateGridParent);
             SetUpReelItem(reelItem, itemData);
             reelItems.Add(reelItem);
         }
 
-        randomOffset = Random.Range(0f, 256f);
-        float targetPosition = initialReelPosition.x - (itemWidth * openedItemIndex) + 800 - randomOffset;
+        _randomOffset = Random.Range(0f, 256f);
+        float targetPosition = _initialReelPosition.x - (itemWidth * _openedItemIndex) + 800 - _randomOffset;
 
         float elapsed = 0f;
 
@@ -188,7 +193,7 @@ public class CrateOpening : MonoBehaviour
             float t = elapsed / easingDuration;
             float erateFactor = ErateOutQuint(t);
 
-            float currentPosition = Mathf.Lerp(initialReelPosition.x, targetPosition, erateFactor);
+            float currentPosition = Mathf.Lerp(_initialReelPosition.x, targetPosition, erateFactor);
             crateGridParent.localPosition = new Vector3(currentPosition, crateGridParent.localPosition.y, 0);
 
             elapsed += Time.deltaTime;
@@ -198,7 +203,7 @@ public class CrateOpening : MonoBehaviour
         crateGridParent.localPosition = new Vector3(targetPosition, crateGridParent.localPosition.y, 0);
 
         StopReel(openedItem);
-        isScrolling = false;
+        _isScrolling = false;
         selectCrateButton.interactable = true;
         uiManager.UnlockUI();
         
@@ -208,9 +213,9 @@ public class CrateOpening : MonoBehaviour
     {
         InventoryManager.Instance.AddItemToInventory(openedItem);
         CollectionManager.Instance.AddItemToCollection(openedItem);
-        if (PlayerManager.Instance.GetPlayerBalance() < selectedCrateData.Price)
+        if (PlayerManager.Instance.GetPlayerBalance() < _selectedCrateData.Price)
         {
-            DisplayCrateSelector(availableCrates);
+            DisplayCrateSelector(_availableCrates);
             ToggleCrateSelector();
             openCrateButton.interactable = false;
         }
@@ -246,7 +251,7 @@ public class CrateOpening : MonoBehaviour
             return;
         }
 
-        selectedCrate.Items = selectedCrate.Items.OrderBy(item => rarityOrder[item.Rarity]).ToList();
+        selectedCrate.Items = selectedCrate.Items.OrderBy(item => RarityOrder[item.Rarity]).ToList();
 
         foreach (Transform child in crateItemGrid)
         {
@@ -275,12 +280,12 @@ public class CrateOpening : MonoBehaviour
 
     public void ToggleCrateSelector()
     {
-        isSelectorOpen = !isSelectorOpen;
-        crateSelectorPanel.gameObject.SetActive(isSelectorOpen);
+        _isSelectorOpen = !_isSelectorOpen;
+        crateSelectorPanel.gameObject.SetActive(_isSelectorOpen);
 
-        if (isFirstSelection && !isSelectorOpen)
+        if (_isFirstSelection && !_isSelectorOpen)
         {
-            isSelectorOpen = true;
+            _isSelectorOpen = true;
             crateSelectorPanel.gameObject.SetActive(true);
         }
     }
@@ -294,19 +299,19 @@ public class CrateOpening : MonoBehaviour
 
         List<CrateData> orderedAvailableCrates = availableCrates.OrderBy(i => i.Price).ToList();
 
-        foreach (var CrateData in orderedAvailableCrates)
+        foreach (var crateData in orderedAvailableCrates)
         {
             GameObject crateButton = Instantiate(crateButtonPrefab, crateSelectorPanel);
             Image crateImage = crateButton.transform.Find("CrateImage").GetComponent<Image>();
             TextMeshProUGUI nameText = crateButton.transform.Find("NameText").GetComponent<TextMeshProUGUI>();
             TextMeshProUGUI priceText = crateButton.transform.Find("PriceText").GetComponent<TextMeshProUGUI>();
             
-            crateImage.sprite = Resources.Load<Sprite>($"CrateImages/{CrateData.ID}");
-            nameText.text = CrateData.Name;
-            priceText.text = $"{CrateData.Price:F2}";
+            crateImage.sprite = Resources.Load<Sprite>($"CrateImages/{crateData.ID}");
+            nameText.text = crateData.Name;
+            priceText.text = $"{crateData.Price:F2}";
 
             Button button = crateButton.GetComponent<Button>();
-            button.onClick.AddListener(() => SelectCrate(CrateData));
+            button.onClick.AddListener(() => SelectCrate(crateData));
         }
     }
 }
