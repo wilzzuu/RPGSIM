@@ -74,3 +74,5 @@ crashlytics-build.properties
 # Custom ignores
 .DEV
 .Build
+.idea
+.vscode
