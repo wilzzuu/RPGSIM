@@ -15,7 +15,7 @@ public class ItemData : ScriptableObject
     public string Style;
 
     public float LastActivityTime;
-    public const float DemandDecayInterval = 300f;
+    public const float DemandDecayInterval = 120f;
     public const float DecayRate = 0.1f;
 
     private void OnEnable()

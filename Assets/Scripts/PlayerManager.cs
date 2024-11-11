@@ -45,7 +45,7 @@ public class PlayerManager : MonoBehaviour
     }
 
     public delegate void BalanceChangedHandler();
-    public event BalanceChangedHandler onBalanceChanged;
+    public event BalanceChangedHandler OnBalanceChanged;
 
     void Awake()
     {
@@ -62,6 +62,7 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
+    // ReSharper disable Unity.PerformanceAnalysis
     private IEnumerator InitializePlayerAndInventory()
     {
         while (InventoryManager.Instance == null)
@@ -75,7 +76,7 @@ public class PlayerManager : MonoBehaviour
     public void AddCurrency(float amount)
     {
         player.balance += amount;
-        onBalanceChanged?.Invoke();
+        OnBalanceChanged?.Invoke();
         SavePlayerData();
     }
 
@@ -84,7 +85,7 @@ public class PlayerManager : MonoBehaviour
         if (player.balance >= amount)
         {
             player.balance -= amount;
-            onBalanceChanged?.Invoke();
+            OnBalanceChanged?.Invoke();
             SavePlayerData();
         }
     }

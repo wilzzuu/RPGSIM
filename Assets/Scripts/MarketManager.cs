@@ -86,7 +86,7 @@ public class MarketManager : MonoBehaviour
         ascendingToggle.onValueChanged.AddListener(delegate { SortItems(); });
         affordableItemsToggle.onValueChanged.AddListener(delegate { DisplayItems(); });
         InventoryManager.Instance.onInventoryValueChanged += RefreshInventoryValue;
-        PlayerManager.Instance.onBalanceChanged += RefreshBalanceFilter;
+        PlayerManager.Instance.OnBalanceChanged += RefreshBalanceFilter;
 
         LoadLastUpdateTimestamp();
         ApplyRealTimeFluctuations();

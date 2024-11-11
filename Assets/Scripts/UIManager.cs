@@ -19,7 +19,7 @@ public class UIManager : MonoBehaviour
             Debug.LogError("PlayerManager does not exist in the current context.");
             return;
         }
-        PlayerManager.Instance.onBalanceChanged += UpdateBalanceDisplay;
+        PlayerManager.Instance.OnBalanceChanged += UpdateBalanceDisplay;
 
         UpdateBalanceDisplay();
     }
@@ -28,7 +28,7 @@ public class UIManager : MonoBehaviour
     {
         if (PlayerManager.Instance != null)
         {
-            PlayerManager.Instance.onBalanceChanged -= UpdateBalanceDisplay;
+            PlayerManager.Instance.OnBalanceChanged -= UpdateBalanceDisplay;
         }
     }
 

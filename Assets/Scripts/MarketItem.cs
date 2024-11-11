@@ -56,6 +56,7 @@ public class MarketplaceItem : MonoBehaviour
     
     public void UpdatePrice(bool isBuying)
     {
+        InventoryManager.Instance.CalculateInventoryValue();
         priceText.text = isBuying
             ? $"{_itemData.Price * BuyMarkup:F2}"
             : $"{_itemData.Price * SellDiscount:F2}";
