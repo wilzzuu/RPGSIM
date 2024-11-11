@@ -8,25 +8,36 @@ public class MarketplaceItem : MonoBehaviour
     public Image rarityImage;
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI priceText;
+    public TextMeshProUGUI priceVariationText;
     public Button buyButton;
     public Button sellButton;
 
-    private ItemData itemData;
+    private ItemData _itemData;
 
-    private const float buyMarkup = 1.15f;
-    private const float sellDiscount = 0.85f;
+    private const float BuyMarkup = 1.15f;
+    private const float SellDiscount = 0.85f;
 
     public void Setup(ItemData item, bool isBuying)
     {
-        itemData = item;
+        _itemData = item;
         
-        itemImage.sprite = Resources.Load<Sprite>($"ItemImages/{itemData.ID}");
-        rarityImage.sprite = Resources.Load<Sprite>($"RarityImages/{itemData.Rarity}");
+        itemImage.sprite = Resources.Load<Sprite>($"ItemImages/{_itemData.ID}");
+        rarityImage.sprite = Resources.Load<Sprite>($"RarityImages/{_itemData.Rarity}");
 
-        nameText.text = itemData.Name;
+        nameText.text = _itemData.Name;
         priceText.text = isBuying
-            ? $"{itemData.Price * buyMarkup:F2}"
-            : $"{itemData.Price * sellDiscount:F2}";
+            ? $"{_itemData.Price * BuyMarkup:F2}"
+            : $"{_itemData.Price * SellDiscount:F2}";
+        
+        float priceVariation = isBuying
+            ? _itemData.Price * BuyMarkup - _itemData.BasePrice
+            : _itemData.Price * SellDiscount - _itemData.BasePrice;
+        priceVariationText.text = priceVariation > 0
+            ? $"+{priceVariation:F2}"
+            : $"{priceVariation:F2}";
+        priceVariationText.color = priceVariation > 0
+            ? new Color32(104, 215, 49, 255)
+            : new Color32(215, 49, 49, 255);
 
         buyButton.gameObject.SetActive(isBuying);
         sellButton.gameObject.SetActive(!isBuying);
@@ -34,19 +45,29 @@ public class MarketplaceItem : MonoBehaviour
         if (isBuying)
         {
             buyButton.onClick.RemoveAllListeners();
-            buyButton.onClick.AddListener(() => MarketManager.Instance.BuyItem(itemData));
+            buyButton.onClick.AddListener(() => MarketManager.Instance.BuyItem(_itemData));
         }
         else
         {
             sellButton.onClick.RemoveAllListeners();
-            sellButton.onClick.AddListener(() => MarketManager.Instance.SellItem(itemData, gameObject));
+            sellButton.onClick.AddListener(() => MarketManager.Instance.SellItem(_itemData, gameObject));
         }
     }
     
     public void UpdatePrice(bool isBuying)
     {
         priceText.text = isBuying
-            ? $"{itemData.Price * buyMarkup:F2}"
-            : $"{itemData.Price * sellDiscount:F2}";
+            ? $"{_itemData.Price * BuyMarkup:F2}"
+            : $"{_itemData.Price * SellDiscount:F2}";
+        
+        float priceVariation = isBuying
+            ? _itemData.Price * BuyMarkup - _itemData.BasePrice
+            : _itemData.Price * SellDiscount - _itemData.BasePrice;
+        priceVariationText.text = priceVariation > 0
+            ? $"+{priceVariation:F2}"
+            : $"{priceVariation:F2}";
+        priceVariationText.color = priceVariation > 0
+            ? new Color32(104, 215, 49, 255)
+            : new Color32(215, 49, 49, 255);
     }
 }
